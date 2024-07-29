@@ -7,7 +7,7 @@ __turbopack_esm__({
     "metadata": ()=>metadata
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBrands$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/TopBrands.jsx (ecmascript, rsc)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBrands$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/TopBrands/index.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBrandsRandom$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/TopBrandsRandom.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f$FilteredHome$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_home/FilteredHome.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$fortune$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/fortune/index.jsx (ecmascript, rsc)");
@@ -31,7 +31,7 @@ async function Home() {
     const creative = "FW_Brands_Main_Page";
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
         children: [
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBrands$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$TopBrands$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "<[project]/app/page.tsx>",
                 lineNumber: 26,
                 columnNumber: 7
@@ -101,6 +101,7 @@ const chunks = [
   "chunks/ssr/components_slider_Card_module.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+  "chunks/ssr/components_TopBrands_styled_component.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
