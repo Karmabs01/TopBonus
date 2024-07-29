@@ -1,0 +1,84 @@
+/* .background:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	top: 50%;
+	border-bottom: 20vh solid #4338ca40;
+	border-left: 60vh solid transparent;
+	z-index: 20;
+}
+
+.background::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	top: 50%;
+	border-bottom: 20vh solid #6366f140;
+	border-right: 60vh solid transparent;
+	z-index: 20;
+} */
+
+.slider-left {
+  /* max-width: 700px; */
+  min-height: 350px;
+}
+
+.banner-right {
+  min-height: 350px;
+  /* min-width: 250px; */
+}
+
+.slider-left .bordered-button {
+  border: solid 2px white;
+  max-width: 150px;
+}
+
+.banner-right .bordered-button {
+  border: solid 2px white;
+  max-width: 200px;
+}
+
+.slider-left .slick-slide {
+  margin: 0 !important;
+}
+
+.slider-left .slick-dots li.slick-active button:before {
+  color: #4f46e5 !important;
+}
+
+.slider-left .slick-dots li button:before {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.topbr-tw {
+  background-color: #1d2730;
+  background-image: url(/bgfilter2.png) !important;
+  background-position: bottom !important;
+  background-size: contain;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .topbr-tw {
+    overflow: hidden;
+  }
+  main > .topbr-tw {
+    max-height: 820px;
+    height: 820px;
+    background-position: top 10% left 0 !important;
+    background-size: cover !important;
+  }
+}
+
+@media (min-width: 768) and (max-width: 1260px) {
+  main > .topbr-tw {
+    max-height: 620px;
+    height: 620px;
+    background-position: top 10% left 0 !important;
+    background-size: cover !important;
+  }
+}
