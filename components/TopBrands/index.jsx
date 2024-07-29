@@ -186,7 +186,7 @@ export default function TopBrands() {
                                                 <div className="mx-auto max-w-2xl lg:mx-0 self-end w-full">
                                                     <div className="flex flex-col items-center">
                                                         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-2xl text-center">
-                                                            Bonus statement title
+                                                            Bonus statements title
                                                         </h2>
                                                         <p className="mt-2 text-lg leading-8 text-gray-300 text-center">
                                                             Bonus statement subtitle with timer
