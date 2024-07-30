@@ -1,9 +1,16 @@
 /* [project]/components/TopBrands/styled.component.css (css, ssr) */
-.slider-left {
-  min-height: 350px;
+.slider-left .background {
+  min-height: 300px !important;
+  max-height: 300px !important;
 }
 .banner-right {
-  min-height: 350px;
+  min-height: 300px !important;
+  max-height: 300px !important;
+}
+.djinn {
+  background-image: url(/Djinn_get_bonus.png) !important;
+  background-position: bottom !important;
+  background-size: cover;
 }
 .slider-left .bordered-button {
   border: solid 2px white;
@@ -21,14 +28,8 @@
 }
 .slider-left .slick-dots li button:before {
   font-size: 12px;
-  color: #ffffff;
 }
-.topbr-tw {
-  background-color: #1d2730;
-  background-image: url(/bgfilter2.png) !important;
-  background-position: bottom !important;
-  background-size: contain;
-}
+.topbr-tw {}
 @media (min-width: 320px) and (max-width: 767px) {
   .topbr-tw {
     overflow: hidden;
@@ -47,4 +48,7 @@
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
+}
+.topbr-tw p {
+  margin-bottom: 0 !important;
 }

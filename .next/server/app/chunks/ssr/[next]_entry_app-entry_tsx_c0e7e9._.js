@@ -7,7 +7,23 @@ __turbopack_esm__({
     chunks: () => chunks,
 });
 const chunks = [
+  "chunks/ssr/components_slider_Card_module_587034.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme_af9701.css",
+  "chunks/ssr/components_BannerString_styled_component_6ff6bc.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick_30c68d.css",
+  "chunks/ssr/components_Brand_carousel_styled_component.css",
   "chunks/ssr/components_slider_Card_module.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+  "chunks/ssr/components_Double_banners_styled_component.css",
+  "chunks/ssr/components_slider_Card_module.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+  "chunks/ssr/components_Brands_rows_styled_component.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
   "chunks/rsc/app_globals.css"

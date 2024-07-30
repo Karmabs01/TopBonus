@@ -697,7 +697,7 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/node_modules_7887eb._.js",
+    "path": "_next/static/chunks/node_modules_f1bb66._.js",
     "included": [
       "[project]/node_modules/@react-spring/shared/dist/react-spring_shared.modern.mjs (ecmascript)",
       "[project]/node_modules/@react-spring/animated/dist/react-spring_animated.modern.mjs (ecmascript)",
@@ -736,7 +736,8 @@ const chunks = [
       "[project]/node_modules/enquire.js/src/index.js (ecmascript)",
       "[project]/node_modules/react-slick/lib/index.js (ecmascript)",
       "[project]/node_modules/uuid/dist/esm-browser/index.js (ecmascript)",
-      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)"
+      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)",
+      "[project]/node_modules/@heroicons/react/20/solid/esm/index.js (ecmascript)"
     ]
   },
   {

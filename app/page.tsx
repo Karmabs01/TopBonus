@@ -2,6 +2,12 @@
 import { Metadata } from "next";
 import TopBrands from "@/components/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
+import BannerString from "@/components/BannerString"
+import Brand_carousel from "@/components/Brand_carousel"
+import Double_banners from "@/components/Double_banners"
+import Brands_rows from "@/components/Brands_rows"
+
+
 
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
@@ -24,6 +30,10 @@ export default async function Home() {
       {/* <PreviewHome /> */}
 
       <TopBrands />
+      <BannerString/>
+      <Brand_carousel/>
+      <Double_banners/>
+      <Brands_rows/>
 
       <div className="main__container mt-3">
         <UserBrands />

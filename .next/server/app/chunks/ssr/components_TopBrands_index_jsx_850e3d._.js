@@ -8,7 +8,7 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/node_modules_dccc14._.js",
+    "path": "_next/static/chunks/node_modules_f1bb66._.js",
     "included": [
       "[project]/node_modules/@react-spring/shared/dist/react-spring_shared.modern.mjs (ecmascript)",
       "[project]/node_modules/@react-spring/animated/dist/react-spring_animated.modern.mjs (ecmascript)",
@@ -37,10 +37,18 @@ const chunks = [
       "[project]/node_modules/lodash/shuffle.js (ecmascript)",
       "[project]/node_modules/inherits/inherits_browser.js (ecmascript)",
       "[project]/node_modules/void-elements/index.js (ecmascript)",
+      "[project]/node_modules/lodash.debounce/index.js (ecmascript)",
+      "[project]/node_modules/classnames/index.js (ecmascript)",
+      "[project]/node_modules/string-convert/camel2hyphen.js (ecmascript)",
+      "[project]/node_modules/json2mq/index.js (ecmascript)",
       "[project]/node_modules/react-spring/dist/react-spring.modern.mjs (ecmascript)",
       "[project]/node_modules/html-parse-stringify/dist/html-parse-stringify.module.js (ecmascript)",
+      "[project]/node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js (ecmascript)",
+      "[project]/node_modules/enquire.js/src/index.js (ecmascript)",
+      "[project]/node_modules/react-slick/lib/index.js (ecmascript)",
       "[project]/node_modules/uuid/dist/esm-browser/index.js (ecmascript)",
-      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)"
+      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)",
+      "[project]/node_modules/@heroicons/react/20/solid/esm/index.js (ecmascript)"
     ]
   },
   {
@@ -80,6 +88,24 @@ const chunks = [
     ]
   },
   {
+    "path": "_next/static/chunks/components_getBrands_getBrands_jsx_079069._.js",
+    "included": [
+      "[project]/components/getBrands/getBrands.jsx (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/components_getUser_getUser_jsx_9667ff._.js",
+    "included": [
+      "[project]/components/getUser/getUser.jsx (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/components_Brands_home_UserBrands_tsx_6a00d2._.js",
+    "included": [
+      "[project]/components/Brands_home/UserBrands.tsx (ecmascript)"
+    ]
+  },
+  {
     "path": "_next/static/chunks/components_TopBrands_index_jsx_b53fce._.js",
     "included": [
       "[project]/components/TopBrands/index.jsx (ecmascript)"
@@ -98,6 +124,33 @@ const chunks = [
     ],
     "moduleChunks": [
       "_next/static/chunks/components_slider_Card_module_c9a116.css"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_slick-carousel_slick_slick.css",
+    "included": [
+      "[project]/node_modules/slick-carousel/slick/slick.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/node_modules_slick-carousel_slick_slick_c9a116.css"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_slick-carousel_slick_slick-theme.css",
+    "included": [
+      "[project]/node_modules/slick-carousel/slick/slick-theme.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/node_modules_slick-carousel_slick_slick-theme_c9a116.css"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/components_TopBrands_styled_component.css",
+    "included": [
+      "[project]/components/TopBrands/styled.component.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/components_TopBrands_styled_component_c9a116.css"
     ]
   },
   "_next/static/chunks/components_TopBrands_index_jsx_5771e1._.js"

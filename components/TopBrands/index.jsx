@@ -15,6 +15,7 @@ import { useTranslation } from "react-i18next";
 import Timer from "../Timer";
 import Slider from "react-slick";
 
+import { XMarkIcon } from '@heroicons/react/20/solid'
 
 import UserBrands from "../Brands_home/UserBrands";
 import "./styled.component.css"
@@ -136,8 +137,8 @@ export default function TopBrands() {
                         <Loader />
                     ) : (
                         cards2 && (
-                            <div className="flex flex-col md:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-stretch">
-                                <div className="slider-left w-full md:w-2/3 ">
+                            <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch">
+                                <div className="slider-left w-full md:w-2/3">
                                     <Slider {...settings}>
                                         {brands.length > 0 &&
                                             brands.map((rowData, index) => (
@@ -148,14 +149,28 @@ export default function TopBrands() {
                                                     <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
                                                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
                                                             <div className="basis-2/3">
-                                                                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-2xl">
+                                                                <h1 className="text-4xl font-semibold tracking-tight text-white ">
                                                                     {rowData.CasinoBrand}
-                                                                </h2>
-                                                                <p className="mt-6 text-lg leading-8 text-gray-300">
+                                                                </h1>
+                                                                <h5 className="mt-6 text-lg leading-8 text-gray-300 font-normal">
                                                                     {rowData.OurOfferContent}
-                                                                </p>
+                                                                </h5>
+                                                                <div className="flex mt-4">
+                                                                    <Link
+                                                                        className=""
+                                                                        href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                        target="_blank"
+                                                                    >
+                                                                        <button
+                                                                            type="button"
+                                                                            className="bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                                                        >
+                                                                            {t("Play Now")}
+                                                                        </button>
+                                                                    </Link>
+                                                                </div>
                                                             </div>
-                                                            <div className="basis-1/3">
+                                                            <div className="basis-1/3 flex justify-center items-center">
                                                                 <Image
                                                                     src={`/brands/${rowData.CasinoBrand}.png`}
                                                                     alt={rowData.CasinoBrand}
@@ -167,37 +182,29 @@ export default function TopBrands() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div className="flex mt-4 px-6 lg:px-8">
-                                                        <button
-                                                            type="button"
-                                                            className="bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                                        >
-                                                            Play now
-                                                        </button>
-                                                    </div>
                                                 </div>
                                             ))}
                                     </Slider>
                                 </div>
-                                <div className="banner-right w-full md:w-1/3 flex justify-center">
+                                <div className="banner-right w-full h-full md:w-1/3 flex justify-center md:justify-end">
                                     {brands.length > 0 && (
-                                        <div className="overflow-hidden bg-blue-600 py-10 rounded-xl h-full flex flex-col justify-between">
-                                            <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-center h-64">
+                                        <div className="djinn overflow-hidden bg-blue-600 py-5 rounded-xl flex flex-col justify-between">
+                                            <div className=" mx-auto max-w-7xl px-6 lg:px-8 flex justify-center items-end h-64">
                                                 <div className="mx-auto max-w-2xl lg:mx-0 self-end w-full">
                                                     <div className="flex flex-col items-center">
-                                                        <h2 className="text-4xl font-bold tracking-tight text-white sm:text-2xl text-center">
-                                                            Bonus statements title
+                                                        <h2 className="text-3xl font-bold tracking-tight text-white text-center">
+                                                            Your Bonus is Ready
                                                         </h2>
-                                                        <p className="mt-2 text-lg leading-8 text-gray-300 text-center">
-                                                            Bonus statement subtitle with timer
+                                                        <p className="text-md font-light leading-8 text-gray-300 text-center">
+                                                            Click below to claim your magical reward!
                                                         </p>
                                                     </div>
-                                                    <div className="flex justify-center mt-4">
+                                                    <div className="flex justify-center mt-2">
                                                         <button
                                                             type="button"
-                                                            className="bordered-button rounded-md bg-teal-600 px-4 py-2 text-md text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                                            className=" rounded-md bg-teal-600 px-4 py-2 text-md text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                                         >
-                                                            Optional button
+                                                            Bonus Ready
                                                         </button>
                                                     </div>
                                                 </div>
