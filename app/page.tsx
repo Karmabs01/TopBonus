@@ -1,11 +1,15 @@
 //page.tsx
 import { Metadata } from "next";
-import TopBrands from "@/components/TopBrands";
+import TopBrands from "@/components/Banners_tailwind/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
-import BannerString from "@/components/BannerString"
-import Brand_carousel from "@/components/Brand_carousel"
-import Double_banners from "@/components/Double_banners"
-import Brands_rows from "@/components/Brands_rows"
+import Banner_small from "@/components/Banners_tailwind/Banner_small"
+import Brand_carousel from "@/components/Banners_tailwind/Brands_carousel"
+import Double_banners from "@/components/Banners_tailwind/Double_banners"
+import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel"
+import Random_block from "@/components/Banners_tailwind/Random_block"
+import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner"
+import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery"
+import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner"
 
 
 
@@ -30,22 +34,30 @@ export default async function Home() {
       {/* <PreviewHome /> */}
 
       <TopBrands />
-      <BannerString/>
+      <Banner_small/>
       <Brand_carousel/>
       <Double_banners/>
-      <Brands_rows/>
+      <Brands_double_carousel/>
+      <Random_block/>
+      <Jackpot_banner/>
+      <Brand_carousel/>
+      <Three_part_gallery/>
+      <Jackpot_banner/>
+      <Brand_carousel/>
+      <Fortune_wheel/>
 
-      <div className="main__container mt-3">
+
+      {/* <div className="main__container mt-3">
         <UserBrands />
       </div>
       <TopBrandsRandom />
 
       <NewArrivals />
-      
+       */}
 
-      <div className="main__container">
+      {/* <div className="main__container">
         <Fortunes banner={banner} target={target} creative={creative} />
-      </div>
+      </div> */}
 
       <div className="background-block">
         <FilteredHome />

@@ -1,0 +1,9 @@
+/* chunk [output]/.next/server/app/chunks/ssr/components_Banners_tailwind_Double_banners_styled_component.css */
+/* [project]/components/Banners_tailwind/Double_banners/styled.component.css (css, ssr) */
+.double_banners .bordered-button {
+  border: 2px solid white;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
