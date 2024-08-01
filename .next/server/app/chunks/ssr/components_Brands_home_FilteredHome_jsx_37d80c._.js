@@ -8,7 +8,7 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/node_modules_400f44._.js",
+    "path": "_next/static/chunks/node_modules_7758ce._.js",
     "included": [
       "[project]/node_modules/void-elements/index.js (ecmascript)",
       "[project]/node_modules/inherits/inherits_browser.js (ecmascript)",
@@ -21,6 +21,7 @@ const chunks = [
       "[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript)",
       "[project]/node_modules/next/dist/compiled/react/index.js (ecmascript)",
       "[project]/node_modules/next/dist/shared/lib/app-dynamic.js (ecmascript)",
+      "[project]/node_modules/classnames/index.js (ecmascript)",
       "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js (ecmascript)",
       "[project]/node_modules/use-sync-external-store/shim/index.js (ecmascript)",
       "[project]/node_modules/html-parse-stringify/dist/html-parse-stringify.module.js (ecmascript)",
