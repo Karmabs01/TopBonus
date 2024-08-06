@@ -27,7 +27,7 @@ export default function Brand_carousel() {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        speed: 2000,
+        speed: 1000,
         autoplaySpeed: 2000,
         cssEase: "linear",
         responsive: [

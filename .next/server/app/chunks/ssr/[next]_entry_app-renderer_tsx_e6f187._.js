@@ -1,0 +1,43 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "chunks/ssr/[next]_entry_app-renderer_tsx_e6f187._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "chunks/ssr/[next]_entry_app-renderer_tsx_e6f187._.js",
+  "chunks": [
+    "chunks/ssr/node_modules_ad2e3c._.js",
+    "chunks/ssr/components_2b5fc4._.js",
+    "chunks/ssr/node_modules_d601b4._.js",
+    "chunks/ssr/public_cryptoCasinos_png_mjs_9b4610._.js",
+    "chunks/ssr/public_menuBonuses2_png_mjs_925af4._.js",
+    "chunks/ssr/public_logo3_png_mjs_3e0bb7._.js",
+    "chunks/ssr/public_whl2_png_mjs_46f60b._.js",
+    "chunks/ssr/_env_b53fce.js",
+    "chunks/ssr/[turbopack-node]_ipc_index_ts_0a1c3c._.js",
+    "chunks/ssr/[turbopack-node]_compiled_stacktrace-parser_index_b865a6.js",
+    "chunks/ssr/[next]_internal_operation-stream_ts_0340e5._.js",
+    "chunks/ssr/[next]_internal_headers_ts_2b82b4._.js",
+    "chunks/ssr/[next]_internal_http_ts_81d697._.js",
+    "chunks/ssr/[next]_polyfill_app-polyfills_ts_9ad954._.js",
+    "chunks/ssr/[next]_entry_app-renderer_tsx_b1f091._.js",
+    "chunks/ssr/[next]_entry_9b600c._.js",
+    "chunks/ssr/node_modules_946a91._.js",
+    "chunks/ssr/components_TheFooter_tsx_c02346._.js",
+    "chunks/ssr/components_TheFooter_tsx_ea0019._.js",
+    "chunks/ssr/components_Marque_jsx_caaf50._.js",
+    "chunks/ssr/components_Marque_jsx_749835._.js",
+    "chunks/ssr/components_Brands_casinos_FilteredCasinos_jsx_00110c._.js",
+    "chunks/ssr/components_Brands_casinos_FilteredCasinos_jsx_c83cee._.js",
+    "chunks/ssr/components_Brands_casinos_CryptoCasinos_jsx_2ac32c._.js",
+    "chunks/ssr/components_Brands_casinos_CryptoCasinos_jsx_718e59._.js",
+    "chunks/ssr/components_Header_tailwind_index_jsx_dc6fe7._.js",
+    "chunks/ssr/components_Header_tailwind_index_jsx_3836b7._.js",
+    "chunks/ssr/components_switcher_LanguageContext_jsx_631687._.js",
+    "chunks/ssr/components_switcher_LanguageContext_jsx_bf02d4._.js",
+    "chunks/ssr/app_2cebb8._.js",
+    "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+    "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+    "chunks/rsc/app_globals.css"
+  ],
+  "source": "entry"
+});

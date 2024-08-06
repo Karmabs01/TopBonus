@@ -4,7 +4,7 @@ export const navItems = (t) => [
   {
     icon: <PokerChip className="mr-1" size={20} />,
     class: "sub-casinos",
-    label: t('Casinos ▼'),
+    label: t('Casinos'),
     href: "/casinos",
     subMenu: [
       { label: t("Crypto Casinos"), href: "/crypto-casinos" },
@@ -18,7 +18,7 @@ export const navItems = (t) => [
   {
     icon: <Gift className="mr-1" size={20} />,
     class: "sub-bonuses",
-    label: t("Bonuses ▼"),
+    label: t("Bonuses"),
     href: "/bonuses",
     subMenu: [
       // { label: t("No Deposit Bonuses"), href: "/no-deposit-bonuses" },
@@ -31,7 +31,7 @@ export const navItems = (t) => [
   {
     icon: <Wallet className="mr-1" size={20} />,
     class: "sub-payments",
-    label: t("All Payments ▼"),
+    label: t("All Payments"),
     href: "/payments",
     subMenu: [
       { label: t("Apple Pay"), href: "/payments/apple-pay" },
@@ -54,7 +54,7 @@ export const navItems = (t) => [
   {
     icon: <GameController className="mr-1" size={20} />,
     class: "sub-providers",
-    label: t("Game Providers ▼"),
+    label: t("Game Providers"),
     href: "/game-providers",
     subMenu: [
       { label: t("Amatic"), href: "/game-providers/amatic" },

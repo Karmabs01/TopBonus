@@ -8,6 +8,7 @@ __turbopack_esm__({
 });
 const chunks = [
   "chunks/ssr/components_Fetcher_ErrorComponent_module_scss_module.css",
+  "chunks/ssr/components_Header_tailwind_styled_component.css",
   "chunks/rsc/app_globals.css"
 ];
 

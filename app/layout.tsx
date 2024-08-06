@@ -1,5 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
 import { TheHeader } from "@/components/TheHeader";
+import { Header_tailwind } from "@/components/Header_tailwind";
+import { Footer_tailwind } from "@/components/Footer_tailwind";
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { TheFooter } from "@/components/TheFooter";
@@ -45,14 +48,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </noscript>
 
         <LanguageProvider>
-          <Marque />
-          <TheHeader />
+          {/* <Marque /> */}
+          {/* <TheHeader /> */}
+          <Header_tailwind/>
 
           <main>
             {children}
             <Analytics />
           </main>
-          <TheFooter />
+          {/* <TheFooter /> */}
+          <Footer_tailwind/>
         </LanguageProvider>
 
         <Script id="hotjar">
