@@ -8788,65 +8788,26 @@ function MultipleSelectPlaceholder() {
             newFlag = flags;
             break;
     }
-    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-        className: "flex !items-center mobile-switcher",
-        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$FormControl$2f$index$2e$js__$28$ecmascript$29$__["default"], {
-            className: "!m-0 form-control",
-            sx: {
-                m: 1,
-                width: 300,
-                mt: 3
-            },
-            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Select$2f$index$2e$js__$28$ecmascript$29$__["default"], {
-                className: "selectlang",
-                multiple: true,
-                displayEmpty: true,
-                value: personName,
-                onChange: handleChange,
-                input: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$OutlinedInput$2f$index$2e$js__$28$ecmascript$29$__["default"], {}, void 0, false, void 0, void 0),
-                renderValue: (selected)=>{
-                    if (selected.length === 0) {
-                        const languageFlag = newFlag.find((f)=>f.code === language)?.flag || newFlag.find((f)=>f.code === "all").flag;
-                        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: "flex items-center",
-                            children: [
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("em", {
-                                    className: "flagflag",
-                                    children: languageFlag
-                                }, void 0, false, void 0, void 0),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("em", {
-                                    className: "flagflag2",
-                                    children: lng ? lng.toUpperCase() : ""
-                                }, void 0, false, void 0, void 0)
-                            ]
-                        }, void 0, true, void 0, void 0);
-                    }
-                    return selected.map((code)=>{
-                        const flag = newFlag.find((flag)=>flag.code === code);
-                        return flag ? `${flag.flag}` : code;
-                    }).join(", ");
-                },
-                MenuProps: MenuProps,
-                inputProps: {
-                    "aria-label": "Without label"
-                },
+    const renderValue = (selected)=>{
+        if (selected.length === 0) {
+            const languageFlag = newFlag.find((f)=>f.code === language)?.flag || newFlag.find((f)=>f.code === 'all').flag;
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                className: "flex items-center",
                 children: [
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                        className: "ml-4 mr-4 mt-4",
-                        children: t("Your country of residence")
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("em", {
+                        className: "flagflag ",
+                        children: languageFlag
                     }, void 0, false, {
                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
-                        lineNumber: 220,
+                        lineNumber: 190,
                         columnNumber: 11
                     }, this),
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("em", {
+                        className: "flagflag2 ",
+                        children: lng ? lng.toUpperCase() : ''
+                    }, void 0, false, {
                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
-                        lineNumber: 221,
-                        columnNumber: 11
-                    }, this),
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                        fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
-                        lineNumber: 222,
+                        lineNumber: 191,
                         columnNumber: 11
                     }, this)
                 ]
@@ -8854,15 +8815,104 @@ function MultipleSelectPlaceholder() {
                 fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                 lineNumber: 189,
                 columnNumber: 9
-            }, this)
+            }, this);
+        }
+        return selected.map((code)=>{
+            const flag = newFlag.find((flag)=>flag.code === code);
+            return flag ? `${flag.flag}` : code;
+        }).join(', ');
+    };
+    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+        className: "relative inline-block text-left mobile-switcher",
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Menu"], {
+            children: ({ open })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
+                    children: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuButton"], {
+                                className: "inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-500",
+                                children: [
+                                    renderValue(personName),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["ChevronDownIcon"], {
+                                        className: "h-5 w-5 text-white",
+                                        "aria-hidden": "true"
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                        lineNumber: 255,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                lineNumber: 253,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                            lineNumber: 252,
+                            columnNumber: 11
+                        }, this),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItems"], {
+                            className: `absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`,
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: "py-1",
+                                children: [
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
+                                        children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: `block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`,
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                    fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                                    lineNumber: 269,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                                lineNumber: 266,
+                                                columnNumber: 19
+                                            }, this)
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                        lineNumber: 264,
+                                        columnNumber: 15
+                                    }, this),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
+                                        children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: `block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`,
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                    fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                                    lineNumber: 278,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                                lineNumber: 275,
+                                                columnNumber: 19
+                                            }, this)
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                        lineNumber: 273,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                                lineNumber: 263,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
+                            lineNumber: 258,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true)
         }, void 0, false, {
             fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
-            lineNumber: 185,
-            columnNumber: 7
+            lineNumber: 249,
+            columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
-        lineNumber: 184,
+        lineNumber: 248,
         columnNumber: 5
     }, this);
 }
@@ -9462,47 +9512,135 @@ const BrandsSwitcher = ()=>{
         language,
         newLng
     ]);
+    const selectedLanguage = newLng.find((lang)=>lang.code === lng);
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-        className: `language-switcher ml-3 flex flex-col`,
+        className: "ml-3 flex flex-col",
         children: [
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("select", {
-                className: `desktop-lang ${language}`,
+            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Listbox"], {
                 value: lng,
-                onChange: (e)=>{
-                    const selected = newLng.find((lang)=>lang.code === e.target.value);
+                onChange: (code)=>{
+                    const selected = newLng.find((lang)=>lang.code === code);
                     if (selected) {
                         changeLanguage(selected.code);
                     }
                 },
-                children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("option", {
-                        value: language.code,
-                        style: {
-                            fontSize: "20px"
-                        },
+                children: ({ open })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
                         children: [
-                            language.flag,
-                            " ",
-                            language.label
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Label"], {
+                                className: "block text-sm font-medium leading-6 text-gray-900 w-full",
+                                children: t('Your country of residence')
+                            }, void 0, false, {
+                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                lineNumber: 222,
+                                columnNumber: 11
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: "relative mt-2",
+                                children: [
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxButton"], {
+                                        className: "relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                className: "block truncate",
+                                                children: [
+                                                    selectedLanguage?.flag,
+                                                    " ",
+                                                    selectedLanguage?.label
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                lineNumber: 227,
+                                                columnNumber: 15
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                className: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2",
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["ChevronUpDownIcon"], {
+                                                    "aria-hidden": "true",
+                                                    className: "h-5 w-5 text-gray-400"
+                                                }, void 0, false, {
+                                                    fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                    lineNumber: 229,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                lineNumber: 228,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                        lineNumber: 226,
+                                        columnNumber: 13
+                                    }, this),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOptions"], {
+                                        className: "absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ",
+                                        children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOption"], {
+                                                value: language.code,
+                                                className: ({ active, selected })=>`relative cursor-default select-none py-2 pl-3 pr-9 ${active ? 'bg-indigo-600 text-white' : 'text-gray-900'}`,
+                                                children: ({ selected })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
+                                                        children: [
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                className: `block truncate ${selected ? 'font-semibold' : 'font-normal'}`,
+                                                                children: [
+                                                                    language.flag,
+                                                                    " ",
+                                                                    language.label
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                                lineNumber: 248,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            selected ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                className: "absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600",
+                                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["CheckIcon"], {
+                                                                    "aria-hidden": "true",
+                                                                    className: "h-5 w-5"
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                                    lineNumber: 253,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                                lineNumber: 252,
+                                                                columnNumber: 25
+                                                            }, this) : null
+                                                        ]
+                                                    }, void 0, true)
+                                            }, language.code, false, {
+                                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                                lineNumber: 237,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                        lineNumber: 233,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
+                                lineNumber: 225,
+                                columnNumber: 11
+                            }, this)
                         ]
-                    }, language.code, true, {
-                        fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                        lineNumber: 195,
-                        columnNumber: 11
-                    }, this))
+                    }, void 0, true)
             }, void 0, false, {
                 fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                lineNumber: 184,
-                columnNumber: 7
+                lineNumber: 211,
+                columnNumber: 5
             }, this),
             isLoading && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                lineNumber: 205,
-                columnNumber: 21
+                lineNumber: 265,
+                columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-        lineNumber: 183,
+        lineNumber: 210,
         columnNumber: 5
     }, this);
 };
@@ -9868,63 +10006,140 @@ const LanguageSwitcher = ()=>{
                     children: t("Website language")
                 }, void 0, false, {
                     fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                    lineNumber: 131,
+                    lineNumber: 164,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: `language-switcher ml-3 flex flex-col`,
+                    className: "ml-3 flex flex-col",
                     children: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("select", {
-                            className: `desktop-lang ${selectedLanguage}`,
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Listbox"], {
                             value: selectedLanguage,
-                            onChange: (e)=>{
-                                const selected = newLng.find((lang)=>lang.code === e.target.value);
+                            onChange: (code)=>{
+                                const selected = newLng.find((lang)=>lang.code === code);
                                 if (selected) {
                                     changeLanguage(selected.code);
                                 } else {
                                     changeLanguage("en");
                                 }
                             },
-                            children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("option", {
-                                    value: language.code,
-                                    style: {
-                                        fontSize: "20px"
-                                    },
-                                    children: [
-                                        language.flag,
-                                        " ",
-                                        language.label
-                                    ]
-                                }, language.code, true, {
-                                    fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                                    lineNumber: 148,
-                                    columnNumber: 15
-                                }, this))
+                            children: ({ open })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                        className: "relative mt-2",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxButton"], {
+                                                className: "relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                                children: [
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                        className: "block truncate",
+                                                        children: [
+                                                            newLng.find((lang)=>lang.code === selectedLanguage)?.flag,
+                                                            ' ',
+                                                            newLng.find((lang)=>lang.code === selectedLanguage)?.label
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                        lineNumber: 181,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                        className: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["ChevronUpDownIcon"], {
+                                                            "aria-hidden": "true",
+                                                            className: "h-5 w-5 text-gray-400"
+                                                        }, void 0, false, {
+                                                            fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                            lineNumber: 186,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                        lineNumber: 185,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                lineNumber: 180,
+                                                columnNumber: 19
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOptions"], {
+                                                className: "absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm",
+                                                children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOption"], {
+                                                        value: language.code,
+                                                        className: ({ active, selected })=>`relative cursor-default select-none py-2 pl-3 pr-9 ${active ? 'bg-indigo-600 text-white' : 'text-gray-900'}`,
+                                                        children: ({ selected })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
+                                                                children: [
+                                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                        className: `block truncate ${selected ? 'font-semibold' : 'font-normal'}`,
+                                                                        children: [
+                                                                            language.flag,
+                                                                            " ",
+                                                                            language.label
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                                        lineNumber: 205,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    selected && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                        className: "absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600",
+                                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["CheckIcon"], {
+                                                                            "aria-hidden": "true",
+                                                                            className: "h-5 w-5"
+                                                                        }, void 0, false, {
+                                                                            fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                                            lineNumber: 210,
+                                                                            columnNumber: 33
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                                        lineNumber: 209,
+                                                                        columnNumber: 31
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true)
+                                                    }, language.code, false, {
+                                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                        lineNumber: 194,
+                                                        columnNumber: 23
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                                lineNumber: 190,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
+                                        lineNumber: 179,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false)
                         }, void 0, false, {
                             fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                            lineNumber: 133,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this),
                         isLoading && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                            lineNumber: 157,
+                            lineNumber: 222,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                    lineNumber: 132,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-            lineNumber: 130,
+            lineNumber: 163,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-        lineNumber: 129,
+        lineNumber: 162,
         columnNumber: 5
     }, this);
 };

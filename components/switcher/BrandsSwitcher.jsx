@@ -179,31 +179,93 @@ const BrandsSwitcher = () => {
     fetchBrands(language, newLng);
   }, [language, newLng]);
 
-  return (
-    <div className={`language-switcher ml-3 flex flex-col`}>
-      <select
-        className={`desktop-lang ${language}`}
-        value={lng}
-        onChange={(e) => {
-          const selected = newLng.find((lang) => lang.code === e.target.value);
-          if (selected) {
-            changeLanguage(selected.code);
-          }
-        }}
-      >
-        {newLng.map((language) => (
-          <option
-            key={language.code}
-            value={language.code}
-            style={{ fontSize: "20px" }}
-          >
-            {language.flag} {language.label}
-          </option>
-        ))}
-      </select>
+  const selectedLanguage = newLng.find((lang) => lang.code === lng);
 
-      {isLoading && <Loader />}
-    </div>
+  return (
+    // <div className={`language-switcher ml-3 flex flex-col`}>
+    //   <select
+    //     className={`desktop-lang ${language}`}
+    //     value={lng}
+    //     onChange={(e) => {
+    //       const selected = newLng.find((lang) => lang.code === e.target.value);
+    //       if (selected) {
+    //         changeLanguage(selected.code);
+    //       }
+    //     }}
+    //   >
+    //     {newLng.map((language) => (
+    //       <option
+    //         key={language.code}
+    //         value={language.code}
+    //         style={{ fontSize: "20px" }}
+    //       >
+    //         {language.flag} {language.label}
+    //       </option>
+    //     ))}
+    //   </select>
+
+    //   {isLoading && <Loader />}
+    // </div>
+
+    <div className="ml-3 flex flex-col">
+    <Listbox
+      value={lng}
+      onChange={(code) => {
+        const selected = newLng.find((lang) => lang.code === code);
+        if (selected) {
+          changeLanguage(selected.code);
+        }
+      }}
+    >
+      {({ open }) => (
+        <>
+          <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
+            {t('Your country of residence')}
+          </Label>
+          <div className="relative mt-2">
+            <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span>
+              <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+                <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
+              </span>
+            </ListboxButton>
+
+            <ListboxOptions
+              className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm "
+            >
+              {newLng.map((language) => (
+                <ListboxOption
+                  key={language.code}
+                  value={language.code}
+                  className={({ active, selected }) =>
+                    `relative cursor-default select-none py-2 pl-3 pr-9 ${
+                      active ? 'bg-indigo-600 text-white' : 'text-gray-900'
+                    }`
+                  }
+                >
+                  {({ selected }) => (
+                    <>
+                      <span className={`block truncate ${selected ? 'font-semibold' : 'font-normal'}`}>
+                        {language.flag} {language.label}
+                      </span>
+                      {selected ? (
+                        <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600">
+                          <CheckIcon aria-hidden="true" className="h-5 w-5" />
+                        </span>
+                      ) : null}
+                    </>
+                  )}
+                </ListboxOption>
+              ))}
+            </ListboxOptions>
+          </div>
+        </>
+      )}
+    </Listbox>
+    {isLoading && <Loader />}
+  </div>
+
+
   //   <div>
   //   <Listbox value={lng}  
   //           onChange={(e) => {
