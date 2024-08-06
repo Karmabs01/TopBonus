@@ -215,11 +215,11 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
             transition
             className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
           >
-            <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5 lg:max-w-3xl">
-              <div className="grid grid-cols-1 gap-x-6 gap-y-1 p-4 lg:grid-cols-2">
+            <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm shadow-lg ring-1 ring-gray-900/5 lg:max-w-3xl">
+              <div className="grid grid-cols-1 gap-x-1 pt-4 lg:grid-cols-2">
               {link.subMenu!.map((subLink) => (
-                  <div key={subLink.label} className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
-                    <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                  <div key={subLink.label} className="group relative flex gap-x-2 rounded-lg px-4 hover:bg-gray-50">
+                    <div className="mt-1 flex h-8 w-8 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                       <SquaresPlusIcon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" />
 
                     </div>
@@ -228,17 +228,17 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                       {subLink.label}
                         <span className="absolute inset-0" />
                       </a>
-                      <p className="mt-1 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                      <p className="mt-1 text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, labore!</p>
                     </div>
                   </div>
                 ))}
               </div>
-              <div className="bg-gray-50 px-8 py-6">
-                <div className="flex items-center gap-x-3">
+              <div className="bg-gray-50 px-8 py-2">
+                <div className="flex items-center gap-x-2">
                   <h3 className="text-sm font-semibold leading-6 text-gray-900">Try Your Luck!</h3>
-                  <p className="rounded-full bg-indigo-600/10 px-2.5 py-1.5 text-xs font-semibold text-indigo-600">New</p>
+                  <p className="rounded-full bg-indigo-600/10 px-2.5 text-xs font-semibold text-indigo-600">New</p>
                 </div>
-                <p className="mt-2 text-sm leading-6 text-gray-600">
+                <p className="mt-1 text-sm leading-6 text-gray-600">
                     Feeling lucky? Discover random casino brands and test your fortune!
                 </p>
               </div>
