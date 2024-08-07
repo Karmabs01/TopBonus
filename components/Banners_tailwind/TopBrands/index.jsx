@@ -125,31 +125,31 @@ export default function TopBrands() {
 
     return (
         <>
-            <div className="topbr-tw pt-32 xl:pt-5 mb-10">
+            <div className="topbr-tw pt-5 mb-10">
                 <div className="main__container">
                     {loading ? (
                         <Loader />
                     ) : (
                         cards2 && (
                             <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch">
-                                <div className="slider-left w-full md:w-2/3">
+                                <div className="slider-left w-full md:w-2/3 mb-10 md:mb-2">
                                     <Slider {...settings}>
                                         {brands.length > 0 &&
                                             brands.map((rowData, index) => (
                                                 <div
                                                     key={index}
-                                                    className="background overflow-hidden bg-indigo-600 py-10 rounded-xl h-full flex flex-col justify-between"
+                                                    className="background overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between"
                                                 >
                                                     <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
                                                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
                                                             <div className="basis-2/3">
-                                                                <h1 className="text-4xl font-semibold tracking-tight text-white ">
+                                                                <h1 className="text-2xl font-semibold tracking-tight text-white md:text-4xl">
                                                                     {rowData.CasinoBrand}
                                                                 </h1>
-                                                                <h5 className="mt-6 text-lg leading-8 text-gray-300 font-normal">
+                                                                <h5 className="mt-2 sm:mt-6 text-md leading-8 text-gray-300 font-normal sm:text-lg">
                                                                     {rowData.OurOfferContent}
                                                                 </h5>
-                                                                <div className="flex mt-4">
+                                                                <div className="flex sm:mt-4">
                                                                     <Link
                                                                         className=""
                                                                         href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
@@ -157,7 +157,7 @@ export default function TopBrands() {
                                                                     >
                                                                         <button
                                                                             type="button"
-                                                                            className="bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                                                            className="bordered-button mt-2 sm:mt-10 rounded-md bg-teal-600 px-2 sm:px-10 py-1 sm:py-3 text-md sm:text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                                                         >
                                                                             {t("Play Now")}
                                                                         </button>

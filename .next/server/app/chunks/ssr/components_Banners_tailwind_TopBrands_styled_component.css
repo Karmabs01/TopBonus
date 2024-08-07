@@ -1,13 +1,5 @@
 /* chunk [output]/.next/server/app/chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css */
 /* [project]/components/Banners_tailwind/TopBrands/styled.component.css (css, ssr) */
-.slider-left .background {
-  min-height: 300px !important;
-  max-height: 300px !important;
-}
-.banner-right {
-  min-height: 300px !important;
-  max-height: 300px !important;
-}
 .djinn {
   background-image: url(/Djinn_get_bonus.png) !important;
   background-position: bottom !important;
@@ -36,8 +28,6 @@
     overflow: hidden;
   }
   main > .topbr-tw {
-    max-height: 820px;
-    height: 820px;
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
@@ -49,6 +39,14 @@
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
+}
+.slider-left .background {
+  min-height: 300px !important;
+  max-height: 300px !important;
+}
+.banner-right {
+  min-height: 300px !important;
+  max-height: 300px !important;
 }
 .topbr-tw p {
   margin-bottom: 0 !important;

@@ -710,11 +710,12 @@ select {
   margin-left: auto;
   margin-right: auto;
 }
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 .\!mr-2 {
   margin-right: 0.5rem !important;
-}
-.-mr-1 {
-  margin-right: -0.25rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -733,6 +734,9 @@ select {
 }
 .ml-1 {
   margin-left: 0.25rem;
+}
+.ml-10 {
+  margin-left: 2.5rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -805,6 +809,9 @@ select {
 }
 .mt-auto {
   margin-top: auto;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 .block {
   display: block;
@@ -1302,10 +1309,6 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74/ var(--tw-bg-opacity));
 }
-.bg-indigo-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(238 242 255/ var(--tw-bg-opacity));
-}
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241/ var(--tw-bg-opacity));
@@ -1384,6 +1387,9 @@ select {
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .px-0 {
   padding-left: 0px;
@@ -1534,6 +1540,9 @@ select {
 .pt-8 {
   padding-top: 2rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1542,6 +1551,10 @@ select {
 }
 .text-right {
   text-align: right;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -10668,35 +10681,11 @@ main > .topbr {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246/ var(--tw-bg-opacity));
 }
-.data-\[focus\]\:bg-indigo-600[data-focus] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229/ var(--tw-bg-opacity));
-}
-.data-\[focus\]\:text-white[data-focus] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255/ var(--tw-text-opacity));
-}
-.data-\[closed\]\:data-\[leave\]\:opacity-0[data-leave][data-closed] {
-  opacity: 0;
-}
 .data-\[closed\]\:opacity-0[data-closed] {
   opacity: 0;
 }
-.data-\[leave\]\:transition[data-leave] {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-.data-\[enter\]\:duration-100[data-enter] {
-  transition-duration: 100ms;
-}
 .data-\[enter\]\:duration-200[data-enter] {
   transition-duration: 200ms;
-}
-.data-\[leave\]\:duration-100[data-leave] {
-  transition-duration: 100ms;
 }
 .data-\[leave\]\:duration-150[data-leave] {
   transition-duration: 150ms;
@@ -10716,13 +10705,6 @@ main > .topbr {
 .group[data-open] .group-data-\[open\]\:hidden {
   display: none;
 }
-.group[data-selected] .group-data-\[selected\]\:font-semibold {
-  font-weight: 600;
-}
-.group[data-focus] .group-data-\[focus\]\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255/ var(--tw-text-opacity));
-}
 @media (min-width: 640px) {
   .sm\:static {
     position: static;
@@ -10739,8 +10721,20 @@ main > .topbr {
   .sm\:mt-0 {
     margin-top: 0px;
   }
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
   .sm\:mt-5 {
     margin-top: 1.25rem;
+  }
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
+  }
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
   }
   .sm\:inline-block {
     display: inline-block;
@@ -10748,14 +10742,23 @@ main > .topbr {
   .sm\:flex {
     display: flex;
   }
-  .sm\:hidden {
-    display: none;
-  }
   .sm\:w-64 {
     width: 16rem;
   }
   .sm\:w-auto {
     width: auto;
+  }
+  .sm\:w-10 {
+    width: 2.5rem;
+  }
+  .sm\:w-20 {
+    width: 5rem;
+  }
+  .sm\:w-12 {
+    width: 3rem;
+  }
+  .sm\:w-32 {
+    width: 8rem;
   }
   .sm\:max-w-3xl {
     max-width: 48rem;
@@ -10768,6 +10771,9 @@ main > .topbr {
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:flex-row {
+    flex-direction: row;
   }
   .sm\:items-stretch {
     align-items: stretch;
@@ -10787,6 +10793,10 @@ main > .topbr {
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
   .sm\:px-3\.5 {
     padding-left: 0.875rem;
     padding-right: 0.875rem;
@@ -10799,6 +10809,14 @@ main > .topbr {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
   .sm\:pb-5 {
     padding-bottom: 1.25rem;
   }
@@ -10807,6 +10825,10 @@ main > .topbr {
   }
   .sm\:pt-24 {
     padding-top: 6rem;
+  }
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
   .sm\:text-sm {
     font-size: 0.875rem;
@@ -10823,6 +10845,9 @@ main > .topbr {
 @media (min-width: 768px) {
   .md\:order-1 {
     order: 1;
+  }
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
   }
   .md\:mt-0 {
     margin-top: 0px;
@@ -10862,6 +10887,10 @@ main > .topbr {
   }
   .md\:pt-20 {
     padding-top: 5rem;
+  }
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -10994,11 +11023,20 @@ main > .topbr {
   .xl\:col-span-2 {
     grid-column: span 2/ span 2;
   }
+  .xl\:ml-0 {
+    margin-left: 0px;
+  }
   .xl\:mt-0 {
     margin-top: 0px;
   }
+  .xl\:flex {
+    display: flex;
+  }
   .xl\:grid {
     display: grid;
+  }
+  .xl\:hidden {
+    display: none;
   }
   .xl\:w-full {
     width: 100%;
@@ -11021,11 +11059,11 @@ main > .topbr {
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
+  .xl\:pt-1 {
+    padding-top: 0.25rem;
+  }
   .xl\:pt-5 {
     padding-top: 1.25rem;
   }
-}
-.group:not([data-selected]) .\[\.group\:not\(\[data-selected\]\)_\&\]\:hidden {
-  display: none;
 }
 

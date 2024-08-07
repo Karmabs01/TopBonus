@@ -133,7 +133,7 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="topbr-tw pt-32 xl:pt-5 mb-10 mt-10">
+            <div className="topbr-tw mb-10 mt-10">
                 <div className="main__container">
                     {loading ? (
                         <Loader />

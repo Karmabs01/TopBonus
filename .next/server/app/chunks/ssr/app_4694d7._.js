@@ -149,8 +149,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header_tailwind$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Header_tailwind/index.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer_tailwind$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Footer_tailwind/index.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx (ecmascript, rsc)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Marque$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Marque.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/script.js (ecmascript, rsc)");
 "__TURBOPACK__ecmascript__hoisting__location__";
+;
 ;
 ;
 ;
@@ -208,6 +210,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__["LanguageProvider"], {
                         children: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Marque$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                fileName: "<[project]/app/layout.tsx>",
+                                lineNumber: 51,
+                                columnNumber: 11
+                            }, this),
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header_tailwind$2f$index$2e$jsx__$28$ecmascript$29$__["Header_tailwind"], {}, void 0, false, {
                                 fileName: "<[project]/app/layout.tsx>",
                                 lineNumber: 53,

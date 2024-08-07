@@ -204,7 +204,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
           //       )}
           // </div>
           <Popover className="relative">
-          <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white">
+          <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white w-full">
             {/* <span>Solutions</span> */}
             {link.icon}
             <span>{link.label}</span>

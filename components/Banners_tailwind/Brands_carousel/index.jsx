@@ -51,8 +51,8 @@ export default function Brand_carousel() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]
@@ -138,7 +138,7 @@ export default function Brand_carousel() {
 
     return (
         <>
-            <div className="mt-10 mb-10">
+            <div className="sm:mt-10 sm:mb-10 mt-5 mb-5">
                 <div className="main__container">
                     {loading ? (
                         <Loader />
@@ -150,7 +150,7 @@ export default function Brand_carousel() {
                                         brands.map((rowData, index) => (
                                             <div
                                                 key={index}
-                                                className="overflow-hidden  py-10 rounded-xl flex flex-col justify-between"
+                                                className="overflow-hidden p-5 sm:py-10 rounded-xl flex flex-col justify-between"
                                             >
                                                 <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
                                                     <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">

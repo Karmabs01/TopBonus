@@ -8,7 +8,7 @@ export default function Banner_small() {
 
     return (
         <>
-            <div>
+            <div className="mt-10">
                 <div className="main__container">
                     <div
                         className="background overflow-hidden bg-indigo-600 py-10 rounded-xl h-full "

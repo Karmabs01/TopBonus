@@ -48,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </noscript>
 
         <LanguageProvider>
-          {/* <Marque /> */}
+          <Marque />
           {/* <TheHeader /> */}
           <Header_tailwind/>
 

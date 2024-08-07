@@ -22,18 +22,6 @@
 	z-index: 20;
 } */
 
-.slider-left .background {
-  /* max-width: 700px; */
-  min-height: 300px !important;
-  max-height: 300px !important;
-}
-
-.banner-right {
-  min-height: 300px !important;
-  max-height: 300px !important;
-  /* min-width: 250px; */
-}
-
 .djinn {
   background-image: url(/Djinn_get_bonus.png) !important;
   background-position: bottom !important;
@@ -75,8 +63,6 @@
     overflow: hidden;
   }
   main > .topbr-tw {
-    max-height: 820px;
-    height: 820px;
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
@@ -90,6 +76,17 @@
     background-size: cover !important;
   }
 }
+/* @media (min-width: 768) and (max-width: 3000px) { */
+  .slider-left .background {
+    min-height: 300px !important;
+    max-height: 300px !important;
+  }
+
+  .banner-right {
+    min-height: 300px !important;
+    max-height: 300px !important;
+  }
+/* } */
 
 .topbr-tw p {
   margin-bottom: 0 !important;
