@@ -161,8 +161,10 @@ const LanguageSwitcher = () => {
 
     <div>
       <div>
-        <p className="ml-4 mr-4">{t("Website language")}</p>
         <div className="ml-3 flex flex-col">
+          <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
+            {t("Website language")}
+          </Label>
           <Listbox
             value={selectedLanguage}
             onChange={(code) => {
@@ -195,8 +197,7 @@ const LanguageSwitcher = () => {
                         key={language.code}
                         value={language.code}
                         className={({ active, selected }) =>
-                          `relative cursor-default select-none py-2 pl-3 pr-9 ${
-                            active ? 'bg-indigo-600 text-white' : 'text-gray-900'
+                          `relative cursor-default select-none py-2 pl-3 pr-9 ${active ? 'bg-indigo-600 text-white' : 'text-gray-900'
                           }`
                         }
                       >
