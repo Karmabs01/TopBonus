@@ -22,6 +22,14 @@
   font-size: 12px;
 }
 .topbr-tw {}
+.slider-left .background {
+  min-height: 300px !important;
+  max-height: 300px !important;
+}
+.banner-right {
+  min-height: 300px !important;
+  max-height: 300px !important;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .topbr-tw {
     overflow: hidden;
@@ -29,6 +37,10 @@
   main > .topbr-tw {
     background-position: top 10% left 0 !important;
     background-size: cover !important;
+  }
+  .slider-left .background {
+    min-height: 150px !important;
+    max-height: 150px !important;
   }
 }
 @media (min-width: 768) and (max-width: 1260px) {
@@ -38,14 +50,6 @@
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
-}
-.slider-left .background {
-  min-height: 300px !important;
-  max-height: 300px !important;
-}
-.banner-right {
-  min-height: 300px !important;
-  max-height: 300px !important;
 }
 .topbr-tw p {
   margin-bottom: 0 !important;
