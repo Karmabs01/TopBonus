@@ -10,6 +10,8 @@ import { useLanguage } from "../../switcher/LanguageContext";
 import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import "./styled.component.css"
+import classNames from 'classnames';
+
 
 export default function Double_banners() {
     const [newUrl, setNewUrl] = useState("");
@@ -136,6 +138,12 @@ export default function Double_banners() {
 
     console.log("BRANDS", brands);
 
+    const tabs = [
+        { name: 'Biggest Jackpots', current: true },
+        { name: 'Top Tournaments', current: false },
+    ]
+
+
     return (
         <>
             <div className="double_banners pt-5 mb-10">
@@ -143,10 +151,38 @@ export default function Double_banners() {
                     {loading ? (
                         <Loader />
                     ) : (
-                        cards2 && (
+                        <div>
+                            <div>
+                                <div className="md:hidden">
+                                    <nav aria-label="Tabs" className="isolate flex divide-x divide-gray-200 rounded-lg shadow">
+                                        {tabs.map((tab, tabIdx) => (
+                                            <a
+                                                key={tab.name}
+                                                href={tab.href}
+                                                aria-current={tab.current ? 'page' : undefined}
+                                                className={classNames(
+                                                    tab.current ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700',
+                                                    tabIdx === 0 ? 'rounded-l-lg' : '',
+                                                    tabIdx === tabs.length - 1 ? 'rounded-r-lg' : '',
+                                                    'group relative min-w-0 flex-1 overflow-hidden bg-white px-4 py-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10',
+                                                )}
+                                            >
+                                                <span>{tab.name}</span>
+                                                <span
+                                                    aria-hidden="true"
+                                                    className={classNames(
+                                                        tab.current ? 'bg-indigo-500' : 'bg-transparent',
+                                                        'absolute inset-x-0 bottom-0 h-0.5',
+                                                    )}
+                                                />
+                                            </a>
+                                        ))}
+                                    </nav>
+                                </div>
+                            </div>
                             <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch mb-10">
                                 <div className="md:w-1/2 mr-2">
-                                <div
+                                    <div
                                         className="overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center"
                                     >
                                         <h1 className="text-white uppercase">Biggest Jackpots</h1>
@@ -212,9 +248,9 @@ export default function Double_banners() {
                                     <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum.</p>
 
                                 </div>
-
                             </div>
-                        )
+                        </div>
+
                     )}
                 </div>
             </div>

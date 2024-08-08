@@ -4,6 +4,7 @@ import TopBrands from "@/components/Banners_tailwind/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
 import Banner_small from "@/components/Banners_tailwind/Banner_small"
 import Brand_carousel from "@/components/Banners_tailwind/Brands_carousel"
+import Brand_carousel_mobile from "@/components/Banners_tailwind/Brands_carousel_mobile"
 import Double_banners from "@/components/Banners_tailwind/Double_banners"
 import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel"
 import Random_block from "@/components/Banners_tailwind/Random_block"
@@ -40,7 +41,7 @@ export default async function Home() {
       <Brands_double_carousel/>
       <Random_block/>
       <Jackpot_banner/>
-      <Brand_carousel/>
+      <Brand_carousel_mobile/>
       <Three_part_gallery/>
       <Jackpot_banner/>
       <Brand_carousel/>

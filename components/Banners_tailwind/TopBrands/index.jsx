@@ -31,6 +31,14 @@ export default function TopBrands() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    dots: false,
+                }
+            }
+        ]
     };
 
     useEffect(() => {

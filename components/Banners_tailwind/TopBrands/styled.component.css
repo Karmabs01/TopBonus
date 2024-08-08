@@ -76,10 +76,12 @@
     background-position: top 10% left 0 !important;
     background-size: cover !important;
   }
+}
 
+@media (min-width: 320px) and (max-width: 639px) {
+  
   .slider-left .background {
-    min-height: 150px !important;
-    max-height: 150px !important;
+    min-height: 180px !important;
   }
 }
 

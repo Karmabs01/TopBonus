@@ -162,9 +162,6 @@ const LanguageSwitcher = () => {
     <div>
       <div>
         <div className="ml-3 flex flex-col">
-          <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-            {t("Website language")}
-          </Label>
           <Listbox
             value={selectedLanguage}
             onChange={(code) => {

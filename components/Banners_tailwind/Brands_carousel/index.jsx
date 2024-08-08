@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "./styled.component.css"
 
-export default function Brand_carousel() {
+export default function Brands_carousel() {
     const [newUrl, setNewUrl] = useState("");
     const [source, setSource] = useState("");
     const [loading, setLoading] = useState(true);
@@ -51,8 +51,9 @@ export default function Brand_carousel() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false,
                 }
             }
         ]

@@ -1,0 +1,41 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "chunks/ssr/[next]_entry_app-renderer_tsx_2a2d3f._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "chunks/ssr/[next]_entry_app-renderer_tsx_2a2d3f._.js",
+  "chunks": [
+    "chunks/ssr/node_modules_3dac05._.js",
+    "chunks/ssr/node_modules_@popperjs_core_lib_index_5da4e9.js",
+    "chunks/ssr/components_afeeb1._.js",
+    "chunks/ssr/public_55df92._.js",
+    "chunks/ssr/_env_b53fce.js",
+    "chunks/ssr/[turbopack-node]_ipc_index_ts_d793ce._.js",
+    "chunks/ssr/[turbopack-node]_compiled_stacktrace-parser_index_c28eef.js",
+    "chunks/ssr/[next]_internal_operation-stream_ts_031923._.js",
+    "chunks/ssr/[next]_internal_headers_ts_379ae9._.js",
+    "chunks/ssr/[next]_internal_http_ts_ee52c2._.js",
+    "chunks/ssr/[next]_polyfill_app-polyfills_ts_00bfbd._.js",
+    "chunks/ssr/[next]_entry_app-renderer_tsx_f91840._.js",
+    "chunks/ssr/[next]_entry_14ae7a._.js",
+    "chunks/ssr/node_modules_946a91._.js",
+    "chunks/ssr/components_Marque_jsx_caaf50._.js",
+    "chunks/ssr/components_Marque_jsx_749835._.js",
+    "chunks/ssr/components_Brands_payments_FilteredPayments_jsx_c031c8._.js",
+    "chunks/ssr/components_Brands_payments_FilteredPayments_jsx_11fc87._.js",
+    "chunks/ssr/components_Brands_payments_ApplePay_jsx_d46e23._.js",
+    "chunks/ssr/components_Brands_payments_ApplePay_jsx_1f2ad7._.js",
+    "chunks/ssr/components_Header_tailwind_index_jsx_dc6fe7._.js",
+    "chunks/ssr/components_Header_tailwind_index_jsx_3836b7._.js",
+    "chunks/ssr/components_Footer_tailwind_index_jsx_3c2cce._.js",
+    "chunks/ssr/components_Footer_tailwind_index_jsx_3ac6ab._.js",
+    "chunks/ssr/components_switcher_LanguageContext_jsx_631687._.js",
+    "chunks/ssr/components_switcher_LanguageContext_jsx_bf02d4._.js",
+    "chunks/ssr/app_5ce5e4._.js",
+    "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
+    "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+    "chunks/ssr/components_Header_tailwind_styled_component.css",
+    "chunks/rsc/app_globals.css"
+  ],
+  "source": "entry"
+});

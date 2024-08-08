@@ -11,7 +11,7 @@ import LanguageSwitcher from "@/components/switcher/LanguageSwitcher";
 import i18n from "@/components/i18n";
 import { useTranslation } from "react-i18next";
 
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Menu, MenuButton, MenuItem, MenuItems, Label } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const ITEM_HEIGHT = 48;
@@ -246,44 +246,49 @@ export default function MultipleSelectPlaceholder() {
 
 
     <div className="relative inline-block text-left mobile-switcher">
-    <Menu>
-      {({ open }) => (
-        <>
-          <div>
-            <MenuButton className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-500">
-              {renderValue(personName)}
-              {/* <ChevronDownIcon className="h-5 w-5 text-white" aria-hidden="true" /> */}
-            </MenuButton>
-          </div>
-          <MenuItems
-            className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${
-              open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
-            }`}
-          >
-            <div className="py-1">
-              <MenuItem>
-                {({ active }) => (
-                  <div
-                    className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
-                  >
-                    <BrandsSwitcher />
-                  </div>
-                )}
-              </MenuItem>
-              <MenuItem>
-                {({ active }) => (
-                  <div
-                    className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
-                  >
-                    <LanguageSwitcher />
-                  </div>
-                )}
-              </MenuItem>
+      <Menu>
+        {({ open }) => (
+          <>
+            <div>
+              <MenuButton className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-500">
+                {renderValue(personName)}
+                {/* <ChevronDownIcon className="h-5 w-5 text-white" aria-hidden="true" /> */}
+              </MenuButton>
             </div>
-          </MenuItems>
-        </>
-      )}
-    </Menu>
-  </div>
+            <MenuItems
+              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+                }`}
+            >
+              <div className="py-1">
+                <MenuItem>
+                  {({ active }) => (
+                    <div
+                      className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
+                    >
+                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
+                        {t('Your country of residence')}
+                      </Label>
+                      <BrandsSwitcher />
+                    </div>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }) => (
+                    <div
+                      className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
+                    >
+                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
+                        {t("Website language")}
+                      </Label>
+                      <LanguageSwitcher />
+                    </div>
+                  )}
+                </MenuItem>
+              </div>
+            </MenuItems>
+          </>
+        )}
+      </Menu>
+    </div>
   );
 }

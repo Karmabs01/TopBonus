@@ -49,7 +49,15 @@ function TopBrands() {
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    dots: false
+                }
+            }
+        ]
     };
     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useEffect"](()=>{
         const currentUrl = window.location.href;
@@ -123,7 +131,7 @@ function TopBrands() {
                 bonus: brand.OurOfferContent
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                lineNumber: 104,
+                lineNumber: 112,
                 columnNumber: 13
             }, this)
         }));
@@ -147,7 +155,7 @@ function TopBrands() {
                 className: "main__container",
                 children: loading ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                    lineNumber: 131,
+                    lineNumber: 139,
                     columnNumber: 25
                 }, this) : cards2 && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                     className: "flex flex-col md:flex-row lg:space-y-0 lg:items-stretch",
@@ -171,7 +179,7 @@ function TopBrands() {
                                                                 children: rowData.CasinoBrand
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                                lineNumber: 146,
+                                                                lineNumber: 154,
                                                                 columnNumber: 65
                                                             }, this),
                                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h5", {
@@ -179,7 +187,7 @@ function TopBrands() {
                                                                 children: rowData.OurOfferContent
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                                lineNumber: 149,
+                                                                lineNumber: 157,
                                                                 columnNumber: 65
                                                             }, this),
                                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -194,23 +202,23 @@ function TopBrands() {
                                                                         children: t("Play Now")
                                                                     }, void 0, false, {
                                                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                                        lineNumber: 158,
+                                                                        lineNumber: 166,
                                                                         columnNumber: 73
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                                    lineNumber: 153,
+                                                                    lineNumber: 161,
                                                                     columnNumber: 69
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                                lineNumber: 152,
+                                                                lineNumber: 160,
                                                                 columnNumber: 65
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                        lineNumber: 145,
+                                                        lineNumber: 153,
                                                         columnNumber: 61
                                                     }, this),
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -224,38 +232,38 @@ function TopBrands() {
                                                             className: "target-top-new-releases"
                                                         }, void 0, false, {
                                                             fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                            lineNumber: 168,
+                                                            lineNumber: 176,
                                                             columnNumber: 65
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                        lineNumber: 167,
+                                                        lineNumber: 175,
                                                         columnNumber: 61
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                lineNumber: 144,
+                                                lineNumber: 152,
                                                 columnNumber: 57
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                            lineNumber: 143,
+                                            lineNumber: 151,
                                             columnNumber: 53
                                         }, this)
                                     }, index, false, {
                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                        lineNumber: 139,
+                                        lineNumber: 147,
                                         columnNumber: 49
                                     }, this))
                             }, void 0, false, {
                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                lineNumber: 136,
+                                lineNumber: 144,
                                 columnNumber: 37
                             }, this)
                         }, void 0, false, {
                             fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                            lineNumber: 135,
+                            lineNumber: 143,
                             columnNumber: 33
                         }, this),
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -275,7 +283,7 @@ function TopBrands() {
                                                         children: "Your Bonus is Ready"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                        lineNumber: 189,
+                                                        lineNumber: 197,
                                                         columnNumber: 57
                                                     }, this),
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -283,13 +291,13 @@ function TopBrands() {
                                                         children: "Click below to claim your magical reward!"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                        lineNumber: 192,
+                                                        lineNumber: 200,
                                                         columnNumber: 57
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                lineNumber: 188,
+                                                lineNumber: 196,
                                                 columnNumber: 53
                                             }, this),
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -300,49 +308,49 @@ function TopBrands() {
                                                     children: "Bonus Ready"
                                                 }, void 0, false, {
                                                     fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                    lineNumber: 197,
+                                                    lineNumber: 205,
                                                     columnNumber: 57
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                                lineNumber: 196,
+                                                lineNumber: 204,
                                                 columnNumber: 53
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                        lineNumber: 187,
+                                        lineNumber: 195,
                                         columnNumber: 49
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                    lineNumber: 186,
+                                    lineNumber: 194,
                                     columnNumber: 45
                                 }, this)
                             }, void 0, false, {
                                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                                lineNumber: 185,
+                                lineNumber: 193,
                                 columnNumber: 41
                             }, this)
                         }, void 0, false, {
                             fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                            lineNumber: 183,
+                            lineNumber: 191,
                             columnNumber: 33
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                    lineNumber: 134,
+                    lineNumber: 142,
                     columnNumber: 29
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-                lineNumber: 129,
+                lineNumber: 137,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "<[project]/components/Banners_tailwind/TopBrands/index.jsx>",
-            lineNumber: 128,
+            lineNumber: 136,
             columnNumber: 13
         }, this)
     }, void 0, false);
@@ -444,7 +452,7 @@ function Banner_small() {
 "[project]/components/Banners_tailwind/Brands_carousel/index.jsx (ecmascript, ssr)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, k: __turbopack_refresh__ }) => (() => {
 
 __turbopack_esm__({
-    "default": ()=>Brand_carousel
+    "default": ()=>Brands_carousel
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js (ecmascript, ssr)");
@@ -469,7 +477,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$sli
 ;
 ;
 ;
-function Brand_carousel() {
+function Brands_carousel() {
     const [newUrl, setNewUrl] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"]("");
     const [source, setSource] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"]("");
     const [loading, setLoading] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"](true);
@@ -509,8 +517,9 @@ function Brand_carousel() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false
                 }
             }
         ]
@@ -598,7 +607,7 @@ function Brand_carousel() {
                 className: "main__container",
                 children: loading ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                    lineNumber: 144,
+                    lineNumber: 145,
                     columnNumber: 25
                 }, this) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -625,57 +634,57 @@ function Brand_carousel() {
                                                         className: "target-top-new-releases"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                                        lineNumber: 164,
+                                                        lineNumber: 165,
                                                         columnNumber: 65
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                                    lineNumber: 158,
+                                                    lineNumber: 159,
                                                     columnNumber: 61
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                                lineNumber: 157,
+                                                lineNumber: 158,
                                                 columnNumber: 57
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                            lineNumber: 156,
+                                            lineNumber: 157,
                                             columnNumber: 53
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                        lineNumber: 155,
+                                        lineNumber: 156,
                                         columnNumber: 49
                                     }, this)
                                 }, index, false, {
                                     fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                                    lineNumber: 151,
+                                    lineNumber: 152,
                                     columnNumber: 45
                                 }, this))
                         }, void 0, false, {
                             fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                            lineNumber: 148,
+                            lineNumber: 149,
                             columnNumber: 33
                         }, this)
                     }, void 0, false, {
                         fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                        lineNumber: 147,
+                        lineNumber: 148,
                         columnNumber: 29
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                    lineNumber: 146,
+                    lineNumber: 147,
                     columnNumber: 25
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-                lineNumber: 142,
+                lineNumber: 143,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "<[project]/components/Banners_tailwind/Brands_carousel/index.jsx>",
-            lineNumber: 141,
+            lineNumber: 142,
             columnNumber: 13
         }, this)
     }, void 0, false);
