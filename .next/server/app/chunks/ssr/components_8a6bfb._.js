@@ -975,6 +975,7 @@ function Double_banners() {
     const [fade, setFade] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"](true);
     const { language } = __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__["useLanguage"]();
     const { t } = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$28$ecmascript$29$__["useTranslation"]();
+    const [selectedTab, setSelectedTab] = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useState"](0);
     const settings = {
         infinite: true,
         speed: 500,
@@ -1072,7 +1073,7 @@ function Double_banners() {
                 bonus: brand.OurOfferContent
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                lineNumber: 119,
+                lineNumber: 120,
                 columnNumber: 13
             }, this)
         }));
@@ -1101,229 +1102,204 @@ function Double_banners() {
     ];
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-            className: "double_banners pt-5 mb-10",
+            className: "double_banners pt-5 mb-10 mt-10",
             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                 className: "main__container",
-                children: loading ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                    lineNumber: 152,
-                    columnNumber: 25
-                }, this) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    children: [
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "md:hidden",
-                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("nav", {
-                                    "aria-label": "Tabs",
-                                    className: "isolate flex divide-x divide-gray-200 rounded-lg shadow",
-                                    children: tabs.map((tab, tabIdx)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("a", {
-                                            href: tab.href,
-                                            "aria-current": tab.current ? 'page' : undefined,
-                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__["default"](tab.current ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700', tabIdx === 0 ? 'rounded-l-lg' : '', tabIdx === tabs.length - 1 ? 'rounded-r-lg' : '', 'group relative min-w-0 flex-1 overflow-hidden bg-white px-4 py-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10'),
-                                            children: [
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                    children: tab.name
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 170,
-                                                    columnNumber: 49
-                                                }, this),
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                    "aria-hidden": "true",
-                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__["default"](tab.current ? 'bg-indigo-500' : 'bg-transparent', 'absolute inset-x-0 bottom-0 h-0.5')
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 171,
-                                                    columnNumber: 49
-                                                }, this)
-                                            ]
-                                        }, tab.name, true, {
-                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                            lineNumber: 159,
-                                            columnNumber: 45
-                                        }, this))
+                children: [
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                        className: "md:hidden mb-4",
+                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "flex justify-center space-x-1",
+                            children: [
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                    onClick: ()=>setSelectedTab(0),
+                                    className: `px-4 py-2 rounded-l-lg ${selectedTab === 0 ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700'}`,
+                                    children: "Biggest Jackpots"
                                 }, void 0, false, {
                                     fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                    lineNumber: 157,
-                                    columnNumber: 37
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                lineNumber: 156,
-                                columnNumber: 33
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                            lineNumber: 155,
-                            columnNumber: 29
-                        }, this),
-                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: "flex flex-col md:flex-row lg:space-y-0 lg:items-stretch mb-10",
-                            children: [
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                    className: "md:w-1/2 mr-2",
-                                    children: [
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                            className: "overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center",
-                                            children: [
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
-                                                    className: "text-white uppercase",
-                                                    children: "Biggest Jackpots"
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 188,
-                                                    columnNumber: 41
-                                                }, this),
-                                                brands.length > 0 ? brands.slice(0, 1).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                        className: "flex mt-4 px-6 lg:px-8 justify-center",
-                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                                                            className: "",
-                                                            href: `${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`,
-                                                            target: "_blank",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                                                                type: "button",
-                                                                className: "bordered-button rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
-                                                                children: t("Play Now")
-                                                            }, void 0, false, {
-                                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                                lineNumber: 198,
-                                                                columnNumber: 57
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                            lineNumber: 193,
-                                                            columnNumber: 53
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                        lineNumber: 192,
-                                                        columnNumber: 49
-                                                    }, this)) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                    className: "flex px-6 lg:px-8 justify-center text-white font-black",
-                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                                        children: " NO AVAILABLE BRANDS"
-                                                    }, void 0, false, {
-                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                        lineNumber: 209,
-                                                        columnNumber: 49
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 208,
-                                                    columnNumber: 45
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                            lineNumber: 185,
-                                            columnNumber: 37
-                                        }, this),
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                            className: "mt-10",
-                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum."
-                                        }, void 0, false, {
-                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                            lineNumber: 215,
-                                            columnNumber: 37
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                    lineNumber: 184,
-                                    columnNumber: 33
+                                    lineNumber: 154,
+                                    columnNumber: 29
                                 }, this),
-                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                    className: "md:w-1/2 ml-2",
-                                    children: [
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                            className: "overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center",
-                                            children: [
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
-                                                    className: "text-white uppercase",
-                                                    children: "Top Tournaments"
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 221,
-                                                    columnNumber: 41
-                                                }, this),
-                                                brands2.length > 0 ? brands2.slice(0, 1).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                        className: "flex mt-4 px-6 lg:px-8 justify-center",
-                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                                                            className: "",
-                                                            href: `${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`,
-                                                            target: "_blank",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                                                                type: "button",
-                                                                className: "bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
-                                                                children: t("Play Now")
-                                                            }, void 0, false, {
-                                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                                lineNumber: 231,
-                                                                columnNumber: 57
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                            lineNumber: 226,
-                                                            columnNumber: 53
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                        lineNumber: 225,
-                                                        columnNumber: 49
-                                                    }, this)) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                    className: "flex mt-4 px-6 lg:px-8 justify-center text-white font-black",
-                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                                        children: " NO AVAILABLE BRANDS"
-                                                    }, void 0, false, {
-                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                        lineNumber: 242,
-                                                        columnNumber: 49
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                                    lineNumber: 241,
-                                                    columnNumber: 45
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                            lineNumber: 218,
-                                            columnNumber: 37
-                                        }, this),
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                            className: "mt-10",
-                                            children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum."
-                                        }, void 0, false, {
-                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                            lineNumber: 248,
-                                            columnNumber: 37
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                    onClick: ()=>setSelectedTab(1),
+                                    className: `px-4 py-2 rounded-r-lg ${selectedTab === 1 ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700'}`,
+                                    children: "Top Tournaments"
+                                }, void 0, false, {
                                     fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                                    lineNumber: 217,
-                                    columnNumber: 33
+                                    lineNumber: 160,
+                                    columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                            lineNumber: 183,
-                            columnNumber: 29
+                            lineNumber: 153,
+                            columnNumber: 25
                         }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                    lineNumber: 154,
-                    columnNumber: 25
-                }, this)
-            }, void 0, false, {
+                    }, void 0, false, {
+                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                        lineNumber: 152,
+                        columnNumber: 21
+                    }, this),
+                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                        className: "flex flex-col md:flex-row lg:space-y-0 lg:items-stretch mb-10",
+                        children: [
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: `md:w-1/2 ${selectedTab === 0 ? '' : 'hidden'} md:block mr-0 md:mr-2`,
+                                children: [
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                        className: "overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
+                                                className: "text-white uppercase",
+                                                children: "Biggest Jackpots"
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                lineNumber: 172,
+                                                columnNumber: 33
+                                            }, this),
+                                            brands.length > 0 ? brands.slice(0, 1).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                    className: "flex mt-4 px-6 lg:px-8 justify-center",
+                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                                        href: `${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`,
+                                                        target: "_blank",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                                            type: "button",
+                                                            className: "bordered-button rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                                                            children: t("Play Now")
+                                                        }, void 0, false, {
+                                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                            lineNumber: 180,
+                                                            columnNumber: 49
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                        lineNumber: 176,
+                                                        columnNumber: 45
+                                                    }, this)
+                                                }, index, false, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                    lineNumber: 175,
+                                                    columnNumber: 41
+                                                }, this)) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: "flex px-6 lg:px-8 justify-center text-white font-black",
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                                    children: "NO AVAILABLE BRANDS"
+                                                }, void 0, false, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                    lineNumber: 191,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                lineNumber: 190,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                        lineNumber: 171,
+                                        columnNumber: 29
+                                    }, this),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                        className: "mt-10",
+                                        children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum."
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                        lineNumber: 195,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                lineNumber: 170,
+                                columnNumber: 25
+                            }, this),
+                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: `md:w-1/2 ${selectedTab === 1 ? '' : 'hidden'} md:block ml-0 md:ml-2`,
+                                children: [
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                        className: "overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h1", {
+                                                className: "text-white uppercase",
+                                                children: "Top Tournaments"
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                lineNumber: 200,
+                                                columnNumber: 33
+                                            }, this),
+                                            brands2.length > 0 ? brands2.slice(0, 1).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                    className: "flex mt-4 px-6 lg:px-8 justify-center",
+                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                                        href: `${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`,
+                                                        target: "_blank",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                                            type: "button",
+                                                            className: "bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+                                                            children: t("Play Now")
+                                                        }, void 0, false, {
+                                                            fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                            lineNumber: 208,
+                                                            columnNumber: 49
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                        lineNumber: 204,
+                                                        columnNumber: 45
+                                                    }, this)
+                                                }, index, false, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                    lineNumber: 203,
+                                                    columnNumber: 41
+                                                }, this)) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: "flex mt-4 px-6 lg:px-8 justify-center text-white font-black",
+                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                                    children: "NO AVAILABLE BRANDS"
+                                                }, void 0, false, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                    lineNumber: 219,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                                lineNumber: 218,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                        lineNumber: 199,
+                                        columnNumber: 29
+                                    }, this),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                        className: "mt-10",
+                                        children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum."
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                        lineNumber: 223,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                                lineNumber: 198,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
+                        lineNumber: 169,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-                lineNumber: 150,
+                lineNumber: 151,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "<[project]/components/Banners_tailwind/Double_banners/index.jsx>",
-            lineNumber: 149,
+            lineNumber: 150,
             columnNumber: 13
         }, this)
     }, void 0, false);

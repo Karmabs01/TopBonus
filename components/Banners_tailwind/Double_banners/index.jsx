@@ -23,6 +23,7 @@ export default function Double_banners() {
     const [fade, setFade] = useState(true); // State to manage fade effect
     const { language } = useLanguage();
     const { t } = useTranslation();
+    const [selectedTab, setSelectedTab] = useState(0);
 
     const settings = {
         infinite: true,
@@ -146,115 +147,84 @@ export default function Double_banners() {
 
     return (
         <>
-            <div className="double_banners pt-5 mb-10">
+            <div className="double_banners pt-5 mb-10 mt-10">
                 <div className="main__container">
-                    {loading ? (
-                        <Loader />
-                    ) : (
-                        <div>
-                            <div>
-                                <div className="md:hidden">
-                                    <nav aria-label="Tabs" className="isolate flex divide-x divide-gray-200 rounded-lg shadow">
-                                        {tabs.map((tab, tabIdx) => (
-                                            <a
-                                                key={tab.name}
-                                                href={tab.href}
-                                                aria-current={tab.current ? 'page' : undefined}
-                                                className={classNames(
-                                                    tab.current ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700',
-                                                    tabIdx === 0 ? 'rounded-l-lg' : '',
-                                                    tabIdx === tabs.length - 1 ? 'rounded-r-lg' : '',
-                                                    'group relative min-w-0 flex-1 overflow-hidden bg-white px-4 py-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10',
-                                                )}
+                    <div className="md:hidden mb-4">
+                        <div className="flex justify-center space-x-1">
+                            <button
+                                onClick={() => setSelectedTab(0)}
+                                className={`px-4 py-2 rounded-l-lg ${selectedTab === 0 ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700'}`}
+                            >
+                                Biggest Jackpots
+                            </button>
+                            <button
+                                onClick={() => setSelectedTab(1)}
+                                className={`px-4 py-2 rounded-r-lg ${selectedTab === 1 ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-700'}`}
+                            >
+                                Top Tournaments
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch mb-10">
+                        <div className={`md:w-1/2 ${selectedTab === 0 ? '' : 'hidden'} md:block mr-0 md:mr-2`}>
+                            <div className="overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center">
+                                <h1 className="text-white uppercase">Biggest Jackpots</h1>
+                                {brands.length > 0 ? (
+                                    brands.slice(0, 1).map((rowData, index) => (
+                                        <div key={index} className="flex mt-4 px-6 lg:px-8 justify-center">
+                                            <Link
+                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                target="_blank"
                                             >
-                                                <span>{tab.name}</span>
-                                                <span
-                                                    aria-hidden="true"
-                                                    className={classNames(
-                                                        tab.current ? 'bg-indigo-500' : 'bg-transparent',
-                                                        'absolute inset-x-0 bottom-0 h-0.5',
-                                                    )}
-                                                />
-                                            </a>
-                                        ))}
-                                    </nav>
-                                </div>
-                            </div>
-                            <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch mb-10">
-                                <div className="md:w-1/2 mr-2">
-                                    <div
-                                        className="overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center"
-                                    >
-                                        <h1 className="text-white uppercase">Biggest Jackpots</h1>
-                                        {brands.length > 0 ? (
-                                            brands.slice(0, 1).map((rowData, index) => (
-
-                                                <div className="flex mt-4 px-6 lg:px-8 justify-center">
-                                                    <Link
-                                                        className=""
-                                                        href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                        target="_blank"
-                                                    >
-                                                        <button
-                                                            type="button"
-                                                            className="bordered-button rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                                        >
-                                                            {t("Play Now")}
-                                                        </button>
-                                                    </Link>
-                                                </div>
-                                            ))) : (
-
-                                            <div className="flex px-6 lg:px-8 justify-center text-white font-black">
-                                                <p> NO AVAILABLE BRANDS</p>
-                                            </div>
-                                        )
-                                        }
+                                                <button
+                                                    type="button"
+                                                    className="bordered-button rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                                >
+                                                    {t("Play Now")}
+                                                </button>
+                                            </Link>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <div className="flex px-6 lg:px-8 justify-center text-white font-black">
+                                        <p>NO AVAILABLE BRANDS</p>
                                     </div>
-
-                                    <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum.</p>
-                                </div>
-                                <div className="md:w-1/2 ml-2">
-                                    <div
-                                        className="overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center"
-                                    >
-                                        <h1 className="text-white uppercase">Top Tournaments</h1>
-                                        {brands2.length > 0 ? (
-                                            brands2.slice(0, 1).map((rowData, index) => (
-
-                                                <div className="flex mt-4 px-6 lg:px-8 justify-center">
-                                                    <Link
-                                                        className=""
-                                                        href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                        target="_blank"
-                                                    >
-                                                        <button
-                                                            type="button"
-                                                            className="bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                                        >
-                                                            {t("Play Now")}
-                                                        </button>
-                                                    </Link>
-                                                </div>
-                                            ))) : (
-
-                                            <div className="flex mt-4 px-6 lg:px-8 justify-center text-white font-black">
-                                                <p> NO AVAILABLE BRANDS</p>
-                                            </div>
-                                        )
-                                        }
-                                    </div>
-
-                                    <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum.</p>
-
-                                </div>
+                                )}
                             </div>
+                            <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum.</p>
                         </div>
 
-                    )}
+                        <div className={`md:w-1/2 ${selectedTab === 1 ? '' : 'hidden'} md:block ml-0 md:ml-2`}>
+                            <div className="overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between items-center">
+                                <h1 className="text-white uppercase">Top Tournaments</h1>
+                                {brands2.length > 0 ? (
+                                    brands2.slice(0, 1).map((rowData, index) => (
+                                        <div key={index} className="flex mt-4 px-6 lg:px-8 justify-center">
+                                            <Link
+                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                target="_blank"
+                                            >
+                                                <button
+                                                    type="button"
+                                                    className="bordered-button mt-10 rounded-md bg-teal-600 px-10 py-3 text-lg text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                                >
+                                                    {t("Play Now")}
+                                                </button>
+                                            </Link>
+                                        </div>
+                                    ))
+                                ) : (
+                                    <div className="flex mt-4 px-6 lg:px-8 justify-center text-white font-black">
+                                        <p>NO AVAILABLE BRANDS</p>
+                                    </div>
+                                )}
+                            </div>
+                            <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus numquam excepturi, quae veritatis quia maxime quod nostrum aliquid earum.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </>
     );
 }
