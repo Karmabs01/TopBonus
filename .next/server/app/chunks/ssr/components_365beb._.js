@@ -10022,10 +10022,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$core$2f$dist$2f$index$2e$mjs__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/swr/core/dist/index.mjs (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Loader.jsx (ecmascript, ssr)");
+(()=>{
+    const e = new Error("Cannot find module '../../app/flags_icons.css'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@headlessui/react/dist/headlessui.esm.js (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@heroicons/react/20/solid/esm/index.js (ecmascript, ssr)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
+;
 ;
 ;
 ;
@@ -12876,9 +12882,9 @@ const Footer_tailwind = ()=>{
                     columnNumber: 17
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5",
+                    className: "mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0",
                     children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                        className: "mt-8 text-lg leading-5 text-gray-300 md:order-1 md:mt-0",
+                        className: "mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center",
                         children: "Copyright \xa9 2024, topbon.us All rights reserved."
                     }, void 0, false, {
                         fileName: "<[project]/components/Footer_tailwind/index.jsx>",

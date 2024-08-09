@@ -45,17 +45,17 @@ export default function Brands_carousel_mobile() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2
+                    dots: false,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 420,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     dots: false,
-                }
-            }
+                },
+            },
         ]
     };
 

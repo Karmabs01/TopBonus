@@ -42,6 +42,14 @@ export default function Popular_offers() {
                     dots: false,
                 },
             },
+            {
+                breakpoint: 420,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false,
+                },
+            },
         ],
     };
 

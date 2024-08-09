@@ -4,7 +4,6 @@ import useSWR, { mutate } from "swr";
 import { useTranslation } from "react-i18next";
 import Loader from "@/components/Loader";
 
-
 import { useState } from 'react'
 import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'

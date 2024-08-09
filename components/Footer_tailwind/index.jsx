@@ -211,8 +211,8 @@ const Footer_tailwind = () => {
                         </fieldset>
                     </div>
                 </div>
-                <div className="mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5">
-                    <p className="mt-8 text-lg leading-5 text-gray-300 md:order-1 md:mt-0">
+                <div className="mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0">
+                    <p className="mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center">
                         Copyright &copy; 2024, topbon.us All rights reserved.
                     </p>
                 </div>

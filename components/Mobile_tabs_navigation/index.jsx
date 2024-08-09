@@ -8,22 +8,22 @@ const Mobile_tabs_navigation = () => {
         <div className="fixed bottom-0 left-0 w-full bg-indigo-600 border-t border-gray-200 md:hidden z-50 rounded-t-xl">
             <div className="relative flex justify-between text-center px-4 py-1">
                 <a href="/casinos" className="flex flex-col items-center justify-center py-2">
-                    <TicketIcon aria-hidden="true" className="h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out" />
+                    <TicketIcon aria-hidden="true" className="h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out" />
                     <span className="text-sm text-white text-semibold">Casino</span>
                 </a>
                 <a href="/shop" className="flex flex-col items-center justify-center py-2">
-                    <TicketIcon aria-hidden="true" className="h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out" />
+                    <TicketIcon aria-hidden="true" className="h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out" />
                     <span className="text-sm text-white text-semibold">Shop</span>
                 </a>
 
                 <div className="w-16"></div>
 
                 <a href="/fortune" className="flex flex-col items-center justify-center py-2">
-                    <TicketIcon aria-hidden="true" className="h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out" />
+                    <TicketIcon aria-hidden="true" className="h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out" />
                     <span className="text-sm text-white text-semibold">Wheel</span>
                 </a>
                 <a href="/personal" className="flex flex-col items-center justify-center py-2">
-                    <TicketIcon aria-hidden="true" className="h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out" />
+                    <TicketIcon aria-hidden="true" className="h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out" />
                     <span className="text-sm text-white text-semibold">Profile</span>
                 </a>
             </div>

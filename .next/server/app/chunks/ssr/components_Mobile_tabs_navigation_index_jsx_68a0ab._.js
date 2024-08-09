@@ -29,7 +29,7 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
                                 lineNumber: 11,
@@ -55,7 +55,7 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
                                 lineNumber: 15,
@@ -88,7 +88,7 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
                                 lineNumber: 22,
@@ -114,7 +114,7 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-6 w-6 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
                                 lineNumber: 26,
