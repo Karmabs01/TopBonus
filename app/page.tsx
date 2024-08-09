@@ -47,7 +47,6 @@ export default async function Home() {
       <Brand_carousel/>
       <Fortune_wheel/>
 
-
       {/* <div className="main__container mt-3">
         <UserBrands />
       </div>

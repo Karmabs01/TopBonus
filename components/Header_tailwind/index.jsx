@@ -52,7 +52,7 @@ const Header_tailwind = () => {
     // { name: 'Fortune wheel', href: '/fortune' },
     { name: 'Card Shop', href: '/shop' },
   ]
-  
+
   const getParamsFromUrl = () => {
     let params = new URLSearchParams(window.location.search);
     if (!params.has("keyword")) {
@@ -216,10 +216,6 @@ const Header_tailwind = () => {
     return () => clearInterval(interval);
   }, [showResponsiveDialog]);
 
-  const callsToAction = [
-    { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-    { name: 'Contact sales', href: '#', icon: PhoneIcon },
-  ]
   return (
     // <Disclosure as="nav" className="bg-indigo-600 shadow pt-10 xl:pt-1">
     //   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

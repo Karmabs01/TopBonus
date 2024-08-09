@@ -2,6 +2,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { TheHeader } from "@/components/TheHeader";
 import { Header_tailwind } from "@/components/Header_tailwind";
 import { Footer_tailwind } from "@/components/Footer_tailwind";
+import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
+
 
 import "./globals.css";
 import type { Metadata } from "next";
@@ -51,6 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <Marque />
           {/* <TheHeader /> */}
           <Header_tailwind/>
+          <Mobile_tabs_navigation/>
 
           <main>
             {children}
