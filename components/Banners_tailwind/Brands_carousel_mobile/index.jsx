@@ -41,7 +41,7 @@ export default function Brands_carousel_mobile() {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 640,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -51,8 +51,8 @@ export default function Brands_carousel_mobile() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     dots: false,
                 }
             }
@@ -145,34 +145,62 @@ export default function Brands_carousel_mobile() {
                         <Loader />
                     ) : (
                         <div >
-                            <div className="w-full brand_carousel rounded-md">
+                            <div className="w-full brand_carousel_mobile rounded-md">
                                 <Slider {...settings}>
                                     {brands.length > 0 &&
                                         brands.map((rowData, index) => (
-                                            <div
-                                                key={index}
-                                                className="overflow-hidden p-5 sm:py-10 rounded-xl flex flex-col justify-between"
-                                            >
-                                                <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
-                                                    <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
-                                                        <div>
-                                                            <Link
-                                                                className=""
-                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                                target="_blank"
-                                                            >
+                                            <div>
+                                                <div
+                                                    key={index}
+                                                    className="overflow-hidden p-5 sm:py-10 rounded-xl flex-col justify-between hidden sm:flex"
+                                                >
+                                                    <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
+                                                        <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
+                                                            <div>
+                                                                <Link
+                                                                    className=""
+                                                                    href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                    target="_blank"
+                                                                >
 
-                                                                <Image
-                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
-                                                                    alt={rowData.CasinoBrand}
-                                                                    width={300}
-                                                                    height={100}
-                                                                    loading="lazy"
-                                                                    className="target-top-new-releases"
-                                                                />
-                                                            </Link>
+                                                                    <Image
+                                                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                        alt={rowData.CasinoBrand}
+                                                                        width={300}
+                                                                        height={100}
+                                                                        loading="lazy"
+                                                                        className="target-top-new-releases"
+                                                                    />
+                                                                </Link>
 
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div key={index} className="overflow-hidden bg-gray-300 p-5 sm:py-10 rounded-xl flex-col justify-between flex sm:hidden">
+                                                    <div className="">
+                                                        <div className=" ">
+                                                            <Image
+                                                                src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                alt={rowData.CasinoBrand}
+                                                                width={100}
+                                                                height={100}
+                                                                loading="lazy"
+                                                                className="w-full object-contain object-center px-10"
+                                                            />
+                                                        </div>
+                                                        <div className=" mt-4 text-center">
+                                                            <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
+                                                            <p className="mt-1 text-sm text-gray-500 h-10">{rowData.OurOfferContent}</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="mt-6">
+                                                        <a
+                                                            href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                            className=" flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600"
+                                                        >
+                                                            Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>

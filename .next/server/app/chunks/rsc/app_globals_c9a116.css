@@ -10814,6 +10814,9 @@ main > .topbr {
   .sm\:flex {
     display: flex;
   }
+  .sm\:hidden {
+    display: none;
+  }
   .sm\:h-12 {
     height: 3rem;
   }

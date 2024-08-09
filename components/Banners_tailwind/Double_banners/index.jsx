@@ -147,7 +147,7 @@ export default function Double_banners() {
 
     return (
         <>
-            <div className="double_banners pt-5 mb-10 mt-10">
+            <div className="double_banners mb-10 pt-5">
                 <div className="main__container">
                     <div className="md:hidden mb-4">
                         <div className="flex justify-center space-x-1">

@@ -309,6 +309,15 @@ const chunks = [
       "_next/static/chunks/components_slider_Card_module_c9a116.css"
     ]
   },
+  {
+    "path": "_next/static/chunks/components_Banners_tailwind_Three_part_gallery_Popular_offers_styled_component.css",
+    "included": [
+      "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/styled.component.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/d1aee_Banners_tailwind_Three_part_gallery_Popular_offers_styled_component_c9a116.css"
+    ]
+  },
   "_next/static/chunks/components_Banners_tailwind_Three_part_gallery_Popular_offers_index_jsx_5771e1._.js"
 ];
 

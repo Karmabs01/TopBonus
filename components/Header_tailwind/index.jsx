@@ -27,32 +27,9 @@ import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { track } from '@vercel/analytics';
 
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import {Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, TicketIcon, XMarkIcon, WalletIcon, CurrencyDollarIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
-
-import {
-  Dialog,
-  DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel,
-} from '@headlessui/react'
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-  BellIcon,
-} from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-
 
 const Header_tailwind = () => {
   const { t } = useTranslation();
@@ -69,10 +46,13 @@ const Header_tailwind = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [user, setUser] = useState(null);
 
-  // const urlParams = new URLSearchParams(
-  //   typeof window !== "undefined" ? window.location.search : ""
-  // );
-
+  const userNavigation = [
+    { name: 'My Profile', href: '/personal' },
+    { name: 'My Wallet', href: '/personal' },
+    // { name: 'Fortune wheel', href: '/fortune' },
+    { name: 'Card Shop', href: '/shop' },
+  ]
+  
   const getParamsFromUrl = () => {
     let params = new URLSearchParams(window.location.search);
     if (!params.has("keyword")) {
@@ -99,13 +79,6 @@ const Header_tailwind = () => {
   const userData = keywordValue !== null ? keywordValue : idUserParam;
   const [dataUser, setDataUser] = useState();
   const [d, setD] = useState(null);
-
-  const userNavigation = [
-    { name: 'My Profile', href: '/personal' },
-    { name: 'My Wallet', href: '/personal' },
-    // { name: 'Fortune wheel', href: '/fortune' },
-    { name: 'Card Shop', href: '/shop' },
-  ]
 
   useEffect(() => {
     if (ad_campaign !== null) {

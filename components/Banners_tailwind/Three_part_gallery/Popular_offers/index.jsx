@@ -12,7 +12,7 @@ import { getBrands } from "../../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 
-// import "./styled.component.css"
+import "./styled.component.css"
 
 export default function Popular_offers() {
     const [newUrl, setNewUrl] = useState("");
@@ -27,16 +27,19 @@ export default function Popular_offers() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
+        autoplaySpeed: 2000,
         arrows: false,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        cssEase: "linear",
         responsive: [
             {
-                breakpoint: 640, // mobile breakpoint
+                breakpoint: 640,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    dots: false,
                 },
             },
         ],
@@ -134,18 +137,18 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="pt-5 mb-10">
+            <div className="pt-5 mb-10 popular-offers">
                 <div className="main__container">
                     {loading ? (
                         <Loader />
                     ) : (
                         cards2 && (
-                            <div className="">
+                            <div className="w-full">
                                 <h2 className="text-xl font-bold text-gray-900 text-center">Popular offers</h2>
                                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                                     <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
                                         {brands.slice(0, 6).map((rowData, index) => (
-                                            <div key={index}>
+                                            <div key={index} className="">
                                                 <div className="relative">
                                                     <div className="relative h-32 overflow-hidden bg-gray-300 rounded-lg flex align-center justify-center">
                                                         <Image
@@ -182,13 +185,13 @@ export default function Popular_offers() {
                                     </div>
                                 </div>
 
-                                <div className="mx-auto max-w-2xl lg:max-w-7xl lg:px-8 md:hidden">
+                                <div className="md:hidden w-full">
                                     <div className="mt-8">
                                         <Slider {...settings}>
-                                            {brands.slice(0, 6).map((rowData, index) => (
-                                                <div key={index} className="p-2">
-                                                    <div className="relative">
-                                                        <div className="relative overflow-hidden bg-gray-300 rounded-lg flex items-center justify-center">
+                                            {brands.map((rowData, index) => (
+                                                <div key={index} className="overflow-hidden bg-gray-300 p-5 sm:py-10 rounded-xl flex flex-col justify-between">
+                                                    <div className="">
+                                                        <div className=" ">
                                                             <Image
                                                                 src={`/brands/${rowData.CasinoBrand}.png`}
                                                                 alt={rowData.CasinoBrand}
@@ -198,7 +201,7 @@ export default function Popular_offers() {
                                                                 className="w-full object-contain object-center"
                                                             />
                                                         </div>
-                                                        <div className="relative mt-4 text-center">
+                                                        <div className="mt-4 text-center">
                                                             <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
                                                             <p className="mt-1 text-sm text-gray-500 h-10">{rowData.OurOfferContent}</p>
                                                         </div>
@@ -206,7 +209,7 @@ export default function Popular_offers() {
                                                     <div className="mt-6">
                                                         <a
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                            className="relative flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600"
+                                                            className=" flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600"
                                                         >
                                                             Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
                                                         </a>
