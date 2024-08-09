@@ -2725,12 +2725,21 @@ function Popular_offers() {
     const { language } = __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__["useLanguage"]();
     const { t } = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$28$ecmascript$29$__["useTranslation"]();
     const settings = {
+        dots: true,
         infinite: true,
         speed: 500,
-        dots: true,
+        arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$28$ecmascript$29$__["useEffect"](()=>{
         const currentUrl = window.location.href;
@@ -2804,7 +2813,7 @@ function Popular_offers() {
                 bonus: brand.OurOfferContent
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                lineNumber: 104,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         }));
@@ -2828,23 +2837,23 @@ function Popular_offers() {
                 className: "main__container",
                 children: loading ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                    lineNumber: 131,
+                    lineNumber: 140,
                     columnNumber: 25
                 }, this) : cards2 && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                     className: "",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8",
-                        children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
-                                className: "text-xl font-bold text-gray-900 text-center",
-                                children: "Popular offers"
-                            }, void 0, false, {
-                                fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                lineNumber: 136,
-                                columnNumber: 37
-                            }, this),
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "mt-8 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8",
+                    children: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
+                            className: "text-xl font-bold text-gray-900 text-center",
+                            children: "Popular offers"
+                        }, void 0, false, {
+                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                            lineNumber: 144,
+                            columnNumber: 33
+                        }, this),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline",
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: "grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8",
                                 children: brands.slice(0, 6).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                                         children: [
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -2861,12 +2870,12 @@ function Popular_offers() {
                                                             className: " w-full object-contain object-center"
                                                         }, void 0, false, {
                                                             fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                            lineNumber: 143,
+                                                            lineNumber: 151,
                                                             columnNumber: 57
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                        lineNumber: 142,
+                                                        lineNumber: 150,
                                                         columnNumber: 53
                                                     }, this),
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -2877,7 +2886,7 @@ function Popular_offers() {
                                                                 children: rowData.CasinoBrand
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                                lineNumber: 153,
+                                                                lineNumber: 161,
                                                                 columnNumber: 57
                                                             }, this),
                                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -2885,26 +2894,26 @@ function Popular_offers() {
                                                                 children: rowData.OurOfferContent
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                                lineNumber: 154,
+                                                                lineNumber: 162,
                                                                 columnNumber: 57
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                        lineNumber: 152,
+                                                        lineNumber: 160,
                                                         columnNumber: 53
                                                     }, this),
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                                                         className: "absolute inset-x-0 top-0 flex h-32 items-end justify-end overflow-hidden rounded-lg p-4"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                        lineNumber: 156,
+                                                        lineNumber: 164,
                                                         columnNumber: 53
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                lineNumber: 141,
+                                                lineNumber: 149,
                                                 columnNumber: 49
                                             }, this),
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -2922,50 +2931,162 @@ function Popular_offers() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                            lineNumber: 168,
+                                                            lineNumber: 176,
                                                             columnNumber: 65
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                    lineNumber: 164,
+                                                    lineNumber: 172,
                                                     columnNumber: 53
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                                lineNumber: 163,
+                                                lineNumber: 171,
                                                 columnNumber: 49
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                        lineNumber: 140,
+                                        lineNumber: 148,
                                         columnNumber: 45
                                     }, this))
                             }, void 0, false, {
                                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                                lineNumber: 138,
+                                lineNumber: 146,
                                 columnNumber: 37
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                        lineNumber: 135,
-                        columnNumber: 33
-                    }, this)
-                }, void 0, false, {
+                        }, void 0, false, {
+                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                            lineNumber: 145,
+                            columnNumber: 33
+                        }, this),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "mx-auto max-w-2xl lg:max-w-7xl lg:px-8 md:hidden",
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: "mt-8",
+                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$28$ecmascript$29$__["default"], {
+                                    ...settings,
+                                    children: brands.slice(0, 6).map((rowData, index)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                            className: "p-2",
+                                            children: [
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                    className: "relative",
+                                                    children: [
+                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                            className: "relative overflow-hidden bg-gray-300 rounded-lg flex items-center justify-center",
+                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
+                                                                src: `/brands/${rowData.CasinoBrand}.png`,
+                                                                alt: rowData.CasinoBrand,
+                                                                width: 100,
+                                                                height: 100,
+                                                                loading: "lazy",
+                                                                className: "w-full object-contain object-center"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                                lineNumber: 192,
+                                                                columnNumber: 61
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                            lineNumber: 191,
+                                                            columnNumber: 57
+                                                        }, this),
+                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                            className: "relative mt-4 text-center",
+                                                            children: [
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h3", {
+                                                                    className: "text-lg font-semibold text-gray-900",
+                                                                    children: rowData.CasinoBrand
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                                    lineNumber: 202,
+                                                                    columnNumber: 61
+                                                                }, this),
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                                                    className: "mt-1 text-sm text-gray-500 h-10",
+                                                                    children: rowData.OurOfferContent
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                                    lineNumber: 203,
+                                                                    columnNumber: 61
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                            lineNumber: 201,
+                                                            columnNumber: 57
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                    lineNumber: 190,
+                                                    columnNumber: 53
+                                                }, this),
+                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                    className: "mt-6",
+                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("a", {
+                                                        href: `${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`,
+                                                        className: "relative flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600",
+                                                        children: [
+                                                            "Play Now",
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                className: "sr-only",
+                                                                children: [
+                                                                    ", ",
+                                                                    rowData.CasinoBrand
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                                lineNumber: 211,
+                                                                columnNumber: 69
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                        lineNumber: 207,
+                                                        columnNumber: 57
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                                    lineNumber: 206,
+                                                    columnNumber: 53
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                            lineNumber: 189,
+                                            columnNumber: 49
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                    lineNumber: 187,
+                                    columnNumber: 41
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                                lineNumber: 186,
+                                columnNumber: 37
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
+                            lineNumber: 185,
+                            columnNumber: 33
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                    lineNumber: 134,
+                    lineNumber: 143,
                     columnNumber: 29
                 }, this)
             }, void 0, false, {
                 fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-                lineNumber: 129,
+                lineNumber: 138,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "<[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx>",
-            lineNumber: 128,
+            lineNumber: 137,
             columnNumber: 13
         }, this)
     }, void 0, false);
@@ -13225,11 +13346,11 @@ const Header_tailwind = ()=>{
                 className: "mx-auto max-w-7xl flex items-center sm:justify-between px-2 sm:px-6 lg:px-8",
                 children: [
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "flex md:hidden",
+                        className: "flex lg:hidden",
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
                             type: "button",
                             onClick: ()=>setMobileMenuOpen(true),
-                            className: "-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-gray-700",
+                            className: "-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-white",
                             children: [
                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                     className: "sr-only",
@@ -13259,7 +13380,7 @@ const Header_tailwind = ()=>{
                         columnNumber: 9
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "flex flex-shrink-0 items-center h-20 ml-10 md:ml-0 justify-center",
+                        className: "flex flex-shrink-0 items-center h-20 ml-2 md:ml-10 lg:ml-0 justify-center",
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
                             href: "/",
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
@@ -13585,7 +13706,7 @@ const Header_tailwind = ()=>{
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
                                         type: "button",
                                         onClick: ()=>setMobileMenuOpen(false),
-                                        className: "-m-2.5 rounded-md p-2.5 text-gray-700",
+                                        className: "-m-2.5 rounded-md p-2.5 text-white",
                                         children: [
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                                 className: "sr-only",

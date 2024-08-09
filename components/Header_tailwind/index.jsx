@@ -393,17 +393,17 @@ const Header_tailwind = () => {
     // </Disclosure>
     <header className="bg-indigo-600 shadow pt-10 xl:pt-1">
       <nav aria-label="Global" className="mx-auto max-w-7xl flex items-center sm:justify-between px-2 sm:px-6 lg:px-8">
-        <div className="flex md:hidden">
+        <div className="flex lg:hidden">
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-white"
           >
             <span className="sr-only">Burger btn</span>
             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
           </button>
         </div>
-        <div className="flex flex-shrink-0 items-center h-20 ml-10 md:ml-0 justify-center">
+        <div className="flex flex-shrink-0 items-center h-20 ml-2 md:ml-10 lg:ml-0 justify-center">
           <Link href="/">
             <Image src={Img} alt="logo" width={150} loading="lazy" />
           </Link>
@@ -522,7 +522,7 @@ const Header_tailwind = () => {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-white"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="h-6 w-6" />
