@@ -184,14 +184,13 @@ export default function MultipleSelectPlaceholder() {
   const renderValue = (selected) => {
     if (selected.length === 0) {
       const languageFlag =
-        newFlag.find((f) => f.code === language)?.code ||
-        newFlag.find((f) => f.code === 'all').code;
+        newFlag.find((f) => f.code === language)?.flag ||
+        newFlag.find((f) => f.code === 'all').flag;
       return (
         <div className="flex items-center">
           {/* <em className="flagflag ">{languageFlag}</em> */}
-          <span className={`flag-icon flag-icon-${languageFlag}`} />
-
-          <em className="flagflag2 ">{lng ? lng.toUpperCase() : ''}</em>
+          <span className={`flag-icon flag-icon-${lng ? lng : ''}`} />
+          <em className="flagflag2 ">{languageFlag}</em>
         </div>
       );
     }
@@ -263,6 +262,18 @@ export default function MultipleSelectPlaceholder() {
                 }`}
             >
               <div className="">
+              <MenuItem>
+                  {({ active }) => (
+                    <div
+                      className={`block text-sm text-gray-700`}
+                    >
+                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
+                        {/* {t("Website language")} */}
+                      </Label>
+                      <LanguageSwitcher />
+                    </div>
+                  )}
+                </MenuItem>
                 <MenuItem>
                   {({ active }) => (
                     <div
@@ -275,18 +286,7 @@ export default function MultipleSelectPlaceholder() {
                     </div>
                   )}
                 </MenuItem>
-                <MenuItem>
-                  {({ active }) => (
-                    <div
-                      className={`block text-sm text-gray-700`}
-                    >
-                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-                        {/* {t("Website language")} */}
-                      </Label>
-                      <LanguageSwitcher />
-                    </div>
-                  )}
-                </MenuItem>
+               
               </div>
             </MenuItems>
           </>
