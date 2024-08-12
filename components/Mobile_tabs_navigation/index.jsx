@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Mobile_tabs_navigation = () => {
     return (
-        <div className="fixed bottom-0 left-0 w-full bg-indigo-600 border-t border-gray-200 md:hidden z-50 rounded-t-xl">
-            <div className="relative flex justify-between text-center px-4 py-1">
+        <div className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 md:hidden z-30 rounded-t-xl pt-1">
+            <div className="relative flex justify-between text-center px-4 py-1 bg-indigo-600 rounded-t-xl">
                 <a href="/casinos" className="flex flex-col items-center justify-center py-2">
                     <TicketIcon aria-hidden="true" className="h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out" />
                     <span className="text-sm text-white text-semibold">Casino</span>

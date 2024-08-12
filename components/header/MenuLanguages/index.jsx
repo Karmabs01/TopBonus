@@ -259,17 +259,17 @@ export default function MultipleSelectPlaceholder() {
               </MenuButton>
             </div>
             <MenuItems
-              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-indigo-600 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
                 }`}
             >
-              <div className="py-1">
+              <div className="">
                 <MenuItem>
                   {({ active }) => (
                     <div
-                      className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
+                      className={`block text-sm text-gray-700 `}
                     >
                       <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-                        {t('Your country of residence')}
+                        {/* {t('Your country of residence')} */}
                       </Label>
                       <BrandsSwitcher />
                     </div>
@@ -278,10 +278,10 @@ export default function MultipleSelectPlaceholder() {
                 <MenuItem>
                   {({ active }) => (
                     <div
-                      className={`block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`}
+                      className={`block text-sm text-gray-700`}
                     >
                       <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-                        {t("Website language")}
+                        {/* {t("Website language")} */}
                       </Label>
                       <LanguageSwitcher />
                     </div>

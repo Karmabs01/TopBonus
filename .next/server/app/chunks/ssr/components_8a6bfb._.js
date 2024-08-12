@@ -9579,17 +9579,16 @@ function MultipleSelectPlaceholder() {
                             columnNumber: 13
                         }, this),
                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItems"], {
-                            className: `absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`,
+                            className: `absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-indigo-600 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`,
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "py-1",
+                                className: "",
                                 children: [
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
                                         children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                className: `block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`,
+                                                className: `block text-sm text-gray-700 `,
                                                 children: [
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Label"], {
-                                                        className: "block text-sm font-medium leading-6 text-gray-900 w-full",
-                                                        children: t('Your country of residence')
+                                                        className: "block text-sm font-medium leading-6 text-gray-900 w-full"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                                                         lineNumber: 271,
@@ -9613,11 +9612,10 @@ function MultipleSelectPlaceholder() {
                                     }, this),
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
                                         children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                className: `block px-4 py-2 text-sm text-gray-700 ${active ? 'bg-gray-100' : ''}`,
+                                                className: `block text-sm text-gray-700`,
                                                 children: [
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Label"], {
-                                                        className: "block text-sm font-medium leading-6 text-gray-900 w-full",
-                                                        children: t("Website language")
+                                                        className: "block text-sm font-medium leading-6 text-gray-900 w-full"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                                                         lineNumber: 283,
@@ -10262,7 +10260,7 @@ const BrandsSwitcher = ()=>{
     ]);
     const selectedLanguage = newLng.find((lang)=>lang.code === lng);
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-        className: "ml-3 flex flex-col",
+        className: "flex flex-col m-2",
         children: [
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Listbox"], {
                 value: lng,
@@ -10274,13 +10272,13 @@ const BrandsSwitcher = ()=>{
                 },
                 children: ({ open })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
                         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                            className: "relative mt-2",
+                            className: "relative",
                             children: [
                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxButton"], {
-                                    className: "relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                    className: "relative w-full cursor-default rounded-md bg-indigo-600 py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm sm:leading-6  hover:bg-indigo-500",
                                     children: [
                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                            className: "block truncate flex items-center",
+                                            className: "block truncate flex items-center text-white",
                                             children: [
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
@@ -10289,7 +10287,7 @@ const BrandsSwitcher = ()=>{
                                                     lineNumber: 226,
                                                     columnNumber: 23
                                                 }, this),
-                                                selectedLanguage?.label
+                                                "Country"
                                             ]
                                         }, void 0, true, {
                                             fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
@@ -10303,12 +10301,12 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                                lineNumber: 230,
+                                                lineNumber: 231,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                            lineNumber: 229,
+                                            lineNumber: 230,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -10318,20 +10316,20 @@ const BrandsSwitcher = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOptions"], {
-                                    className: "absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ",
+                                    className: "absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-indigo-600 py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ",
                                     children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOption"], {
                                             value: language.code,
-                                            className: ({ active, selected })=>`relative cursor-default select-none py-2 pl-3 pr-9 ${active ? 'bg-indigo-600 text-white' : 'text-gray-900'}`,
+                                            className: ()=>`relative cursor-pointer select-none py-2 pl-3 pr-9 bg-indigo-600 text-gray-200 hover:bg-indigo-500`,
                                             children: ({ selected })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                            className: `block truncate flex items-center ${selected ? 'font-semibold' : 'font-normal'}`,
+                                                            className: `block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`,
                                                             children: [
                                                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                                                    lineNumber: 251,
+                                                                    lineNumber: 250,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -10339,34 +10337,34 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                                            lineNumber: 249,
+                                                            lineNumber: 248,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                            className: "absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600",
+                                                            className: "absolute inset-y-0 right-0 flex items-center pr-4 text-white",
                                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["CheckIcon"], {
                                                                 "aria-hidden": "true",
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                                                lineNumber: 255,
+                                                                lineNumber: 254,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                                            lineNumber: 254,
+                                                            lineNumber: 253,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                            lineNumber: 238,
+                                            lineNumber: 239,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                                    lineNumber: 234,
+                                    lineNumber: 235,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -10383,7 +10381,7 @@ const BrandsSwitcher = ()=>{
             }, this),
             isLoading && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "<[project]/components/switcher/BrandsSwitcher.jsx>",
-                lineNumber: 267,
+                lineNumber: 266,
                 columnNumber: 19
             }, this)
         ]
@@ -10751,7 +10749,7 @@ const LanguageSwitcher = ()=>{
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
             children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: "ml-3 flex flex-col",
+                className: "flex flex-col m-2",
                 children: [
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Listbox"], {
                         value: selectedLanguage,
@@ -10765,13 +10763,13 @@ const LanguageSwitcher = ()=>{
                         },
                         children: ({ open })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                    className: "relative mt-2",
+                                    className: "relative",
                                     children: [
                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxButton"], {
-                                            className: "relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6",
+                                            className: "relative w-full cursor-default rounded-md bg-indigo-600 py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm hover:bg-indigo-500 sm:leading-6",
                                             children: [
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                    className: "block truncate flex items-center",
+                                                    className: "block truncate flex items-center text-white",
                                                     children: [
                                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
@@ -10780,7 +10778,7 @@ const LanguageSwitcher = ()=>{
                                                             lineNumber: 182,
                                                             columnNumber: 23
                                                         }, this),
-                                                        newLng.find((lang)=>lang.code === selectedLanguage)?.label
+                                                        "Language"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
@@ -10794,12 +10792,12 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                                                        lineNumber: 186,
+                                                        lineNumber: 187,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                                                    lineNumber: 185,
+                                                    lineNumber: 186,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
@@ -10809,14 +10807,14 @@ const LanguageSwitcher = ()=>{
                                             columnNumber: 19
                                         }, this),
                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOptions"], {
-                                            className: "absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm",
+                                            className: "absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-indigo-600 py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm",
                                             children: newLng.map((language)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["ListboxOption"], {
                                                     value: language.code,
-                                                    className: ({ active, selected })=>`relative cursor-default select-none py-2 pl-3 pr-9 ${active ? 'bg-indigo-600 text-white' : 'text-gray-900'}`,
+                                                    className: ()=>`relative cursor-pointer select-none py-2 pl-3 pr-9 bg-indigo-600 text-gray-200  hover:bg-indigo-500`,
                                                     children: ({ selected })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
                                                             children: [
                                                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                                    className: `block truncate flex items-center ${selected ? 'font-semibold' : 'font-normal'}`,
+                                                                    className: `block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`,
                                                                     children: [
                                                                         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
@@ -10834,7 +10832,7 @@ const LanguageSwitcher = ()=>{
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                                    className: "absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600",
+                                                                    className: "absolute inset-y-0 right-0 flex items-center pr-4 text-white",
                                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["CheckIcon"], {
                                                                         "aria-hidden": "true",
                                                                         className: "h-5 w-5"
@@ -10852,12 +10850,12 @@ const LanguageSwitcher = ()=>{
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                                                    lineNumber: 194,
+                                                    lineNumber: 195,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "<[project]/components/switcher/LanguageSwitcher.jsx>",
-                                            lineNumber: 190,
+                                            lineNumber: 191,
                                             columnNumber: 19
                                         }, this)
                                     ]
@@ -13794,379 +13792,366 @@ const Header_tailwind = ()=>{
                 open: mobileMenuOpen,
                 onClose: setMobileMenuOpen,
                 className: "lg:hidden",
-                children: [
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "fixed inset-0 z-10"
-                    }, void 0, false, {
-                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                        lineNumber: 485,
-                        columnNumber: 9
-                    }, this),
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DialogPanel"], {
-                        className: "fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10",
-                        children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "flex items-center justify-between",
-                                children: [
-                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                                        href: "/",
-                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
-                                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$logo3$2e$png__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                                            alt: "logo",
-                                            width: 150,
-                                            loading: "lazy"
-                                        }, void 0, false, {
-                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                            lineNumber: 489,
-                                            columnNumber: 15
-                                        }, this)
+                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DialogPanel"], {
+                    className: "fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10",
+                    children: [
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "flex items-center justify-between",
+                            children: [
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                    href: "/",
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
+                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$logo3$2e$png__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
+                                        alt: "logo",
+                                        width: 150,
+                                        loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                        lineNumber: 488,
-                                        columnNumber: 13
-                                    }, this),
-                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                                        type: "button",
-                                        onClick: ()=>setMobileMenuOpen(false),
-                                        className: "-m-2.5 rounded-md p-2.5 text-white",
-                                        children: [
-                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                className: "sr-only",
-                                                children: "Close menu"
-                                            }, void 0, false, {
-                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                lineNumber: 496,
-                                                columnNumber: 15
-                                            }, this),
-                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["XMarkIcon"], {
-                                                "aria-hidden": "true",
-                                                className: "h-6 w-6"
-                                            }, void 0, false, {
-                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                lineNumber: 497,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                        lineNumber: 491,
-                                        columnNumber: 13
+                                        lineNumber: 489,
+                                        columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                lineNumber: 487,
-                                columnNumber: 11
-                            }, this),
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "mt-6 flow-root",
-                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                    className: "-my-6 divide-y divide-gray-500/10",
+                                }, void 0, false, {
+                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                    lineNumber: 488,
+                                    columnNumber: 13
+                                }, this),
+                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                    type: "button",
+                                    onClick: ()=>setMobileMenuOpen(false),
+                                    className: "-m-2.5 rounded-md p-2.5 text-white",
                                     children: [
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                            className: "space-y-2 py-6",
-                                            children: items.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Disclosure"], {
-                                                    as: "div",
-                                                    className: "-mx-3",
-                                                    children: [
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
-                                                            className: "group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400",
-                                                            children: [
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                    className: "flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12",
-                                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
-                                                                        "aria-hidden": "true",
-                                                                        className: "h-6 w-6"
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 507,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 506,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                item.label,
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["ChevronDownIcon"], {
-                                                                    "aria-hidden": "true",
-                                                                    className: "ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 510,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 505,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosurePanel"], {
-                                                            className: "mt-2 space-y-2",
-                                                            children: item.subMenu.map((tab)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
-                                                                    as: "a",
-                                                                    href: tab.href,
-                                                                    className: "block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-indigo-400",
-                                                                    children: tab.label
-                                                                }, tab.label, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 515,
-                                                                    columnNumber: 25
-                                                                }, this))
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 513,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                    lineNumber: 504,
-                                                    columnNumber: 19
-                                                }, this))
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                            className: "sr-only",
+                                            children: "Close menu"
                                         }, void 0, false, {
                                             fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                            lineNumber: 502,
+                                            lineNumber: 496,
                                             columnNumber: 15
                                         }, this),
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                            className: "py-6 border-t border-gray-200 pb-3 pt-4",
-                                            children: [
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                    className: "flex items-center px-4 mb-5",
-                                                    children: [
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                            className: "flex-shrink-0 relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
-                                                            children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                className: "h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600",
-                                                                children: dataUser.login[0]
-                                                            }, void 0, false, {
-                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                lineNumber: 533,
-                                                                columnNumber: 23
-                                                            }, this) : ""
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 531,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                            className: "ml-3",
-                                                            children: [
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                    className: "text-base font-medium text-white",
-                                                                    children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                        className: "text-lg font-semibold text-gray-50",
-                                                                        children: dataUser.login
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 541,
-                                                                        columnNumber: 25
-                                                                    }, this) : "Username"
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 539,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                    className: "text-sm font-medium text-gray-50",
-                                                                    children: "Any description"
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 546,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 538,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                                                            type: "button",
-                                                            className: "relative ml-auto flex-shrink-0 rounded-full p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
-                                                            children: [
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                                    className: "absolute -inset-1.5"
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 552,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                                                                    className: "sr-only",
-                                                                    children: "View notifications"
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 553,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
-                                                                    href: `/fortune`,
-                                                                    className: "block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center",
-                                                                    children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Badge$2f$index$2e$js__$28$ecmascript$29$__["default"], {
-                                                                        badgeContent: `${dataUser.tickets}`,
-                                                                        color: "primary",
-                                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
-                                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
-                                                                                "aria-hidden": "true",
-                                                                                className: "h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
-                                                                            }, void 0, false, {
-                                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                                lineNumber: 561,
-                                                                                columnNumber: 29
-                                                                            }, this)
-                                                                        }, void 0, false)
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 559,
-                                                                        columnNumber: 25
-                                                                    }, this) : ""
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 554,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 548,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                    lineNumber: 530,
-                                                    columnNumber: 17
-                                                }, this),
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Disclosure"], {
-                                                    as: "div",
-                                                    className: "-mx-3",
-                                                    children: userNavigation.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
-                                                            as: "a",
-                                                            href: item.href,
-                                                            className: "group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400",
-                                                            children: [
-                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                    className: "flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12",
-                                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
-                                                                        "aria-hidden": "true",
-                                                                        className: "h-6 w-6"
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 579,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                }, void 0, false, {
-                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                    lineNumber: 578,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                item.name
-                                                            ]
-                                                        }, item.name, true, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 574,
-                                                            columnNumber: 21
-                                                        }, this))
-                                                }, void 0, false, {
-                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                    lineNumber: 571,
-                                                    columnNumber: 17
-                                                }, this),
-                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                    className: "gap-x-2.5 flex flex-row items-center justify-center",
-                                                    children: [
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                            className: "",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                className: "flex flex-col items-center justify-center gap-x-2.5 p-3 text-sm font-semibold rounded-md leading-6 text-white",
-                                                                children: [
-                                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 591,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                                                        className: "block text-sm font-medium leading-6 text-gray-900 text-center w-full text-white",
-                                                                        children: t('Country')
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 592,
-                                                                        columnNumber: 23
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                lineNumber: 588,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 587,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                            className: "",
-                                                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                                className: "flex flex-col items-center justify-center gap-x-2.5 p-3 text-sm font-semibold rounded-md leading-6 text-white",
-                                                                children: [
-                                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 601,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                                                        className: "block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white",
-                                                                        children: t('Language')
-                                                                    }, void 0, false, {
-                                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                        lineNumber: 602,
-                                                                        columnNumber: 23
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                                lineNumber: 598,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                            lineNumber: 597,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                                    lineNumber: 586,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["XMarkIcon"], {
+                                            "aria-hidden": "true",
+                                            className: "h-6 w-6"
+                                        }, void 0, false, {
                                             fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                            lineNumber: 529,
+                                            lineNumber: 497,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                    lineNumber: 501,
+                                    lineNumber: 491,
                                     columnNumber: 13
                                 }, this)
-                            }, void 0, false, {
+                            ]
+                        }, void 0, true, {
+                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                            lineNumber: 487,
+                            columnNumber: 11
+                        }, this),
+                        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                            className: "mt-6 flow-root",
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                className: "-my-6 divide-y divide-gray-500/10",
+                                children: [
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                        className: "space-y-2 py-6",
+                                        children: items.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Disclosure"], {
+                                                as: "div",
+                                                className: "-mx-3",
+                                                children: [
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
+                                                        className: "group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400",
+                                                        children: [
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                                className: "flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12",
+                                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
+                                                                    "aria-hidden": "true",
+                                                                    className: "h-6 w-6"
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 507,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 506,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            item.label,
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["ChevronDownIcon"], {
+                                                                "aria-hidden": "true",
+                                                                className: "ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 510,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 505,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosurePanel"], {
+                                                        className: "mt-2 space-y-2",
+                                                        children: item.subMenu.map((tab)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
+                                                                as: "a",
+                                                                href: tab.href,
+                                                                className: "block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-indigo-400",
+                                                                children: tab.label
+                                                            }, tab.label, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 515,
+                                                                columnNumber: 25
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 513,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                lineNumber: 504,
+                                                columnNumber: 19
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                        lineNumber: 502,
+                                        columnNumber: 15
+                                    }, this),
+                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                        className: "py-6 border-t border-gray-200 pb-3 pt-4",
+                                        children: [
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: "flex items-center px-4 mb-5",
+                                                children: [
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                        className: "flex-shrink-0 relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
+                                                        children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                            className: "h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600",
+                                                            children: dataUser.login[0]
+                                                        }, void 0, false, {
+                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                            lineNumber: 533,
+                                                            columnNumber: 23
+                                                        }, this) : ""
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 531,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                        className: "ml-3",
+                                                        children: [
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                                className: "text-base font-medium text-white",
+                                                                children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                                    className: "text-lg font-semibold text-gray-50",
+                                                                    children: dataUser.login
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 541,
+                                                                    columnNumber: 25
+                                                                }, this) : "Username"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 539,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                                className: "text-sm font-medium text-gray-50",
+                                                                children: "Any description"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 546,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 538,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                                        type: "button",
+                                                        className: "relative ml-auto flex-shrink-0 rounded-full p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2",
+                                                        children: [
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                className: "absolute -inset-1.5"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 552,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
+                                                                className: "sr-only",
+                                                                children: "View notifications"
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 553,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
+                                                                href: `/fortune`,
+                                                                className: "block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center",
+                                                                children: load ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Badge$2f$index$2e$js__$28$ecmascript$29$__["default"], {
+                                                                    badgeContent: `${dataUser.tickets}`,
+                                                                    color: "primary",
+                                                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["Fragment"], {
+                                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
+                                                                            "aria-hidden": "true",
+                                                                            className: "h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
+                                                                        }, void 0, false, {
+                                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                            lineNumber: 561,
+                                                                            columnNumber: 29
+                                                                        }, this)
+                                                                    }, void 0, false)
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 559,
+                                                                    columnNumber: 25
+                                                                }, this) : ""
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 554,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 548,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                lineNumber: 530,
+                                                columnNumber: 17
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Disclosure"], {
+                                                as: "div",
+                                                className: "-mx-3",
+                                                children: userNavigation.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["DisclosureButton"], {
+                                                        as: "a",
+                                                        href: item.href,
+                                                        className: "group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400",
+                                                        children: [
+                                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                                className: "flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12",
+                                                                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__["TicketIcon"], {
+                                                                    "aria-hidden": "true",
+                                                                    className: "h-6 w-6"
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 580,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                lineNumber: 579,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            item.name
+                                                        ]
+                                                    }, item.name, true, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 574,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                lineNumber: 571,
+                                                columnNumber: 17
+                                            }, this),
+                                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                className: "flex flex-row items-center justify-center",
+                                                children: [
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                        className: "w-full",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                            children: [
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 590,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                                                    className: "block text-sm font-medium leading-6 text-gray-900 text-center w-full text-white"
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 591,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                            lineNumber: 589,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 588,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                        className: "w-full",
+                                                        children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
+                                                            children: [
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 598,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                                                                    className: "block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white"
+                                                                }, void 0, false, {
+                                                                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                                    lineNumber: 599,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                            lineNumber: 597,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                        lineNumber: 596,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                                lineNumber: 587,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                                        lineNumber: 529,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                                lineNumber: 500,
-                                columnNumber: 11
+                                lineNumber: 501,
+                                columnNumber: 13
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "<[project]/components/Header_tailwind/index.jsx>",
-                        lineNumber: 486,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                        }, void 0, false, {
+                            fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                            lineNumber: 500,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "<[project]/components/Header_tailwind/index.jsx>",
+                    lineNumber: 486,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "<[project]/components/Header_tailwind/index.jsx>",
                 lineNumber: 484,
                 columnNumber: 7

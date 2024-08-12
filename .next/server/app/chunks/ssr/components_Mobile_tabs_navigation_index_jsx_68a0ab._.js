@@ -18,10 +18,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 const Mobile_tabs_navigation = ()=>{
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-        className: "fixed bottom-0 left-0 w-full bg-indigo-600 border-t border-gray-200 md:hidden z-50 rounded-t-xl",
+        className: "fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 md:hidden z-30 rounded-t-xl pt-1",
         children: [
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: "relative flex justify-between text-center px-4 py-1",
+                className: "relative flex justify-between text-center px-4 py-1 bg-indigo-600 rounded-t-xl",
                 children: [
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("a", {
                         href: "/casinos",

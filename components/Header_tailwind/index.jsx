@@ -27,7 +27,7 @@ import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { track } from '@vercel/analytics';
 
-import {Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, TicketIcon, XMarkIcon, WalletIcon, CurrencyDollarIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
@@ -482,8 +482,8 @@ const Header_tailwind = () => {
       </nav >
 
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        {/* <div className="fixed inset-0 z-10" /> */}
+        <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/">
               <Image src={Img} alt="logo" width={150} loading="lazy" />
@@ -571,7 +571,8 @@ const Header_tailwind = () => {
                 <Disclosure as="div" className="-mx-3">
                   {userNavigation.map((item) => (
 
-                    <DisclosureButton key={item.name}
+                    <DisclosureButton
+                      key={item.name}
                       as="a"
                       href={item.href}
                       className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400">
@@ -583,24 +584,20 @@ const Header_tailwind = () => {
                   ))}
                 </Disclosure>
 
-                <div className="gap-x-2.5 flex flex-row items-center justify-center">
-                  <div className="">
-                    <div
-                      className="flex flex-col items-center justify-center gap-x-2.5 p-3 text-sm font-semibold rounded-md leading-6 text-white"
-                    >
+                <div className="flex flex-row items-center justify-center">
+                  <div className="w-full">
+                    <div>
                       <BrandsSwitcher />
                       <p className="block text-sm font-medium leading-6 text-gray-900 text-center w-full text-white">
-                        {t('Country')}
+                        {/* {t('Country')} */}
                       </p>
                     </div>
                   </div>
-                  <div className="">
-                    <div
-                      className="flex flex-col items-center justify-center gap-x-2.5 p-3 text-sm font-semibold rounded-md leading-6 text-white"
-                    >
+                  <div className="w-full">
+                    <div>
                       <LanguageSwitcher />
                       <p className="block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white">
-                        {t('Language')}
+                        {/* {t('Language')} */}
                       </p>
                     </div>
                   </div>
