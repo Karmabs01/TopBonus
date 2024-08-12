@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from 'react'
 import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-
+import "../../app/flags.css"
 const BrandsSwitcher = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { language, setLanguage } = useLanguage(); // Используй состояние и функцию из контекста
@@ -221,7 +221,11 @@ const BrandsSwitcher = () => {
         <>
           <div className="relative mt-2">
             <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6">
-              <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span>
+              {/* <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span> */}
+              <span className="block truncate flex items-center">
+                      <span className={`mr-2 flag-icon flag-icon-${selectedLanguage?.code}`} />
+                      {selectedLanguage?.label}
+                    </span>
               <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
                 <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
               </span>
@@ -242,8 +246,9 @@ const BrandsSwitcher = () => {
                 >
                   {({ selected }) => (
                     <>
-                      <span className={`block truncate ${selected ? 'font-semibold' : 'font-normal'}`}>
-                        {language.flag} {language.label}
+                      <span className={`block truncate flex items-center ${selected ? 'font-semibold' : 'font-normal'}`}>
+                        {/* {language.flag} {language.label} */}
+                        <span className={`mr-2 flag-icon flag-icon-${language.code}`} /> {language.label} 
                       </span>
                       {selected ? (
                         <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600">

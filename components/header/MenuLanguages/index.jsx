@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 
 import { Menu, MenuButton, MenuItem, MenuItems, Label } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import "../../../app/flags.css"
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -183,11 +184,13 @@ export default function MultipleSelectPlaceholder() {
   const renderValue = (selected) => {
     if (selected.length === 0) {
       const languageFlag =
-        newFlag.find((f) => f.code === language)?.flag ||
-        newFlag.find((f) => f.code === 'all').flag;
+        newFlag.find((f) => f.code === language)?.code ||
+        newFlag.find((f) => f.code === 'all').code;
       return (
         <div className="flex items-center">
-          <em className="flagflag ">{languageFlag}</em>
+          {/* <em className="flagflag ">{languageFlag}</em> */}
+          <span className={`flag-icon flag-icon-${languageFlag}`} />
+
           <em className="flagflag2 ">{lng ? lng.toUpperCase() : ''}</em>
         </div>
       );

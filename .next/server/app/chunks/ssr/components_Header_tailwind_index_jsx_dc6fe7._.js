@@ -410,6 +410,15 @@ const chunks = [
       "_next/static/chunks/components_Header_tailwind_styled_component_c9a116.css"
     ]
   },
+  {
+    "path": "_next/static/chunks/app_flags.css",
+    "included": [
+      "[project]/app/flags.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/app_flags_c9a116.css"
+    ]
+  },
   "_next/static/chunks/components_Header_tailwind_index_jsx_5771e1._.js"
 ];
 

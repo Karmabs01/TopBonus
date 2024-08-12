@@ -827,6 +827,9 @@ select {
 .mt-auto {
   margin-top: auto;
 }
+.mr-10 {
+  margin-right: 2.5rem;
+}
 .block {
   display: block;
 }
@@ -890,6 +893,9 @@ select {
 .h-full {
   height: 100%;
 }
+.\!h-8 {
+  height: 2rem !important;
+}
 .max-h-60 {
   max-height: 15rem;
 }
@@ -934,6 +940,9 @@ select {
 }
 .w-screen {
   width: 100vw;
+}
+.\!w-8 {
+  width: 2rem !important;
 }
 .min-w-0 {
   min-width: 0px;
