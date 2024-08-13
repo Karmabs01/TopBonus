@@ -32,4 +32,4 @@ require("./[next]_entry_app_server-to-client-ssr_tsx_028a39._.js");
 require("./[next]_entry_app_server-to-client-ssr_tsx_b62b7d._.js");
 require("./[next]_entry_app_server-to-client-ssr_tsx_11c265._.js");
 require("./[next]_entry_app-renderer_tsx_015800._.js");
-require("./[next]_entry_app-renderer_tsx_fcec7b._.js");
+require("./[next]_entry_app-renderer_tsx_6c412b._.js");

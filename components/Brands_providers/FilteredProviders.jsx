@@ -6,6 +6,7 @@ import useNavigateBrands from "./Navigate";
 import AllProviders from "./AllProviders";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
+import "../../app/filteredComponents.css"
 
 const FilteredProviders = () => {
   const { t } = useTranslation();

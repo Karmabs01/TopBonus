@@ -5,6 +5,7 @@ import useNavigateBrands from "./Navigate";
 import AllBrands from "./AllBrands";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from 'classnames';
+import "../../app/filteredComponents.css"
 
 const FilteredHome = () => {
   const { t } = useTranslation();
@@ -26,8 +27,8 @@ const FilteredHome = () => {
 
   return (
     <div className="pt-10 pb-10">
-      {/*  Tailwind tab bar */}
       <div className="main__container">
+        {/*  Tailwind tab bar */}
         <h2 className="">
           {t("Catalog of all 2024 Online Casino Bonuses Offered")}
         </h2>

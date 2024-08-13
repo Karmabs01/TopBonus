@@ -23424,6 +23424,15 @@ const chunks = [
       "_next/static/chunks/node_modules_slick-carousel_slick_slick-theme_c9a116.css"
     ]
   },
+  {
+    "path": "_next/static/chunks/app_filteredComponents.css",
+    "included": [
+      "[project]/app/filteredComponents.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/app_filteredComponents_c9a116.css"
+    ]
+  },
   "_next/static/chunks/components_Brands_providers_FilteredProviders_jsx_5771e1._.js"
 ];
 
@@ -23943,15 +23952,6 @@ const chunks = [
     "included": [
       "[project]/public/logo3.png.mjs/(IMAGE)/[project]/public/logo3.png (static) (structured image object, ecmascript)",
       "[project]/public/whl2.png.mjs/(IMAGE)/[project]/public/whl2.png (static) (structured image object, ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/components_Header_tailwind_styled_component.css",
-    "included": [
-      "[project]/components/Header_tailwind/styled.component.css (css)"
-    ],
-    "moduleChunks": [
-      "_next/static/chunks/components_Header_tailwind_styled_component_c9a116.css"
     ]
   },
   {
@@ -24489,7 +24489,6 @@ __turbopack_esm__({
     chunks: () => chunks,
 });
 const chunks = [
-  "chunks/ssr/components_Header_tailwind_styled_component.css",
   "chunks/ssr/app_flags.css",
   "chunks/rsc/app_globals.css"
 ];
@@ -24562,7 +24561,8 @@ __turbopack_esm__({
 });
 const chunks = [
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
-  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css"
+  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
+  "chunks/ssr/app_filteredComponents.css"
 ];
 
 })()),

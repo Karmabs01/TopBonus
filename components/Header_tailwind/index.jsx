@@ -4,7 +4,6 @@ import useSWR from "swr";
 import { I18nextProvider } from "react-i18next";
 import i18n from "@/components/i18n";
 import { Navigation } from "./Navigation_tw";
-import "./styled.component.css"
 
 import Image from "next/image";
 import Img from "@/public/logo3.png";

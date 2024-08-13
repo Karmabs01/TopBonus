@@ -4,7 +4,6 @@
     float: left;
     content: "";
     padding: auto;
-    /* background: url(/country-list.png) no-repeat !important; */
     background: url(/countries-list-new.png) no-repeat !important;
   }
 

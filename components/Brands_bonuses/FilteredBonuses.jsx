@@ -6,6 +6,7 @@ import useNavigateBrands from "./Navigate";
 import AllBonuses from "./AllBonuses";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
+import "../../app/filteredComponents.css"
 
 const FilteredBonuses = () => {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ const FilteredBonuses = () => {
 
   return (
     <div className="main pt-10 pb-10 custom-bonuses">
-      <div className="main__container ">
+      <div className="main__container">
         {/* <div className="content flex flex-wrap">
           <div className="left flex flex-col justify-center basis-[60%]">
             <h2 className="">{t("Catalog of all 2024 Online Casino Bonuses Offered")}</h2>
