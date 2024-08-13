@@ -2976,8 +2976,8 @@ function Popular_offers() {
                                                         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
                                                             src: `/brands/${rowData.CasinoBrand}.png`,
                                                             alt: rowData.CasinoBrand,
-                                                            width: 100,
-                                                            height: 100,
+                                                            width: 200,
+                                                            height: 200,
                                                             loading: "lazy",
                                                             className: " w-full object-contain object-center"
                                                         }, void 0, false, {
@@ -9528,12 +9528,12 @@ function MultipleSelectPlaceholder() {
     }
     const renderValue = (selected)=>{
         if (selected.length === 0) {
-            const languageFlag = newFlag.find((f)=>f.code === language)?.flag || newFlag.find((f)=>f.code === 'all').flag;
+            const languageFlag = newFlag.find((f)=>f.code === language)?.code || newFlag.find((f)=>f.code === 'all').code;
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
                 className: "flex items-center",
                 children: [
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("span", {
-                        className: `flag-icon flag-icon-${lng ? lng : ''}`
+                        className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                         lineNumber: 192,
@@ -9541,7 +9541,7 @@ function MultipleSelectPlaceholder() {
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("em", {
                         className: "flagflag2 ",
-                        children: languageFlag
+                        children: lng ? lng.toUpperCase() : ''
                     }, void 0, false, {
                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                         lineNumber: 193,
@@ -9585,7 +9585,7 @@ function MultipleSelectPlaceholder() {
                                 children: [
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
                                         children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                className: `block text-sm text-gray-700`,
+                                                className: `block text-sm text-gray-700 `,
                                                 children: [
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Label"], {
                                                         className: "block text-sm font-medium leading-6 text-gray-900 w-full"
@@ -9594,7 +9594,7 @@ function MultipleSelectPlaceholder() {
                                                         lineNumber: 270,
                                                         columnNumber: 23
                                                     }, this),
-                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                                                         lineNumber: 273,
                                                         columnNumber: 23
@@ -9608,11 +9608,11 @@ function MultipleSelectPlaceholder() {
                                     }, void 0, false, {
                                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                                         lineNumber: 265,
-                                        columnNumber: 15
+                                        columnNumber: 17
                                     }, this),
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["MenuItem"], {
                                         children: ({ active })=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                                className: `block text-sm text-gray-700 `,
+                                                className: `block text-sm text-gray-700`,
                                                 children: [
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$headlessui$2e$esm$2e$js__$28$ecmascript$29$__["Label"], {
                                                         className: "block text-sm font-medium leading-6 text-gray-900 w-full"
@@ -9621,7 +9621,7 @@ function MultipleSelectPlaceholder() {
                                                         lineNumber: 282,
                                                         columnNumber: 23
                                                     }, this),
-                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "<[project]/components/header/MenuLanguages/index.jsx>",
                                                         lineNumber: 285,
                                                         columnNumber: 23

@@ -162,8 +162,8 @@ export default function Popular_offers() {
                                                         <Image
                                                             src={`/brands/${rowData.CasinoBrand}.png`}
                                                             alt={rowData.CasinoBrand}
-                                                            width={100}
-                                                            height={100}
+                                                            width={200}
+                                                            height={200}
                                                             loading="lazy"
                                                             className=" w-full object-contain object-center"
                                                         />
