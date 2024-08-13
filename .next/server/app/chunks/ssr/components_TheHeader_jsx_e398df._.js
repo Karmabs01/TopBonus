@@ -338,6 +338,15 @@ const chunks = [
       "[project]/components/TheHeader.jsx (ecmascript)"
     ]
   },
+  {
+    "path": "_next/static/chunks/app_flags.css",
+    "included": [
+      "[project]/app/flags.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/app_flags_c9a116.css"
+    ]
+  },
   "_next/static/chunks/components_TheHeader_jsx_5771e1._.js"
 ];
 

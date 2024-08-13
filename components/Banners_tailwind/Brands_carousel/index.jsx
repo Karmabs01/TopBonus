@@ -150,7 +150,7 @@ export default function Brands_carousel() {
                                     {brands.length > 0 &&
                                         brands.map((rowData, index) => (
                                             <div
-                                                key={index}
+                                                key={"Carousel" + index}
                                                 className="overflow-hidden p-5 sm:py-10 rounded-xl flex flex-col justify-between"
                                             >
                                                 <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">

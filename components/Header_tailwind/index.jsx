@@ -28,19 +28,11 @@ import { track } from '@vercel/analytics';
 
 import { Dialog, DialogPanel, Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, TicketIcon, XMarkIcon, WalletIcon, CurrencyDollarIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const Header_tailwind = () => {
   const { t } = useTranslation();
   const items = navItems(t);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
 
   const [isLoading, setIsLoading] = useState(true);
   const [user, setUser] = useState(null);
@@ -216,150 +208,16 @@ const Header_tailwind = () => {
   }, [showResponsiveDialog]);
 
   return (
-    // <Disclosure as="nav" className="bg-indigo-600 shadow pt-10 xl:pt-1">
-    //   <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    //     <div className="relative flex h-20 justify-between">
-    //       <div className="absolute inset-y-0 left-0 flex items-center xl:hidden">
-    //         {/* Mobile menu button */}
-    //         <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-    //           <span className="absolute -inset-0.5" />
-    //           <Bars3Icon aria-hidden="true" className="block h-6 w-6 group-data-[open]:hidden" />
-    //           <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
-    //         </DisclosureButton>
-    //       </div>
-    //       <div className="flex flex-1 items-center justify-start ml-10 sm:items-stretch sm:justify-start xl:ml-0 ">
-    //         <div className="flex flex-shrink-0 items-center">
-    //           <Link href="/">
-    //             <Image src={Img} alt="logo" width={150} loading="lazy" />
-    //           </Link>
-    //         </div>
-    //         <div className="hidden sm:ml-6 xl:flex sm:space-x-8 flex items-center justify-center">
-    //           <Navigation
-    //             navLinks={items.map((item) => ({
-    //               ...item,
-    //               label: item.label,
-    //             }))}
-    //           />
-    //         </div>
-
-    //       </div>
-    //       <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-    //         <button
-    //           type="button"
-    //           className="hidden md:flex relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
-    //         >
-    //           {load ? (
-    //             <Link href={`/personal`} className=" flex justify-center items-center text-xl">
-    //               <>
-    //                 <CurrencyDollarIcon aria-hidden="true" className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2" />
-    //                 {`${dataUser.balance}$`}
-    //               </>
-    //             </Link>
-    //           ) : (
-    //             ""
-    //           )}
-    //         </button>
-    //         <Link href={`/fortune`} className="hidden md:flex">
-    //           <button
-    //             type="button"
-    //             className="relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
-    //           >
-    //             <span className="absolute -inset-1.5" />
-    //             {load ? (
-    //               <Badge badgeContent={`${dataUser.tickets}`} color="primary">
-    //                 <>
-    //                   <TicketIcon aria-hidden="true" className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400" />
-    //                 </>
-    //               </Badge>
-    //             ) : (
-    //               ""
-    //             )}
-    //           </button>
-    //         </Link>
-
-
-    //         <I18nextProvider i18n={i18n}>
-    //           <MenuLanguages />
-    //         </I18nextProvider>
-
-
-    //         <Menu as="div" className="relative ml-3">
-    //           <div>
-    //             <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-    //               <span className="absolute -inset-1.5" />
-    //               {load ? (
-    //                 <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">{dataUser.login[0]}</div>
-    //               ) : (
-    //                 ""
-    //               )}
-    //             </MenuButton>
-    //           </div>
-    //           <MenuItems
-    //             transition
-    //             className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
-    //           >
-    //             <MenuItem>
-    //               <Link
-    //                 href={`/personal`}
-    //                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-    //               >
-    //                 <WalletIcon aria-hidden="true" className="h-6 w-6 text-black transition-colors duration-300 ease-in-out mr-2" />
-
-    //                 {t("My wallet")}
-    //               </Link>
-    //             </MenuItem>
-    //             <MenuItem>
-    //               <Link
-    //                 href={`fortune`}
-    //                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-    //               >
-    //                 <TicketIcon aria-hidden="true" className="h-6 w-6 text-black transition-colors duration-300 ease-in-out mr-2" />
-    //                 {load ? (
-    //                   <div className="">
-    //                     {t("Fortune wheel")} <span>{user.tickets}</span>
-    //                   </div>
-
-    //                 ) : (
-    //                   <div className="">
-    //                     {t("Fortune wheel")}
-    //                   </div>
-    //                 )}
-    //               </Link>
-    //             </MenuItem>
-    //             <MenuItem>
-    //               <Link
-    //                 href={`/shop`}
-    //                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center "
-    //               >
-    //                 <ShoppingBagIcon aria-hidden="true" className="h-6 w-6 text-black transition-colors duration-300 ease-in-out mr-2" />
-
-    //                 {t("Cards shop")}
-    //               </Link>
-    //             </MenuItem>
-    //           </MenuItems>
-    //         </Menu>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    //   <DisclosurePanel className="xl:hidden">
-    //     <div className="space-y-1 pb-4 pt-2">
-    //       <DisclosureButton
-    //         as="a"
-    //         href="#"
-    //         className="block border-l-4 border-indigo-500 bg-indigo-600 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
-    //       >
-    //         <Navigation
-    //           navLinks={items.map((item) => ({
-    //             ...item,
-    //             label: item.label,
-    //           }))}
-    //         />
-    //       </DisclosureButton>
-    //     </div>
-    //   </DisclosurePanel>
-    // </Disclosure>
     <header className="bg-indigo-600 shadow pt-10 xl:pt-1">
+       {load ? (
+        dataUser.geo_approve === null || dataUser.geo_approve === "" ? (
+          <ResponsiveDialog />
+        ) : (
+          <div></div>
+        )
+      ) : (
+        ""
+      )}
       <nav aria-label="Global" className="mx-auto max-w-7xl flex items-center sm:justify-between px-2 sm:px-6 lg:px-8">
         <div className="flex lg:hidden">
           <button
@@ -481,7 +339,6 @@ const Header_tailwind = () => {
       </nav >
 
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
-        {/* <div className="fixed inset-0 z-10" /> */}
         <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <Link href="/">
@@ -500,7 +357,7 @@ const Header_tailwind = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 {items.map((item) => (
-                  <Disclosure as="div" className="-mx-3">
+                  <Disclosure as="div" className="-mx-3"  key={item.label}>
                     <DisclosureButton className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400">
                       <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                         <TicketIcon aria-hidden="true" className="h-6 w-6" />
@@ -588,7 +445,6 @@ const Header_tailwind = () => {
                     <div>
                       <BrandsSwitcher />
                       <p className="block text-sm font-medium leading-6 text-gray-900 text-center w-full text-white">
-                        {/* {t('Country')} */}
                       </p>
                     </div>
                   </div>
@@ -596,7 +452,6 @@ const Header_tailwind = () => {
                     <div>
                       <LanguageSwitcher />
                       <p className="block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white">
-                        {/* {t('Language')} */}
                       </p>
                     </div>
                   </div>

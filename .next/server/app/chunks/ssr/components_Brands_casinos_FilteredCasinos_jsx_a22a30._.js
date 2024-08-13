@@ -965,8 +965,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$Navigate$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_casinos/Navigate.jsx (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$AllCasinos$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_casinos/AllCasinos.jsx (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx (ecmascript, ssr)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/classnames/index.js (ecmascript, ssr)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
+;
+;
 ;
 ;
 ;
@@ -989,61 +992,53 @@ const FilteredCasinos = ()=>{
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
         className: "main pt-10 pb-10 custom-bonuses",
         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-            className: "main__container filter-brands",
+            className: "main__container",
             children: [
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
+                    className: "",
+                    children: t("Comprehensive Compilation of 2024 Online Casino Selection")
+                }, void 0, false, {
+                    fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this),
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                    className: "mt-3 pb-4",
+                    children: t("In Search of an Online Casino? Navigate through our up-to-date repository housing a myriad of casinos awaiting your consideration.")
+                }, void 0, false, {
+                    fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "content flex flex-wrap",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "left flex flex-col justify-center basis-[60%]",
-                        children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
-                                className: "",
-                                children: t("Comprehensive Compilation of 2024 Online Casino Selection")
-                            }, void 0, false, {
+                    className: "bg-white rounded-lg",
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("nav", {
+                        "aria-label": "Tabs",
+                        className: "isolate flex divide-x divide-gray-700 rounded-lg shadow overflow-x-auto",
+                        children: navigateBrands.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__["default"](currentTab === item.currentTab ? 'text-blue-600 underline decoration-2 underline-offset-8 bg-blue-500/10' : 'text-gray-500 hover:text-gray-700', 'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium hover:bg-blue-500/10 focus:z-10 flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out'),
+                                onClick: ()=>handleTabChange(item.currentTab),
+                                children: [
+                                    item.icon,
+                                    item.currentText2
+                                ]
+                            }, item.currentTab, true, {
                                 fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                                lineNumber: 32,
-                                columnNumber: 13
-                            }, this),
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                className: "mt-3 pb-4",
-                                children: t("In Search of an Online Casino? Navigate through our up-to-date repository housing a myriad of casinos awaiting your consideration.")
-                            }, void 0, false, {
-                                fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                                lineNumber: 35,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                lineNumber: 42,
+                                columnNumber: 15
+                            }, this))
+                    }, void 0, false, {
                         fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                        lineNumber: 31,
+                        lineNumber: 40,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                    lineNumber: 30,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "flex navigate-filter",
-                    children: navigateBrands.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                            className: `flex justify-center flex-col basis-[20%] items-center p-2 border text-lg button-tab ${currentTab === item.currentTab ? "active" : ""}`,
-                            onClick: ()=>handleTabChange(item.currentTab),
-                            children: [
-                                item.icon,
-                                item.currentText2
-                            ]
-                        }, item.currentTab, true, {
-                            fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                            lineNumber: 42,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, this),
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "overlay-filter",
+                    className: "overlay-filter filter-brands",
                     children: navigateBrands.map((item)=>{
                         return currentTab === item.currentTab && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$AllCasinos$2e$jsx__$28$ecmascript$29$__["default"], {
                             creative: item.currentText,
@@ -1054,24 +1049,24 @@ const FilteredCasinos = ()=>{
                             currentText: item.currentText
                         }, `${item.currentTab}-${language}`, false, {
                             fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                            lineNumber: 59,
+                            lineNumber: 87,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-                    lineNumber: 55,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-            lineNumber: 29,
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<[project]/components/Brands_casinos/FilteredCasinos.jsx>",
-        lineNumber: 28,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 };

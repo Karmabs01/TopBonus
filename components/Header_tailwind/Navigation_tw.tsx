@@ -12,14 +12,7 @@ import { CaretDown } from "@phosphor-icons/react";
 
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import {
-  ArrowPathIcon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  DocumentChartBarIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-} from '@heroicons/react/24/outline'
+import { SquaresPlusIcon } from '@heroicons/react/24/outline'
 
 type NavLink = {
   class: string;
@@ -41,22 +34,6 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
   const [windowWidth, setWindowWidth] = useState<number | null>(null);
 
-  const handleLinkClick = () => {
-    setIsLoading(true);
-    setOpenSubMenu(null);
-    // Simulate some delay to show the loader (remove this in actual usage)
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-  };
-
-  const toggleSubMenu = (label: string) => {
-    if (openSubMenu === label) {
-      setOpenSubMenu(null);
-    } else {
-      setOpenSubMenu(label);
-    }
-  };
   useEffect(() => {
     // Теперь можно безопасно использовать window
     setWindowWidth(window.innerWidth);
@@ -181,7 +158,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
           //         </div>  
           //       )}
           // </div>
-          <Popover className="relative">
+          <Popover className="relative" key={link.label}>
           <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white w-full">
             {/* <span>Solutions</span> */}
             {link.icon}

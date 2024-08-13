@@ -8,7 +8,7 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/node_modules_81ad48._.js",
+    "path": "_next/static/chunks/node_modules_c56cc3._.js",
     "included": [
       "[project]/node_modules/void-elements/index.js (ecmascript)",
       "[project]/node_modules/inherits/inherits_browser.js (ecmascript)",
@@ -21,6 +21,7 @@ const chunks = [
       "[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript)",
       "[project]/node_modules/next/dist/compiled/react/index.js (ecmascript)",
       "[project]/node_modules/next/dist/shared/lib/app-dynamic.js (ecmascript)",
+      "[project]/node_modules/classnames/index.js (ecmascript)",
       "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js (ecmascript)",
       "[project]/node_modules/use-sync-external-store/shim/index.js (ecmascript)",
       "[project]/node_modules/html-parse-stringify/dist/html-parse-stringify.module.js (ecmascript)",
@@ -74,6 +75,15 @@ const chunks = [
     ],
     "moduleChunks": [
       "_next/static/chunks/node_modules_slick-carousel_slick_slick-theme_c9a116.css"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/app_filteredComponents.css",
+    "included": [
+      "[project]/app/filteredComponents.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/app_filteredComponents_c9a116.css"
     ]
   },
   "_next/static/chunks/components_Brands_bonuses_FilteredBonuses_jsx_5771e1._.js"

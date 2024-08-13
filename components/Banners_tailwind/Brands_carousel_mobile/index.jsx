@@ -149,9 +149,9 @@ export default function Brands_carousel_mobile() {
                                 <Slider {...settings}>
                                     {brands.length > 0 &&
                                         brands.map((rowData, index) => (
-                                            <div>
+                                            <div key={"Carousel_mobile" + index}>
                                                 <div
-                                                    key={index}
+                                                     key={"Carousel_mobile_item" + index}
                                                     className="overflow-hidden p-5 sm:py-10 rounded-xl flex-col justify-between hidden sm:flex"
                                                 >
                                                     <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
@@ -177,7 +177,7 @@ export default function Brands_carousel_mobile() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div key={index} className="overflow-hidden bg-gray-300 p-5 sm:py-10 rounded-xl flex-col justify-between flex sm:hidden">
+                                                <div key={"Carousel_mobile_item_reverse" + index} className="overflow-hidden bg-gray-300 p-5 sm:py-10 rounded-xl flex-col justify-between flex sm:hidden">
                                                     <div className="">
                                                         <div className=" ">
                                                             <Image

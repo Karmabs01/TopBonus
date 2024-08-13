@@ -95,18 +95,6 @@ export default function Brands_double_carousel() {
         }
     }, [data, categoryBrands.key1, categoryBrands.key2]);
 
-    const shuffledBrands = shuffle(brands);
-    const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
-        key: uuidv4(),
-        content: (
-            <Card
-                imagen={`/brands/${brand.CasinoBrand}.png`}
-                link={brand.GoBig}
-                bonus={brand.OurOfferContent}
-            />
-        ),
-    }));
-
     useEffect(() => {
         const interval = setInterval(() => {
             setFade(false); // Start fade-out
@@ -128,31 +116,30 @@ export default function Brands_double_carousel() {
                     {loading ? (
                         <Loader />
                     ) : (
-                        cards2 && (
-                            <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch">
-                                <div className="w-full md:w-1/2 mr-2">
-                                    <div className="mx-auto max-w-2xl pb-5 pt-5 md:pt-20 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:pt-32">
-                                        <div className="">
-                                            <p className="mt-4 text-4xl font-bold tracking-tight text-gray-900">All in the Details</p>
-                                            <p className="mt-4 text-gray-500">
-                                                We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily
-                                                use.
-                                            </p>
-                                        </div>
+                        <div className="flex flex-col md:flex-row lg:space-y-0 lg:items-stretch">
+                            <div className="w-full md:w-1/2 mr-2">
+                                <div className="mx-auto max-w-2xl pb-5 pt-5 md:pt-20 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:pt-32">
+                                    <div className="">
+                                        <p className="mt-4 text-4xl font-bold tracking-tight text-gray-900">All in the Details</p>
+                                        <p className="mt-4 text-gray-500">
+                                            We've obsessed over every detail of this handcrafted journal to bring you the best materials for daily
+                                            use.
+                                        </p>
                                     </div>
                                 </div>
-                                <div className=" md:w-1/2 ml-2">
-                                    {brands.length > 0 &&
-                                        <div
-                                            className="background overflow-hidden rounded-xl h-full flex justify-center items-end"
-                                        >
-                                            <div className="wrap">
-                                                <div className="items-wrap">
-                                                    <div className="items marquee">
-                                                        {brands.map((rowData, index) => (
+                            </div>
+                            <div className=" md:w-1/2 ml-2">
+                                {brands.length > 0 &&
+                                    <div
+                                        className="background overflow-hidden rounded-xl h-full flex justify-center items-end"
+                                    >
+                                        <div className="wrap">
+                                            <div className="items-wrap">
+                                                <div className="items marquee">
+                                                    {brands.map((rowData, index) => (
 
-                                                            <div className="item">
-                                                                <Link
+                                                        <div className="item" key={"Double_carousel" + index}>
+                                                            <Link
                                                                 className=""
                                                                 href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                                 target="_blank"
@@ -167,40 +154,15 @@ export default function Brands_double_carousel() {
                                                                     className="target-top-new-releases"
                                                                 />
                                                             </Link>
-                                                            </div>
+                                                        </div>
 
-                                                        ))}
-                                                    </div>
-                                                    <div aria-hidden="true" class="items marquee">
-                                                        {brands.map((rowData, index) => (
-
-                                                            <div className="item">
-                                                                 <Link
-                                                                className=""
-                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                                target="_blank"
-                                                            >
-
-                                                                <Image
-                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
-                                                                    alt={rowData.CasinoBrand}
-                                                                    width={300}
-                                                                    height={100}
-                                                                    loading="lazy"
-                                                                    className="target-top-new-releases"
-                                                                />
-                                                            </Link>
-                                                            </div>
-
-                                                        ))}
-                                                    </div>
+                                                    ))}
                                                 </div>
-                                                <div class="items-wrap">
-                                                    <div class="items marquee reverce">
-                                                        {brands.map((rowData, index) => (
+                                                <div aria-hidden="true" className="items marquee">
+                                                    {brands.map((rowData, index) => (
 
-                                                            <div className="item">
-                                                                 <Link
+                                                        <div className="item" key={"Double_carousel_2" + index}>
+                                                            <Link
                                                                 className=""
                                                                 href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                                 target="_blank"
@@ -215,42 +177,66 @@ export default function Brands_double_carousel() {
                                                                     className="target-top-new-releases"
                                                                 />
                                                             </Link>
-                                                            </div>
+                                                        </div>
 
-                                                        ))}
-                                                    </div>
-                                                    <div aria-hidden="true" class="items marquee reverce">
-                                                        {brands.map((rowData, index) => (
-
-                                                            <div className="item">
-                                                                 <Link
-                                                                className=""
-                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                                target="_blank"
-                                                            >
-
-                                                                <Image
-                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
-                                                                    alt={rowData.CasinoBrand}
-                                                                    width={300}
-                                                                    height={100}
-                                                                    loading="lazy"
-                                                                    className="target-top-new-releases"
-                                                                />
-                                                            </Link>
-                                                            </div>
-
-                                                        ))}
-                                                    </div>
+                                                    ))}
                                                 </div>
                                             </div>
+                                            <div className="items-wrap">
+                                                <div className="items marquee reverce">
+                                                    {brands.map((rowData, index) => (
 
+                                                        <div className="item" key={"Double_carousel_reverce" + index}>
+                                                            <Link
+                                                                className=""
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                target="_blank"
+                                                            >
+
+                                                                <Image
+                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                    alt={rowData.CasinoBrand}
+                                                                    width={300}
+                                                                    height={100}
+                                                                    loading="lazy"
+                                                                    className="target-top-new-releases"
+                                                                />
+                                                            </Link>
+                                                        </div>
+
+                                                    ))}
+                                                </div>
+                                                <div aria-hidden="true" className="items marquee reverce">
+                                                    {brands.map((rowData, index) => (
+
+                                                        <div className="item" key={"Double_carousel_reverce_2" + index}>
+                                                            <Link
+                                                                className=""
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                target="_blank"
+                                                            >
+
+                                                                <Image
+                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                    alt={rowData.CasinoBrand}
+                                                                    width={300}
+                                                                    height={100}
+                                                                    loading="lazy"
+                                                                    className="target-top-new-releases"
+                                                                />
+                                                            </Link>
+                                                        </div>
+
+                                                    ))}
+                                                </div>
+                                            </div>
                                         </div>
-                                    }
-                                </div>
 
+                                    </div>
+                                }
                             </div>
-                        )
+
+                        </div>
                     )}
                 </div>
             </div>

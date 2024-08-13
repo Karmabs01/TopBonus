@@ -573,6 +573,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                 children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
                                                     className: "target-brand-exit",
                                                     href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                    target: "_blank",
                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
                                                         src: `/brands/${brand.CasinoBrand}.png`,
                                                         alt: `/brands/${brand.CasinoBrand}.png`,
@@ -582,7 +583,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                         className: "target-brand-exit"
                                                     }, void 0, false, {
                                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                        lineNumber: 376,
+                                                        lineNumber: 377,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, brand.id_brand, false, {
@@ -606,7 +607,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                                 children: t("How to get bonus?")
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                                lineNumber: 401,
+                                                                lineNumber: 402,
                                                                 columnNumber: 25
                                                             }, this),
                                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
@@ -614,13 +615,13 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                                 children: t("Activate bonus in your casino account")
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                                lineNumber: 404,
+                                                                lineNumber: 405,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                        lineNumber: 400,
+                                                        lineNumber: 401,
                                                         columnNumber: 23
                                                     }, this),
                                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
@@ -633,7 +634,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                                 size: 24
                                                             }, void 0, false, {
                                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                                lineNumber: 413,
+                                                                lineNumber: 414,
                                                                 columnNumber: 25
                                                             }, this),
                                                             " ",
@@ -641,13 +642,13 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                        lineNumber: 408,
+                                                        lineNumber: 409,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                lineNumber: 387,
+                                                lineNumber: 388,
                                                 columnNumber: 21
                                             }, this)
                                         ]
@@ -672,14 +673,14 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                    lineNumber: 426,
+                                    lineNumber: 427,
                                     columnNumber: 17
                                 }, this),
                                 t("Load More Brands")
                             ]
                         }, void 0, true, {
                             fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                            lineNumber: 422,
+                            lineNumber: 423,
                             columnNumber: 15
                         }, this)
                     ]
@@ -710,7 +711,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                lineNumber: 448,
+                                                lineNumber: 449,
                                                 columnNumber: 25
                                             }, this),
                                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -718,18 +719,18 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
                                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                lineNumber: 456,
+                                                lineNumber: 457,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                        lineNumber: 442,
+                                        lineNumber: 443,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                    lineNumber: 441,
+                                    lineNumber: 442,
                                     columnNumber: 21
                                 }, this),
                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
@@ -739,13 +740,13 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                     children: t("Play Now")
                                 }, item.id_brand, false, {
                                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                    lineNumber: 461,
+                                    lineNumber: 462,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
                             fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                            lineNumber: 437,
+                            lineNumber: 438,
                             columnNumber: 19
                         }, this);
                     }) : __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](LazySlider, {
@@ -770,7 +771,7 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                    lineNumber: 487,
+                                                    lineNumber: 488,
                                                     columnNumber: 27
                                                 }, this),
                                                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
@@ -778,18 +779,18 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                                    lineNumber: 495,
+                                                    lineNumber: 496,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                            lineNumber: 481,
+                                            lineNumber: 482,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                        lineNumber: 480,
+                                        lineNumber: 481,
                                         columnNumber: 23
                                     }, this),
                                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$28$ecmascript$29$__["default"], {
@@ -799,24 +800,24 @@ function AllProviders({ creative, isLoader, segment, value, target, brands, curr
                                         children: t("Play Now")
                                     }, item.id_brand, false, {
                                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                        lineNumber: 500,
+                                        lineNumber: 501,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                                lineNumber: 476,
+                                lineNumber: 477,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                        lineNumber: 473,
+                        lineNumber: 474,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/components/Brands_providers/AllProviders.jsx>",
-                    lineNumber: 431,
+                    lineNumber: 432,
                     columnNumber: 11
                 }, this)
             ]
@@ -962,8 +963,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_providers$2f$Navigate$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_providers/Navigate.jsx (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_providers$2f$AllProviders$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_providers/AllProviders.jsx (ecmascript, ssr)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx (ecmascript, ssr)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/classnames/index.js (ecmascript, ssr)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
+;
+;
 ;
 ;
 ;
@@ -986,65 +990,50 @@ const FilteredProviders = ()=>{
     return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
         className: "main pt-10 pb-10 custom-bonuses filtered-providers",
         children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-            className: "main__container filter-brands",
+            className: "main__container",
             children: [
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
+                    className: "",
+                    children: t("Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers")
+                }, void 0, false, {
+                    fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
+                    lineNumber: 58,
+                    columnNumber: 9
+                }, this),
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
+                    className: "text-black mt-5",
+                    children: t("Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.")
+                }, void 0, false, {
+                    fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
+                    lineNumber: 61,
+                    columnNumber: 9
+                }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "content flex flex-wrap",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                        className: "left flex flex-col justify-center basis-[60%]",
-                        children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("h2", {
-                                className: "text-white",
-                                children: t("Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers")
-                            }, void 0, false, {
+                    className: "bg-white rounded-lg",
+                    children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("nav", {
+                        "aria-label": "Tabs",
+                        className: "isolate flex divide-x divide-gray-700 rounded-lg shadow overflow-x-auto",
+                        children: navigateBrands.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$28$ecmascript$29$__["default"](currentTab === item.currentTab ? 'text-blue-600 underline decoration-2 underline-offset-8 bg-blue-500/10' : 'text-gray-500 hover:text-gray-700', 'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium hover:bg-blue-500/10 focus:z-10 flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out'),
+                                onClick: ()=>handleTabChange(item.currentTab),
+                                children: item.currentText
+                            }, item.currentTab, false, {
                                 fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                                lineNumber: 32,
-                                columnNumber: 13
-                            }, this),
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("p", {
-                                className: "text-white mt-5",
-                                children: t("Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.")
-                            }, void 0, false, {
-                                fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                                lineNumber: 35,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                lineNumber: 67,
+                                columnNumber: 15
+                            }, this))
+                    }, void 0, false, {
                         fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                        lineNumber: 31,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                    lineNumber: 30,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, this),
                 __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "flex navigate-filter flex-wrap",
-                    children: navigateBrands.map((item)=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("button", {
-                            className: `flex justify-center flex-col basis-[7.69%] items-center p-2 border text-lg button-tab ${currentTab === item.currentTab ? "active" : ""}`,
-                            onClick: ()=>handleTabChange(item.currentTab),
-                            children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                                className: "flex items-center",
-                                children: item.currentText
-                            }, void 0, false, {
-                                fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                                lineNumber: 49,
-                                columnNumber: 15
-                            }, this)
-                        }, item.currentTab, false, {
-                            fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                            lineNumber: 42,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                    lineNumber: 40,
-                    columnNumber: 9
-                }, this),
-                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                    className: "overlay-filter",
+                    className: "overlay-filter filter-brands",
                     children: navigateBrands.map((item)=>{
                         return currentTab === item.currentTab && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_providers$2f$AllProviders$2e$jsx__$28$ecmascript$29$__["default"], {
                             creative: item.currentText,
@@ -1055,24 +1044,24 @@ const FilteredProviders = ()=>{
                             currentText: item.currentText
                         }, `${item.currentTab}-${language}`, false, {
                             fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                            lineNumber: 61,
+                            lineNumber: 87,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-                    lineNumber: 57,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-            lineNumber: 29,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "<[project]/components/Brands_providers/FilteredProviders.jsx>",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 };

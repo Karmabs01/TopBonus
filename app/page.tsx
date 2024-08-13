@@ -44,7 +44,6 @@ export default async function Home() {
       <Brand_carousel_mobile/>
       <Three_part_gallery/>
       <Jackpot_banner/>
-      <Brand_carousel/>
       <Fortune_wheel/>
 
       {/* <div className="main__container mt-3">

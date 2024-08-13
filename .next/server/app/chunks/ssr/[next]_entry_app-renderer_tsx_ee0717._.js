@@ -5,7 +5,7 @@
 (globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
   "path": "chunks/ssr/[next]_entry_app-renderer_tsx_ee0717._.js",
   "chunks": [
-    "chunks/ssr/node_modules_f597e5._.js",
+    "chunks/ssr/node_modules_3d3f0e._.js",
     "chunks/ssr/node_modules_ce6f6c._.js",
     "chunks/ssr/components_74daf3._.js",
     "chunks/ssr/public_logo3_png_mjs_3e0bb7._.js",
@@ -19,18 +19,20 @@
     "chunks/ssr/[next]_internal_http_ts_46b0b4._.js",
     "chunks/ssr/[next]_polyfill_app-polyfills_ts_1c472f._.js",
     "chunks/ssr/[next]_entry_app-renderer_tsx_a32d83._.js",
-    "chunks/ssr/[next]_entry_9f121f._.js",
-    "chunks/ssr/node_modules_946a91._.js",
+    "chunks/ssr/[next]_entry_ced0ef._.js",
+    "chunks/ssr/node_modules_0c3efd._.js",
     "chunks/ssr/components_Marque_jsx_caaf50._.js",
     "chunks/ssr/components_Marque_jsx_749835._.js",
     "chunks/ssr/components_Header_tailwind_index_jsx_dc6fe7._.js",
     "chunks/ssr/components_Header_tailwind_index_jsx_3836b7._.js",
     "chunks/ssr/components_Footer_tailwind_index_jsx_3c2cce._.js",
     "chunks/ssr/components_Footer_tailwind_index_jsx_3ac6ab._.js",
+    "chunks/ssr/components_Mobile_tabs_navigation_index_jsx_68a0ab._.js",
     "chunks/ssr/components_switcher_LanguageContext_jsx_631687._.js",
     "chunks/ssr/components_switcher_LanguageContext_jsx_bf02d4._.js",
     "chunks/ssr/app_8d53cb._.js",
-    "chunks/ssr/components_Header_tailwind_styled_component.css",
+    "chunks/ssr/public_logo_robot_png_mjs_9f3997._.js",
+    "chunks/ssr/app_flags.css",
     "chunks/rsc/app_globals.css"
   ],
   "source": "entry"
