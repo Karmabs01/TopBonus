@@ -1,6 +1,6 @@
 import React from 'react';
 import { TicketIcon } from '@heroicons/react/24/outline'
-import logo from "@/public/logo_robot.png"
+// import logo from "@/public/logo_robot.png"
 import Image from "next/image";
 
 const Mobile_tabs_navigation = () => {
@@ -29,7 +29,7 @@ const Mobile_tabs_navigation = () => {
             </div>
 
             <div className="ml-2 absolute -top-4 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-teal-500 rounded-full border-4 border-solid border-white flex items-center justify-center">
-                <Image src={logo} alt="logo" width={150} loading="lazy" className='w-8' />
+                {/* <Image src={logo} alt="logo" width={150} loading="lazy" className='w-8' /> */}
 
             </div>
         </div>

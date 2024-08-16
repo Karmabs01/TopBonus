@@ -8,10 +8,8 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$react$2e$shared$2d$subset$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/react.shared-subset.js (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$index$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@heroicons/react/24/outline/esm/index.js (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo_robot$2e$png$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$logo_robot$2e$png__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__("[project]/public/logo_robot.png.mjs/(IMAGE)/[project]/public/logo_robot.png (static) (structured image object, ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js (ecmascript, rsc)");
 "__TURBOPACK__ecmascript__hoisting__location__";
-;
 ;
 ;
 ;
@@ -141,18 +139,7 @@ const Mobile_tabs_navigation = ()=>{
                 columnNumber: 13
             }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: "ml-2 absolute -top-4 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-teal-500 rounded-full border-4 border-solid border-white flex items-center justify-center",
-                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$28$ecmascript$29$__["default"], {
-                    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo_robot$2e$png$2e$mjs$2f28$IMAGE$292f5b$project$5d2f$public$2f$logo_robot$2e$png__$28$static$29$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                    alt: "logo",
-                    width: 150,
-                    loading: "lazy",
-                    className: "w-8"
-                }, void 0, false, {
-                    fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
-                    lineNumber: 32,
-                    columnNumber: 17
-                }, this)
+                className: "ml-2 absolute -top-4 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-teal-500 rounded-full border-4 border-solid border-white flex items-center justify-center"
             }, void 0, false, {
                 fileName: "<[project]/components/Mobile_tabs_navigation/index.jsx>",
                 lineNumber: 31,

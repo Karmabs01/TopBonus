@@ -16,7 +16,15 @@ __turbopack_export_value__((__turbopack_import__) => {
 "[next]/entry/next-hydrate.tsx/(PAGE)/[next]/entry/error.tsx (ecmascript) (ecmascript, chunk group files)": (({ r: __turbopack_require__, f: __turbopack_require_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, l: __turbopack_load__, j: __turbopack_dynamic__, g: global, __dirname }) => (() => {
 
 __turbopack_export_value__([
-  "static/chunks/_45b699._.js",
+  "static/chunks/_env_b53fce.js",
+  "static/chunks/node_modules_next_799057._.js",
+  "static/chunks/node_modules_@swc_helpers_cjs__interop_require_default_cjs_fc9b22._.js",
+  "static/chunks/node_modules_@swc_helpers_cjs__interop_require_wildcard_cjs_9a0124._.js",
+  "static/chunks/node_modules_@swc_helpers_esm__interop_require_default_a3532b.js",
+  "static/chunks/node_modules_@swc_helpers_esm__interop_require_wildcard_b1e941.js",
+  "static/chunks/node_modules_react_026044._.js",
+  "static/chunks/node_modules_scheduler_index_3b3779.js",
+  "static/chunks/node_modules_react-dom_4c74ab._.js",
   "static/chunks/[next]_internal_shims-client_ts_53652b._.js",
   "static/chunks/[next]_overlay_client_ts_ec9e35._.js",
   "static/chunks/[next]_dev_client_ts_a3d1d9._.js",
@@ -28,7 +36,7 @@ __turbopack_export_value__([
   "static/chunks/[next]_compiled_anser_index_5454f7.js",
   "static/chunks/[turbopack]_dev_client_66e570._.js",
   "static/chunks/[next]_entry_next-hydrate_tsx_866783._.js",
-  "static/chunks/[next]_entry_next-hydrate_tsx_f0c45b._.js"
+  "static/chunks/[next]_entry_next-hydrate_tsx_1f2632._.js"
 ]);
 
 })()),

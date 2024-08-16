@@ -2,21 +2,15 @@
 import { useState, useEffect } from "react";
 import Loader from "@/components/Loader";
 import { useLanguage } from "./LanguageContext";
-import { useTranslation } from "react-i18next";
 
-import { useState } from 'react'
-import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import "../../app/flags.css"
 const BrandsSwitcher = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { language, setLanguage } = useLanguage(); // Используй состояние и функцию из контекста
-  const { t, i18n } = useTranslation();
 
   const ipData = async () => {
     try {
       const response = await fetch(
-        "https://ipapi.co/json/?key=YD0x5VtXrPJkOcFQMjEyQgqjfM6jUcwS4J54b3DI8ztyrFpHzW"
+        "https://ipapi.co/json"
       );
       const data = await response.json();
       if (data.country) {
@@ -127,26 +121,30 @@ const BrandsSwitcher = () => {
     { code: "all", label: "World", flag: "🌍" },
   ];
   const availableLanguagesCLD_VIP = [
-    { code: "au", label: "Australia", flag: "🇦🇺" },
+    { code: "all", label: "All", flag: "🌍" },
     { code: "at", label: "Austria", flag: "🇦🇹" },
+    { code: "au", label: "Australia", flag: "🇦🇺" },
     { code: "be", label: "Belgium", flag: "🇧🇪" },
     { code: "ca", label: "Canada", flag: "🇨🇦" },
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
-    { code: "cz", label: "The Czech Republic", flag: "🇨🇿" },
+    { code: "cz", label: "Czech Republic", flag: "🇨🇿" },
     { code: "de", label: "Germany", flag: "🇩🇪" },
     { code: "dk", label: "Denmark", flag: "🇩🇰" },
+    { code: "es", label: "Spain", flag: "🇪🇸" },
     { code: "fi", label: "Finland", flag: "🇫🇮" },
     { code: "fr", label: "France", flag: "🇫🇷" },
+    { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
     { code: "gr", label: "Greece", flag: "🇬🇷" },
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "ie", label: "Ireland", flag: "🇮🇪" },
     { code: "it", label: "Italy", flag: "🇮🇹" },
+    { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "no", label: "Norway", flag: "🇳🇴" },
     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
     { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
-    { code: "all", label: "World", flag: "🌍" },
   ];
 
   
@@ -163,6 +161,8 @@ const BrandsSwitcher = () => {
     newLng = availableLanguages1044;
   } else if (item === "CLD_VIP") {
     newLng = availableLanguagesCLD_VIP;
+  } else if (item === "partner1045_b1") {
+    newLng = availableLanguagesCLD_VIP;
   } else {
     newLng = availableLanguages;
   }
@@ -178,93 +178,31 @@ const BrandsSwitcher = () => {
   useEffect(() => {
     fetchBrands(language, newLng);
   }, [language, newLng]);
-
-  const selectedLanguage = newLng.find((lang) => lang.code === lng);
-
   return (
-    // <div className={`language-switcher ml-3 flex flex-col`}>
-    //   <select
-    //     className={`desktop-lang ${language}`}
-    //     value={lng}
-    //     onChange={(e) => {
-    //       const selected = newLng.find((lang) => lang.code === e.target.value);
-    //       if (selected) {
-    //         changeLanguage(selected.code);
-    //       }
-    //     }}
-    //   >
-    //     {newLng.map((language) => (
-    //       <option
-    //         key={language.code}
-    //         value={language.code}
-    //         style={{ fontSize: "20px" }}
-    //       >
-    //         {language.flag} {language.label}
-    //       </option>
-    //     ))}
-    //   </select>
+    <div className={`language-switcher ml-3 flex flex-col`}>
+      <select
+        className={`desktop-lang ${language}`}
+        value={lng}
+        onChange={(e) => {
+          const selected = newLng.find((lang) => lang.code === e.target.value);
+          if (selected) {
+            changeLanguage(selected.code);
+          }
+        }}
+      >
+        {newLng.map((language) => (
+          <option
+            key={language.code}
+            value={language.code}
+            style={{ fontSize: "20px" }}
+          >
+            {language.flag} {language.label}
+          </option>
+        ))}
+      </select>
 
-    //   {isLoading && <Loader />}
-    // </div>
-
-    <div className="flex flex-col m-2">
-    <Listbox
-      value={lng}
-      onChange={(code) => {
-        const selected = newLng.find((lang) => lang.code === code);
-        if (selected) {
-          changeLanguage(selected.code);
-        }
-      }}
-    >
-      {({ open }) => (
-        <>
-          <div className="relative">
-            <ListboxButton className="relative w-full cursor-default rounded-md bg-indigo-600 py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm sm:leading-6  hover:bg-indigo-500">
-              {/* <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span> */}
-              <span className="block truncate flex items-center text-white">
-                      <span className={`mr-2 flag-icon flag-icon-${selectedLanguage?.code}`} />
-                      {/* {selectedLanguage?.label} */}
-                      Country
-                    </span>
-              <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
-              </span>
-            </ListboxButton>
-
-            <ListboxOptions
-              className="absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-indigo-600 py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm "
-            >
-              {newLng.map((language) => ( 
-                <ListboxOption
-                  key={language.code}
-                  value={language.code}
-                  className={() =>
-                    `relative cursor-pointer select-none py-2 pl-3 pr-9 bg-indigo-600 text-gray-200 hover:bg-indigo-500`
-                  }
-                >
-                  {({ selected }) => (
-                    <>
-                      <span className={`block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`}>
-                        {/* {language.flag} {language.label} */}
-                        <span className={`mr-2 flag-icon flag-icon-${language.code}`} /> {language.label} 
-                      </span>
-                      {selected ? (
-                        <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-white">
-                          <CheckIcon aria-hidden="true" className="h-5 w-5" />
-                        </span>
-                      ) : null}
-                    </>
-                  )}
-                </ListboxOption>
-              ))}
-            </ListboxOptions>
-          </div>
-        </>
-      )}
-    </Listbox>
-    {isLoading && <Loader />}
-  </div>
+      {isLoading && <Loader />}
+    </div>
   );
 };
 

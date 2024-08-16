@@ -9,6 +9,83 @@
   margin: 0px;
   border: 0px;
 }
+
+@font-face {
+  font-family: "AA Duke";
+  src: url("/fonts/AADuke-Fill.eot");
+  src: url("/fonts/AADuke-Fill.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/AADuke-Fill.woff") format("woff"),
+    url("/fonts/AADuke-Fill.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AA Duke Regular";
+  src: url("/fonts2/AADuke.eot");
+  src: url("/fonts2/AADuke.eot?#iefix") format("embedded-opentype"),
+    url("/fonts2/AADuke.woff") format("woff"),
+    url("/fonts2/AADuke.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main__container {
+  padding: 0 !important;
+}
+.btn-new,
+.btn-mini {
+  background: url(/btn.png) no-repeat center;
+  position: relative;
+  min-width: 326px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.btn-new:after {
+  content: "";
+  background: url(/btnhover.png) no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 3px;
+  top: 4px;
+  z-index: 0;
+  transition: 0.3s;
+}
+.btn-mini:after {
+  content: "";
+  background: url(/newimages/btnmini.png) no-repeat center;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 3px;
+  top: 4px;
+  z-index: 0;
+  transition: 0.3s;
+}
+.btn-new:hover:after,
+.btn-mini:hover:after {
+  opacity: 0;
+}
+.btn-new p,
+.btn-mini p {
+  position: relative;
+  z-index: 1;
+
+  color: #fff;
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  text-transform: capitalize;
+}
+
 /* .oneBrand .one-brand-item .wp-block-column li {
   background: url(/noimage.png) no-repeat 50%;
 } */
@@ -25,6 +102,7 @@ html,
 body {
   height: 100%;
   min-width: 320px;
+  background: #0f0926 !important;
 }
 .dialog-overlay {
   display: none !important;
@@ -438,7 +516,6 @@ html {
 body {
   min-height: 100%;
   color: #333;
-  background-color: #fff;
   margin: 0;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -2233,10 +2310,6 @@ h5 {
 img {
   max-width: 100%;
   display: inline-block;
-}
-
-.body {
-  background-color: #e0e0e0;
 }
 
 .s-hero {
@@ -6770,7 +6843,6 @@ h2 {
 }
 
 body {
-  background: #f0f3f7;
   overflow-x: hidden;
 }
 .card-brand-new {
@@ -8389,7 +8461,6 @@ input.error {
     transform: rotate(-45deg) translate(6px, -6px);
   }
   .topbr .main__container .flex .review-bonus {
- 
     font-size: 13px !important;
     line-height: 17px !important;
   }
@@ -8407,7 +8478,6 @@ input.error {
     max-width: 150px !important;
   }
   .topbr .main__container .flex .secondbanner {
-
   }
   /* .burger-icon {
     // Style your burger icon button here

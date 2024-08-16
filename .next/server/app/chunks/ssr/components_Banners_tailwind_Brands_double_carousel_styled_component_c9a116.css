@@ -1,8 +1,6 @@
 /* [project]/components/Banners_tailwind/Brands_double_carousel/styled.component.css (css, ssr) */
 .brands_rows .wrap {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
+  max-width: 400px;
 }
 .brands_rows .items-wrap {
   position: relative;
@@ -23,14 +21,6 @@
   z-index: 1;
   pointer-events: none;
 }
-.brands_rows .items-wrap:before {
-  left: 0;
-  background: linear-gradient(90deg, rgba(240, 243, 247, 1) 0%, rgba(255, 255, 255, 0) 100%);
-}
-.brands_rows .items-wrap:after {
-  right: 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(240, 243, 247, 1) 100%);
-}
 .brands_rows .items {
   flex-shrink: 0;
   display: flex;
@@ -42,7 +32,7 @@
 .brands_rows .item {
   flex: 0 0 auto;
   width: 150px;
-  height: 150px;
+  height: 100px;
   counter-increment: item;
   border-radius: 6px;
   display: flex;
@@ -74,4 +64,64 @@
   to {
     transform: translatex(calc(-100% - 20px));
   }
+}
+.brands_rows .main__container {}
+.background-slider2.absolute {
+  left: -24px;
+}
+.background-slider2:after {
+  display: flex;
+  content: "";
+  width: 561px;
+  height: 499px;
+  background: url(/newimages/bannerSlider.png) no-repeat top right;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
+}
+.background .wrap {
+  margin-right: 40px;
+}
+.brands_rows h2.mt-4 {
+  color: #fff !important;
+  font-family: "AA Duke";
+  font-size: 108px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  padding-left: 48px;
+}
+.brands_rows h2.mt-4 span {
+  color: #f9a23d !important;
+  font-family: "AA Duke";
+  font-size: 90px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.brands_rows h3 {
+  margin-top: 111px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  position: relative;
+  z-index: 1;
+  padding-left: 48px;
+}
+.brands_rows p {
+  margin-top: 33px;
+  color: #cbcbcb;
+  font-size: 18px;
+  position: relative;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 48px;
 }

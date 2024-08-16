@@ -107,27 +107,29 @@ async function initializeI18n() {
     "all",
   ];
   const availableLanguagesCLD_VIP = [
-    "au",
+    "all",
     "at",
+    "au",
     "be",
     "ca",
     "ch",
     "cz",
     "de",
     "dk",
+    "es",
     "fi",
     "fr",
+    "gb",
     "gr",
     "hu",
     "ie",
     "it",
+    "nl",
     "no",
     "nz",
     "pl",
     "se",
     "sk",
-    "sk",
-    "all",
   ];
 
   let item;
@@ -142,6 +144,8 @@ async function initializeI18n() {
   } else if (item === "partner1044") {
     newLng = availableLanguages1044;
   } else if (item === "CLD_VIP") {
+    newLng = availableLanguagesCLD_VIP;
+  } else if (item === "partner1045_b1") {
     newLng = availableLanguagesCLD_VIP;
   } else {
     newLng = availableLanguages;
@@ -521,6 +525,23 @@ async function initializeI18n() {
           "* Explore the Hottest New Brands –",
         "Click Here!": "Click Here!",
         "Expires in:": "Expires in:",
+        "BIGGEST JACKPOTS": "BIGGEST JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TOURNAMENTS",
+
+
+        "Click Here to Unleash Your Magic Bonus!": "Click Here to Unleash Your Magic Bonus!",
+        "Get a bonus just for you tomorrow!": "Get a bonus just for you tomorrow!",
+        "Get Bonus": "Get Bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Thank you! Your Bonus Will Be Here Soon",
+        "Come back after": "Come back after",
+        "to collect it!": "to collect it!",
+        "Your Bonus is Ready!": "Your Bonus is Ready!",
+        "Click below to claim your magical reward!": "Click below to claim your magical reward!",
+        "Bonus Ready!": "Bonus Ready!",
+
+        "HIT THE JACKPOT!": "HIT THE JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Make deposits on the brands below to participate in the jackpot"
+ 
       },
     },
 
@@ -896,6 +917,22 @@ async function initializeI18n() {
           "* Odkrywaj Najgorętsze Nowe Kasyna –",
         "Click Here!": "Kliknij tutaj!",
         "Expires in:": "Wygasa za:",
+        "BIGGEST JACKPOTS": "NAJWIĘKSZE JACKPOTY",
+        "TOP TOURNAMENTS": "TOP TURNIEJE",
+
+        "Click Here to Unleash Your Magic Bonus!": "Kliknij tutaj, aby uwolnić swój magiczny bonus!",
+        "Get a bonus just for you tomorrow!": "Odbierz jutro bonus tylko dla Ciebie!",
+        "Get Bonus": "Odbierz Bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Dziękujemy! Twój bonus wkrótce będzie tutaj",
+        "Come back after": "Wróć po",
+        "to collect it!": "aby go odebrać!",
+        "Your Bonus is Ready!": "Twój bonus jest gotowy!",
+        "Click below to claim your magical reward!": "Kliknij poniżej, aby odebrać swoją magiczną nagrodę!",
+        "Bonus Ready!": "Bonus gotowy!",
+
+        "HIT THE JACKPOT!": "ZGARNIJ JACKPOTA!",
+        "Make deposits on the brands below to participate in the jackpot": "Dokonaj wpłat na poniższe marki, aby wziąć udział w jackpotie",
+
       },
     },
     de: {
@@ -1270,6 +1307,22 @@ async function initializeI18n() {
           "* Entdecken Sie die heißesten neuen Casinos -",
         "Click Here!": "Klicken Sie hier!",
         "Expires in:": "Läuft ab in:",
+        "BIGGEST JACKPOTS": "GRÖSSTE JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TURNIERE",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klicken Sie hier, um Ihren magischen Bonus freizuschalten!",
+        "Get a bonus just for you tomorrow!": "Holen Sie sich morgen einen Bonus nur für Sie!",
+        "Get Bonus": "Bonus holen",
+        "Thank you! Your Bonus Will Be Here Soon": "Danke! Ihr Bonus wird bald hier sein",
+        "Come back after": "Kommen Sie nach",
+        "to collect it!": "zurück, um ihn abzuholen!",
+        "Your Bonus is Ready!": "Ihr Bonus ist bereit!",
+        "Click below to claim your magical reward!": "Klicken Sie unten, um Ihre magische Belohnung zu erhalten!",
+        "Bonus Ready!": "Bonus bereit!",
+
+        "HIT THE JACKPOT!": "KNACKEN SIE DEN JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Tätigen Sie Einzahlungen bei den unten stehenden Marken, um am Jackpot teilzunehmen",
+
       },
     },
     bg: {
@@ -1642,6 +1695,21 @@ async function initializeI18n() {
           "* Разгледайте най-горещите нови казина -",
         "Click Here!": "Кликни тук!",
         "Expires in:": "Изтича след:",
+        "BIGGEST JACKPOTS": "НАЙ-ГОЛЕМИТЕ ДЖАКПОТИ",
+        "TOP TOURNAMENTS": "ТОП ТУРНИРИ",
+
+        "Click Here to Unleash Your Magic Bonus!": "Кликнете тук, за да отключите своя магически бонус!",
+        "Get a bonus just for you tomorrow!": "Получете бонус само за вас утре!",
+        "Get Bonus": "Вземи бонус",
+        "Thank you! Your Bonus Will Be Here Soon": "Благодаря! Вашият бонус скоро ще бъде тук",
+        "Come back after": "Върнете се след",
+        "to collect it!": "за да го получите!",
+        "Your Bonus is Ready!": "Вашият бонус е готов!",
+        "Click below to claim your magical reward!": "Кликнете по-долу, за да получите вашата магическа награда!",
+        "Bonus Ready!": "Бонус готов!",
+        "HIT THE JACKPOT!": "УДАРЕТЕ ДЖАКПОТА!",
+        "Make deposits on the brands below to participate in the jackpot": "Направете депозити в посочените по-долу марки, за да участвате в джакпота",
+
       },
     },
     cz: {
@@ -2014,6 +2082,22 @@ async function initializeI18n() {
           "* Prozkoumejte nejžhavější nová kasina -",
         "Click Here!": "Klikněte zde!",
         "Expires in:": "Vyprší za:",
+        "BIGGEST JACKPOTS": "NEJVĚTŠÍ JACKPOTY",
+        "TOP TOURNAMENTS": "NEJLEPŠÍ TURNAJE",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klikněte zde a uvolněte svůj magický bonus!",
+        "Get a bonus just for you tomorrow!": "Zítra získáte bonus jen pro vás!",
+        "Get Bonus": "Získat bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Děkujeme! Váš bonus bude brzy zde",
+        "Come back after": "Vraťte se po",
+        "to collect it!": "abyste si ho vyzvedli!",
+        "Your Bonus is Ready!": "Váš bonus je připraven!",
+        "Click below to claim your magical reward!": "Klikněte níže a získejte svou magickou odměnu!",
+        "Bonus Ready!": "Bonus připraven!",
+
+        "HIT THE JACKPOT!": "TREFTE JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Proveďte vklady na níže uvedené značky, abyste se zúčastnili jackpotu",
+
       },
     },
     dk: {
@@ -2385,6 +2469,22 @@ async function initializeI18n() {
           "* Udforsk de nyeste og mest populære casinoer -",
         "Click Here!": "Klik her!",
         "Expires in:": "Udløber om:",
+        "BIGGEST JACKPOTS": "STØRSTE JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TURNERINGER",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klik her for at frigøre din magiske bonus!",
+        "Get a bonus just for you tomorrow!": "Få en bonus kun til dig i morgen!",
+        "Get Bonus": "Få bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Tak! Din bonus vil snart være her",
+        "Come back after": "Kom tilbage efter",
+        "to collect it!": "for at hente den!",
+        "Your Bonus is Ready!": "Din bonus er klar!",
+        "Click below to claim your magical reward!": "Klik nedenfor for at få din magiske belønning!",
+        "Bonus Ready!": "Bonus klar!",
+
+        "HIT THE JACKPOT!": "RAM JACKPOTTEN!",
+        "Make deposits on the brands below to participate in the jackpot": "Foretag indbetalinger på mærkerne nedenfor for at deltage i jackpotten",
+
       },
     },
     nl: {
@@ -2757,6 +2857,22 @@ async function initializeI18n() {
           "* Verken de Heetste Nieuwe Casino's -",
         "Click Here!": "Klik hier!",
         "Expires in:": "Verloopt in:",
+        "BIGGEST JACKPOTS": "GROOTSTE JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TOERNOOIEN",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klik hier om je magische bonus te ontketenen!",
+        "Get a bonus just for you tomorrow!": "Krijg morgen een bonus alleen voor jou!",
+        "Get Bonus": "Bonus krijgen",
+        "Thank you! Your Bonus Will Be Here Soon": "Dank je! Je bonus komt er binnenkort aan",
+        "Come back after": "Kom terug na",
+        "to collect it!": "om het op te halen!",
+        "Your Bonus is Ready!": "Je bonus is klaar!",
+        "Click below to claim your magical reward!": "Klik hieronder om je magische beloning te claimen!",
+        "Bonus Ready!": "Bonus klaar!",
+
+        "HIT THE JACKPOT!": "RAAK DE JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Stort geld op de onderstaande merken om deel te nemen aan de jackpot",
+
       },
     },
     es: {
@@ -3129,6 +3245,22 @@ async function initializeI18n() {
           "* Explora los casinos más nuevos y populares –",
         "Click Here!": "¡Haz clic aquí!",
         "Expires in:": "Caduca en:",
+        "BIGGEST JACKPOTS": "LOS MAYORES JACKPOTS",
+        "TOP TOURNAMENTS": "LOS MEJORES TORNEOS",
+
+        "Click Here to Unleash Your Magic Bonus!": "Haz clic aquí para liberar tu bono mágico!",
+        "Get a bonus just for you tomorrow!": "¡Consigue un bono solo para ti mañana!",
+        "Get Bonus": "Obtener bono",
+        "Thank you! Your Bonus Will Be Here Soon": "¡Gracias! Tu bono estará aquí pronto",
+        "Come back after": "Vuelve después de",
+        "to collect it!": "para recogerlo!",
+        "Your Bonus is Ready!": "¡Tu bono está listo!",
+        "Click below to claim your magical reward!": "Haz clic abajo para reclamar tu recompensa mágica!",
+        "Bonus Ready!": "Bono listo!",
+
+        "HIT THE JACKPOT!": "¡GANA EL JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Realiza depósitos en las marcas a continuación para participar en el jackpot",
+
       },
     },
     fi: {
@@ -3501,6 +3633,22 @@ async function initializeI18n() {
           "* Tutustu uusimpiin ja kuumimpiin kasinoihin –",
         "Click Here!": "Klikkaa tästä!",
         "Expires in:": "Vanhenee:",
+        "BIGGEST JACKPOTS": "SUURIMMAT JACKPOTIT",
+        "TOP TOURNAMENTS": "HUIPPU TURNAUKSET",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klikkaa tästä vapauttaaksesi maagisen bonuksesi!",
+        "Get a bonus just for you tomorrow!": "Saat bonuksen vain sinulle huomenna!",
+        "Get Bonus": "Hanki bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Kiitos! Bonuksesi tulee pian",
+        "Come back after": "Tule takaisin jälkeen",
+        "to collect it!": "noudettavaksi!",
+        "Your Bonus is Ready!": "Bonuksesi on valmis!",
+        "Click below to claim your magical reward!": "Klikkaa alla saadaksesi maagisen palkkiosi!",
+        "Bonus Ready!": "Bonus valmis!",
+
+        "HIT THE JACKPOT!": "ISKE JACKPOTIIN!",
+        "Make deposits on the brands below to participate in the jackpot": "Tee talletuksia alla oleviin brändeihin osallistuaksesi jackpot-pottiin",
+
       },
     },
     fr: {
@@ -3873,6 +4021,22 @@ async function initializeI18n() {
           "* Découvrez les nouveaux casinos les plus populaires -",
         "Click Here!": "Cliquez ici!",
         "Expires in:": "Expire dans:",
+        "BIGGEST JACKPOTS": "PLUS GROS JACKPOTS",
+        "TOP TOURNAMENTS": "MEILLEURS TOURNOIS",
+
+        "Click Here to Unleash Your Magic Bonus!": "Cliquez ici pour libérer votre bonus magique!",
+        "Get a bonus just for you tomorrow!": "Obtenez un bonus rien que pour vous demain!",
+        "Get Bonus": "Obtenez un bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Merci! Votre bonus sera bientôt ici",
+        "Come back after": "Revenez après",
+        "to collect it!": "pour le récupérer!",
+        "Your Bonus is Ready!": "Votre bonus est prêt!",
+        "Click below to claim your magical reward!": "Cliquez ci-dessous pour réclamer votre récompense magique!",
+        "Bonus Ready!": "Bonus prêt!",
+
+        "HIT THE JACKPOT!": "DÉCROCHEZ LE JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Faites des dépôts sur les marques ci-dessous pour participer au jackpot",
+
       },
     },
 
@@ -4246,6 +4410,22 @@ async function initializeI18n() {
           "* Εξερευνήστε τα πιο δημοφιλή νέα καζίνο -",
         "Click Here!": "Κάντε κλικ εδώ!",
         "Expires in:": "Λήγει σε:",
+        "BIGGEST JACKPOTS": "ΜΕΓΑΛΥΤΕΡΑ ΤΖΑΚΠΟΤ",
+        "TOP TOURNAMENTS": "ΚΟΡΥΦΑΙΑ ΤΟΥΡΝΟΥΑ",
+
+        "Click Here to Unleash Your Magic Bonus!": "Κάντε κλικ εδώ για να απελευθερώσετε το μαγικό σας μπόνους!",
+        "Get a bonus just for you tomorrow!": "Πάρτε ένα μπόνους μόνο για εσάς αύριο!",
+        "Get Bonus": "Πάρτε το μπόνους",
+        "Thank you! Your Bonus Will Be Here Soon": "Ευχαριστούμε! Το μπόνους σας θα είναι εδώ σύντομα",
+        "Come back after": "Επιστρέψτε μετά",
+        "to collect it!": "για να το συλλέξετε!",
+        "Your Bonus is Ready!": "Το μπόνους σας είναι έτοιμο!",
+        "Click below to claim your magical reward!": "Κάντε κλικ παρακάτω για να διεκδικήσετε την μαγική σας ανταμοιβή!",
+        "Bonus Ready!": "Το μπόνους είναι έτοιμο!",
+
+        "HIT THE JACKPOT!": "ΚΕΡΔΙΣΤΕ ΤΟ ΤΖΑΚΠΟΤ!",
+        "Make deposits on the brands below to participate in the jackpot": "Κάντε καταθέσεις στις παρακάτω μάρκες για να συμμετάσχετε στο τζάκποτ",
+
       },
     },
     hu: {
@@ -4618,6 +4798,22 @@ async function initializeI18n() {
           "* Fedezze fel a legforróbb új kaszinókat -",
         "Click Here!": "Kattints ide!",
         "Expires in:": "Lejár:",
+        "BIGGEST JACKPOTS": "LEGNAGYOBB JACKPOTOK",
+        "TOP TOURNAMENTS": "TOP VERSENYEK",
+
+        "Click Here to Unleash Your Magic Bonus!": "Kattintson ide a varázslatos bónusz felszabadításához!",
+        "Get a bonus just for you tomorrow!": "Szerezzen holnap egy bónuszt csak önnek!",
+        "Get Bonus": "Szerezzen bónuszt",
+        "Thank you! Your Bonus Will Be Here Soon": "Köszönjük! A bónusz hamarosan itt lesz",
+        "Come back after": "Térjen vissza",
+        "to collect it!": "hogy begyűjtse!",
+        "Your Bonus is Ready!": "A bónusza készen áll!",
+        "Click below to claim your magical reward!": "Kattintson alul, hogy igényelje varázslatos jutalmát!",
+        "Bonus Ready!": "A bónusz készen áll!",
+
+        "HIT THE JACKPOT!": "ÜSSE MEG A JACKPOTOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Tegyen befizetéseket az alábbi márkákon, hogy részt vegyen a jackpotban",
+
       },
     },
     it: {
@@ -4990,6 +5186,22 @@ async function initializeI18n() {
           "* Esplora i nuovi casinò più caldi -",
         "Click Here!": "Clicca qui!",
         "Expires in:": "Scade tra:",
+        "BIGGEST JACKPOTS": "I PIÙ GRANDI JACKPOT",
+        "TOP TOURNAMENTS": "I MIGLIORI TORNEI",
+
+        "Click Here to Unleash Your Magic Bonus!": "Clicca qui per sbloccare il tuo bonus magico!",
+        "Get a bonus just for you tomorrow!": "Ottieni un bonus solo per te domani!",
+        "Get Bonus": "Ottieni bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Grazie! Il tuo bonus sarà qui presto",
+        "Come back after": "Torna dopo",
+        "to collect it!": "per ritirarlo!",
+        "Your Bonus is Ready!": "Il tuo bonus è pronto!",
+        "Click below to claim your magical reward!": "Clicca sotto per richiedere la tua ricompensa magica!",
+        "Bonus Ready!": "Bonus pronto!",
+
+        "HIT THE JACKPOT!": "COLPISCI IL JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Effettua depositi sui marchi sottostanti per partecipare al jackpot",
+
       },
     },
     no: {
@@ -5362,6 +5574,22 @@ async function initializeI18n() {
           "* Utforsk de nyeste og mest populære casinoene -",
         "Click Here!": "Klikk her!",
         "Expires in:": "Utløper om:",
+        "BIGGEST JACKPOTS": "STØRSTE JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TURNERINGER",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klikk her for å frigjøre din magiske bonus!",
+        "Get a bonus just for you tomorrow!": "Få en bonus bare for deg i morgen!",
+        "Get Bonus": "Få bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Takk! Bonusen din vil snart være her",
+        "Come back after": "Kom tilbake etter",
+        "to collect it!": "for å hente den!",
+        "Your Bonus is Ready!": "Din bonus er klar!",
+        "Click below to claim your magical reward!": "Klikk nedenfor for å få din magiske belønning!",
+        "Bonus Ready!": "Bonus klar!",
+
+        "HIT THE JACKPOT!": "SLÅ JACKPOTTEN!",
+        "Make deposits on the brands below to participate in the jackpot": "Gjør innskudd på merkene nedenfor for å delta i jackpotten",
+
       },
     },
     pt: {
@@ -5734,6 +5962,22 @@ async function initializeI18n() {
           "* Explore os Novos Cassinos Mais Quentes -",
         "Click Here!": "Clique aqui!",
         "Expires in:": "Expira em:",
+        "BIGGEST JACKPOTS": "MAIORES JACKPOTS",
+        "TOP TOURNAMENTS": "MELHORES TORNEIOS",
+
+        "Click Here to Unleash Your Magic Bonus!": "Clique aqui para liberar seu bônus mágico!",
+        "Get a bonus just for you tomorrow!": "Receba um bônus só para você amanhã!",
+        "Get Bonus": "Obter Bônus",
+        "Thank you! Your Bonus Will Be Here Soon": "Obrigado! Seu bônus estará aqui em breve",
+        "Come back after": "Volte depois de",
+        "to collect it!": "para coletá-lo!",
+        "Your Bonus is Ready!": "Seu bônus está pronto!",
+        "Click below to claim your magical reward!": "Clique abaixo para reivindicar sua recompensa mágica!",
+        "Bonus Ready!": "Bônus pronto!",
+
+        "HIT THE JACKPOT!": "ACERTE O JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Faça depósitos nas marcas abaixo para participar do jackpot",
+
       },
     },
     se: {
@@ -6107,6 +6351,22 @@ async function initializeI18n() {
           "* Utforska de hetaste nya casinona -",
         "Click Here!": "Klicka här!",
         "Expires in:": "Utgår om:",
+        "BIGGEST JACKPOTS": "STÖRSTA JACKPOTS",
+        "TOP TOURNAMENTS": "TOP TURNERINGAR",
+
+        "Click Here to Unleash Your Magic Bonus!": "Klicka här för att frigöra din magiska bonus!",
+        "Get a bonus just for you tomorrow!": "Få en bonus bara för dig i morgon!",
+        "Get Bonus": "Få bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Tack! Din bonus kommer snart att vara här",
+        "Come back after": "Kom tillbaka efter",
+        "to collect it!": "för att hämta den!",
+        "Your Bonus is Ready!": "Din bonus är redo!",
+        "Click below to claim your magical reward!": "Klicka nedan för att hämta din magiska belöning!",
+        "Bonus Ready!": "Bonus redo!",
+
+        "HIT THE JACKPOT!": "SLÅ JACKPOTTEN!",
+        "Make deposits on the brands below to participate in the jackpot": "Gör insättningar på varumärkena nedan för att delta i jackpotten",
+
       },
     },
     sk: {
@@ -6479,6 +6739,22 @@ async function initializeI18n() {
           "* Preskúmajte najnovšie kasína -",
         "Click Here!": "Kliknite tu!",
         "Expires in:": "Vyprší o:",
+        "BIGGEST JACKPOTS": "NAJVÄČŠIE JACKPOTY",
+        "TOP TOURNAMENTS": "NAJLEPŠIE TURNAJE",
+
+        "Click Here to Unleash Your Magic Bonus!": "Kliknite sem a uvoľnite svoj magický bonus!",
+        "Get a bonus just for you tomorrow!": "Získajte zajtra bonus len pre vás!",
+        "Get Bonus": "Získať bonus",
+        "Thank you! Your Bonus Will Be Here Soon": "Ďakujeme! Váš bonus bude čoskoro tu",
+        "Come back after": "Vráťte sa po",
+        "to collect it!": "aby ste si ho vyzdvihli!",
+        "Your Bonus is Ready!": "Váš bonus je pripravený!",
+        "Click below to claim your magical reward!": "Kliknite nižšie a získajte svoju magickú odmenu!",
+        "Bonus Ready!": "Bonus pripravený!",
+
+        "HIT THE JACKPOT!": "ZASIAHNITE JACKPOT!",
+        "Make deposits on the brands below to participate in the jackpot": "Vykonajte vklady na nižšie uvedené značky, aby ste sa zúčastnili jackpotu",
+
       },
     },
     tr: {
@@ -6849,6 +7125,22 @@ async function initializeI18n() {
           "* En Yeni ve En Popüler Casinoları Keşfedin –",
         "Click Here!": "Buraya Tıkla!",
         "Expires in:": "Sona erme tarihi:",
+        "BIGGEST JACKPOTS": "EN BÜYÜK JACKPOTLAR",
+        "TOP TOURNAMENTS": "EN İYİ TURNUVALAR",
+
+        "Click Here to Unleash Your Magic Bonus!": "Sihirli Bonusunuzu serbest bırakmak için buraya tıklayın!",
+        "Get a bonus just for you tomorrow!": "Yarın sadece size özel bir bonus alın!",
+        "Get Bonus": "Bonus Alın",
+        "Thank you! Your Bonus Will Be Here Soon": "Teşekkürler! Bonusunuz yakında burada olacak",
+        "Come back after": "Geri dön",
+        "to collect it!": "toplamak için!",
+        "Your Bonus is Ready!": "Bonusunuz hazır!",
+        "Click below to claim your magical reward!": "Sihirli ödülünüzü almak için aşağıya tıklayın!",
+        "Bonus Ready!": "Bonus Hazır!",
+
+        "HIT THE JACKPOT!": "JACKPOT'U VUR!",
+        "Make deposits on the brands below to participate in the jackpot": "Jackpot'a katılmak için aşağıdaki markalara para yatırın",
+
       },
     },
   };

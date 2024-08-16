@@ -35,9 +35,12 @@ export default async function Home() {
       {/* <PreviewHome /> */}
 
       <TopBrands />
-      <Banner_small/>
+      {/* <Banner_small/>
       <Brand_carousel/>
       <Double_banners/>
+      <Brands_double_carousel/> */}
+      {/* 
+   
       <Brands_double_carousel/>
       <Random_block/>
       <Jackpot_banner/>
@@ -45,7 +48,7 @@ export default async function Home() {
       <Three_part_gallery/>
       <Jackpot_banner/>
       <Brand_carousel/>
-      <Fortune_wheel/>
+      <Fortune_wheel/> */}
 
       {/* <div className="main__container mt-3">
         <UserBrands />
@@ -60,7 +63,7 @@ export default async function Home() {
       </div> */}
 
       <div className="background-block">
-        <FilteredHome />
+        {/* <FilteredHome /> */}
 
       </div>
 

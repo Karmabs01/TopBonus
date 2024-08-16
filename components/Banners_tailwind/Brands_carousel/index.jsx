@@ -22,7 +22,7 @@ export default function Brands_carousel() {
 
     const settings = {
         infinite: true,
-        dots: true,
+        dots: false,
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
@@ -151,13 +151,13 @@ export default function Brands_carousel() {
                                         brands.map((rowData, index) => (
                                             <div
                                                 key={index}
-                                                className="overflow-hidden p-5 sm:py-10 rounded-xl flex flex-col justify-between"
+                                                className="overflow-hidden sm:py-10 rounded-xl flex flex-col justify-between"
                                             >
-                                                <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
-                                                    <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
+                                                <div className="mx-auto max-w-7xl flex flex-col ">
+                                                    <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                                                         <div>
                                                             <Link
-                                                                className=""
+                                                                className="mt-3"
                                                                 href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                                 target="_blank"
                                                             >
@@ -171,7 +171,13 @@ export default function Brands_carousel() {
                                                                     className="target-top-new-releases"
                                                                 />
                                                             </Link>
-
+                                                            <Link
+                                                                className="btn-play"
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                target="_blank"
+                                                            >
+                                                                Play Now
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>

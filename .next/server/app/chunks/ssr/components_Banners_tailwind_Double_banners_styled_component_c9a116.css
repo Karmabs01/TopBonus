@@ -5,3 +5,28 @@
 .uppercase {
   text-transform: uppercase;
 }
+.banner-big {
+  max-width: 581px;
+  border-radius: 30px;
+  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(161deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
+  -webkit-backdrop-filter: blur(17.915000915527344px);
+  backdrop-filter: blur(17.915000915527344px);
+}
+.banner-big .absolute {
+  display: flex;
+  bottom: 133px;
+}
+.banner-big {
+  position: relative;
+}
+.banner-big p.mt-10 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 0 22px 39px;
+}

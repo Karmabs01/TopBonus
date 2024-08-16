@@ -26,6 +26,18 @@ const chunks = [
     ]
   },
   {
+    "path": "_next/static/chunks/node_modules_@babel_runtime_helpers_extends_7818c8.js",
+    "included": [
+      "[project]/node_modules/@babel/runtime/helpers/extends.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@babel_runtime_helpers_esm_extends_a5f342.js",
+    "included": [
+      "[project]/node_modules/@babel/runtime/helpers/esm/extends.js (ecmascript)"
+    ]
+  },
+  {
     "path": "_next/static/chunks/node_modules_react-i18next_dist_es_index_99a88d.js",
     "included": [
       "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)"

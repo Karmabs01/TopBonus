@@ -8,27 +8,7 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$TopBrands$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/TopBrands/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Banner_small$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Banner_small/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Brands_carousel/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel_mobile$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Brands_carousel_mobile/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Double_banners$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Double_banners/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_double_carousel$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Brands_double_carousel/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Random_block$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Random_block/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Jackpot_banner$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Jackpot_banner/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Three_part_gallery$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Three_part_gallery/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Fortune_wheel_banner$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Fortune_wheel_banner/index.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f$FilteredHome$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_home/FilteredHome.jsx (ecmascript, rsc)");
 "__TURBOPACK__ecmascript__hoisting__location__";
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
 ;
 ;
 const metadata = {
@@ -46,71 +26,11 @@ async function Home() {
                 lineNumber: 37,
                 columnNumber: 7
             }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Banner_small$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 38,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 39,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Double_banners$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 40,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_double_carousel$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 41,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Random_block$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Jackpot_banner$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 43,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel_mobile$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 44,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Three_part_gallery$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 45,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Jackpot_banner$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 46,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 47,
-                columnNumber: 7
-            }, this),
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Fortune_wheel_banner$2f$index$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "<[project]/app/page.tsx>",
-                lineNumber: 48,
-                columnNumber: 7
-            }, this),
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"]("div", {
-                className: "background-block",
-                children: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f$FilteredHome$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                    fileName: "<[project]/app/page.tsx>",
-                    lineNumber: 63,
-                    columnNumber: 9
-                }, this)
+                className: "background-block"
             }, void 0, false, {
                 fileName: "<[project]/app/page.tsx>",
-                lineNumber: 62,
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
@@ -126,19 +46,7 @@ __turbopack_esm__({
 });
 const chunks = [
   "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css",
-  "chunks/ssr/components_Banners_tailwind_Brands_carousel_styled_component.css",
-  "chunks/ssr/components_Banners_tailwind_Brands_carousel_mobile_styled_component.css",
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_Banners_tailwind_Double_banners_styled_component.css",
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_Banners_tailwind_Brands_double_carousel_styled_component.css",
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_Banners_tailwind_Three_part_gallery_Popular_offers_styled_component.css",
-  "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
-  "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css"
+  "chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css"
 ];
 
 })()),
@@ -154,10 +62,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header_tailwin
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer_tailwind$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Footer_tailwind/index.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Mobile_tabs_navigation$2f$index$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Mobile_tabs_navigation/index.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx (ecmascript, rsc)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Marque$2e$jsx__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Marque.jsx (ecmascript, rsc)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/script.js (ecmascript, rsc)");
 "__TURBOPACK__ecmascript__hoisting__location__";
-;
 ;
 ;
 ;
@@ -216,11 +122,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     }, this),
                     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$28$ecmascript$29$__["LanguageProvider"], {
                         children: [
-                            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Marque$2e$jsx__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                fileName: "<[project]/app/layout.tsx>",
-                                lineNumber: 53,
-                                columnNumber: 11
-                            }, this),
                             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$28$ecmascript$29$__["jsxDEV"](__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header_tailwind$2f$index$2e$jsx__$28$ecmascript$29$__["Header_tailwind"], {}, void 0, false, {
                                 fileName: "<[project]/app/layout.tsx>",
                                 lineNumber: 55,

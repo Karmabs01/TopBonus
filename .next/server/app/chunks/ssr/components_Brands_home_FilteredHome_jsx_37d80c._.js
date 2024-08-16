@@ -8,34 +8,6 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/node_modules_7758ce._.js",
-    "included": [
-      "[project]/node_modules/void-elements/index.js (ecmascript)",
-      "[project]/node_modules/inherits/inherits_browser.js (ecmascript)",
-      "[project]/node_modules/util/util.js (ecmascript)",
-      "[project]/node_modules/util/node_modules/inherits/inherits_browser.js (ecmascript)",
-      "[project]/node_modules/next/image.js (ecmascript)",
-      "[project]/node_modules/next/dist/compiled/process/browser.js (ecmascript)",
-      "[project]/node_modules/next/dist/build/polyfills/process.js (ecmascript)",
-      "[project]/node_modules/next/link.js (ecmascript)",
-      "[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript)",
-      "[project]/node_modules/next/dist/compiled/react/index.js (ecmascript)",
-      "[project]/node_modules/next/dist/shared/lib/app-dynamic.js (ecmascript)",
-      "[project]/node_modules/classnames/index.js (ecmascript)",
-      "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js (ecmascript)",
-      "[project]/node_modules/use-sync-external-store/shim/index.js (ecmascript)",
-      "[project]/node_modules/html-parse-stringify/dist/html-parse-stringify.module.js (ecmascript)",
-      "[project]/node_modules/phosphor-react/dist/index.esm.js (ecmascript)",
-      "[project]/node_modules/swr/_internal/dist/index.mjs (ecmascript)",
-      "[project]/node_modules/swr/core/dist/index.mjs (ecmascript)",
-      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)",
-      "[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs (ecmascript)",
-      "[project]/node_modules/@swc/helpers/cjs/_interop_require_default.cjs (ecmascript)",
-      "[project]/node_modules/@swc/helpers/esm/_interop_require_wildcard.js (ecmascript)",
-      "[project]/node_modules/@swc/helpers/esm/_interop_require_default.js (ecmascript)"
-    ]
-  },
-  {
     "path": "_next/static/chunks/components_FilterLoader_jsx_fdf32b._.js",
     "included": [
       "[project]/components/FilterLoader.jsx (ecmascript)"
@@ -57,6 +29,117 @@ const chunks = [
     "path": "_next/static/chunks/components_Brands_home_FilteredHome_jsx_b53fce._.js",
     "included": [
       "[project]/components/Brands_home/FilteredHome.jsx (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_next_c9fb1a._.js",
+    "included": [
+      "[project]/node_modules/next/image.js (ecmascript)",
+      "[project]/node_modules/next/dist/compiled/process/browser.js (ecmascript)",
+      "[project]/node_modules/next/dist/build/polyfills/process.js (ecmascript)",
+      "[project]/node_modules/next/link.js (ecmascript)",
+      "[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js (ecmascript)",
+      "[project]/node_modules/next/dist/compiled/react/index.js (ecmascript)",
+      "[project]/node_modules/next/dist/shared/lib/app-dynamic.js (ecmascript)",
+      "[project]/node_modules/next/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs (ecmascript)",
+      "[project]/node_modules/next/node_modules/@swc/helpers/cjs/_interop_require_default.cjs (ecmascript)",
+      "[project]/node_modules/next/node_modules/@swc/helpers/esm/_interop_require_wildcard.js (ecmascript)",
+      "[project]/node_modules/next/node_modules/@swc/helpers/esm/_interop_require_default.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@swc_helpers_aa44e5._.js",
+    "included": [
+      "[project]/node_modules/@swc/helpers/cjs/_interop_require_wildcard.cjs (ecmascript)",
+      "[project]/node_modules/@swc/helpers/cjs/_interop_require_default.cjs (ecmascript)",
+      "[project]/node_modules/@swc/helpers/esm/_interop_require_wildcard.js (ecmascript)",
+      "[project]/node_modules/@swc/helpers/esm/_interop_require_default.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_swr_dist__internal_index_mjs_5dd777._.js",
+    "included": [
+      "[project]/node_modules/swr/dist/_internal/index.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_swr_dist__internal_index_esm_3b545f.js",
+    "included": [
+      "[project]/node_modules/swr/dist/_internal/index.esm.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_swr_dist_core_index_mjs_45dfc5._.js",
+    "included": [
+      "[project]/node_modules/swr/dist/core/index.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_util_2d3bf1._.js",
+    "included": [
+      "[project]/node_modules/util/util.js (ecmascript)",
+      "[project]/node_modules/util/node_modules/inherits/inherits_browser.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/8069e_use-sync-external-store_cjs_use-sync-external-store-shim_development_a17354.js",
+    "included": [
+      "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_use-sync-external-store_shim_index_0f739c.js",
+    "included": [
+      "[project]/node_modules/use-sync-external-store/shim/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_@babel_runtime_helpers_2e8125._.js",
+    "included": [
+      "[project]/node_modules/@babel/runtime/helpers/extends.js (ecmascript)",
+      "[project]/node_modules/@babel/runtime/helpers/esm/extends.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_client-only_index_b7a53b.js",
+    "included": [
+      "[project]/node_modules/client-only/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_void-elements_index_079892.js",
+    "included": [
+      "[project]/node_modules/void-elements/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_inherits_inherits_browser_b6ac90.js",
+    "included": [
+      "[project]/node_modules/inherits/inherits_browser.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_classnames_index_bb3cde.js",
+    "included": [
+      "[project]/node_modules/classnames/index.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_html-parse-stringify_dist_html-parse-stringify_module_6c09aa.js",
+    "included": [
+      "[project]/node_modules/html-parse-stringify/dist/html-parse-stringify.module.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_phosphor-react_dist_index_esm_5d222b.js",
+    "included": [
+      "[project]/node_modules/phosphor-react/dist/index.esm.js (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_react-i18next_dist_es_index_61c2f5.js",
+    "included": [
+      "[project]/node_modules/react-i18next/dist/es/index.js (ecmascript)"
     ]
   },
   {
