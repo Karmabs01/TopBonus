@@ -160,6 +160,15 @@ const chunks = [
       "_next/static/chunks/node_modules_slick-carousel_slick_slick-theme_c9a116.css"
     ]
   },
+  {
+    "path": "_next/static/chunks/app_filteredComponents.css",
+    "included": [
+      "[project]/app/filteredComponents.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/app_filteredComponents_c9a116.css"
+    ]
+  },
   "_next/static/chunks/components_Brands_home_FilteredHome_jsx_5771e1._.js"
 ];
 

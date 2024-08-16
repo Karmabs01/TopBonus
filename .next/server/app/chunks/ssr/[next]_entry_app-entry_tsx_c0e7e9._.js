@@ -11,7 +11,7 @@ const chunks = [
   "chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick.css",
   "chunks/ssr/node_modules_slick-carousel_slick_slick-theme.css",
-  "chunks/ssr/components_Header_tailwind_styled_component.css",
+  "chunks/ssr/app_filteredComponents.css",
   "chunks/ssr/app_flags.css",
   "chunks/rsc/app_globals.css"
 ];

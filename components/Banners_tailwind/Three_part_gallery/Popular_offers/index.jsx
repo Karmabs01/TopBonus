@@ -156,7 +156,7 @@ export default function Popular_offers() {
                                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                                     <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
                                         {brands.slice(0, 6).map((rowData, index) => (
-                                            <div key={index} className="">
+                                            <div key={"Popular_offers" + index} className="">
                                                 <div className="relative">
                                                     <div className="relative h-32 overflow-hidden bg-gray-300 rounded-lg flex align-center justify-center">
                                                         <Image

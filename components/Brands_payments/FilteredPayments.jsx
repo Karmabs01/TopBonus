@@ -5,6 +5,7 @@ import useNavigateBrands from "./Navigate";
 import AllPayments from "./AllPayments";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
+import "../../app/filteredComponents.css"
 
 const FilteredPayments = () => {
   const { t } = useTranslation();

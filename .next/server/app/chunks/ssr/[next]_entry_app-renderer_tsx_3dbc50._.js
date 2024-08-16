@@ -26,4 +26,8 @@ require("./components_Banners_tailwind_TopBrands_index_jsx_17e8f8._.js");
 require("./components_Banners_tailwind_TopBrands_index_jsx_0328f9._.js");
 require("./app_4694d7._.js");
 require("./[next]_entry_app-renderer_tsx_b1481b._.js");
+<<<<<<< HEAD
 require("./[next]_entry_app-renderer_tsx_fd5ab0._.js");
+=======
+require("./[next]_entry_app-renderer_tsx_8cf7e2._.js");
+>>>>>>> 697454512b0c9df808cce20028411715ab913bba
