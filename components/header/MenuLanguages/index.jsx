@@ -203,69 +203,24 @@ export default function MultipleSelectPlaceholder() {
   };
 
   return (
-    // <div className="flex !items-center mobile-switcher">
-    //   <FormControl
-    //     className="!m-0 form-control"
-    //     sx={{ m: 1, width: 300, mt: 3 }}
-    //   >
-    //     <Select
-    //       className="selectlang"
-    //       multiple
-    //       displayEmpty
-    //       value={personName}
-    //       onChange={handleChange}
-    //       input={<OutlinedInput />}
-    //       renderValue={(selected) => {
-    //         if (selected.length === 0) {
-    //           const languageFlag =
-    //             newFlag.find((f) => f.code === language)?.flag ||
-    //             newFlag.find((f) => f.code === "all").flag;
-    //           return (
-    //             <div className="flex items-center">
-    //               <em className="flagflag">{languageFlag}</em>
-    //               <em className="flagflag2">{lng ? lng.toUpperCase() : ""}</em>
-    //               {/* {source !== "partner1043" && (
-    //               )} */}
-    //             </div>
-    //           );
-    //         }
-    //         return selected
-    //           .map((code) => {
-    //             const flag = newFlag.find((flag) => flag.code === code);
-    //             return flag ? `${flag.flag}` : code;
-    //           })
-    //           .join(", ");
-    //       }}
-    //       MenuProps={MenuProps}
-    //       inputProps={{ "aria-label": "Without label" }}
-    //     >
-    //       <p className="ml-4 mr-4 mt-4">{t("Your country of residence")}</p>
-    //       <BrandsSwitcher />
-    //       <LanguageSwitcher />
-    //     </Select>
-    //   </FormControl>
-    // </div>
-
-
     <div className="relative inline-block text-left mobile-switcher">
       <Menu>
         {({ open }) => (
           <>
             <div>
-              <MenuButton className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-indigo-500">
+              <MenuButton className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-md text-sm font-semibold shadow-sm p10">
                 {renderValue(personName)}
-                {/* <ChevronDownIcon className="h-5 w-5 text-white" aria-hidden="true" /> */}
               </MenuButton>
             </div>
             <MenuItems
-              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-indigo-600 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
+              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
                 }`}
             >
-              <div className="">
+              <div className="lang-menu">
                 <MenuItem>
                   {({ active }) => (
                     <div
-                      className={`block text-sm text-gray-700 `}
+                      className={`block text-sm text-white `}
                     >
                       <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
                         {/* {t('Your country of residence')} */}
@@ -277,7 +232,7 @@ export default function MultipleSelectPlaceholder() {
                 <MenuItem>
                   {({ active }) => (
                     <div
-                      className={`block text-sm text-gray-700`}
+                      className={`block text-sm text-white lng-sw`}
                     >
                       <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
                         {/* {t("Website language")} */}

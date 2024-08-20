@@ -136,11 +136,11 @@ export default function TopBrands() {
     return () => clearInterval(interval);
   }, [brands.length]);
 
-  console.log("BRANDS", brands);
+
 
   return (
     <>
-      <div className="topbr-tw pt-5 mb-10">
+      <div className="topbr-tw mb-10">
         <div className="main__container">
           {loading ? (
             <Loader />

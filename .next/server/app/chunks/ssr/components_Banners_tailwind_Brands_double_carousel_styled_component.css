@@ -47,7 +47,6 @@
 }
 .brands_rows .item:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .brands_rows .marquee {
   animation: scroll 20s linear infinite;
@@ -66,7 +65,6 @@
     transform: translatex(calc(-100% - 20px));
   }
 }
-.brands_rows .main__container {}
 .background-slider2.absolute {
   left: -24px;
 }

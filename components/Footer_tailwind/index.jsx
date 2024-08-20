@@ -3,6 +3,7 @@ import Image from "next/image";
 import Img from "@/public/logo3.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "phosphor-react";
+import "./styled.component.css";
 
 const Footer_tailwind = () => {
 
@@ -24,62 +25,15 @@ const Footer_tailwind = () => {
         ],
     }
     return (
-        // <footer className="footer">
-        //   <div className="flex  text-white flex-col">
-        //     <div className="footer-top ">
-        //       <div className="main__container flex justify-between items-center pb-3 pt-5">
-        //         <div className="logo">
-        //           <Image src={Img} alt="logo" width={150} loading="lazy" />
-        //         </div>
-        //         <div className="solution-contacts flex">
-        //           <div>
-        //             <p className="mb-1">{t("Our Contacts:")}</p>
-        //             <a
-        //               className="underline flex items-center"
-        //               href="mailto:support@myawardwallet.com"
-        //             >
-        //               support@myawardwallet.com
-        //             </a>
-        //           </div>
-        //           <div className="flex flex-col">
-        //             <a
-        //               className="underline ml-5 flex items-end mb-1"
-        //               href="/responsible-gaming"
-        //             >
-        //               {t("Responsible Gaming")}
-        //             </a>
-        //             <a
-        //               className="underline ml-5 flex items-end mb-1"
-        //               href="/privacy-policy"
-        //             >
-        //               {t("Privacy Policy")}
-        //             </a>
-        //             <a
-        //               className="underline ml-5 flex items-end "
-        //               href="/terms-and-conditions"
-        //             >
-        //               {t("Terms and Conditions")}
-        //             </a>
-        //           </div>
-        //         </div>
-        //       </div>
-        //     </div>
 
-        //     <div className="footer-end">
-        //       <div className="main__container pt-3 pb-3 flex justify-center text-gray-300 text-md">
-        //         <p>Copyright © 2024, topbon.us All rights reserved.</p>
-        //       </div>
-        //     </div>
-        //   </div>
-        // </footer>
 
-        <footer aria-labelledby="footer-heading" className="bg-indigo-700">
+        <footer aria-labelledby="footer-heading" className="footer-bg">
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-10 sm:pt-24 lg:px-8 lg:pt-12">
-                <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+                <div className="xl:grid xl:grid-cols-3 xl:gap-8 mb42">
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm text-white font-semibold leading-6 uppercase">Casinos</h3>
+                                <h3 className="text-sm text-white font-semibold leading-6 uppercase footer-h3">Casinos</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
@@ -91,7 +45,7 @@ const Footer_tailwind = () => {
                                 </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
-                                <h3 className="text-sm font-semibold leading-6 text-white uppercase">Support</h3>
+                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">Support</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
@@ -105,7 +59,7 @@ const Footer_tailwind = () => {
                         </div>
                         <div className="">
                             <div>
-                                <h3 className="text-sm font-semibold leading-6 text-white uppercase">Company</h3>
+                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">Company</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
@@ -116,26 +70,15 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
-                            {/* <div className="mt-10 md:mt-0">
-                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
-                                <ul role="list" className="mt-6 space-y-4">
-                                    {navigation.legal.map((item) => (
-                                        <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div> */}
+            
                         </div>
                     </div>
                     <div className="mt-10 xl:mt-0">
-                        <h3 className="text-sm font-semibold leading-6 text-gray-900 uppercase text-white">Join the community of our subscribers</h3>
-                        <p className="mt-4 text-xs leading-6 text-white">
+                        <h4 className="text-sm font-semibold leading-6 text-gray-900 uppercase text-white footer-h4">Join the community of our subscribers</h4>
+                        <p className="mt-4 text-xs leading-6 text-white footer-p">
                             Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!
                         </p>
-                        <form className="mt-6 sm:flex sm:max-w-md">
+                        <form className="mt-6 sm:flex flex-col sm:max-w-md form-subscribe">
                             <label htmlFor="email-address" className="sr-only">
                                 Email address
                             </label>
@@ -146,14 +89,14 @@ const Footer_tailwind = () => {
                                 required
                                 placeholder="Enter your email"
                                 autoComplete="email"
-                                className="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+                                className=""
                             />
 
 
-                            <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
+                            <div className="mt-4 sm:mt-0 sm:flex-shrink-0">
                                 <button
                                     type="submit"
-                                    className="flex w-full items-center justify-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    className="flex w-full items-center justify-center rounded-md px-3 text-sm font-semibold text-white   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 btn-orange"
                                 >
                                     Subscribe
                                 </button>
@@ -211,7 +154,7 @@ const Footer_tailwind = () => {
                         </fieldset>
                     </div>
                 </div>
-                <div className="mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0">
+                <div className="mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0 bot-foot">
                     <p className="mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center">
                         Copyright &copy; 2024, topbon.us All rights reserved.
                     </p>

@@ -49,32 +49,7 @@ const TheFooter = () => {
             </div>
           </div>
         </div>
-        {/* <div className="footer-center ">
-          <div className="main__container flex pt-5 pb-4">
-            <div className="solution-images flex flex-wrap justify-start items-center">
-            </div>
-            <div className="flex flex-col ml-auto mr-auto ">
-              <div className="solution-text flex flex-col items-center">
-                <h4 className="text-center mb-1">{t("Empowering iGaming Solutions")}</h4>
-                <p className="text-center">{t("Unlocking 15 Websites That Will Boost Your Brand to New Heights")}</p>
-                <a
-                  className="btn btn-primary m-auto"
-                  target="_blank"
-                  href="skype:live:.cid.3ebe8eae09c57c4f?chat"
-                >
-                 {t("Start Working With Us")}
-                </a>
-              </div>
-            </div>
-            <div className="solution-images flex flex-wrap justify-end items-center">
-            </div>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <div className="main__container pt-3">
-            <p>bonus.xxxcasinoGuru.com {t("footer_description")}</p>
-          </div>
-        </div> */}
+
         <div className="footer-end">
           <div className="main__container pt-3 pb-3 flex justify-center">
             <span>Copyright © 2024, topbon.us All rights reserved.</span>

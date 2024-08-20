@@ -67,7 +67,14 @@ __turbopack_esm__({
 const chunks = [
   "chunks/ssr/components_slider_Card_module.css",
   "chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css",
-  "chunks/ssr/components_Header_tailwind_styled_component.css",
+  "chunks/ssr/components_Banners_tailwind_Banner_small_styled_component.css",
+  "chunks/ssr/components_Banners_tailwind_Brands_carousel_styled_component.css",
+  "chunks/ssr/components_slider_Card_module.css",
+  "chunks/ssr/components_Banners_tailwind_Double_banners_styled_component.css",
+  "chunks/ssr/components_slider_Card_module.css",
+  "chunks/ssr/components_Banners_tailwind_Brands_double_carousel_styled_component.css",
+  "chunks/ssr/components_Banners_tailwind_Random_block_styled_component.css",
+  "chunks/ssr/components_Banners_tailwind_Jackpot_banner_styled_component.css",
   "chunks/ssr/app_flags.css",
   "chunks/rsc/app_globals.css"
 ];

@@ -43,6 +43,12 @@
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+  cursor: pointer;
+}
+.btn-new p {
+  margin-bottom: 0 !important;
+  position: relative;
+  z-index: 1;
 }
 .btn-new:after {
   content: "";
@@ -85,10 +91,13 @@
   letter-spacing: 0.54px;
   text-transform: capitalize;
 }
-
-/* .oneBrand .one-brand-item .wp-block-column li {
-  background: url(/noimage.png) no-repeat 50%;
-} */
+.slick-track {
+  display: flex;
+  overflow: hidden;
+}
+/* body {
+  background-size: cover;
+  } */
 *,
 *:before,
 *:after {
@@ -102,7 +111,17 @@ html,
 body {
   height: 100%;
   min-width: 320px;
-  background: #0f0926 !important;
+}
+html {
+  background-color: #0f0926 !important;
+}
+body {
+  background-image: url(/newimages/bg.svg) !important;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover !important;
+}
+main {
 }
 .dialog-overlay {
   display: none !important;
@@ -6269,10 +6288,7 @@ h1 {
 .button-tab {
   line-height: 20px;
 }
-.flex.mb-1 svg.mr-1 {
-  min-width: 24px;
-  max-width: 24px;
-}
+
 .headerText {
   color: #fff;
   font-size: 14px;
@@ -6516,14 +6532,7 @@ h1 {
 .topbr .loader {
   height: 100vh;
 }
-.topbr {
-  /* padding: 60px 0; */
-  background-color: #1d2730;
-  /* background-image: url(../bgp.png); */
-  /* position: relative; */
-  background-image: url(/bgfilter2.png) !important;
-  background-position: bottom !important;
-}
+
 .topbr .preview {
   padding-top: 0 !important;
 }
@@ -6580,10 +6589,6 @@ h1 {
   ); /* Размытие силой 10 пикселей (можно изменить значение) */
 }
 .brandslider .slick-slide {
-}
-
-.slick-slide {
-  margin-right: 27px;
 }
 
 /* the parent */
@@ -6991,14 +6996,7 @@ p {
   background-position: top right !important;
   background-size: contain;
 }
-.custom-bonuses {
-  background-image: url(/bgfilter.png) !important;
-  background-position: top center !important;
-}
-/* .other-custom-bonuses {
-  background-image: url(/bgfilter.png) !important;
-  background-position: top center !important;
-} */
+
 .topbr .review-bonus {
   font-size: 18px !important;
   line-height: 23px !important;
@@ -7027,16 +7025,7 @@ p {
 .card-brand .review-bonus strong br {
   display: none !important;
 }
-/* 
-.background-block {
-  background-image: url("/bg2.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-} */
-.background-block {
-  background-image: url(/bgfilter.png) !important;
-  background-position: top;
-}
+
 .oneBrand .attachment-affiliate-thumb,
 .oneBrand .review-extra-links-item,
 .oneBrand .review-box-thumb {
@@ -8796,12 +8785,12 @@ input.error {
 .flagflag2 {
   padding-left: 10px;
   font-style: initial;
-  font-size: 18px;
+  font-size: 14px;
   color: #fff;
   font-weight: 700;
-  border-left: 2px solid #fff;
-  padding-left: 12px;
-  margin-left: 12px;
+  border-left: 1px solid #4A1C8F;
+  padding-left: 17px;
+  margin-left: 17px;
 }
 .selectlang {
   max-width: 150px;
@@ -8882,9 +8871,7 @@ input.error {
   .page-fortune {
     padding-top: 80px;
   }
-  .mobile-switcher {
-    max-width: 110px;
-  }
+
   .selectlang > div {
     padding: 0px 10px !important;
   }
@@ -9012,9 +8999,7 @@ input.error {
 .account-items span {
   top: 5px !important;
 }
-.mobile-switcher {
-  max-width: 150px;
-}
+
 .header__container fieldset {
   display: none !important;
 }
@@ -9043,9 +9028,7 @@ input.error {
     height: 250px;
     width: 100%;
   }
-  .mobile-switcher {
-    margin-left: auto;
-  }
+ 
 }
 
 .cardaval {
@@ -9165,12 +9148,7 @@ body {
   max-height: initial !important;
 }
 .bl-sand {
-  /* margin-top: 100px !important; */
-  background: #1d2730;
   padding: 50px 0;
-  background-image: url(/bgfilter.png) !important;
-  background-repeat: no-repeat;
-  background-position: right center;
 }
 .block-sandbox .slick-slider {
   border: 2px solid #1d2730;
@@ -9425,8 +9403,6 @@ body {
   margin-top: 0;
   padding-top: 30px;
   padding-bottom: 100px;
-  background-image: url(/bgfilter.png);
-  background-position: top -499px right -72px;
 }
 .bl-sand {
   background-position: top -1571px right -72px;
@@ -9984,95 +9960,7 @@ span.descriptions {
 .topbr .main__container {
   position: relative;
 }
-.wrap-line-text {
-  /* max-width: 600px; */
-  margin: auto;
-  padding: 10px 0;
-  background-color: #3760b1;
-}
 
-.marquee-container {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  user-select: none;
-}
-
-.marquee {
-  display: flex;
-  white-space: nowrap;
-  animation: scroll 60s linear infinite;
-}
-
-.marquee span {
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
-  color: #fff;
-  padding-right: 100%; /* This ensures smooth repeat */
-}
-.marquee b {
-  color: #2ceb8f;
-}
-
-.marquee-container:hover .marquee {
-  animation-play-state: paused;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-@media (min-width: 320px) and (max-width: 1259px) {
-  .wrap-line-text {
-    position: fixed;
-    z-index: 4;
-  }
-  .marquee span {
-    font-size: 14px;
-  }
-  .header {
-    margin-top: 41px;
-  }
-}
-
-.btn.target-top-new-releases {
-  position: relative;
-  overflow: hidden;
-}
-
-.btn.target-top-new-releases:before {
-  content: "";
-  position: absolute;
-  width: 100px;
-  height: 100%;
-  background-image: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0) 30%,
-    /* Прозрачность начала блика */ rgba(255, 255, 255, 0.8),
-    /* Цвет блика */ rgba(255, 255, 255, 0) 70% /* Прозрачность конца блика */
-  );
-  top: 0;
-  left: -100px;
-  animation: shine 2s infinite linear; /* Анимация блика */
-}
-
-/* Ключевые кадры для анимации блика */
-@keyframes shine {
-  0% {
-    left: -100px; /* Начальная позиция блика (левая сторона кнопки) */
-  }
-  20% {
-    left: 100%; /* Позиция блика в конце (правая сторона кнопки) */
-  }
-  100% {
-    left: 100%; /* Завершение анимации */
-  }
-}
 
 .slidertop {
   max-width: 700px;

@@ -3,7 +3,12 @@ import banner from "@/public/newimages/minibanner.png";
 import Image from "next/image";
 import "./styled.component.css";
 
+import Brands_carousel from "../Brands_carousel";
+
 export default function Banner_small() {
+
+  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+
   return (
     <>
       <div>
@@ -31,6 +36,7 @@ export default function Banner_small() {
           </div>
         </div>
       </div>
+      <Brands_carousel categoryBrands={categoryBrands} />
     </>
   );
 }

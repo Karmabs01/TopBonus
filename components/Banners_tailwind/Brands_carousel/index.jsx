@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "./styled.component.css"
 
-export default function Brands_carousel() {
+export default function Brands_carousel({categoryBrands}) {
     const [newUrl, setNewUrl] = useState("");
     const [source, setSource] = useState("");
     const [loading, setLoading] = useState(true);
@@ -26,7 +26,7 @@ export default function Brands_carousel() {
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
-        autoplay: true,
+        autoplay: false,
         speed: 1000,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -106,7 +106,7 @@ export default function Brands_carousel() {
         }
     }, [language]);
 
-    const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+    // const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
     const { data, error } = useSWR(
         ["brands", language],
         () => getBrands(language),

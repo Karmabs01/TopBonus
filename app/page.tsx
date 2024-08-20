@@ -2,17 +2,16 @@
 import { Metadata } from "next";
 import TopBrands from "@/components/Banners_tailwind/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
-import Banner_small from "@/components/Banners_tailwind/Banner_small"
-import Brand_carousel from "@/components/Banners_tailwind/Brands_carousel"
-import Brand_carousel_mobile from "@/components/Banners_tailwind/Brands_carousel_mobile"
-import Double_banners from "@/components/Banners_tailwind/Double_banners"
-import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel"
-import Random_block from "@/components/Banners_tailwind/Random_block"
-import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner"
-import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery"
-import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner"
-
-
+import Banner_small from "@/components/Banners_tailwind/Banner_small";
+// import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
+import Brand_carousel_mobile from "@/components/Banners_tailwind/Brands_carousel_mobile";
+import Double_banners from "@/components/Banners_tailwind/Double_banners";
+import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel";
+import Random_block from "@/components/Banners_tailwind/Random_block";
+import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
+import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
+import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery";
+import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner";
 
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
@@ -35,20 +34,27 @@ export default async function Home() {
       {/* <PreviewHome /> */}
 
       <TopBrands />
-      {/* <Banner_small/>
-      <Brand_carousel/>
-      <Double_banners/>
-      <Brands_double_carousel/> */}
+      <Banner_small />
+
+      {/* <Brands_carousel />  */}
+     <Double_banners />
+      <Brands_double_carousel />
+      <Random_block />
+      <Double_banners />
+      <Jackpot_banner />
+      <Next_event_banner />
+      <Fortune_wheel />
       {/* 
    
-      <Brands_double_carousel/>
-      <Random_block/>
-      <Jackpot_banner/>
-      <Brand_carousel_mobile/>
-      <Three_part_gallery/>
-      <Jackpot_banner/>
-      <Brand_carousel/>
-      <Fortune_wheel/> */}
+   
+   
+   
+   
+   <Brand_carousel_mobile/>
+   <Three_part_gallery/>
+   
+
+ */}
 
       {/* <div className="main__container mt-3">
         <UserBrands />
@@ -62,13 +68,7 @@ export default async function Home() {
         <Fortunes banner={banner} target={target} creative={creative} />
       </div> */}
 
-      <div className="background-block">
-        {/* <FilteredHome /> */}
-
-      </div>
-
+      <div className="background-block"><FilteredHome /></div>
     </>
   );
 }
-
-

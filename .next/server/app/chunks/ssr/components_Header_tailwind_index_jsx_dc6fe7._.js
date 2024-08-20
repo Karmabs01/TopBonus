@@ -380,6 +380,12 @@ const chunks = [
     ]
   },
   {
+    "path": "_next/static/chunks/components_header_Marque_index_jsx_258fdf._.js",
+    "included": [
+      "[project]/components/header/Marque/index.jsx (ecmascript)"
+    ]
+  },
+  {
     "path": "_next/static/chunks/public_84c430._.js",
     "included": [
       "[project]/public/logo3.png.mjs/(IMAGE)/[project]/public/logo3.png (static) (structured image object, ecmascript)",
@@ -393,6 +399,15 @@ const chunks = [
     ],
     "moduleChunks": [
       "_next/static/chunks/app_flags_c9a116.css"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/components_Header_tailwind_styled_component.css",
+    "included": [
+      "[project]/components/Header_tailwind/styled.component.css (css)"
+    ],
+    "moduleChunks": [
+      "_next/static/chunks/components_Header_tailwind_styled_component_c9a116.css"
     ]
   },
   "_next/static/chunks/components_Header_tailwind_index_jsx_5771e1._.js"
