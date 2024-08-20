@@ -1,0 +1,91 @@
+/* [project]/components/slider/Card.module.css (css, app ssr) */
+.card__Card__40cc38fe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 26rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  opacity: 1 !important;
+}
+.card__Card__40cc38fe img {
+  width: 100%;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 100px;
+  max-height: 100px !important;
+  border-radius: 8px;
+  margin-right: auto;
+  padding-top: 15px !important;
+}
+.card__Card__40cc38fe h2 {
+  margin: 0;
+  margin-top: 1rem;
+}
+.card__Card__40cc38fe p {
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.card__Card__40cc38fe .btnn__Card__40cc38fe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div div div:nth-child(6n+1) .card__Card__40cc38fe {
+  background: url(/bl_02.png);
+  background-color: bottom right;
+  background-size: cover;
+}
+div div div:nth-child(6n+2) .card__Card__40cc38fe {
+  background: url(/ylw_01.jpg);
+  background-color: bottom right;
+  background-size: cover;
+}
+div div div:nth-child(6n+3) .card__Card__40cc38fe {
+  background: url(/bl_02.png);
+  background-color: bottom right;
+  background-size: cover;
+}
+div div div:nth-child(6n+4) .card__Card__40cc38fe {
+  background: url(/gr_02.png);
+  background-color: bottom right;
+  background-size: cover;
+}
+div div div:nth-child(6n+5) .card__Card__40cc38fe {
+  background: url(/ylw_01.jpg);
+  background-color: bottom right;
+  background-size: cover;
+}
+div div div:nth-child(6n+6) .card__Card__40cc38fe {
+  background: url(/gr_02.png);
+  background-color: bottom right;
+  background-size: cover;
+}
+@media (min-width: 320px) and (max-width: 1259px) {
+  .card__Card__40cc38fe {
+    width: 18rem;
+    padding: 15px;
+  }
+  .card__Card__40cc38fe img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 75px;
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+  div div div:nth-child(6n+1) .card__Card__40cc38fe {
+    background: url(/green_mobile.png);
+  }
+  div div div:nth-child(6n+2) .card__Card__40cc38fe {
+    background: url(/yellow_mobile.png);
+  }
+  div div div:nth-child(6n+3) .card__Card__40cc38fe {
+    background: url(/blue_mobile.png);
+  }
+}
+/*# sourceMappingURL=components_slider_Card_module_c9a116.css.map*/

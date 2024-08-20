@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/public/whl2.png.mjs (structured image object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 396, height: 209, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAj0lEQVR42gGEAHv/ABsAOv87A13/bhqI/3w0jP99No7/cByK/zwDX/8cADr/ADoCXf9tJYT/Yjxu/1NWVv9PVVP/Zjh0/24jif87A17/AGgThf9TRHn/ZmKa/3NKef92RHr/i0Sj/09OY/9rFYb/AHMmiv9NU3r/ZUuX/1lYX/9dWmH/XlOC/1NZdv93Jo7/1NJAYYeoQdYAAAAASUVORK5CYII=\", blurWidth: 8, blurHeight: 4 }\n"],"names":[],"mappings":";;;;;;uCACe;IAAE,GAAG;IAAE,OAAO;IAAK,QAAQ;IAAK,aAAa;IAAsS,WAAW;IAAG,YAAY;AAAE"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/public/logo3.png.mjs (structured image object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 3038, height: 802, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/AAw+JkIKNSA4E0ovTkpUT1RJSUlIT09PTkRERENNTU1NAAgrGi8KNSA4ETsmPkxQTlBLS0tKT09PTk1NTUxOTk5N6zwP07jyXtYAAAAASUVORK5CYII=\", blurWidth: 8, blurHeight: 2 }\n"],"names":[],"mappings":";;;;;;uCACe;IAAE,GAAG;IAAE,OAAO;IAAM,QAAQ;IAAK,aAAa;IAA8M,WAAW;IAAG,YAAY;AAAE"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

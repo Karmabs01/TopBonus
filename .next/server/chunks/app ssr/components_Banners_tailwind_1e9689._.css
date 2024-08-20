@@ -1,0 +1,102 @@
+/* [project]/components/Banners_tailwind/Brands_carousel/styled.component.css (css, app ssr) */
+.brand_carousel .slick-dots li.slick-active button:before {
+  color: #4f46e5 !important;
+}
+.brand_carousel .slick-dots li button:before {
+  font-size: 12px;
+}
+.slick-list {
+  overflow: hidden;
+}
+.btn-play {
+  border-radius: 0px 0px 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0px -5px 30px 0px rgba(255, 143, 31, 0.3);
+  padding: 12px 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.card-sl {
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  border-radius: 32px;
+  padding-top: 10px;
+}
+.card-sl > div > .mt-3 {
+  display: flex;
+  padding: 0 10px;
+}
+
+/* [project]/components/Banners_tailwind/Banner_small/styled.component.css (css, app ssr) */
+.new-brands {
+  border-radius: 30px;
+  border-top: 2.5px rgba(255, 255, 255, 0.3) solid;
+  border-bottom: 2.5px rgba(255, 255, 255, 0.3) solid;
+  background: linear-gradient(161deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 101.7%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 28px 42px 28px 192px;
+  position: relative;
+}
+.new-brands p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+.new-brands p span {
+  color: #ff8f1f;
+}
+.minibanner {
+  left: -92px;
+  top: -97px;
+}
+.btn-secondary {
+  border: 1px solid #ff8f1f;
+  background: rgba(173, 26, 175, 0.05);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  text-transform: capitalize;
+  padding: 24px 58px;
+  max-width: 220px;
+  width: 100%;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background: #ff8f1f;
+  border: 1px solid #ff8f1f;
+}
+.show-more {
+  position: relative;
+}
+.show-more:after {
+  content: "";
+  position: absolute;
+  background: #ff8f1f;
+  width: 4px;
+  height: 42px;
+  left: -4px;
+  top: 15px;
+}
+.show-more:before {
+  content: "";
+  position: absolute;
+  background: #ff8f1f;
+  width: 4px;
+  height: 42px;
+  right: -4px;
+  top: 15px;
+}
+
+
+/*# sourceMappingURL=components_Banners_tailwind_1e9689._.css.map*/
