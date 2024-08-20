@@ -1,4 +1,4 @@
-import { Input as BaseInput } from "@mui/base/Input";
+// import { Input as BaseInput } from "@mui/base/Input";
 import { Box, styled } from "@mui/system";
 import { Fragment, useRef } from "react";
 
@@ -150,7 +150,7 @@ export const OTP = ({ separator, length, value, onChange }: OTPProps) => {
     <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
       {new Array(length).fill(null).map((_, index) => (
         <Fragment key={index}>
-          <BaseInput
+          {/* <BaseInput
             slots={{
               input: InputElement,
             }}
@@ -167,7 +167,7 @@ export const OTP = ({ separator, length, value, onChange }: OTPProps) => {
                 value: value[index] ?? "",
               },
             }}
-          />
+          /> */}
           {index === length - 1 ? null : separator}
         </Fragment>
       ))}
