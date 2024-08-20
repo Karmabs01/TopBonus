@@ -7,8 +7,9 @@ __turbopack_esm__({
     chunks: () => chunks,
 });
 const chunks = [
-  "chunks/ssr/components_slider_Card_module.css",
-  "chunks/ssr/components_Banners_tailwind_TopBrands_styled_component.css",
+  "chunks/ssr/components_slider_Card_module_3d7829.css",
+  "chunks/ssr/components_Banners_tailwind_Banner_small_styled_component.css",
+  "chunks/ssr/components_Banners_tailwind_Brands_carousel_styled_component.css",
   "chunks/ssr/components_slider_Card_module.css",
   "chunks/ssr/components_Banners_tailwind_Double_banners_styled_component.css",
   "chunks/ssr/components_slider_Card_module.css",
