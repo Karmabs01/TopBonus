@@ -31,7 +31,7 @@ export default function Timestamp() {
     return null;
   });
 
-  const [remainingTime, setRemainingTime] = useState(ONE_DAY_IN_MS); //
+  const [remainingTime, setRemainingTime] = useState(ONE_MINUTE_IN_MS); //
 
   // useEffect для инициализации состояния на клиенте
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function Timestamp() {
 
       if (storedTimestamp) {
         const timeElapsed = Date.now() - parseInt(storedTimestamp, 10);
-        setRemainingTime(ONE_DAY_IN_MS - timeElapsed);
+        setRemainingTime(ONE_MINUTE_IN_MS - timeElapsed);
         setTimestamp(parseInt(storedTimestamp, 10));
       } else {
         const newTimestamp = Date.now();
@@ -99,7 +99,7 @@ export default function Timestamp() {
     ) {
       const intervalId = setInterval(() => {
         const timeElapsed = Date.now() - timestamp;
-        const newRemainingTime = ONE_DAY_IN_MS - timeElapsed;
+        const newRemainingTime = ONE_MINUTE_IN_MS - timeElapsed;
         setRemainingTime(newRemainingTime);
 
         if (newRemainingTime <= 0) {
@@ -239,8 +239,8 @@ export default function Timestamp() {
                 {t("Come back after")}{" "}
                 <span className="goldie">{formatTime(remainingTime)}</span>{" "}
                 {t("to collect it!")}
-                <Image loading="lazy" src={banner1} alt="banner1" />
               </p>
+         
             </div>
           )}
           {stage === "third-stage" && (
@@ -248,7 +248,7 @@ export default function Timestamp() {
               <h5 className="h5">{t("Your Bonus is Ready!")}</h5>
               <p className="p">{t("Click below to claim your magical reward!")}</p>
 
-              <Image loading="lazy" src={banner1} alt="banner1" />
+      
 
               <button className="btn btn-new" onClick={resetToFirstStage}>
                 <p> {t("Bonus Ready!")}</p>

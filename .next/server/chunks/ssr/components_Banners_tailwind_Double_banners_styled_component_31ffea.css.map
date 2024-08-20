@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/components/Banners_tailwind/Double_banners/styled.component.css"],"sourcesContent":[".double_banners .bordered-button {\n  border: 2px solid white;\n}\n\n.uppercase {\n  text-transform: uppercase;\n}\n.banner-big {\n    max-width: 581px;\n  border-radius: 30px;\n  border-top: 2.5px solid rgba(255, 255, 255, 0.4);\n  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);\n  background: linear-gradient(\n    161deg,\n    rgba(255, 255, 255, 0.1) 0%,\n    rgba(255, 255, 255, 0.05) 101.7%\n  );\n  -webkit-backdrop-filter: blur(17.915000915527344px);\n          backdrop-filter: blur(17.915000915527344px);\n}\n.banner-big .absolute {\n  display: flex;\n  bottom: 133px;\n}\n.banner-big {\n  position: relative;\n}\n\n.banner-big p.mt-10 {\n  color: #FFF;\n  text-align: center;\n  font-size: 16px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 28px; \n  padding: 0 22px 39px;\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;AAGA;;;;;;;;;;AAaA;;;;;AAIA;;;;AAIA"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

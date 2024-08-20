@@ -6,7 +6,6 @@ import "./styled.component.css";
 import Brands_carousel from "../Brands_carousel";
 
 export default function Banner_small() {
-
   const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
 
   return (
@@ -16,6 +15,9 @@ export default function Banner_small() {
           <div className="">
             <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
               <div className="flex flex-row items-center">
+                <div className="absolute abs-p flex justify-center items-center">
+                  <p>NEW</p>
+                </div>
                 <Image
                   src={banner}
                   alt={banner}
@@ -24,13 +26,14 @@ export default function Banner_small() {
                   loading="lazy"
                   className="absolute minibanner"
                 />
+
                 <p className="text-sm text-white ml-2">
                   Uncover the latest casinos and be among the{" "}
                   <span>first to play!</span>
                 </p>
               </div>
               <div className="flex ml-auto mt-2 sm:mt-0 show-more">
-                <button className="btn btn-secondary">Show more</button>
+                <button className="btn btn-secondary2">Show more</button>
               </div>
             </div>
           </div>

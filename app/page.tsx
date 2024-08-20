@@ -37,7 +37,7 @@ export default async function Home() {
       <Banner_small />
 
       {/* <Brands_carousel />  */}
-     <Double_banners />
+      <Double_banners />
       <Brands_double_carousel />
       <Random_block />
       <Double_banners />
@@ -68,7 +68,9 @@ export default async function Home() {
         <Fortunes banner={banner} target={target} creative={creative} />
       </div> */}
 
-      <div className="background-block"><FilteredHome /></div>
+      <div className="background-block">
+        <FilteredHome />
+      </div>
     </>
   );
 }

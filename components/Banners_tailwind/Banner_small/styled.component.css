@@ -27,7 +27,7 @@
   top: -97px;
 }
 
-.btn-secondary {
+.btn-secondary2 {
   border: 1px solid #ff8f1f;
   background: rgba(173, 26, 175, 0.05);
   color: #fff;
@@ -38,16 +38,19 @@
   text-transform: capitalize;
   padding: 24px 58px;
   max-width: 220px;
+  min-height: 70px;
   width: 100%;
 }
 
-.btn-secondary:hover {
+.btn-secondary2:hover {
   color: #fff;
   background: #ff8f1f;
   border: 1px solid #ff8f1f;
 }
 .show-more {
   position: relative;
+  max-width: 220px;
+  width: 100%;
 }
 .show-more:after {
   content: "";
@@ -66,4 +69,18 @@
   height: 42px;
   right: -4px;
   top: 15px;
+}
+.abs-p {
+  left: -20px;
+  min-height: 70px;
+  min-width: 170px;
+}
+.abs-p p {
+  color: #fff;
+  font-family: "AA Duke";
+  font-size: 64px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
 }

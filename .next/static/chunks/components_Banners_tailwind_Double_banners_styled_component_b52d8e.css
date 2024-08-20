@@ -1,0 +1,39 @@
+/* [project]/components/Banners_tailwind/Double_banners/styled.component.css [app-client] (css) */
+.double_banners .bordered-button {
+  border: 2px solid #fff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.banner-big {
+  max-width: 581px;
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.banner-big .absolute {
+  display: flex;
+  bottom: 133px;
+}
+
+.banner-big {
+  position: relative;
+}
+
+.banner-big p.mt-10 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 0 22px 39px;
+}
+
+/*# sourceMappingURL=components_Banners_tailwind_Double_banners_styled_component_b52d8e.css.map*/

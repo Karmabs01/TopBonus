@@ -183,4 +183,6 @@ header nav button {
 }
 .bg-orange {
   background: #FF8F1F;
+  padding: 3px 7px;
+  margin-bottom: 0;
 }
