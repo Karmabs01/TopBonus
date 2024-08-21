@@ -90,4 +90,28 @@
   font-size: 64px !important;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .new-brands {
+    padding: 20px 10px;
+  }
+
+  .new-brands .show-more {
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .new-brands .abs-p {
+    position: initial;
+  }
+
+  .new-brands img {
+    position: initial;
+    display: none;
+  }
+
+  .new-brands > .items-center {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Banner_small_styled_component_b52d8e.css.map*/

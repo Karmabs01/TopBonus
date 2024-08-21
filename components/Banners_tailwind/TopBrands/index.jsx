@@ -146,7 +146,7 @@ export default function TopBrands() {
             <Loader />
           ) : (
             cards2 && (
-              <div className="flex justify-between items-start md:flex-row lg:space-y-0">
+              <div className="flex justify-between items-start md:flex-row lg:space-y-0 mob1">
                 <div className="slider-left w-full md:w-2/3 mb-10 md:mb-2">
                   <Slider {...settings}>
                     {brands.length > 0 &&

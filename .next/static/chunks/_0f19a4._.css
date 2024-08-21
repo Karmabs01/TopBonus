@@ -307,6 +307,13 @@ header nav button {
   margin-bottom: 0;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .wrap-line-text {
+    padding: 12px 0;
+    background: #0f0926;
+  }
+}
+
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-client] (css) */
 .footer-bg {
@@ -1318,6 +1325,10 @@ select {
   height: 5rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -1364,6 +1375,10 @@ select {
 
 .w-20 {
   width: 5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-4 {
@@ -1800,16 +1815,6 @@ select {
   border-radius: .75rem;
 }
 
-.rounded-l-lg {
-  border-top-left-radius: .5rem;
-  border-bottom-left-radius: .5rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: .5rem;
-  border-bottom-right-radius: .5rem;
-}
-
 .rounded-r-md {
   border-top-right-radius: .375rem;
   border-bottom-right-radius: .375rem;
@@ -1824,10 +1829,6 @@ select {
   border-width: 1px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1838,10 +1839,6 @@ select {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-solid {
-  border-style: solid;
 }
 
 .border-gray-200 {
@@ -1867,11 +1864,6 @@ select {
   border-color: #0000;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .bg-blue-500\/10 {
   background-color: #3b82f61a;
 }
@@ -1879,11 +1871,6 @@ select {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-gray-300 {
@@ -1923,11 +1910,6 @@ select {
 .bg-purple-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
-}
-
-.bg-teal-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
 .bg-transparent {
@@ -2307,11 +2289,6 @@ select {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-green-600 {
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
 .text-indigo-600 {

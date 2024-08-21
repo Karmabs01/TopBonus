@@ -84,3 +84,22 @@
   line-height: normal;
   z-index: 1;
 }
+@media(min-width: 320px) and (max-width: 767px) {
+  .new-brands {
+    padding: 20px 10px;
+  }
+  .new-brands .show-more {
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .new-brands .abs-p {
+    position: initial;
+  }
+  .new-brands img {
+    position: initial;
+    display: none;
+  }
+  .new-brands>.items-center {
+    flex-direction: column;
+  }
+}

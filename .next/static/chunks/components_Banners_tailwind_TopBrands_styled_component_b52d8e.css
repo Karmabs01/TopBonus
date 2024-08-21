@@ -240,4 +240,57 @@
   color: #ff8f1f;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .wrap-line-text {
+    z-index: 99;
+  }
+
+  .main__container {
+    width: 95%;
+  }
+
+  header .main__container {
+    padding-top: 50px !important;
+  }
+
+  main > .topbr-tw {
+    padding-top: 20px;
+  }
+
+  .background-slider {
+    padding: 20px 10px;
+    height: initial;
+  }
+
+  .background-slider h3 {
+    font-size: 48px;
+  }
+
+  .background-slider p, .jins p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .mob1 {
+    flex-direction: column;
+  }
+
+  footer {
+    display: none !important;
+  }
+
+  .jins > div {
+    height: initial;
+    padding: 20px 10px;
+  }
+
+  .jins > div:after {
+    display: none;
+  }
+
+  .slick-list {
+    margin-right: 0;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_TopBrands_styled_component_b52d8e.css.map*/

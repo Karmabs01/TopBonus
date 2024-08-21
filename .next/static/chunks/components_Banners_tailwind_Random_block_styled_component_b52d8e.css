@@ -68,4 +68,32 @@
   line-height: 32px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .abs-banner {
+    display: none;
+  }
+
+  .bg-random:after {
+    width: 147px;
+    height: 104px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .bg-random .btn-new {
+    margin-bottom: 70px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .mlml {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .ptpt {
+    padding-top: 0 !important;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Random_block_styled_component_b52d8e.css.map*/

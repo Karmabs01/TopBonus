@@ -40,3 +40,12 @@
   background: url(/newimages/banner-jack.png) no-repeat center;
   z-index: -1;
 }
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .banner-jack::after {
+    display: none;
+  }
+  .mb00 {
+    margin-bottom: 0;
+  }
+}

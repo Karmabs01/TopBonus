@@ -37,10 +37,10 @@ export default function Random_block() {
 
   return (
     <>
-      <div className="pt-5 mb-10">
+      <div className="pt-5 mb-10 mb00">
         <div className="main__container">
      
-            <div className="relative py-16">
+            <div className="relative py-16 ptpt">
               <div className="mx-auto max-w-7xl lg:bg-transparent ">
                 <div className="lg:grid lg:grid-cols-12">
                   <div className="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16 abs-banner">
@@ -70,7 +70,7 @@ export default function Random_block() {
                       <Link
                         href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
                         target="_blank"
-                        className="flex"
+                        className="flex mlml"
                       >
                         <div className="btn btn-new">
                           <p>{t("Try Your Luck!")}</p>

@@ -151,23 +151,23 @@ export default function Double_banners() {
       <div className="double_banners mb-10 pt-5">
         <div className="main__container">
           <div className="md:hidden mb-4">
-            <div className="flex justify-center space-x-1">
+            <div className="flex justify-center space-x-1 buttons">
               <button
                 onClick={() => setSelectedTab(0)}
-                className={`px-4 py-2 rounded-l-lg ${
+                className={` ${
                   selectedTab === 0
-                    ? "bg-indigo-600 text-white"
-                    : "bg-gray-200 text-gray-700"
+                    ? "active"
+                    : "not-active"
                 }`}
               >
                 Biggest Jackpots
               </button>
               <button
                 onClick={() => setSelectedTab(1)}
-                className={`px-4 py-2 rounded-r-lg ${
+                className={` ${
                   selectedTab === 1
-                    ? "bg-indigo-600 text-white"
-                    : "bg-gray-200 text-gray-700"
+                    ? "active"
+                    : "not-active"
                 }`}
               >
                 Top Tournaments
@@ -221,7 +221,7 @@ export default function Double_banners() {
             
             <div
               className={`md:w-1/2 ${
-                selectedTab === 0 ? "" : "hidden"
+                selectedTab === 1 ? "" : "hidden"
               } md:block mr-0`}
             >
               <div className="h-full flex flex-col justify-between items-center banner-big">

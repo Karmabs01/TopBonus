@@ -188,4 +188,11 @@ header nav button {
   margin-bottom: 0;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .wrap-line-text {
+    padding: 12px 0;
+    background: #0f0926;
+  }
+}
+
 /*# sourceMappingURL=components_Header_tailwind_styled_component_b52d8e.css.map*/

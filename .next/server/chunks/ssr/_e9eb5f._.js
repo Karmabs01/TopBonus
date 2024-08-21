@@ -57,18 +57,21 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TicketIcon$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TicketIcon$3e$__ = __turbopack_import__("[project]/node_modules/@heroicons/react/24/outline/esm/TicketIcon.js [app-rsc] (ecmascript) <export default as TicketIcon>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$logo2$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/logo2.png.mjs { IMAGE => "[project]/public/logo2.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 ;
 ;
 ;
+;
+;
 const Mobile_tabs_navigation = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 md:hidden z-30 rounded-t-xl pt-1",
+        className: "fixed bottom-0 left-0 w-full md:hidden z-30 rounded-t-xl pt-1",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative flex justify-between text-center px-4 py-1 bg-indigo-600 rounded-t-xl",
+                className: "relative flex justify-between text-center px-4 py-1 bg-mob-header rounded-t-xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "/casinos",
@@ -76,10 +79,10 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TicketIcon$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TicketIcon$3e$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8  transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 11,
+                                lineNumber: 13,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -87,13 +90,13 @@ const Mobile_tabs_navigation = ()=>{
                                 children: "Casino"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 12,
+                                lineNumber: 14,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                        lineNumber: 10,
+                        lineNumber: 12,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -102,10 +105,10 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TicketIcon$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TicketIcon$3e$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 15,
+                                lineNumber: 17,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -113,20 +116,20 @@ const Mobile_tabs_navigation = ()=>{
                                 children: "Shop"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 16,
+                                lineNumber: 18,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                        lineNumber: 14,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-16"
                     }, void 0, false, {
                         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -135,10 +138,10 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TicketIcon$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TicketIcon$3e$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 22,
+                                lineNumber: 24,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -146,13 +149,13 @@ const Mobile_tabs_navigation = ()=>{
                                 children: "Wheel"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 23,
+                                lineNumber: 25,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                        lineNumber: 21,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -161,10 +164,10 @@ const Mobile_tabs_navigation = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TicketIcon$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TicketIcon$3e$__["TicketIcon"], {
                                 "aria-hidden": "true",
-                                className: "h-8 w-8 text-green-600 transition-colors duration-300 ease-in-out"
+                                className: "h-8 w-8 transition-colors duration-300 ease-in-out"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 26,
+                                lineNumber: 28,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -172,32 +175,43 @@ const Mobile_tabs_navigation = ()=>{
                                 children: "Profile"
                             }, void 0, false, {
                                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                                lineNumber: 27,
+                                lineNumber: 29,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                lineNumber: 9,
+                lineNumber: 11,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "ml-2 absolute -top-4 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-teal-500 rounded-full border-4 border-solid border-white flex items-center justify-center"
+                className: "round-logo absolute -top-4 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full flex items-center justify-center",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$logo2$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["logo"],
+                    alt: "logo",
+                    width: 150,
+                    loading: "lazy",
+                    className: "w-8"
+                }, void 0, false, {
+                    fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
+                    lineNumber: 34,
+                    columnNumber: 17
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-                lineNumber: 31,
+                lineNumber: 33,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Mobile_tabs_navigation/index.jsx",
-        lineNumber: 8,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 };
@@ -363,32 +377,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
                         lineNumber: 78,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        id: "ladesc",
-                        children: `
-            (function (d, src, c) {
-              var t = d.scripts[d.scripts.length - 1],
-                s = d.createElement("script");
-              s.id = "la_x2s6df8d";
-              s.defer = true;
-              s.src = src;
-              s.onload = s.onreadystatechange = function () {
-                var rs = this.readyState;
-                if (rs && rs != "complete" && rs != "loaded") {
-                  return;
-                }
-                c(this);
-              };
-              t.parentElement.insertBefore(s, t.nextSibling);
-            })(document, "https://maw.ladesk.com/scripts/track.js", function (e) {
-              LiveAgent.createButton("32wx1d8n", e);
-            });
-          `
-                    }, void 0, false, {
-                        fileName: "[project]/app/layout.tsx",
-                        lineNumber: 91,
                         columnNumber: 9
                     }, this)
                 ]

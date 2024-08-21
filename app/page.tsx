@@ -34,27 +34,24 @@ export default async function Home() {
       {/* <PreviewHome /> */}
 
       <TopBrands />
-      <Banner_small />
-
-      {/* <Brands_carousel />  */}
-      <Double_banners />
+      {/* <Banner_small />
+      <Double_banners /> */}
       <Brands_double_carousel />
       <Random_block />
-      <Double_banners />
-      <Jackpot_banner />
-      <Next_event_banner />
-      <Fortune_wheel />
-      {/* 
+      {/* <Jackpot_banner /> */}
+      {/* <Next_event_banner /> */}
+      <Fortune_wheel /> 
+
    
    
    
    
-   
+{/*    
    <Brand_carousel_mobile/>
-   <Three_part_gallery/>
+   <Three_part_gallery/> */}
    
 
- */}
+
 
       {/* <div className="main__container mt-3">
         <UserBrands />

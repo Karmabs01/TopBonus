@@ -140,4 +140,50 @@
   padding-left: 48px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .brands_rows {
+    padding-top: 0;
+  }
+
+  .brands_rows svg {
+    display: none;
+  }
+
+  .brands_rows h2.mt-4 {
+    padding-left: 0;
+    font-size: 42px !important;
+  }
+
+  .brands_rows h2.mt-4 span {
+    font-size: 36px !important;
+  }
+
+  .brands_rows h3 {
+    margin-top: 0;
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .brands_rows p {
+    padding-left: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .background .wrap {
+    margin-right: 0;
+  }
+
+  .background .items .item {
+    width: 80px;
+    height: 40px;
+  }
+
+  .background .items .item img {
+    max-width: 80px;
+    height: 40px;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Brands_double_carousel_styled_component_31ffea.css.map*/

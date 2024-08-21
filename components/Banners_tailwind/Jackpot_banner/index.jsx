@@ -35,8 +35,8 @@ export default function Jackpot_banner() {
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">
               HIT THE <span>JACKPOT!</span>
             </h3>
-            <p>$360 000</p>
-            {/* <p><Counter /></p> */}
+            {/* <p>$360 000</p> */}
+            <p><Counter /></p>
           </div>
         </div>
       </div>

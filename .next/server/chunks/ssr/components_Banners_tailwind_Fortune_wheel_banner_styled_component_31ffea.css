@@ -49,4 +49,22 @@
   color: #ff8f1f;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .bg-main h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .bg-main .p {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .mtt {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Fortune_wheel_banner_styled_component_31ffea.css.map*/

@@ -45,4 +45,14 @@
   z-index: -1;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .banner-jack:after {
+    display: none;
+  }
+
+  .mb00 {
+    margin-bottom: 0;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Jackpot_banner_styled_component_b52d8e.css.map*/

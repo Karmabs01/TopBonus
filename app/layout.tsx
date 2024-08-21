@@ -88,7 +88,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });`}
         </Script> */}
 
-        <Script id="ladesc">
+        {/* <Script id="ladesc">
           {`
             (function (d, src, c) {
               var t = d.scripts[d.scripts.length - 1],
@@ -108,7 +108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               LiveAgent.createButton("32wx1d8n", e);
             });
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );

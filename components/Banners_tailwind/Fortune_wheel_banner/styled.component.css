@@ -40,9 +40,25 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 25px; 
+  line-height: 25px;
 }
 .bg-main h5 span {
-    color: #ff8f1f;
+  color: #ff8f1f;
+}
 
+@media(min-width: 320px) and (max-width: 767px) {
+
+  .bg-main h2 {
+    font-size: 36px;
+    line-height: 42px;
   }
+  .bg-main .p {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+  .mtt {
+    margin-top: 0;
+  }
+}

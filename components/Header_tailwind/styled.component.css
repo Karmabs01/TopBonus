@@ -186,3 +186,10 @@ header nav button {
   padding: 3px 7px;
   margin-bottom: 0;
 }
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .wrap-line-text {
+    padding: 12px 0;
+    background: #0f0926;
+  }
+}

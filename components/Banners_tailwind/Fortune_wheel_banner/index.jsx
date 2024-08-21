@@ -9,7 +9,7 @@ export default function Banner_small() {
 
   return (
     <>
-      <div className="mt-10">
+      <div className="mt-10 mtt">
         <div className="main__container bg-main">
           <div className="background overflow-hidden background-roulete rounded-xl h-full ">
             <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">

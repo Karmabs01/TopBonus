@@ -307,6 +307,13 @@ header nav button {
   margin-bottom: 0;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .wrap-line-text {
+    padding: 12px 0;
+    background: #0f0926;
+  }
+}
+
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-ssr] (css) */
 .footer-bg {
