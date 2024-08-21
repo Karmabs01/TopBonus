@@ -269,8 +269,11 @@
   .mob1 {
     flex-direction: column;
   }
-  footer {
+  /* footer {
     display: none !important;
+  } */
+  .footer-bg::after {
+    display: none;
   }
   .jins > div {
     height: initial;

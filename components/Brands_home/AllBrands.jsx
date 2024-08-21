@@ -184,7 +184,7 @@ export default function AllBrands({
         <FilterLoader />
       ) : (
         <div className="flex flex-wrap justify-between awesome">
-          <div className="flex flex-col px-0 py-6 basis-[68%]">
+          <div className="flex flex-col px-0 py-6 basis-[68%] slws">
             {visible &&
               vis.slice(0, visibleBrands).map((brand) => {
                 const advantages =
@@ -437,7 +437,7 @@ export default function AllBrands({
               </div>
             )}
           </div>
-          <div className="flex flex-col basis-[31%] py-6">
+          <div className="flex flex-col basis-[31%] py-6 slsk">
             {!isMobile ? (
               vis2.slice(0, visibleBrands2).map((item) => {
                 return (
@@ -507,13 +507,14 @@ export default function AllBrands({
                         </Link>
                       </div>
                       <Link
-                        className="btn btn-primary btn-new target-listing-brands"
-                        key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}`}
-                        target="_blank"
-                      >
-                        {t("Play Now")}
-                      </Link>
+                      key={item.id_brand}
+                      href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                      target="_blank"
+                    >
+                      <div className="btn btn-new-mini target-listing-brands">
+                        <p>{t("Play Now")}</p>
+                      </div>
+                    </Link>
                     </div>
                   );
                 })}

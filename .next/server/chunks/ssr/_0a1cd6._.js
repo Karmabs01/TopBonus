@@ -2496,7 +2496,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
             className: "flex flex-wrap justify-between awesome",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col px-0 py-6 basis-[68%]",
+                    className: "flex flex-col px-0 py-6 basis-[68%] slws",
                     children: [
                         visible && vis.slice(0, visibleBrands).map((brand)=>{
                             const advantages = brand.advantages !== null ? brand.advantages.split(",").map((advantage)=>({
@@ -3041,7 +3041,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[31%] py-6",
+                    className: "flex flex-col basis-[31%] py-6 slsk",
                     children: !isMobile ? vis2.slice(0, visibleBrands2).map((item)=>{
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
@@ -3157,10 +3157,22 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        className: "btn btn-primary btn-new target-listing-brands",
-                                        href: `${item.GoBig}/${newUrl}`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
                                         target: "_blank",
-                                        children: t("Play Now")
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "btn btn-new-mini target-listing-brands",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                children: t("Play Now")
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Brands_home/AllBrands.jsx",
+                                                lineNumber: 515,
+                                                columnNumber: 25
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Brands_home/AllBrands.jsx",
+                                            lineNumber: 514,
+                                            columnNumber: 23
+                                        }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
                                         lineNumber: 509,

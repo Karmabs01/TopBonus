@@ -414,12 +414,7 @@
   border-radius: 1px;
   text-align: center;
 }
-.btn-primary {
-  background: #0967e3;
-}
-.btn-primary:hover {
-  background: #2173de;
-}
+
 .btn-secondary {
   background: transparent;
   border: 1px solid #65676a;
@@ -560,4 +555,26 @@
 .big-p span {
   color: #ff8f1f;
   font-size: 38px;
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .card-brand-filtered {
+    padding: 20px 10px;
+  }
+  .card-brand-filtered .card-36 {
+    margin-left: 0;
+  }
+  .overlay-filter {
+
+  }
+  .slws {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .slsk {
+    max-width: 100%;
+  }
+  .awesome .slick-list, .awesome .slick-track {
+    max-height: 350px;
+  }
 }

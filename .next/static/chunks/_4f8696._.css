@@ -382,8 +382,21 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     flex-direction: column;
   }
 
-  footer {
-    display: none !important;
+  .footer-bg:after {
+    display: none;
+  }
+
+  .jins > div {
+    height: initial;
+    padding: 20px 10px;
+  }
+
+  .jins > div:after {
+    display: none;
+  }
+
+  .slick-list {
+    margin-right: 0;
   }
 }
 
@@ -480,6 +493,30 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-size: 64px !important;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .new-brands {
+    padding: 20px 10px;
+  }
+
+  .new-brands .show-more {
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  .new-brands .abs-p {
+    position: initial;
+  }
+
+  .new-brands img {
+    position: initial;
+    display: none;
+  }
+
+  .new-brands > .items-center {
+    flex-direction: column;
+  }
+}
+
 
 /* [project]/components/Banners_tailwind/Brands_carousel/styled.component.css [app-client] (css) */
 .brand_carousel .slick-dots li.slick-active button:before {
@@ -558,6 +595,33 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-weight: 400;
   line-height: 28px;
   padding: 0 22px 39px;
+}
+
+.double_banners .buttons {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #ffffff4d;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.double_banners button {
+  padding: 15px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.double_banners .not-active {
+  background: none;
+}
+
+.double_banners .active {
+  background: #ff8f1f;
 }
 
 
@@ -703,6 +767,52 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   padding-left: 48px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .brands_rows {
+    padding-top: 0;
+  }
+
+  .brands_rows svg {
+    display: none;
+  }
+
+  .brands_rows h2.mt-4 {
+    padding-left: 0;
+    font-size: 42px !important;
+  }
+
+  .brands_rows h2.mt-4 span {
+    font-size: 36px !important;
+  }
+
+  .brands_rows h3 {
+    margin-top: 0;
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+  .brands_rows p {
+    padding-left: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .background .wrap {
+    margin-right: 0;
+  }
+
+  .background .items .item {
+    width: 80px;
+    height: 40px;
+  }
+
+  .background .items .item img {
+    max-width: 80px;
+    height: 40px;
+  }
+}
+
 
 /* [project]/components/Banners_tailwind/Random_block/styled.component.css [app-client] (css) */
 .bg-random {
@@ -774,6 +884,34 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   line-height: 32px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .abs-banner {
+    display: none;
+  }
+
+  .bg-random:after {
+    width: 147px;
+    height: 104px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .bg-random .btn-new {
+    margin-bottom: 70px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .mlml {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .ptpt {
+    padding-top: 0 !important;
+  }
+}
+
 
 /* [project]/components/Banners_tailwind/Jackpot_banner/styled.component.css [app-client] (css) */
 .banner-jack {
@@ -820,6 +958,16 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   top: 6px;
   background: url("/newimages/banner-jack.png") center no-repeat;
   z-index: -1;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .banner-jack:after {
+    display: none;
+  }
+
+  .mb00 {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -887,6 +1035,34 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   z-index: 0;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .banner-event {
+    background-size: cover;
+    padding: 20px 10px;
+  }
+
+  .banner-event:before {
+    display: none;
+  }
+
+  .banner-event h3 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .banner-event:after {
+    display: none;
+  }
+
+  .banner-event-p {
+    margin-top: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
 
 /* [project]/components/Banners_tailwind/Fortune_wheel_banner/styled.component.css [app-client] (css) */
 .background-roulete {
@@ -937,6 +1113,24 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .bg-main h5 span {
   color: #ff8f1f;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .bg-main h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .bg-main .p {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .mtt {
+    margin-top: 0;
+  }
 }
 
 
@@ -1385,14 +1579,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   text-align: center;
 }
 
-.btn-primary {
-  background: #0967e3;
-}
-
-.btn-primary:hover {
-  background: #2173de;
-}
-
 .btn-secondary {
   background: none;
   border: 1px solid #65676a;
@@ -1543,6 +1729,32 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 .big-p span {
   color: #ff8f1f;
   font-size: 38px;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .card-brand-filtered {
+    padding: 20px 10px;
+  }
+
+  .card-brand-filtered .card-36 {
+    margin-left: 0;
+  }
+
+  .overlay-filter {
+  }
+
+  .slws {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .slsk {
+    max-width: 100%;
+  }
+
+  .awesome .slick-list, .awesome .slick-track {
+    max-height: 350px;
+  }
 }
 
 

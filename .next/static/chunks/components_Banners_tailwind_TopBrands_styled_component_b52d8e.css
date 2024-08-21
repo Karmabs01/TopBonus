@@ -275,8 +275,8 @@
     flex-direction: column;
   }
 
-  footer {
-    display: none !important;
+  .footer-bg:after {
+    display: none;
   }
 
   .jins > div {
