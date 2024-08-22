@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import { CaretDown } from "@phosphor-icons/react";
 
 
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
+import { Popover, PopoverButton, PopoverPanel, PopoverBackdrop } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { SquaresPlusIcon } from '@heroicons/react/24/outline'
 
@@ -58,7 +58,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
 
         return (
 
-          <Popover className="relative" key={link.label}>
+          <Popover className="relative z-[9999]" key={link.label}>
           <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white w-full">
 
             <span>{link.label}</span>
@@ -67,7 +67,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
     
           <PopoverPanel
             transition
-            className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in "
+            className="absolute left-1/2 z-50 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in "
           >
             <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl text-sm shadow-lg lg:max-w-3xl submenu-all">
               <div className="grid grid-cols-1 gap-x-1 pt-4 lg:grid-cols-2">
@@ -98,8 +98,11 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
               </div>
             </div>
           </PopoverPanel>
+          <PopoverBackdrop className="fixed inset-0 w-screen h-screen z-10 -top-20 -left-32" />
+
         </Popover>
         );
+       
       })}
     </>
   );

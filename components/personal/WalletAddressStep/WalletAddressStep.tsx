@@ -4,8 +4,6 @@ import {
   useMutationUpdatePayment,
   useMutationWalletAddressValidate,
 } from "@/queries";
-import { Box, Button, TextField } from "@mui/material";
-import { styled } from "@mui/system";
 import { ChangeEvent } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -91,53 +89,94 @@ export const WalletAddressStep = ({
   const isPayPal = coin === "PayPal";
 
   return (
-    <StyledDiv>
-      <TextField
-        className="input_address"
-        value={walletAddress}
-        onChange={onChangeWalletAddress}
-        error={isError}
-        helperText={walletAddressValidateMessage ?? updatePaymentMessage}
-        fullWidth
-      />
+    // <StyledDiv>
+    //   <TextField
+    //     className="input_address"
+    //     value={walletAddress}
+    //     onChange={onChangeWalletAddress}
+    //     error={isError}
+    //     helperText={walletAddressValidateMessage ?? updatePaymentMessage}
+    //     fullWidth
+    //   />
+    //   {isPayPal && (
+    //     <span className="paypalnote">
+    //       {t(
+    //         "Please note: PayPal withdrawals are processed every day from 7 AM to 8 PM CET"
+    //       )}
+    //     </span>
+    //   )}
+    //   <Box>
+    //     <Button
+    //       className="btn-primary w-48 !mr-2"
+    //       variant="contained"
+    //       onClick={() => {
+    //         onChangeStep(step - 1);
+    //       }}
+    //     >
+    //       {t("Prev step")}
+    //     </Button>
+    //     <Button
+    //       className="btn-primary w-48"
+    //       variant="contained"
+    //       onClick={
+    //         isPayPal ? updatePaymentWithoutValidate : updatePaymentWithValidate
+    //       }
+    //       disabled={isButtonNextStepDisabled}
+    //     >
+    //       {t("Next step")}
+    //     </Button>
+    //   </Box>
+
+    //   {isLoaderShown && <Loader />}
+    // </StyledDiv>
+
+    <div>
+      <div>
+        <div className="mt-2">
+          <input
+            onChange={onChangeWalletAddress}
+            type="text"
+            value={walletAddress}
+            className="mb-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          />
+          {walletAddressValidateMessage ?? updatePaymentMessage}
+        </div>
+      </div>
       {isPayPal && (
-        <span className="paypalnote">
+        <span className="!text-gray-500 text-sm">
           {t(
             "Please note: PayPal withdrawals are processed every day from 7 AM to 8 PM CET"
           )}
         </span>
       )}
-      <Box>
-        <Button
-          className="btn-primary w-48 !mr-2"
-          variant="contained"
+      <div>
+        <button
           onClick={() => {
             onChangeStep(step - 1);
           }}
+          className={`mr-10 mt-2 rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
         >
           {t("Prev step")}
-        </Button>
-        <Button
-          className="btn-primary w-48"
-          variant="contained"
+        </button>
+        <button
           onClick={
-            isPayPal ? updatePaymentWithoutValidate : updatePaymentWithValidate
+            !isButtonNextStepDisabled
+              ? isPayPal
+                ? updatePaymentWithoutValidate
+                : updatePaymentWithValidate
+              : undefined
           }
-          disabled={isButtonNextStepDisabled}
+          className={`${
+            isButtonNextStepDisabled
+              ? "cursor-not-allowed opacity-50"
+              : "cursor-pointer hover:bg-indigo-100 "
+          } rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
         >
           {t("Next step")}
-        </Button>
-      </Box>
+        </button>
+      </div>
 
       {isLoaderShown && <Loader />}
-    </StyledDiv>
+    </div>
   );
 };
-
-const StyledDiv = styled("div")(
-  () => `
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  `
-);
