@@ -78,7 +78,7 @@
   padding: 33px 29px 54px;
 }
 .slick-slide:nth-child(3n + 1) .background-slider {
-  background: url(/new-banner-slider-1.png) no-repeat center;
+  background: url(/newimages/new-banner-slider-1.png) no-repeat center;
 }
 .slick-slide:nth-child(3n + 2) .background-slider {
   background: url(/newimages/new-banner-slider-2.png) no-repeat center;

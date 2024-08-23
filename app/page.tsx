@@ -31,16 +31,16 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page";
   return (
     <>
-      {/* <PreviewHome /> */}
+
 
       <TopBrands />
-      <Banner_small />
+      {/* <Banner_small />
       <Double_banners />
       <Brands_double_carousel />
       <Random_block />
       <Jackpot_banner />
       <Next_event_banner />
-      <Fortune_wheel /> 
+      <Fortune_wheel />  */}
 
    
    

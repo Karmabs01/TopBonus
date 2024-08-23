@@ -7,7 +7,7 @@
   "chunks": [
     "static/chunks/components_i18n_980316.js",
     "static/chunks/components_Header_tailwind_7b5bb0._.js",
-    "static/chunks/components_b1a4cb._.js",
+    "static/chunks/components_d83778._.js",
     "static/chunks/_78fd96._.js",
     "static/chunks/node_modules_next_9aa5dc._.js",
     "static/chunks/node_modules_i18next_dist_esm_i18next_7cc58d.js",
