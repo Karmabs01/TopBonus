@@ -21,10 +21,6 @@
   background: url(/newimages/third-banner.png) no-repeat center !important;
 }
 
-.page-bonuses .custom-bonuses .filter-brands p,
-.page-bonuses .custom-bonuses .filter-brands h2 {
-  color: #000;
-}
 .filter-brands .brandImage a img {
   max-height: 60px;
   object-fit: contain;
@@ -75,9 +71,7 @@
 .filter-brands .card-brand-banner:nth-child(3) {
   background: linear-gradient(to bottom, #296ab1, #2a9bca);
 }
-.page-bonuses .filter-brands p.text-slate-500 {
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
+
 .filter-brands .basis-\[60\%\] {
   flex-basis: 100%;
 }

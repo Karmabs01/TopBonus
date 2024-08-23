@@ -325,6 +325,7 @@ header nav button {
   .menuItems {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 12px;
   }
 
   .menuItems a {
@@ -347,7 +348,7 @@ header nav button {
   }
 
   .menuItems a:hover {
-    background: none;
+    background: #ff8f1f;
   }
 }
 
