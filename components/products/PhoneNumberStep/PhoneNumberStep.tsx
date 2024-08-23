@@ -12,7 +12,7 @@ import {
   useMutationSendUserPhoneNumber,
 } from "@/queries";
 import Image from "next/image";
-
+import { GiftIcon } from "@heroicons/react/20/solid";
 
 type PhoneNumberStepProps = {
   step: number;
@@ -98,7 +98,6 @@ export const PhoneNumberStep = ({
           setShowPhone(false);
           // другой код
         } else {
-     
           console.log("!!!!!!!!!!!!!!!!!!!!!!!", showProduct);
         }
       }
@@ -107,113 +106,111 @@ export const PhoneNumberStep = ({
     }
   };
 
-
   const onReload = async () => {
     window.location.reload();
   };
   return (
-    <StyledDiv>
-      {/* {!user?.phone_number && (
-        <div>
-          {showOtp && (
-            <>
-              <h2 className="text-center mb-2">
-                {t("Enter your phone number")}
-              </h2>
-              <StyledBoxTel className="relative">
-                <MuiTelInput
-                  value={phoneNumber}
-                  onChange={onChangePhoneNumber}
-                  defaultCountry={defaultCountry}
-                  fullWidth
-                />
-                <StyledButton
-                  className="btn-primary absolute right-1 text-xs"
-                  variant="contained"
-                  onClick={() => {
-                    sendUserPhoneNumber({ phoneNumber }).then(() => {
-                      setShowOtp(false);
-                      setShowPhone(true);
-                    });
-                  }}
-                >
-                  {t("Send code")}
-                </StyledButton>
-              </StyledBoxTel>
-            </>
-          )}
-          {showPhone && (
-            <Box className="flex flex-col items-center">
-              <h2 className="mb-2">{t("Enter the code")}</h2>
-              <StyledBox>
-                <OTP
-                  length={DEFAULT_OTP_LENGTH}
-                  value={otp}
-                  onChange={setOtp}
-                  separator=""
-                />
-              </StyledBox>
-              <div className="mt-4">
-                <Button
-                  className="btn-primary mr-1"
-                  variant="contained"
-                  onClick={() => {
-                    onChangeStep(step - 1);
-                  }}
-                >
-                  {t("Prev step")}
-                </Button>
-                <Button
-                  className="btn-primary ml-1"
-                  variant="contained"
-                  onClick={async () => {
-                    await onConfirmOtp();
-                  
-                    
-                  }}
-                  disabled={isButtonContinueDisabled}
-                >
-                  {t("Continue")}
-                </Button>
-              </div>
-            </Box>
-          )}
-        </div>
-      )} */}
+    // <StyledDiv>
+    //   {showProduct && (
+    //     <Box className="flex flex-col items-center modal-final">
+    //       {!otherContent ? (
+    //         <>
+    //           <Typography
+    //             className="text-center mb-2"
+    //             id="modal-modal-title"
+    //             variant="h6"
+    //             component="h2"
+    //           >
+    //             {t("Indicate the email address to which to send the card")}
+    //           </Typography>
+
+    //           <OutlinedInput
+    //             placeholder={t("Email")}
+    //             onChange={(e) => setEmail(e.target.value)}
+    //           />
+
+    //           <Button
+    //             className="btn btn-primary mt-4"
+    //             onClick={async () => {
+    //               if (user !== null) {
+    //                 await onConfirm();
+    //                 setOtherContent(true);
+    //               } else {
+    //                 console.error("User is null");
+    //               }
+    //             }}
+    //             variant="contained"
+    //           >
+    //             {t("Confirm")}
+    //           </Button>
+
+    //         </>
+    //       ) : (
+    //         <>
+    //           <Typography
+    //             className="text-center mb-2"
+    //             id="modal-modal-title"
+    //             variant="h6"
+    //             component="h2"
+    //           >
+    //             {t("Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox.")}
+    //           </Typography>
+    //           <Button
+    //             className="btn btn-primary mt-4"
+    //             onClick={async () => {
+    //               onReload();
+    //             }}
+    //             variant="contained"
+    //           >
+    //             {t("Confirm")}
+    //           </Button>
+    //         </>
+    //       )}
+    //     </Box>
+    //   )}
+
+    // </StyledDiv>
+
+    <div>
       {showProduct && (
         <Box className="flex flex-col items-center modal-final">
           {!otherContent ? (
             <>
-              <Typography
-                className="text-center mb-2"
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-green-100 mb-2">
+                <GiftIcon
+                  aria-hidden="true"
+                  className="h-6 w-6 text-green-600"
+                />
+              </div>
+              <label
+                htmlFor="email"
+                className="block text-lg text-center font-normal"
               >
                 {t("Indicate the email address to which to send the card")}
-              </Typography>
-
-              <OutlinedInput
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
                 placeholder={t("Email")}
                 onChange={(e) => setEmail(e.target.value)}
+                className="mb-5 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
 
-              <Button
-                className="btn btn-primary mt-4"
+              <button
+                type="button"
                 onClick={async () => {
                   if (user !== null) {
                     await onConfirm();
                     setOtherContent(true);
                   } else {
-                    // Обработай ситуацию, когда user === null
                     console.error("User is null");
                   }
                 }}
-                variant="contained"
+                className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 {t("Confirm")}
-              </Button>
-              
+              </button>
             </>
           ) : (
             <>
@@ -223,77 +220,24 @@ export const PhoneNumberStep = ({
                 variant="h6"
                 component="h2"
               >
-                {t("Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox.")}
+                {t(
+                  "Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox."
+                )}
               </Typography>
-              <Button
-                className="btn btn-primary mt-4"
+              <button
+                type="button"
                 onClick={async () => {
                   onReload();
                 }}
-                variant="contained"
+                className="inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 {t("Confirm")}
-              </Button>
+              </button>
             </>
           )}
         </Box>
       )}
-      {/* {user?.phone_number && (
-        <Box className="flex flex-col items-center modal-final">
-          {!otherContent ? (
-            <>
-              <Typography
-                className="text-center mb-2"
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
-              >
-                {t("Indicate the email address to which to send the card")}
-              </Typography>
-              <OutlinedInput
-                placeholder={t("Email")}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-
-              <Button
-                className="btn btn-primary mt-4"
-                onClick={async () => {
-                  if (user !== null) {
-                    await onConfirm();
-                    setOtherContent(true);
-                  } else {
-                    console.error("User is null");
-                  }
-                }}
-                variant="contained"
-              >
-                {t("Confirm")}
-              </Button>
-            </>
-          ) : (
-            <>
-              <Typography
-                className="text-center mb-2"
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
-              >
-                {t("Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox.")}
-              </Typography>
-              <Button
-                className="btn btn-primary mt-4"
-                onClick={async () => {
-                  onReload();
-                }}
-                variant="contained"
-              >
-                {t("Confirm")}
-              </Button>
-            </>
-          )}
-        </Box>
-      )} */}
-    </StyledDiv>
+    </div>
   );
 };
 
@@ -326,5 +270,3 @@ const StyledBox = styled(Box)(
     justify-content: center;
   `
 );
-
-

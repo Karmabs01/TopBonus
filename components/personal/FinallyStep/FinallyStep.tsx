@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Brand } from "@/app/personal/page";
-import UserBrands from "@/components/UserBrands/UserBrands";
+import UserBrands_tw from "@/components/UserBrands/UserBrands_tw";
 
 type FinallyStepProps = {
   brands: Brand[];
@@ -17,7 +17,7 @@ export const FinallyStep = ({ brands }: FinallyStepProps) => {
     <StyledDiv>
       <Box>
         <div className="flex flex-wrap px-0 py-6">
-          <UserBrands />
+          <UserBrands_tw />
 
         </div>
       </Box>

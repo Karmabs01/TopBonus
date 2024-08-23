@@ -23,7 +23,7 @@ const Cards = ({ user, onFinish }) => {
 
 
   return (
-    <div className="flex flex-wrap mt-10 cards">
+    <div className="flex flex-wrap mt-4 cards">
       {productsData.map((item) => (
         <MediaCard
           lang={lang}
@@ -32,7 +32,11 @@ const Cards = ({ user, onFinish }) => {
           key={item.product_id}
         />
       ))}
-      <span className="cardaval">{t("Card availability varies by region.")}</span>
+      <div className="flex justify-end w-full mb-2">
+        <span className="inline-flex items-center rounded-full bg-gray-50 px-1.5 py-0.5 text-md font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10">
+          {t("Card availability varies by region.")}
+        </span>
+      </div>
     </div>
   );
 };

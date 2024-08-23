@@ -1,12 +1,3 @@
-import {
-  Box,
-  Button,
-  MenuItem,
-  Select,
-  SelectChangeEvent,
-  TextField,
-} from "@mui/material";
-import { styled } from "@mui/system";
 import { ChangeEvent, useState } from "react";
 
 import Loader from "@/components/Loader";
@@ -21,7 +12,7 @@ type PaymentMethodStepProps = {
   coin: string;
   amount: string;
   onChangeStep: (nextStep: number) => void;
-  onChangeCoin: (e: SelectChangeEvent<string>) => void;
+  onChangeCoin: (e: React.ChangeEvent<HTMLSelectElement>) => void;
   onChangeAmount: (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => void;
@@ -94,52 +85,104 @@ export const PaymentMethodStep = ({
   };
 
   return (
-    <StyledDiv>
-      <Select
-        className={`select_coins ${coin}`}
-        value={coin}
-        onChange={onChangeCoin}
-      >
-        {coins.map((coin) => (
-          <MenuItem className={`${coin}`} key={coin} value={coin}>
-            {coin}
-          </MenuItem>
-        ))}
-        <MenuItem className="PayPal" key="paypal" value="PayPal">
-          PayPal
-        </MenuItem>
-      </Select>
-      <TextField
-        className="input_number"
-        placeholder={t("Sum")}
-        value={amount}
-        onChange={(e) => {
-          setIsError(false);
-          onChangeAmount(e);
-        }}
-        type="number"
-        error={error}
-        helperText={helperText}
-      />
-      <Box>
-        <Button
-          className="btn-primary w-48"
-          variant="contained"
-          onClick={getFeeAndEstimatedAmountAndThanGoToWalletAddressStep}
-          disabled={isButtonNextStepDisabled}
+    // <StyledDiv>
+    //   <Select
+    //     className={`select_coins ${coin}`}
+    //     value={coin}
+    //     onChange={onChangeCoin}
+    //   >
+    //     {coins.map((coin) => (
+    //       <MenuItem className={`${coin}`} key={coin} value={coin}>
+    //         {coin}
+    //       </MenuItem>
+    //     ))}
+    //     <MenuItem className="PayPal" key="paypal" value="PayPal">
+    //       PayPal
+    //     </MenuItem>
+    //   </Select>
+    //   <TextField
+    //     className="input_number"
+    //     placeholder={t("Sum")}
+    //     value={amount}
+    //     onChange={(e) => {
+    //       setIsError(false);
+    //       onChangeAmount(e);
+    //     }}
+    //     type="number"
+    //     error={error}
+    //     helperText={helperText}
+    //   />
+    //   <Box>
+    //     <Button
+    //       className="btn-primary w-48"
+    //       variant="contained"
+    //       onClick={getFeeAndEstimatedAmountAndThanGoToWalletAddressStep}
+    //       disabled={isButtonNextStepDisabled}
+    //     >
+    //       {t("Next step")}
+    //     </Button>
+    //   </Box>
+    //   {isLoading && <Loader />}
+    // </StyledDiv>
+
+    <div>
+      <div>
+        <select
+          value={coin}
+          onChange={onChangeCoin}
+          className={`mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6`}
+        >
+          {coins.map((coin) => (
+            <option className={`${coin}`} key={coin} value={coin}>
+              {coin}
+            </option>
+          ))}
+          <option className="PayPal" key="paypal" value="PayPal">
+            PayPal
+          </option>
+        </select>
+      </div>
+      <div>
+        <div className="relative mt-2 rounded-md shadow-sm">
+          <input
+            value={amount}
+            type="number"
+            placeholder={t("Sum")}
+            aria-invalid="true"
+            onChange={(e) => {
+              setIsError(false);
+              onChangeAmount(e);
+            }}
+            className={`${
+              isError
+                ? "text-red-900 ring-1 ring-inset ring-red-300 placeholder:text-red-300 focus:ring-red-500 focus:ring-2 focus:ring-inset "
+                : "text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-300 focus:ring-indigo-600 focus:ring-2 focus:ring-inset "
+            } block w-full rounded-md border-0 py-1.5 pr-10 sm:text-sm sm:leading-6 `}
+          />
+        </div>
+        <p id="number-error" className="mt-2 text-sm text-red-600">
+          {error}
+          {helperText}
+        </p>
+      </div>
+
+      <div>
+        <button
+          onClick={
+            !isButtonNextStepDisabled
+              ? getFeeAndEstimatedAmountAndThanGoToWalletAddressStep
+              : undefined
+          }
+          className={`${
+            isButtonNextStepDisabled
+              ? "cursor-not-allowed opacity-50"
+              : "cursor-pointer hover:bg-indigo-100 "
+          } rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
         >
           {t("Next step")}
-        </Button>
-      </Box>
+        </button>
+      </div>
       {isLoading && <Loader />}
-    </StyledDiv>
+    </div>
   );
 };
-
-const StyledDiv = styled("div")(
-  () => `
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  `
-);
