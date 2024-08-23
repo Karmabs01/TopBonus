@@ -2824,6 +2824,10 @@ select {
   margin-bottom: 0 !important;
 }
 
+.submenu-all {
+  border-radius: 30px;
+}
+
 .btn-new:after {
   content: "";
   background: url("/btnhover.png") center no-repeat;

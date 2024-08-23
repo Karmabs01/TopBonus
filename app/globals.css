@@ -50,6 +50,9 @@
   position: relative;
   z-index: 1;
 }
+.submenu-all {
+  border-radius: 30px;
+}
 .btn-new:after {
   content: "";
   background: url(/btnhover.png) no-repeat center;

@@ -1,5 +1,10 @@
 {
-  "app": {},
+  "app": {
+    "[project]/app/page": [],
+    "[project]/app/crypto-casinos/page": [],
+    "[project]/app/game-providers/bgaming/page": [],
+    "[project]/app/payments/maestro/page": []
+  },
   "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false

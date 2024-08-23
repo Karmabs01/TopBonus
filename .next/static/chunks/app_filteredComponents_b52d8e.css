@@ -611,6 +611,10 @@
   .awesome .slick-list, .awesome .slick-track {
     max-height: 350px;
   }
+
+  .isolate-tabs {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=app_filteredComponents_b52d8e.css.map*/

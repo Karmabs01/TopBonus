@@ -1013,6 +1013,10 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .awesome .slick-list, .awesome .slick-track {
     max-height: 350px;
   }
+
+  .isolate-tabs {
+    padding: 0;
+  }
 }
 
 
