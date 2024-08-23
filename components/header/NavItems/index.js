@@ -2,7 +2,7 @@ import { Gift, PokerChip, Wallet, GameController } from "phosphor-react";
 
 export const navItems = (t) => [
   {
-    icon: <PokerChip className="mr-1" size={20} />,
+    icon: <PokerChip className="h-6 w-6" />,
     class: "sub-casinos",
     label: t('Casinos'),
     href: "/casinos",
@@ -16,7 +16,7 @@ export const navItems = (t) => [
     ],
   },
   {
-    icon: <Gift className="mr-1" size={20} />,
+    icon: <Gift className="h-6 w-6" />,
     class: "sub-bonuses",
     label: t("Bonuses"),
     href: "/bonuses",
@@ -29,7 +29,7 @@ export const navItems = (t) => [
     ],
   },
   {
-    icon: <Wallet className="mr-1" size={20} />,
+    icon: <Wallet className="h-6 w-6"/>,
     class: "sub-payments",
     label: t("All Payments"),
     href: "/payments",
@@ -52,7 +52,7 @@ export const navItems = (t) => [
     ],
   },
   {
-    icon: <GameController className="mr-1" size={20} />,
+    icon: <GameController className="h-6 w-6"/>,
     class: "sub-providers",
     label: t("Game Providers"),
     href: "/game-providers",
