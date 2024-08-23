@@ -92,7 +92,7 @@ export default function Personal() {
     setStep(nextStep);
   };
 
-  const onChangeCoin = (e: SelectChangeEvent<string>) => {
+  const onChangeCoin = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextCoin = e.target.value;
     setCoin(nextCoin);
   };
