@@ -174,9 +174,9 @@
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
 }
 .cards-thr {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card-thr > .relative {
   padding: 14px 32px 0 32px;
@@ -204,4 +204,81 @@
   border-radius: 0px 0px 30px 30px;
   background: #ff8f1f;
   box-shadow: 0px -5px 30px 0px rgba(255, 143, 31, 0.3);
+}
+.mob-none {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .fivehot .main__container {
+    width: 100% !important;
+  }
+  .fivehot-banner {
+    min-height: initial;
+  }
+  .fivehot-banner p {
+    background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+    backdrop-filter: blur(12.5px);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .right-c {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .emojis {
+    background: linear-gradient(76deg, #9D4EB3 7%, #6C37B1 35.92%, #310877 85.69%);
+    padding: 30px 15px;
+    min-height: initial;
+  }
+  .face-mob {
+    flex-direction: column;
+  }
+  .emojis h3 {
+    max-width: initial;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .emojis h3 span {
+    font-size: 38px;
+  }
+  .btns-ch {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .btns-ch .btn-choose {
+    margin-right: auto;
+  }
+  .btns-ch .btn-choose:last-of-type {
+    margin-right: 0;
+  }
+  .mob-none {
+    display: block;
+  }
+  .mob-sl .card-thr {
+    min-width: initial;
+    height: initial;
+  }
+  .pm10 {
+    padding: 10px 10px 0 10px;
+  }
+  .mob-sl .card-thr h3 {
+    display: none;
+  }
+  .mob-sl .card-thr p {
+    max-height: 60px;
+    overflow: hidden;
+  }
+  .mob-sl .card-thr .btn-crd {
+    padding: 10px;
+  }
+  .cards-th .slick-track {
+    height: 250px;
+  }
+  .imgp {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

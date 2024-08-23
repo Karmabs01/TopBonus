@@ -222,7 +222,7 @@ export default function Timestamp() {
                 {t("Click Here to Unleash Your Magic Bonus!")}
               </h5>
               <p className="p">{t("Get a bonus just for you tomorrow!")}</p>
-              <Image loading="lazy" src={banner1} alt="banner1" />
+              {/* <Image loading="lazy" src={banner1} alt="banner1" /> */}
               <div className="wrap-button">
                 <button className="btn btn-mini" onClick={scndstage}>
                   <p>{t("Get Bonus")}</p>

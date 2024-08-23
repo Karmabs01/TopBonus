@@ -141,6 +141,7 @@
   z-index: 1;
 }
 .jins > div {
+ 
   max-width: 483px;
   height: 412px;
   padding: 36px 29px;
@@ -156,7 +157,7 @@
   align-items: center;
   text-align: center;
 }
-.jins > .frstjin:before {
+/* .jins > .frstjin:before {
   width: 99%;
   height: 412px;
   content: "";
@@ -171,7 +172,7 @@
   backdrop-filter: blur(15px);
   z-index: 1;
   border-radius: 30px;
-}
+} */
 .jins > div:after {
   content: "";
   position: absolute;
@@ -182,7 +183,10 @@
   left: -25px;
   top: -30px;
   z-index: -1;
-  /* filter: blur(18px); */
+}
+.frstjin {
+  background: url(/newimages/frstjin.png) no-repeat center;
+
 }
 .scnjin {
   background: url(/newimages/banr3.png) no-repeat center;
@@ -278,11 +282,15 @@
   .jins > div {
     height: initial;
     padding: 20px 10px;
+    width: 100%;
   }
   .jins > div::after {
     display: none;
   }
   .slick-list {
     margin-right: 0;
+  }
+  .jins > div img {
+    border-radius: 30px;
   }
 }

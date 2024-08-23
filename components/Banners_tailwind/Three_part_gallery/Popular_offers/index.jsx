@@ -45,7 +45,7 @@ export default function Popular_offers() {
             {
                 breakpoint: 420,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     dots: false,
                 },
@@ -145,7 +145,7 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="pt-5 mb-10 popular-offers">
+            <div className="pt-5 popular-offers">
                 <div className="main__container">
                     {loading ? (
                         <Loader />
@@ -188,13 +188,13 @@ export default function Popular_offers() {
                                     </div>
                                 </div>
 
-                                <div className="md:hidden w-full">
-                                    <div className="mt-8">
+                                <div className="md:hidden w-full mob-sl">
+                                    <div className="cards-th">
                                         <Slider {...settings}>
                                             {brands.map((rowData, index) => (
-                                                <div key={index} className="overflow-hidden bg-gray-300 p-5 sm:py-10 rounded-xl flex flex-col justify-between">
+                                                <div key={index} className="overflow-hidden card-thr">
                                                     <div className="">
-                                                        <div className=" ">
+                                                        <div className="imgp">
                                                             <Image
                                                                 src={`/brands/${rowData.CasinoBrand}.png`}
                                                                 alt={rowData.CasinoBrand}
@@ -206,13 +206,13 @@ export default function Popular_offers() {
                                                         </div>
                                                         <div className="mt-4 text-center">
                                                             <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
-                                                            <p className="mt-1 text-sm text-gray-500 h-10">{rowData.OurOfferContent}</p>
+                                                            <p className="mt-1 text-sm ">{rowData.OurOfferContent}</p>
                                                         </div>
                                                     </div>
                                                     <div className="mt-6">
                                                         <a
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                            className=" flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600"
+                                                            className=" flex items-center justify-center text-white btn-crd"
                                                         >
                                                             Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
                                                         </a>

@@ -627,5 +627,71 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   box-shadow: 0 -5px 30px #ff8f1f4d;
 }
 
+.mob-none {
+  display: none;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .fivehot .main__container {
+    width: 100% !important;
+  }
+
+  .fivehot-banner {
+    min-height: initial;
+  }
+
+  .fivehot-banner p {
+    background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .right-c {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .emojis {
+    background: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+    padding: 30px 15px;
+    min-height: initial;
+  }
+
+  .face-mob {
+    flex-direction: column;
+  }
+
+  .emojis h3 {
+    max-width: initial;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .emojis h3 span {
+    font-size: 38px;
+  }
+
+  .btns-ch {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .btns-ch .btn-choose {
+    margin-right: auto;
+  }
+
+  .btns-ch .btn-choose:last-of-type {
+    margin-right: 0;
+  }
+
+  .mob-none {
+    display: block;
+  }
+}
+
 
 /*# sourceMappingURL=components_afe4fe._.css.map*/
