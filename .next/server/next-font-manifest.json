@@ -1,8 +1,5 @@
 {
-  "app": {
-    "[project]/app/page": [],
-    "[project]/app/game-providers/amatic/page": []
-  },
+  "app": {},
   "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
