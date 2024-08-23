@@ -189,7 +189,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .slick-slide:nth-child(3n+1) .background-slider {
-  background: url("/new-banner-slider-1.png") center no-repeat;
+  background: url("/newimages/new-banner-slider-1.png") center no-repeat;
 }
 
 .slick-slide:nth-child(3n+2) .background-slider {
@@ -382,8 +382,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     flex-direction: column;
   }
 
-  footer {
-    display: none !important;
+  .footer-bg:after {
+    display: none;
   }
 
   .jins > div {
@@ -393,6 +393,10 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .jins > div:after {
     display: none;
+  }
+
+  .slick-list {
+    margin-right: 0;
   }
 }
 

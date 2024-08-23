@@ -25,7 +25,7 @@ import KeitaroIframe from "@/components/KeitaroIframe";
 import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { track } from "@vercel/analytics";
-// import Marque from "@/components/header/Marque";
+import Marque from "@/components/header/Marque";
 
 import {
   Dialog,
@@ -226,7 +226,7 @@ const Header_tailwind = () => {
 
   return (
     <>
-    {/* <Marque />   */}
+    <Marque />  
     <header className="">
       {load ? (
         dataUser.geo_approve === null || dataUser.geo_approve === "" ? (

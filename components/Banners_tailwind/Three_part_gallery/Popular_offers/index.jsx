@@ -152,18 +152,18 @@ export default function Popular_offers() {
                     ) : (
                         cards2 && (
                             <div className="w-full">
-                                <h2 className="text-xl font-bold text-gray-900 text-center">Popular offers</h2>
+                            
                                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
-                                    <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8">
+                                    <div className="cards-thr">
                                         {brands.slice(0, 6).map((rowData, index) => (
-                                            <div key={"Popular_offers" + index} className="">
+                                            <div key={"Popular_offers" + index} className="card-thr">
                                                 <div className="relative">
-                                                    <div className="relative h-32 overflow-hidden bg-gray-300 rounded-lg flex align-center justify-center">
+                                                    <div className="relative flex align-center justify-center">
                                                         <Image
                                                             src={`/brands/${rowData.CasinoBrand}.png`}
                                                             alt={rowData.CasinoBrand}
-                                                            width={200}
-                                                            height={200}
+                                                            width={190}
+                                                            height={130}
                                                             loading="lazy"
                                                             className=" w-full object-contain object-center"
                                                         />
@@ -172,17 +172,12 @@ export default function Popular_offers() {
                                                         <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
                                                         <p className="mt-1 text-sm text-gray-500 h-10">{rowData.OurOfferContent}</p>
                                                     </div>
-                                                    <div className="absolute inset-x-0 top-0 flex h-32 items-end justify-end overflow-hidden rounded-lg p-4">
-                                                        {/* <div
-                                                            aria-hidden="true"
-                                                            className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-black opacity-50"
-                                                        /> */}
-                                                    </div>
+                                                
                                                 </div>
-                                                <div className="mt-6">
+                                                <div className="btn-crd">
                                                     <a
                                                         href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                        className="relative flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-8 py-2 text-lg font-medium text-white hover:bg-indigo-600"
+                                                        className="relative flex items-center justify-center  px-8 py-2 text-lg font-medium text-white"
                                                     >
                                                         Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
                                                     </a>

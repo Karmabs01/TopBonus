@@ -34,13 +34,14 @@ export default async function Home() {
 
 
       <TopBrands />
-      {/* <Banner_small />
+      <Banner_small />
       <Double_banners />
       <Brands_double_carousel />
       <Random_block />
       <Jackpot_banner />
+      <Three_part_gallery/> 
       <Next_event_banner />
-      <Fortune_wheel />  */}
+      <Fortune_wheel /> 
 
    
    
@@ -48,7 +49,7 @@ export default async function Home() {
    
 {/*    
    <Brand_carousel_mobile/>
-   <Three_part_gallery/> */}
+   */}
    
 
 

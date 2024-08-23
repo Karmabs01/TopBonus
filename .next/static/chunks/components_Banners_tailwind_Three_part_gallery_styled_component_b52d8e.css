@@ -1,0 +1,221 @@
+/* [project]/components/Banners_tailwind/Three_part_gallery/styled.component.css [app-client] (css) */
+.fivehot {
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.fivehot-banner {
+  padding: 28px 19px;
+  background: url("/newimages/fivehot.png") center no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  min-height: 329px;
+  margin-bottom: 28px;
+}
+
+.fivehot-banner h3 {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.fivehot-banner h3 span {
+  color: #ff8f1f;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.fivehot-banner p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.fivehot .ul-list {
+  padding: 28px 0;
+  border-top: 1px solid #573e7d;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+.fivehot .ul-list .li-img {
+  fill: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  stroke-width: 2px;
+  stroke: #9d4eb3;
+  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
+  min-height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ffffff27;
+}
+
+.ul-list a {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.ul-list p {
+  color: #bebebe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ul-list li {
+  border-bottom: 1px solid #573e7d;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.right-c {
+  margin-left: 25px;
+}
+
+.emojis {
+  background: url("/newimages/threeface.png") center no-repeat;
+  min-height: 329px;
+  border-radius: 30px;
+  padding: 38px 0 12px 44px;
+  background-size: cover;
+}
+
+.emojis h3 {
+  color: #fff;
+  font-family: AA Duke;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: -2px -2px #35d2e7, -4px -2px #fa7088e6;
+  max-width: 286px;
+  line-height: 80px;
+}
+
+.emojis h3 span {
+  color: #ff8f1f;
+  font-size: 65px;
+}
+
+.btn-choose {
+  width: 91px;
+  height: 51px;
+  position: relative;
+  margin-right: 42px;
+}
+
+.btn-choose:after {
+  content: "";
+  background: url("/newimages/btn-ch.png") center no-repeat;
+  position: absolute;
+  width: 119px;
+  height: 85px;
+  top: -20px;
+  left: -15px;
+  z-index: 0;
+}
+
+.btn-choose a {
+  background: url("/newimages/btn-choose.png") center no-repeat;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: 700;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: all .3s;
+}
+
+.btn-choose a:hover {
+  opacity: 0;
+}
+
+.btns-ch {
+  margin-top: auto;
+  margin-right: 13px;
+  margin-top: 198px;
+}
+
+.btns-ch .btn-choose {
+  margin-top: 20px;
+}
+
+.card-thr {
+  display: flex;
+  min-width: 255px;
+  max-width: 255px;
+  height: 260px;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  align-self: stretch;
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  margin-bottom: 29px;
+  box-shadow: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+}
+
+.cards-thr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-thr > .relative {
+  padding: 14px 32px 0;
+}
+
+.card-thr h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.card-thr p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-thr .btn-crd {
+  margin-top: auto;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0 -5px 30px #ff8f1f4d;
+}
+
+/*# sourceMappingURL=components_Banners_tailwind_Three_part_gallery_styled_component_b52d8e.css.map*/

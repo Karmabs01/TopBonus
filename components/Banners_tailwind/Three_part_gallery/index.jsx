@@ -1,6 +1,7 @@
 import Emoji from "./Emoji_picker"
 import Hottest_titles from "./Hottest_titles"
 import Popular_offers from "./Popular_offers";
+import "./styled.component.css";
 
 export default async function Three_part_gallery() {
 
@@ -12,7 +13,7 @@ export default async function Three_part_gallery() {
                         <Hottest_titles />
 
                     </div>
-                    <div className="basis-2/3">
+                    <div className="basis-2/3 right-c">
                         <Emoji />
                         <Popular_offers />
                     </div>

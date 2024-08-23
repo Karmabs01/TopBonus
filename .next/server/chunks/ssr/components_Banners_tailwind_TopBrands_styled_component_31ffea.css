@@ -82,15 +82,15 @@
 }
 
 .slick-slide:nth-child(3n+1) .background-slider {
-  background: url("/newimages/new-banner-slider-1.svg") center no-repeat;
+  background: url("/newimages/new-banner-slider-1.png") center no-repeat;
 }
 
 .slick-slide:nth-child(3n+2) .background-slider {
-  background: url("/newimages/new-banner-slider-2.svg") center no-repeat;
+  background: url("/newimages/new-banner-slider-2.png") center no-repeat;
 }
 
 .slick-slide:nth-child(3n+3) .background-slider {
-  background: url("/newimages/new-banner-slider-3.svg") center no-repeat;
+  background: url("/newimages/new-banner-slider-3.png") center no-repeat;
 }
 
 .background-slider h3 {
