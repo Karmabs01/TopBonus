@@ -286,6 +286,10 @@
   .jins > div img {
     border-radius: 30px;
   }
+
+  .footer-bg:after {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=components_Banners_tailwind_TopBrands_styled_component_b52d8e.css.map*/

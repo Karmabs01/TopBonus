@@ -382,7 +382,7 @@ const Header_tailwind = () => {
           onClose={setMobileMenuOpen}
           className="lg:hidden"
         >
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 mobmen">
             <div className="flex items-center justify-between">
               <Link href="/">
                 <Image src={Img} alt="logo" width={150} loading="lazy" />
@@ -401,8 +401,8 @@ const Header_tailwind = () => {
                 <div className="space-y-2 py-6">
                   {items.map((item) => (
                     <Disclosure as="div" className="-mx-3" key={item.label}>
-                      <DisclosureButton className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400">
-                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                      <DisclosureButton className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white">
+                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md text-white sm:h-12 sm:w-12 bg-or">
                           <TicketIcon aria-hidden="true" className="h-6 w-6" />
                         </div>
                         {item.label}
@@ -412,13 +412,13 @@ const Header_tailwind = () => {
                         />
                       </DisclosureButton>
 
-                      <DisclosurePanel className="mt-2 space-y-2">
+                      <DisclosurePanel className="mt-2 space-y-2 menuItems">
                         {item.subMenu.map((tab) => (
                           <DisclosureButton
                             key={tab.label}
                             as="a"
                             href={tab.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white hover:bg-indigo-400"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white "
                           >
                             {tab.label}
                           </DisclosureButton>
@@ -428,7 +428,7 @@ const Header_tailwind = () => {
                   ))}
                 </div>
                 <div className="py-6 border-t border-gray-200 pb-3 pt-4">
-                  <div className="flex items-center px-4 mb-5">
+                  {/* <div className="flex items-center px-4 mb-5">
                     <div className="flex-shrink-0 relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                       {load ? (
                         <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
@@ -479,7 +479,7 @@ const Header_tailwind = () => {
                         )}
                       </Link>
                     </button>
-                  </div>
+                  </div> */}
 
                   <Disclosure as="div" className="-mx-3">
                     {userNavigation.map((item) => (
@@ -487,9 +487,9 @@ const Header_tailwind = () => {
                         key={item.name}
                         as="a"
                         href={item.href}
-                        className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-indigo-400"
+                        className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
                       >
-                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
                           <TicketIcon aria-hidden="true" className="h-6 w-6" />
                         </div>
                         {item.name}

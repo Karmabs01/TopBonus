@@ -196,4 +196,31 @@ header nav button {
     padding: 12px 0;
     background: #0f0926;
   }
+  .mobmen {
+    z-index: 999 !important;
+    background: #0f0926f3 !important;
+  }
+  .menuItems {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+  }
+  .menuItems a {
+    padding: 5px;
+    margin-top: 0 !important;
+  }
+  .bg-or {
+    background: #ff8f1f;
+  }
+  .bg-bl {
+    background: #310877;
+  }
+  .menuItems a {
+    border: 1px solid #fff6;
+    margin-bottom: 5px !important;
+    margin-right: 5px;
+  }
+  .menuItems a:hover {
+    background: #ff8f1f;
+  }
 }
