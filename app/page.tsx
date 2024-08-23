@@ -32,14 +32,14 @@ export default async function Home() {
   return (
     <>
       <TopBrands />
-      {/* <Banner_small />
+      <Banner_small />
       <Double_banners />
       <Brands_double_carousel />
       <Random_block />
       <Jackpot_banner />
       <Three_part_gallery />
       <Next_event_banner />
-      <Fortune_wheel /> */}
+      <Fortune_wheel />
 
       {/*    
    <Brand_carousel_mobile/>
