@@ -1931,7 +1931,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$PokerChip$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__PokerChip$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/PokerChip.esm.js [app-ssr] (ecmascript) <export default as PokerChip>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Wallet$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Wallet.esm.js [app-ssr] (ecmascript) <export default as Wallet>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$GameController$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__GameController$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/GameController.esm.js [app-ssr] (ecmascript) <export default as GameController>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__ = __turbopack_import__("[project]/node_modules/@heroicons/react/24/outline/esm/CurrencyDollarIcon.js [app-ssr] (ecmascript) <export default as CurrencyDollarIcon>");
 "__TURBOPACK__ecmascript__hoisting__location__";
+;
 ;
 ;
 const navItems = (t)=>[
@@ -1940,7 +1942,7 @@ const navItems = (t)=>[
                 className: "h-6 w-6"
             }, void 0, false, {
                 fileName: "[project]/components/header/NavItems/index.js",
-                lineNumber: 5,
+                lineNumber: 7,
                 columnNumber: 11
             }, this),
             class: "sub-casinos",
@@ -1978,7 +1980,7 @@ const navItems = (t)=>[
                 className: "h-6 w-6"
             }, void 0, false, {
                 fileName: "[project]/components/header/NavItems/index.js",
-                lineNumber: 19,
+                lineNumber: 21,
                 columnNumber: 11
             }, this),
             class: "sub-bonuses",
@@ -2005,7 +2007,7 @@ const navItems = (t)=>[
                 className: "h-6 w-6"
             }, void 0, false, {
                 fileName: "[project]/components/header/NavItems/index.js",
-                lineNumber: 32,
+                lineNumber: 34,
                 columnNumber: 11
             }, this),
             class: "sub-payments",
@@ -2014,63 +2016,183 @@ const navItems = (t)=>[
             subMenu: [
                 {
                     label: t("Apple Pay"),
-                    href: "/payments/apple-pay"
+                    href: "/payments/apple-pay",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 39,
+                        columnNumber: 67
+                    }, this)
                 },
                 {
                     label: t("Bitcoin"),
-                    href: "/payments/bitcoin-casino"
+                    href: "/payments/bitcoin-casino",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 40,
+                        columnNumber: 70
+                    }, this)
                 },
                 {
                     label: t("Ecopayz"),
-                    href: "/payments/ecopayz"
+                    href: "/payments/ecopayz",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 41,
+                        columnNumber: 63
+                    }, this)
                 },
                 {
                     label: t("Maestro"),
-                    href: "/payments/maestro"
+                    href: "/payments/maestro",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 42,
+                        columnNumber: 63
+                    }, this)
                 },
                 {
                     label: t("Mastercard"),
-                    href: "/payments/mastercard"
+                    href: "/payments/mastercard",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 43,
+                        columnNumber: 69
+                    }, this)
                 },
                 {
                     label: t("Mobile Payments"),
-                    href: "/payments/mobile-payments"
+                    href: "/payments/mobile-payments",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 44,
+                        columnNumber: 79
+                    }, this)
                 },
                 {
                     label: t("Muchbetter"),
-                    href: "/payments/muchbetter"
+                    href: "/payments/muchbetter",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 45,
+                        columnNumber: 69
+                    }, this)
                 },
                 {
                     label: t("Neosurf"),
-                    href: "/payments/neosurf"
+                    href: "/payments/neosurf",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 46,
+                        columnNumber: 63
+                    }, this)
                 },
                 {
                     label: t("Neteller"),
-                    href: "/payments/neteller-casino"
+                    href: "/payments/neteller-casino",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 47,
+                        columnNumber: 72
+                    }, this)
                 },
                 {
                     label: t("PayPal"),
-                    href: "/payments/paypal-casino"
+                    href: "/payments/paypal-casino",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 48,
+                        columnNumber: 68
+                    }, this)
                 },
                 {
                     label: t("Paysafecard"),
-                    href: "/payments/paysafecard-casino"
+                    href: "/payments/paysafecard-casino",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 49,
+                        columnNumber: 78
+                    }, this)
                 },
                 {
                     label: t("Pix"),
-                    href: "/payments/pix"
+                    href: "/payments/pix",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 50,
+                        columnNumber: 55
+                    }, this)
                 },
                 {
                     label: t("Skrill"),
-                    href: "/payments/skrill-casino"
+                    href: "/payments/skrill-casino",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 51,
+                        columnNumber: 68
+                    }, this)
                 },
                 {
                     label: t("Trustly"),
-                    href: "/payments/trustly"
+                    href: "/payments/trustly",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 52,
+                        columnNumber: 63
+                    }, this)
                 },
                 {
                     label: t("Visa"),
-                    href: "/payments/visa"
+                    href: "/payments/visa",
+                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CurrencyDollarIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyDollarIcon$3e$__["CurrencyDollarIcon"], {
+                        "aria-hidden": "true",
+                        className: "h-6 w-6"
+                    }, void 0, false, {
+                        fileName: "[project]/components/header/NavItems/index.js",
+                        lineNumber: 53,
+                        columnNumber: 57
+                    }, this)
                 }
             ]
         },
@@ -2079,7 +2201,7 @@ const navItems = (t)=>[
                 className: "h-6 w-6"
             }, void 0, false, {
                 fileName: "[project]/components/header/NavItems/index.js",
-                lineNumber: 55,
+                lineNumber: 57,
                 columnNumber: 11
             }, this),
             class: "sub-providers",

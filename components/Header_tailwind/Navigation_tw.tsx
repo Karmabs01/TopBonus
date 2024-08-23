@@ -73,9 +73,8 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
               <div className="grid grid-cols-1 gap-x-1 pt-4 lg:grid-cols-2">
               {link.subMenu!.map((subLink) => (
                   <div key={subLink.label} className="group relative flex gap-x-2 rounded-lg px-4 group-menu-item">
-                    <div className="mt-1 flex h-8 w-8 flex-none items-center justify-center rounded-lg bg-indigo-500">
-                      <SquaresPlusIcon aria-hidden="true" className="h-6 w-6 text-white " />
-
+                    <div className="mt-1 flex h-8 w-8 flex-none items-center justify-center rounded-lg menu-icon-background-color">
+                      {subLink.icon}
                     </div>
                     <div>
                       <a href={subLink.href} className="font-semibold text-gray-900">

@@ -182,16 +182,17 @@ header nav button {
   );
   box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.2);
 }
-.group-menu-item a, .group-menu-item p {
+.group-menu-item a,
+.group-menu-item p {
   color: #fff;
 }
 .bg-orange {
-  background: #FF8F1F;
+  background: #ff8f1f;
   padding: 3px 7px;
   margin-bottom: 0;
 }
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .wrap-line-text {
     padding: 12px 0;
     background: #0f0926;
@@ -223,4 +224,12 @@ header nav button {
   .menuItems a:hover {
     background: #ff8f1f;
   }
+}
+
+.menu-icon-color {
+  color: #fff;
+}
+
+.menu-icon-background-color {
+  background-color: #ff8f1f;
 }
