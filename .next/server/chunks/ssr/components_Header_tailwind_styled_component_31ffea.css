@@ -74,6 +74,10 @@ header nav button {
   color: #fff !important;
 }
 
+.bg-purple {
+  background: #6532aa;
+}
+
 .wrap-line-text {
   margin: auto;
   padding: 18px 0;
