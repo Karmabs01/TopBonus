@@ -45,6 +45,7 @@ import {
   WalletIcon,
   CurrencyDollarIcon,
   ShoppingBagIcon,
+  UserIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import "./styled.component.css";
@@ -57,10 +58,11 @@ const Header_tailwind = () => {
   const [user, setUser] = useState(null);
 
   const userNavigation = [
-    { name: "My Profile", href: "/personal" },
-    { name: "My Wallet", href: "/personal" },
+    {
+      name: "My Profile", href: "/personal", icon: <UserIcon aria-hidden="true" className="h-6 w-6" />},
+    { name: "My Wallet", href: "/personal", icon: <WalletIcon aria-hidden="true" className="h-6 w-6" />},
     // { name: 'Fortune wheel', href: '/fortune' },
-    { name: "Card Shop", href: "/shop" },
+    { name: "Card Shop", href: "/shop", icon: <ShoppingBagIcon aria-hidden="true" className="h-6 w-6" />},
   ];
 
   const getParamsFromUrl = () => {
@@ -226,209 +228,209 @@ const Header_tailwind = () => {
 
   return (
     <>
-    <Marque />  
-    <header className="">
-      {load ? (
-        dataUser.geo_approve === null || dataUser.geo_approve === "" ? (
-          <ResponsiveDialog />
+      <Marque />
+      <header className="">
+        {load ? (
+          dataUser.geo_approve === null || dataUser.geo_approve === "" ? (
+            <ResponsiveDialog />
+          ) : (
+            <div></div>
+          )
         ) : (
-          <div></div>
-        )
-      ) : (
-        ""
-      )}
-      <div className="main__container">
-        <nav
-          aria-label="Global"
-          className="mx-auto max-w-7xl flex items-center sm:justify-between px-2 sm:px-6 lg:px-8"
-        >
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-white"
-            >
-              <span className="sr-only">Burger btn</span>
-              <Bars3Icon aria-hidden="true" className="h-6 w-6" />
-            </button>
-          </div>
-          <div className="flex flex-shrink-0 items-center h-20 ml-2 md:ml-10 lg:ml-0 justify-center">
-            <Link href="/">
-              <Image src={Img} alt="logo" width={150} loading="lazy" />
-            </Link>
-          </div>
-          <div className="hidden xl:flex flex items-center justify-center">
-            <Navigation
-              navLinks={items.map((item) => ({
-                ...item,
-                label: item.label,
-              }))}
-            />
-          </div>
-          <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <button
-              type="button"
-              className="hidden md:flex relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
-            >
-              {load ? (
-                <Link
-                  href={`/personal`}
-                  className=" flex justify-center items-center text-xl"
-                >
-                  <>
-                    <CurrencyDollarIcon
-                      aria-hidden="true"
-                      className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2"
-                    />
-                    {`${dataUser.balance}$`}
-                  </>
-                </Link>
-              ) : (
-                ""
-              )}
-            </button>
-            <Link href={`/fortune`} className="hidden md:flex">
+          ""
+        )}
+        <div className="main__container">
+          <nav
+            aria-label="Global"
+            className="mx-auto max-w-7xl flex items-center sm:justify-between px-2 sm:px-6 lg:px-8"
+          >
+            <div className="flex lg:hidden">
               <button
                 type="button"
-                className="relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
+                onClick={() => setMobileMenuOpen(true)}
+                className="-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-white"
               >
-                <span className="absolute -inset-1.5" />
+                <span className="sr-only">Burger btn</span>
+                <Bars3Icon aria-hidden="true" className="h-6 w-6" />
+              </button>
+            </div>
+            <div className="flex flex-shrink-0 items-center h-20 ml-2 md:ml-10 lg:ml-0 justify-center">
+              <Link href="/">
+                <Image src={Img} alt="logo" width={150} loading="lazy" />
+              </Link>
+            </div>
+            <div className="hidden xl:flex flex items-center justify-center">
+              <Navigation
+                navLinks={items.map((item) => ({
+                  ...item,
+                  label: item.label,
+                }))}
+              />
+            </div>
+            <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <button
+                type="button"
+                className="hidden md:flex relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
+              >
                 {load ? (
-                  <Badge badgeContent={`${dataUser.tickets}`} color="primary">
+                  <Link
+                    href={`/personal`}
+                    className=" flex justify-center items-center text-xl"
+                  >
                     <>
-                      <TicketIcon
+                      <CurrencyDollarIcon
                         aria-hidden="true"
-                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
+                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2"
                       />
+                      {`${dataUser.balance}$`}
                     </>
-                  </Badge>
+                  </Link>
                 ) : (
                   ""
                 )}
               </button>
-            </Link>
-
-            <I18nextProvider i18n={i18n}>
-              <MenuLanguages />
-            </I18nextProvider>
-
-            <Menu as="div" className="relative ml-3 hidden md:inline">
-              <div>
-                <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 avatar-new">
+              <Link href={`/fortune`} className="hidden md:flex">
+                <button
+                  type="button"
+                  className="relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
+                >
                   <span className="absolute -inset-1.5" />
                   {load ? (
-                    <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
-                      
-                    </div>
+                    <Badge badgeContent={`${dataUser.tickets}`} color="primary">
+                      <>
+                        <TicketIcon
+                          aria-hidden="true"
+                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
+                        />
+                      </>
+                    </Badge>
                   ) : (
                     ""
                   )}
-                </MenuButton>
-              </div>
-              <MenuItems
-                transition
-                className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in submenu-x"
-              >
-                <MenuItem>
-                  <Link
-                    href={`/personal`}
-                    className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-                  >
-                    <WalletIcon
-                      aria-hidden="true"
-                      className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                    />
+                </button>
+              </Link>
 
-                    {t("My wallet")}
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link
-                    href={`/fortune`}
-                    className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-                  >
-                    <TicketIcon
-                      aria-hidden="true"
-                      className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                    />
+              <I18nextProvider i18n={i18n}>
+                <MenuLanguages />
+              </I18nextProvider>
+
+              <Menu as="div" className="relative ml-3 hidden md:inline">
+                <div>
+                  <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 avatar-new">
+                    <span className="absolute -inset-1.5" />
                     {load ? (
-                      <div className="">
-                        {t("Fortune wheel")} <span>{user.tickets}</span>
+                      <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
+
                       </div>
                     ) : (
-                      <div className="">{t("Fortune wheel")}</div>
+                      ""
                     )}
-                  </Link>
-                </MenuItem>
-                <MenuItem>
-                  <Link
-                    href={`/shop`}
-                    className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center "
-                  >
-                    <ShoppingBagIcon
-                      aria-hidden="true"
-                      className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                    />
-
-                    {t("Cards shop")}
-                  </Link>
-                </MenuItem>
-              </MenuItems>
-            </Menu>
-          </div>
-        </nav>
-        <Dialog
-          open={mobileMenuOpen}
-          onClose={setMobileMenuOpen}
-          className="lg:hidden"
-        >
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 mobmen">
-            <div className="flex items-center justify-between">
-              <Link href="/">
-                <Image src={Img} alt="logo" width={150} loading="lazy" />
-              </Link>
-              <button
-                type="button"
-                onClick={() => setMobileMenuOpen(false)}
-                className="-m-2.5 rounded-md p-2.5 text-white"
-              >
-                <span className="sr-only">Close menu</span>
-                <XMarkIcon aria-hidden="true" className="h-6 w-6" />
-              </button>
-            </div>
-            <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
-                  {items.map((item) => (
-                    <Disclosure as="div" className="-mx-3" key={item.label}>
-                      <DisclosureButton className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white">
-                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md text-white sm:h-12 sm:w-12 bg-or">
-                          <TicketIcon aria-hidden="true" className="h-6 w-6" />
-                        </div>
-                        {item.label}
-                        <ChevronDownIcon
-                          aria-hidden="true"
-                          className="ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
-                        />
-                      </DisclosureButton>
-
-                      <DisclosurePanel className="mt-2 space-y-2 menuItems">
-                        {item.subMenu.map((tab) => (
-                          <DisclosureButton
-                            key={tab.label}
-                            as="a"
-                            href={tab.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white "
-                          >
-                            {tab.label}
-                          </DisclosureButton>
-                        ))}
-                      </DisclosurePanel>
-                    </Disclosure>
-                  ))}
+                  </MenuButton>
                 </div>
-                <div className="py-6 border-t border-gray-200 pb-3 pt-4">
-                  {/* <div className="flex items-center px-4 mb-5">
+                <MenuItems
+                  transition
+                  className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in submenu-x"
+                >
+                  <MenuItem>
+                    <Link
+                      href={`/personal`}
+                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
+                    >
+                      <WalletIcon
+                        aria-hidden="true"
+                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
+                      />
+
+                      {t("My wallet")}
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      href={`/fortune`}
+                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
+                    >
+                      <TicketIcon
+                        aria-hidden="true"
+                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
+                      />
+                      {load ? (
+                        <div className="">
+                          {t("Fortune wheel")} <span>{user.tickets}</span>
+                        </div>
+                      ) : (
+                        <div className="">{t("Fortune wheel")}</div>
+                      )}
+                    </Link>
+                  </MenuItem>
+                  <MenuItem>
+                    <Link
+                      href={`/shop`}
+                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center "
+                    >
+                      <ShoppingBagIcon
+                        aria-hidden="true"
+                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
+                      />
+
+                      {t("Cards shop")}
+                    </Link>
+                  </MenuItem>
+                </MenuItems>
+              </Menu>
+            </div>
+          </nav>
+          <Dialog
+            open={mobileMenuOpen}
+            onClose={setMobileMenuOpen}
+            className="lg:hidden"
+          >
+            <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-600 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 mobmen">
+              <div className="flex items-center justify-between">
+                <Link href="/">
+                  <Image src={Img} alt="logo" width={150} loading="lazy" />
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="-m-2.5 rounded-md p-2.5 text-white"
+                >
+                  <span className="sr-only">Close menu</span>
+                  <XMarkIcon aria-hidden="true" className="h-6 w-6" />
+                </button>
+              </div>
+              <div className="mt-6 flow-root">
+                <div className="-my-6 divide-y divide-gray-500/10">
+                  <div className="space-y-2 py-6">
+                    {items.map((item) => (
+                      <Disclosure as="div" className="-mx-3" key={item.label}>
+                        <DisclosureButton className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white">
+                          <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md text-white sm:h-12 sm:w-12 bg-or">
+                            {item.icon}
+                          </div>
+                          {item.label}
+                          <ChevronDownIcon
+                            aria-hidden="true"
+                            className="ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
+                          />
+                        </DisclosureButton>
+
+                        <DisclosurePanel className="mt-2 space-y-2 menuItems">
+                          {item.subMenu.map((tab) => (
+                            <DisclosureButton
+                              key={tab.label}
+                              as="a"
+                              href={tab.href}
+                              className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white "
+                            >
+                              {tab.label}
+                            </DisclosureButton>
+                          ))}
+                        </DisclosurePanel>
+                      </Disclosure>
+                    ))}
+                  </div>
+                  <div className="py-6 border-t border-gray-200 pb-3 pt-4">
+                    {/* <div className="flex items-center px-4 mb-5">
                     <div className="flex-shrink-0 relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                       {load ? (
                         <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
@@ -481,23 +483,23 @@ const Header_tailwind = () => {
                     </button>
                   </div> */}
 
-                  <Disclosure as="div" className="-mx-3">
-                    {userNavigation.map((item) => (
-                      <DisclosureButton
-                        key={item.name}
-                        as="a"
-                        href={item.href}
-                        className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
-                      >
-                        <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
-                          <TicketIcon aria-hidden="true" className="h-6 w-6" />
-                        </div>
-                        {item.name}
-                      </DisclosureButton>
-                    ))}
-                  </Disclosure>
+                    <Disclosure as="div" className="-mx-3">
+                      {userNavigation.map((item) => (
+                        <DisclosureButton
+                          key={item.name}
+                          as="a"
+                          href={item.href}
+                          className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
+                        >
+                          <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
+                            {item.icon}
+                          </div>
+                          {item.name}
+                        </DisclosureButton>
+                      ))}
+                    </Disclosure>
 
-                  <div className="flex flex-row items-center justify-center">
+                    {/* <div className="flex flex-row items-center justify-center">
                     <div className="w-full">
                       <div>
                         <BrandsSwitcher />
@@ -510,14 +512,14 @@ const Header_tailwind = () => {
                         <p className="block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white"></p>
                       </div>
                     </div>
+                  </div> */}
                   </div>
                 </div>
               </div>
-            </div>
-          </DialogPanel>
-        </Dialog>
-      </div>
-    </header>
+            </DialogPanel>
+          </Dialog>
+        </div>
+      </header>
     </>
   );
 };

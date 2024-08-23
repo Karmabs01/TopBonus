@@ -233,4 +233,12 @@ header nav button {
   }
 }
 
+.menu-icon-color {
+  color: #fff;
+}
+
+.menu-icon-background-color {
+  background-color: #ff8f1f;
+}
+
 /*# sourceMappingURL=components_Header_tailwind_styled_component_b52d8e.css.map*/

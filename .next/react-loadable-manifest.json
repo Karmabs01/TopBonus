@@ -5,6 +5,7 @@
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
     ]
+<<<<<<< HEAD
   },
   "components/Brands_casinos/AllCasinos.jsx -> react-slick": {
     "id": "components/Brands_casinos/AllCasinos.jsx -> react-slick",
@@ -26,5 +27,7 @@
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
     ]
+=======
+>>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
   }
 }
