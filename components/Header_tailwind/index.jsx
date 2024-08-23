@@ -226,7 +226,7 @@ const Header_tailwind = () => {
 
   return (
     <>
-    {/* <Marque />   */}
+    <Marque />  
     <header className="">
       {load ? (
         dataUser.geo_approve === null || dataUser.geo_approve === "" ? (

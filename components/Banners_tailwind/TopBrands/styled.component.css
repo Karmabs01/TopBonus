@@ -293,4 +293,7 @@
   .jins > div img {
     border-radius: 30px;
   }
+  .footer-bg::after {
+    display: none;
+  }
 }
