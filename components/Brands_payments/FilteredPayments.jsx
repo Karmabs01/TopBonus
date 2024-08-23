@@ -25,8 +25,8 @@ const FilteredPayments = () => {
     }, 500);
   };
   return (
-    <div className="main pt-10 pb-10 custom-bonuses filtered-payments">
-      <div className="main__container filter-brands">
+    <div className="main pt-10 pb-10 custom-bonuses ">
+      <div className="main__container">
         {/* <div className="content flex flex-wrap">
           <div className="left flex flex-col justify-center basis-[60%]">
             <h2 className="">
@@ -54,22 +54,22 @@ const FilteredPayments = () => {
         </div> */}
 
         {/*  Tailwind tab bar */}
-        <h2 className="">
+        <h2 className="text-white">
           {t("Catalog of all offered Online Casinos by Payment Methods in 2024")}
         </h2>
-        <p className="mt-3 pb-4">
+        <p className="mt-3 pb-4 text-white">
           {t("Looking for online casinos with specific payment methods? Explore our current database of numerous casino offers for you to choose from.")}
         </p>
-        <div className="bg-white rounded-lg">
-          <nav aria-label="Tabs" className="isolate flex divide-x divide-gray-700 rounded-lg shadow overflow-x-auto">
+        <div className="">
+          <nav aria-label="Tabs" className="isolate isolate-tabs flex divide-x overflow-x-auto">
             {navigateBrands.map((item) => (
               <button
                 key={item.currentTab}
                 className={classNames(
                   currentTab === item.currentTab
-                    ? 'text-blue-600 underline decoration-2 underline-offset-8 bg-blue-500/10'
-                    : 'text-gray-500 hover:text-gray-700',
-                  'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium hover:bg-blue-500/10 focus:z-10 flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out',
+                    ? 'decoration-2 underline-offset-8 '
+                    : 'text-gray-500',
+                  'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out',
                 )}
                 onClick={() => handleTabChange(item.currentTab)}
               >
