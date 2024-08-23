@@ -1,6 +1,6 @@
 import React from 'react';
 import { TicketIcon } from '@heroicons/react/24/outline'
-import { logo } from "@/public/logo2.png"
+// import { logo } from "@/public/newimages/logo2.png"
 import Image from "next/image";
 import "./styled.component.css";
 
@@ -31,7 +31,7 @@ const Mobile_tabs_navigation = () => {
             </div>
 
             <div className="round-logo absolute -top-4 left-1/2 transform -translate-x-1/2 w-24 h-24 rounded-full flex items-center justify-center">
-                <Image src={logo} alt="logo" width={150} loading="lazy" className='w-8' />
+                {/* <Image src={logo} alt="logo" width={150} loading="lazy" className='w-8' /> */}
 
             </div>
         </div>
