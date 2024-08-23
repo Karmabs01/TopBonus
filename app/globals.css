@@ -10014,3 +10014,30 @@ main > .topbr {
     margin-right: auto;
   }
 }
+
+.inner-top-block {
+  border-radius: 30px;
+  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(
+    161deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 101.7%
+  );
+  backdrop-filter: blur(17.915000915527344px);
+  flex-wrap: nowrap;
+}
+
+.text-orange {
+  color: #ff8f1f;
+}
+
+.inner-text-block {
+  padding: 46px 32px !important;
+}
+
+@media (min-width: 320px) and (max-width: 1050px) {
+  .inner-image {
+    width: 350px !important;
+  }
+}

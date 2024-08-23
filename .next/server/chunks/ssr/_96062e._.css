@@ -1166,10 +1166,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background: url("/newimages/third-banner.png") center no-repeat !important;
 }
 
-.page-bonuses .custom-bonuses .filter-brands p, .page-bonuses .custom-bonuses .filter-brands h2 {
-  color: #000;
-}
-
 .filter-brands .brandImage a img {
   max-height: 60px;
   -o-object-fit: contain;
@@ -1225,10 +1221,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .filter-brands .card-brand-banner:nth-child(3) {
   background: linear-gradient(#296ab1, #2a9bca);
-}
-
-.page-bonuses .filter-brands p.text-slate-500 {
-  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .filter-brands .basis-\[60\%\] {
@@ -1872,8 +1864,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("/fonts/slick.eot");
-  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("/_next/static/media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
+  src: url("/_next/static/media/slick.a3496dc3.eot");
 }
 
 .slick-prev, .slick-next {

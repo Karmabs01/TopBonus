@@ -1,5 +1,16 @@
 {
   "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/exclusive-bonuses/page": "app/exclusive-bonuses/page.js",
+  "/fast-withdrawal-casinos/page": "app/fast-withdrawal-casinos/page.js",
+  "/top-sports-casinos/page": "app/top-sports-casinos/page.js",
+  "/top-certified-casinos/page": "app/top-certified-casinos/page.js",
+  "/newest-casinos/page": "app/newest-casinos/page.js",
+  "/live-casinos/page": "app/live-casinos/page.js",
+  "/deposit-bonuses/page": "app/deposit-bonuses/page.js",
+  "/welcome-bonuses/page": "app/welcome-bonuses/page.js",
+  "/payments/apple-pay/page": "app/payments/apple-pay/page.js",
+  "/payments/paypal-casino/page": "app/payments/paypal-casino/page.js",
+  "/game-providers/boongo/page": "app/game-providers/boongo/page.js"
 }
