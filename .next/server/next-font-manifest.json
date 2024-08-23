@@ -1,6 +1,17 @@
 {
   "app": {
+<<<<<<< HEAD
     "[project]/app/page": []
+=======
+<<<<<<< HEAD
+    "[project]/app/page": [],
+    "[project]/app/crypto-casinos/page": [],
+    "[project]/app/game-providers/bgaming/page": [],
+    "[project]/app/payments/maestro/page": []
+=======
+    "[project]/app/page": []
+>>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
+>>>>>>> 8087a8e81bd75ef5bb8a7d91e7023bef29759baf
   },
   "appUsingSizeAdjust": false,
   "pages": {},

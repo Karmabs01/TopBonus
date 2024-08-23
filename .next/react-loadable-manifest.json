@@ -5,5 +5,32 @@
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
     ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  },
+  "components/Brands_casinos/AllCasinos.jsx -> react-slick": {
+    "id": "components/Brands_casinos/AllCasinos.jsx -> react-slick",
+    "files": [
+      "static/chunks/node_modules_288834._.js",
+      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
+    ]
+  },
+  "components/Brands_providers/AllProviders.jsx -> react-slick": {
+    "id": "components/Brands_providers/AllProviders.jsx -> react-slick",
+    "files": [
+      "static/chunks/node_modules_288834._.js",
+      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
+    ]
+  },
+  "components/Brands_payments/AllPayments.jsx -> react-slick": {
+    "id": "components/Brands_payments/AllPayments.jsx -> react-slick",
+    "files": [
+      "static/chunks/node_modules_288834._.js",
+      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
+    ]
+=======
+>>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
+>>>>>>> 8087a8e81bd75ef5bb8a7d91e7023bef29759baf
   }
 }

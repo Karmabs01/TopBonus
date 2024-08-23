@@ -1,3 +1,17 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js"
+=======
+  "/page": "app/page.js",
+<<<<<<< HEAD
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/game-providers/bgaming/page": "app/game-providers/bgaming/page.js",
+  "/payments/maestro/page": "app/payments/maestro/page.js",
+  "/fortune/page": "app/fortune/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/personal/page": "app/personal/page.js"
+=======
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+>>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
+>>>>>>> 8087a8e81bd75ef5bb8a7d91e7023bef29759baf
 }
