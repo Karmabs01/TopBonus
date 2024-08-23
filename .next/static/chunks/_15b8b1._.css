@@ -611,13 +611,10 @@
   .awesome .slick-list, .awesome .slick-track {
     max-height: 350px;
   }
-<<<<<<< HEAD
 
   .isolate-tabs {
     padding: 0;
   }
-=======
->>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
 }
 
 
@@ -729,12 +726,8 @@
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-<<<<<<< HEAD
   src: url("/fonts/slick.eot");
   src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
-=======
-  src: url("../media/slick.a3496dc3.eot");
->>>>>>> 3ae2aafe830791f69ecf7619604f9b06a223699c
 }
 
 .slick-prev, .slick-next {

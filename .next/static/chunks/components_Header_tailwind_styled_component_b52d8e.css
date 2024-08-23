@@ -231,6 +231,11 @@ header nav button {
   .menuItems a:hover {
     background: #ff8f1f;
   }
+
+  nav.isolate-tabs {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
 }
 
 .menu-icon-color {

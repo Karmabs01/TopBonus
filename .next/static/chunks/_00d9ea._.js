@@ -232,7 +232,11 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$fortune$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/fortune/index.jsx [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/components/Brands_carousel'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
@@ -249,15 +253,7 @@ function Fortune() {
     const [userData, setUserData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const banner = false;
-    // const [usId, setUsId] = useState();
-    // console.log("USID", usId);
-    // Обновление размеров iframe при изменении размеров окна
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // Получение ID пользователя
-        // if (typeof window !== "undefined") {
-        //   const userId = localStorage.getItem("user_id");
-        //   setUsId(userId);
-        // }
         const updateIframeSize = ()=>{
             const screenWidth = window.innerWidth;
             setIframeWidth(screenWidth <= 767 ? "100%" : "1170px");
@@ -267,83 +263,10 @@ function Fortune() {
         updateIframeSize();
         return ()=>window.removeEventListener("resize", updateIframeSize);
     }, []);
-    // Функция для обнуления времени в объекте даты
-    // const startOfDay = (date: Date) => {
-    //   date.setHours(0, 0, 0, 0);
-    //   return date;
-    // };
-    // Функция для обновления данных пользователя, если необходимо
-    // const updateUserDataIfNeeded = async (data: UserData) => {
-    //   if (!data) return;
-    //   const oldDate = data.winbalance ? new Date(data.winbalance) : new Date(0);
-    //   startOfDay(oldDate);
-    //   const newDate = new Date();
-    //   startOfDay(newDate);
-    //   if (newDate.getTime() - oldDate.getTime() >= 86400000) {
-    //     const formattedNewDate = newDate.toISOString();
-    //     try {
-    //       const body = JSON.stringify({
-    //         id: usId,
-    //         winbalance: formattedNewDate,
-    //       });
-    //       const response = await fetch(
-    //         "https://pickbonus.myawardwallet.com/api/user/update_time.php",
-    //         {
-    //           method: "PUT",
-    //           headers: { "Content-Type": "application/json" },
-    //           body,
-    //         }
-    //       );
-    //       if (!response.ok) throw new Error(`Error: ${response.status}`);
-    //       console.log("Данные успешно обновлены");
-    //       await fetchData(); // Перезагружаем данные пользователя
-    //     } catch (error) {
-    //       console.error("Ошибка при обновлении данных пользователя:", error);
-    //     }
-    //   } else {
-    //     console.log("Обновление не требуется.");
-    //   }
-    // };
-    // // Функция для получения данных пользователя
-    // const fetchData = async () => {
-    //   if (!usId) return;
-    //   try {
-    //     const data = await getUserData(usId);
-    //     setUserData(data);
-    //     console.log("DATA", data)
-    //   } catch (error) {
-    //     console.error("Ошибка при получении данных пользователя:", error);
-    //   }
-    // };
-    // addEventListener("message", (event) => {
-    //   console.log("EVENT", event);
-    // fetchData(userId);
-    // updateUserDataIfNeeded(userData);
-    // });
-    // const [messageData, setMessageData] = useState(null);
-    // useEffect(() => {
-    //   const handleMessage = (event) => {
-    //     if (event.origin !== window.location.origin) {
-    //       console.error("unauthorized origin", event.origin);
-    //       return;
-    //     }
-    //     let dataString =
-    //       typeof event.data === "string"
-    //         ? event.data
-    //         : JSON.stringify(event.data);
-    //     if (dataString.includes("Json:")) {
-    //       setMessageData(dataString);
-    //       fetchData();
-    //       if (userData) {
-    //         updateUserDataIfNeeded(userData);
-    //         // return;
-    //       }
-    //     }
-    //     console.log("Received data", dataString);
-    //   };
-    //   window.addEventListener("message", handleMessage);
-    //   return () => window.removeEventListener("message", handleMessage);
-    // }, [messageData]);
+    const categoryBrands = {
+        key1: "Segment2",
+        key2: "Sandbox"
+    };
     const target = "target-fw-brands-wheel-page";
     const creative = "FW_Brands_Wheel_Page";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -358,27 +281,25 @@ function Fortune() {
                     height: iframeHeight
                 }, void 0, false, {
                     fileName: "[project]/app/fortune/page.tsx",
-                    lineNumber: 135,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/fortune/page.tsx",
-                lineNumber: 134,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$fortune$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                banner: banner,
-                target: target,
-                creative: creative
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Brands_carousel, {
+                categoryBrands: categoryBrands
             }, void 0, false, {
                 fileName: "[project]/app/fortune/page.tsx",
-                lineNumber: 143,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/fortune/page.tsx",
-        lineNumber: 132,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }

@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import "./styled.component.css"
 
-export default function Brands_carousel({categoryBrands}) {
+export default function Brands_carousel({target, creative, categoryBrands}) {
     const [newUrl, setNewUrl] = useState("");
     const [source, setSource] = useState("");
     const [loading, setLoading] = useState(true);
@@ -151,14 +151,14 @@ export default function Brands_carousel({categoryBrands}) {
                                         brands.map((rowData, index) => (
                                             <div
                                                 key={index}
-                                                className="overflow-hidden sm:py-10 rounded-xl flex flex-col justify-between"
+                                                className="overflow-hidden rounded-xl flex flex-col justify-between"
                                             >
                                                 <div className="mx-auto max-w-7xl flex flex-col ">
                                                     <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                                                         <div>
                                                             <Link
                                                                 className="mt-3"
-                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=${creative}`}
                                                                 target="_blank"
                                                             >
 
@@ -168,12 +168,12 @@ export default function Brands_carousel({categoryBrands}) {
                                                                     width={300}
                                                                     height={100}
                                                                     loading="lazy"
-                                                                    className="target-top-new-releases"
+                                                                    className={`${target}`}
                                                                 />
                                                             </Link>
                                                             <Link
                                                                 className="btn-play"
-                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=${creative}`}
                                                                 target="_blank"
                                                             >
                                                                 Play Now

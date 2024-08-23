@@ -170,7 +170,7 @@ export default function TopBrands() {
                                 <p className="p">{rowData.OurOfferContent}</p>
                                 <div className="flex sm:mt-4">
                                   <Link
-                                    className=""
+                                    className="btnscale"
                                     href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                     target="_blank"
                                   >

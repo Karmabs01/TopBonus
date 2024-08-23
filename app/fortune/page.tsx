@@ -2,6 +2,8 @@
 import { useState, useEffect } from "react";
 import Fortunes from "@/components/fortune";
 import { getUserData } from "@/components/getUser/getUser";
+import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
+
 import { useTranslation } from "react-i18next";
 interface UserData {
   winbalance?: string; // "?" указывает, что свойство необязательное
@@ -15,16 +17,9 @@ export default function Fortune() {
   const { t } = useTranslation();
   const banner = false;
 
-  // const [usId, setUsId] = useState();
-  // console.log("USID", usId);
 
-  // Обновление размеров iframe при изменении размеров окна
   useEffect(() => {
-    // Получение ID пользователя
-    // if (typeof window !== "undefined") {
-    //   const userId = localStorage.getItem("user_id");
-    //   setUsId(userId);
-    // }
+
     const updateIframeSize = () => {
       const screenWidth = window.innerWidth;
       setIframeWidth(screenWidth <= 767 ? "100%" : "1170px");
@@ -37,95 +32,8 @@ export default function Fortune() {
     return () => window.removeEventListener("resize", updateIframeSize);
   }, []);
 
-  // Функция для обнуления времени в объекте даты
-  // const startOfDay = (date: Date) => {
-  //   date.setHours(0, 0, 0, 0);
-  //   return date;
-  // };
 
-  // Функция для обновления данных пользователя, если необходимо
-  // const updateUserDataIfNeeded = async (data: UserData) => {
-  //   if (!data) return;
-
-  //   const oldDate = data.winbalance ? new Date(data.winbalance) : new Date(0);
-  //   startOfDay(oldDate);
-  //   const newDate = new Date();
-  //   startOfDay(newDate);
-
-  //   if (newDate.getTime() - oldDate.getTime() >= 86400000) {
-  //     const formattedNewDate = newDate.toISOString();
-
-  //     try {
-  //       const body = JSON.stringify({
-  //         id: usId,
-  //         winbalance: formattedNewDate,
-  //       });
-  //       const response = await fetch(
-  //         "https://pickbonus.myawardwallet.com/api/user/update_time.php",
-  //         {
-  //           method: "PUT",
-  //           headers: { "Content-Type": "application/json" },
-  //           body,
-  //         }
-  //       );
-
-  //       if (!response.ok) throw new Error(`Error: ${response.status}`);
-  //       console.log("Данные успешно обновлены");
-  //       await fetchData(); // Перезагружаем данные пользователя
-  //     } catch (error) {
-  //       console.error("Ошибка при обновлении данных пользователя:", error);
-  //     }
-  //   } else {
-  //     console.log("Обновление не требуется.");
-  //   }
-  // };
-
-  // // Функция для получения данных пользователя
-  // const fetchData = async () => {
-  //   if (!usId) return;
-  //   try {
-  //     const data = await getUserData(usId);
-  //     setUserData(data);
-  //     console.log("DATA", data)
-  //   } catch (error) {
-  //     console.error("Ошибка при получении данных пользователя:", error);
-  //   }
-  // };
-
-  // addEventListener("message", (event) => {
-  //   console.log("EVENT", event);
-  // fetchData(userId);
-  // updateUserDataIfNeeded(userData);
-  // });
-
-  // const [messageData, setMessageData] = useState(null);
-  // useEffect(() => {
-  //   const handleMessage = (event) => {
-  //     if (event.origin !== window.location.origin) {
-  //       console.error("unauthorized origin", event.origin);
-  //       return;
-  //     }
-  //     let dataString =
-  //       typeof event.data === "string"
-  //         ? event.data
-  //         : JSON.stringify(event.data);
-
-  //     if (dataString.includes("Json:")) {
-  //       setMessageData(dataString);
-
-  //       fetchData();
-  //       if (userData) {
-  //         updateUserDataIfNeeded(userData);
-  //         // return;
-  //       }
-  //     }
-  //     console.log("Received data", dataString);
-  //   };
-
-  //   window.addEventListener("message", handleMessage);
-  //   return () => window.removeEventListener("message", handleMessage);
-  // }, [messageData]);
-
+  const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-wheel-page";
   const creative = "FW_Brands_Wheel_Page";
   return (
@@ -140,7 +48,8 @@ export default function Fortune() {
         />
       </div>
 
-      <Fortunes banner={banner} target={target} creative={creative} />
+      {/* <Fortunes banner={banner} target={target} creative={creative} /> */}
+      <Brands_carousel target={target} creative={creative} categoryBrands={categoryBrands} />
     </div>
   );
 }

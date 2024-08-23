@@ -2303,6 +2303,10 @@ select {
   padding: 0 !important;
 }
 
+.btnscale {
+  transform: scale(.7);
+}
+
 .btn-new, .btn-mini {
   background: url("/btn.png") center no-repeat;
   position: relative;

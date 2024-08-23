@@ -25,7 +25,9 @@ export default function Jackpot_banner() {
     requestAnimationFrame(updateCounter);
   }, [targetValue, duration]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const categoryBrands = { key1: "Networks", key2: "1" };
+  const target = "target-fw-jackpot";
+  const creative = "NEW_JACKPOT";
 
   return (
     <>
@@ -40,7 +42,7 @@ export default function Jackpot_banner() {
           </div>
         </div>
       </div>
-      <Brands_carousel categoryBrands={categoryBrands} />
+      <Brands_carousel creative={creative} target={target} categoryBrands={categoryBrands} />
     </>
   );
 }

@@ -59,6 +59,7 @@ export default async function Home() {
 
       <div className="background-block">
         <FilteredHome />
+          
       </div>
     </>
   );

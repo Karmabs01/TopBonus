@@ -350,6 +350,11 @@ header nav button {
   .menuItems a:hover {
     background: #ff8f1f;
   }
+
+  nav.isolate-tabs {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
 }
 
 .menu-icon-color {
@@ -2812,6 +2817,10 @@ select {
 
 .main__container {
   padding: 0 !important;
+}
+
+.btnscale {
+  transform: scale(.7);
 }
 
 .btn-new, .btn-mini {
