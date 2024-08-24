@@ -235,17 +235,6 @@ export default function Personal() {
     const steps = getSteps(user, coins);
 
     return (
-      // <Stepper activeStep={step} orientation="vertical" className="stepper">
-      //   {steps.map((step, index) => (
-      //     <Step key={index}>
-      //       <StepLabel>{step.label}</StepLabel>
-      //       <StepContent>
-      //         <Typography>{step.description}</Typography>
-      //         {step.content}
-      //       </StepContent>
-      //     </Step>
-      //   ))}
-      // </Stepper>
 
       <nav aria-label="Progress" className="flex flex-col space-y-4 py-5">
         <ol role="list" className="overflow-hidden">
@@ -262,12 +251,12 @@ export default function Personal() {
                   {index !== steps.length - 1 && (
                     <div
                       aria-hidden="true"
-                      className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600"
+                      className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 "
                     />
                   )}
                   <div className="group relative flex items-center">
                     <span className="flex h-9 items-center">
-                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600">
+                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full ">
                         <CheckIcon
                           aria-hidden="true"
                           className="h-5 w-5 text-white"
@@ -290,12 +279,12 @@ export default function Personal() {
                   )}
                   <div className="group relative flex items-start">
                     <span className="flex h-9 items-center">
-                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-indigo-600 bg-white">
-                        <span className="h-2.5 w-2.5 rounded-full bg-indigo-600" />
+                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-or bg-white">
+                        <span className="h-2.5 w-2.5 rounded-full bg-or" />
                       </span>
                     </span>
                     <span className="ml-4 flex min-w-0 flex-col">
-                      <span className="text-sm font-medium text-indigo-600">
+                      <span className="text-sm font-medium text-or">
                         {item.label}
                       </span>
                       <span className="text-sm text-gray-500">
@@ -367,77 +356,24 @@ export default function Personal() {
           const steps = getSteps(user, coins);
 
           return (
-            // <div className="tabsstep">
-            //   <h2 className="title-balance">
-            //     {t("Your balance:")} {user.balance}$
-            //   </h2>
-            //   <Box
-            //     className="tab_field"
-            //     sx={{
-            //       flexGrow: 1,
-            //       bgcolor: "background.paper",
-            //       display: "flex",
-            //       height: "100%",
-            //     }}
-            //   >
-            //     <Tabs
-            //       value={tab}
-            //       onChange={onChangeTab}
-            //       tabs={{
-            //         labels: [
-            //           t("Withdrawal Request"),
-            //           t("Withdrawal History"),
-            //           t("Cards Shop"),
-            //           // t("Get $20"),
-            //         ],
-            //         content: [
-            //           <Stepper
-            //             key="withdrawalRequest"
-            //             activeStep={step}
-            //             orientation="vertical"
-            //             sx={{ width: "100%" }}
-            //             className="stepper"
-            //           >
-            //             {steps.map((step) => (
-            //               <Step key={step.label}>
-            //                 <StepLabel>{step.label}</StepLabel>
-            //                 <StepContent>
-            //                   <Typography>{step.description}</Typography>
-            //                   {step.content}
-            //                 </StepContent>
-            //               </Step>
-            //             ))}
-            //           </Stepper>,
-            //           <PaymentHistory
-            //             key="withdrawalHistory"
-            //             statusPayment={user.status_payment}
-            //           />,
-            //           <Cards key="cardsShop" user={user} onFinish={onFinish} />,
-            //           <UserBrands key="brands" />,
-            //         ],
-            //       }}
-            //     />
-            //   </Box>
-            // </div>
+
 
             <div className="overflow-hidden">
               <div className="flex flex-col sm:flex-row">
-                <div className="basis-1/4">
-                  <div className="px-4 py-2 bg-indigo-600 text-white rounded-lg">
-                    {t("Your balance:")} {user.balance}$
-                  </div>
+                <div className="basis-1/4 tab-pers">
+                 
                   <div className="">
                     <nav
                       aria-label="Tabs"
-                      className="isolate flex sm:flex-col divide-x divide-gray-200 rounded-lg "
+                      className="isolate flex sm:flex-col divide-x tab-persmini"
                     >
                       {tabs.map((tab, tabIdx) => (
                         <button
                           key={tab.name}
                           onClick={() => setCurrentTab(tabIdx)}
-                          className={`py-2 border-b-4 transition-colors rounded-lg duration-300 text-left px-4 text-white ${
+                          className={`py-2 border-b-4 transition-colors duration-300 text-left px-4 text-white ${
                             tabIdx === currentTab
-                              ? "bg-indigo-200 font-bold "
+                              ? "active-bg font-bold "
                               : "border-transparent hover:border-gray-200"
                           }`}
                         >
@@ -446,8 +382,11 @@ export default function Personal() {
                       ))}
                     </nav>
                   </div>
+                  <div className="px-4 py-2 text-white pers-balance">
+                    {t("Your balance:")} <span>{user.balance}$</span>
+                  </div>
                 </div>
-                <div className="basis-3/4 mx-2 sm:ml-5 rounded-lg bg-white shadow">
+                <div className="basis-3/4 sm:ml-5 rounded-lg bg-white shadow content-pers">
                   {/* Show active tab content. */}
                   <div className=" mx-5">
                     <h4 className="mt-5">{tabs[currentTab].name}</h4>

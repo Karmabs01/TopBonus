@@ -11,9 +11,11 @@ export const metadata: Metadata = {
 export default async function Bonuses() {
   return (
     <div className="page-bonuses">
+      <div className="main__container">
+        <FilteredBonuses />
+      </div>
       {/* <PreviewBonuses /> */}
       {/* <TopBrandsOriginal /> */}
-      <FilteredBonuses />
       {/* <GuideSlotsPage /> */}
     </div>
   );

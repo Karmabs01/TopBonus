@@ -194,7 +194,7 @@ const BrandCard: React.FC<{
 }> = ({ brand, savedUrl, register, t }) => (
   <div
     key={brand.CasinoBrand}
-    className="relative bg-gray-100 flex items-center space-x-3 rounded-lg border border-gray-300 px-3 py-2 shadow-sm"
+    className="relative flex items-center space-x-3 rounded-lg border border-gray-300 px-3 py-2 shadow-sm"
   >
     <div className="w-16 h-16 flex items-center justify-center rounded-md bg-indigo-200">
       <img

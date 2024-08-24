@@ -241,7 +241,7 @@ export const PaymentHistory = ({ statusPayment }: PaymentHistoryProps) => {
     // </Box>
     <div>
       <div className="py-4">
-        <div className="flow-root shadow bg-gray-100 rounded-lg">
+        <div className="flow-root shadow bg-co rounded-lg">
           <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="inline-block min-w-full pb-1 align-middle sm:px-6 lg:px-8">
               <table className="min-w-full divide-y divide-gray-300">
@@ -287,19 +287,19 @@ export const PaymentHistory = ({ statusPayment }: PaymentHistoryProps) => {
                             switch (row.status) {
                               case "Waiting":
                                 return (
-                                  <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-sm font-medium text-orange-800 ring-1 ring-inset ring-yellow-600/20">
+                                  <span className="inline-flex items-center rounded-full bg-or px-3 py-1 text-sm font-medium text-white ring-1 ring-inset ring-yellow-600/20">
                                     {row.status}
                                   </span>
                                 );
                               case "Approve":
                                 return (
-                                  <span className="inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800 ring-1 ring-inset ring-green-600/20">
+                                  <span className="inline-flex items-center rounded-full bg-green-800 px-3 py-1 text-sm font-medium text-white ring-1 ring-inset ring-green-600/20">
                                     {row.status}
                                   </span>
                                 );
                               case "Canceled":
                                 return (
-                                  <span className="inline-flex items-center rounded-full bg-red-100 px-3 py-1 text-sm font-medium text-red-800 ring-1 ring-inset ring-red-600/20">
+                                  <span className="inline-flex items-center rounded-full bg-red-800 px-3 py-1 text-sm font-medium text-white ring-1 ring-inset ring-red-600/20">
                                     {row.status}
                                   </span>
                                 );

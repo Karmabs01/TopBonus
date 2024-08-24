@@ -1,6 +1,7 @@
 {
   "app": {
-    "[project]/app/page": []
+    "[project]/app/page": [],
+    "[project]/app/crypto-casinos/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

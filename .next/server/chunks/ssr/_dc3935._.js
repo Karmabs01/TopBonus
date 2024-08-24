@@ -898,7 +898,7 @@ const UserBrands_tw = ()=>{
     }, this) : null;
 };
 const BrandCard = ({ brand, savedUrl, register, t })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "relative bg-gray-100 flex items-center space-x-3 rounded-lg border border-gray-300 px-3 py-2 shadow-sm",
+        className: "relative flex items-center space-x-3 rounded-lg border border-gray-300 px-3 py-2 shadow-sm",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-16 h-16 flex items-center justify-center rounded-md bg-indigo-200",
@@ -1194,7 +1194,7 @@ const PaymentHistory = ({ statusPayment })=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "py-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flow-root shadow bg-gray-100 rounded-lg",
+                className: "flow-root shadow bg-co rounded-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "overflow-x-auto sm:-mx-6 lg:-mx-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1525,46 +1525,7 @@ const PaymentMethodStep = ({ user, coins, step, coin, amount, onChangeStep, onCh
             setIsLoading(false);
         }
     };
-    return(// <StyledDiv>
-    //   <Select
-    //     className={`select_coins ${coin}`}
-    //     value={coin}
-    //     onChange={onChangeCoin}
-    //   >
-    //     {coins.map((coin) => (
-    //       <MenuItem className={`${coin}`} key={coin} value={coin}>
-    //         {coin}
-    //       </MenuItem>
-    //     ))}
-    //     <MenuItem className="PayPal" key="paypal" value="PayPal">
-    //       PayPal
-    //     </MenuItem>
-    //   </Select>
-    //   <TextField
-    //     className="input_number"
-    //     placeholder={t("Sum")}
-    //     value={amount}
-    //     onChange={(e) => {
-    //       setIsError(false);
-    //       onChangeAmount(e);
-    //     }}
-    //     type="number"
-    //     error={error}
-    //     helperText={helperText}
-    //   />
-    //   <Box>
-    //     <Button
-    //       className="btn-primary w-48"
-    //       variant="contained"
-    //       onClick={getFeeAndEstimatedAmountAndThanGoToWalletAddressStep}
-    //       disabled={isButtonNextStepDisabled}
-    //     >
-    //       {t("Next step")}
-    //     </Button>
-    //   </Box>
-    //   {isLoading && <Loader />}
-    // </StyledDiv>
-    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1578,7 +1539,7 @@ const PaymentMethodStep = ({ user, coins, step, coin, amount, onChangeStep, onCh
                                 children: coin
                             }, coin, false, {
                                 fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                                lineNumber: 136,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1587,18 +1548,18 @@ const PaymentMethodStep = ({ user, coins, step, coin, amount, onChangeStep, onCh
                             children: "PayPal"
                         }, "paypal", false, {
                             fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                            lineNumber: 140,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                    lineNumber: 130,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                lineNumber: 129,
+                lineNumber: 91,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1617,12 +1578,12 @@ const PaymentMethodStep = ({ user, coins, step, coin, amount, onChangeStep, onCh
                             className: `${isError ? "text-red-900 ring-1 ring-inset ring-red-300 placeholder:text-red-300 focus:ring-red-500 focus:ring-2 focus:ring-inset " : "text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-300 focus:ring-indigo-600 focus:ring-2 focus:ring-inset "} block w-full rounded-md border-0 py-1.5 pr-10 sm:text-sm sm:leading-6 `
                         }, void 0, false, {
                             fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                            lineNumber: 147,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                        lineNumber: 146,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1634,41 +1595,41 @@ const PaymentMethodStep = ({ user, coins, step, coin, amount, onChangeStep, onCh
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                        lineNumber: 163,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                lineNumber: 145,
+                lineNumber: 107,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: !isButtonNextStepDisabled ? getFeeAndEstimatedAmountAndThanGoToWalletAddressStep : undefined,
-                    className: `${isButtonNextStepDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-indigo-100 "} rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                    className: `btn-st${isButtonNextStepDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-or-hover "} rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                     children: t("Next step")
                 }, void 0, false, {
                     fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                    lineNumber: 170,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                lineNumber: 169,
+                lineNumber: 131,
                 columnNumber: 7
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-                lineNumber: 185,
+                lineNumber: 147,
                 columnNumber: 21
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/personal/PaymentMethodStep/PaymentMethodStep.tsx",
-        lineNumber: 128,
+        lineNumber: 90,
         columnNumber: 5
-    }, this));
+    }, this);
 };
 
 })()),
@@ -2413,87 +2374,7 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
     const isButtonContinueDisabled = otp.length < DEFAULT_OTP_LENGTH;
     const isLoaderShown = isSendUserPhoneNumberLoading || isLoading || isSaveUserPhoneNumberLoading;
     const isButtonSendCodeDisabled = phoneNumber.length < DEFAULT_PHONE_NUMBER_LENGTH;
-    return(// <StyledDiv>
-    //   <StyledBoxTel className="relative">
-    //     <MuiTelInput
-    //       className="input_phone"
-    //       value={phoneNumber}
-    //       onChange={onChangePhoneNumber}
-    //       defaultCountry={defaultCountry}
-    //       fullWidth
-    //       helperText={sendUserPhoneNumberMessage}
-    //       error={isSendUserPhoneNumberError}
-    //     />
-    //     <StyledButton
-    //       disabled={isButtonSendCodeDisabled}
-    //       className="btn-primary absolute right-2 btn-radius"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onSendUserPhoneNumber(phoneNumber);
-    //       }}
-    //     >
-    //       {t("Send code")}
-    //     </StyledButton>
-    //   </StyledBoxTel>
-    //   <Dialog
-    //     open={isDialogOpen && !isSendUserPhoneNumberError}
-    //     onClose={onCloseDialog}
-    //   >
-    //     <StyledBox>
-    //       <OTP
-    //         length={DEFAULT_OTP_LENGTH}
-    //         value={otp}
-    //         onChange={setOtp}
-    //         separator=""
-    //       />
-    //     </StyledBox>
-    //     {otpMessage && <div>{otpMessage}</div>}
-    //     <Button
-    //       className="btn-primary"
-    //       variant="contained"
-    //       onClick={onConfirmOtp}
-    //       disabled={isButtonContinueDisabled}
-    //     >
-    //       {t("Continue")}
-    //     </Button>
-    //   </Dialog>
-    //   <Dialog open={isDialogOpen2} onClose={onConfDial} className="p-3">
-    //     <div className="p-3">
-    //       {t("Thank you for verifying your phone number! Your VIP manager will call you within 10 minutes to share our exclusive offers. Stay tuned!")}
-    //     </div>
-    //     <div className="p-3">
-    //       <Button
-    //         className="btn-primary"
-    //         variant="contained"
-    //         onClick={onConfDial}
-    //       >
-    //         {t("Continue")}
-    //       </Button>
-    //     </div>
-    //   </Dialog>
-    //   <Box>
-    //     <Button
-    //       className="btn-primary w-48 !mr-2"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onChangeStep(step - 1);
-    //       }}
-    //     >
-    //       {t("Prev step")}
-    //     </Button>
-    //     <Button
-    //       className="btn-primary w-48"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onChangeStep(step + 1);
-    //       }}
-    //     >
-    //       {t("Skip")}
-    //     </Button>
-    //   </Box>
-    //   {isLoaderShown && <Loader />}
-    // </StyledDiv>
-    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StyledDiv, {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StyledDiv, {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StyledBoxTel, {
                 className: "relative",
@@ -2508,7 +2389,7 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                         error: isSendUserPhoneNumberError
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 232,
+                        lineNumber: 152,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2516,22 +2397,22 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                             onClick: ()=>{
                                 !isButtonSendCodeDisabled ? onSendUserPhoneNumber(phoneNumber) : undefined;
                             },
-                            className: `${isButtonSendCodeDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-indigo-100 "} rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                            className: `btn-st${isButtonSendCodeDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-or-hover "} rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                             children: t("Send code")
                         }, void 0, false, {
                             fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                            lineNumber: 242,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 241,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                lineNumber: 231,
+                lineNumber: 151,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dialog$3e$__["Dialog"], {
@@ -2546,40 +2427,40 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                             separator: ""
                         }, void 0, false, {
                             fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                            lineNumber: 264,
+                            lineNumber: 184,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 263,
+                        lineNumber: 183,
                         columnNumber: 9
                     }, this),
                     otpMessage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: otpMessage
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 271,
+                        lineNumber: 191,
                         columnNumber: 24
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: !isButtonContinueDisabled ? onConfirmOtp : undefined,
-                            className: `${isButtonContinueDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-indigo-100 "} rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                            className: `btn-st${isButtonContinueDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-indigo-100 "} rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                             children: t("Continue")
                         }, void 0, false, {
                             fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                            lineNumber: 273,
+                            lineNumber: 193,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 272,
+                        lineNumber: 192,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                lineNumber: 259,
+                lineNumber: 179,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dialog$3e$__["Dialog"], {
@@ -2592,7 +2473,7 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                         children: t("Thank you for verifying your phone number! Your VIP manager will call you within 10 minutes to share our exclusive offers. Stay tuned!")
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 286,
+                        lineNumber: 206,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2604,18 +2485,18 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                             children: t("Continue")
                         }, void 0, false, {
                             fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                            lineNumber: 292,
+                            lineNumber: 212,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 291,
+                        lineNumber: 211,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                lineNumber: 285,
+                lineNumber: 205,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2625,41 +2506,41 @@ const PhoneNumberStep = ({ user, step, phoneNumber, onChangeStep, onChangePhoneN
                         onClick: ()=>{
                             onChangeStep(step - 1);
                         },
-                        className: `mr-10 cursor-pointer hover:bg-indigo-100 rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                        className: `mr-10 cursor-pointer hover:bg-or-hover rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                         children: t("Prev step")
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 302,
+                        lineNumber: 222,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>{
                             onChangeStep(step + 1);
                         },
-                        className: `cursor-pointer hover:bg-indigo-100  rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                        className: `mr-10 cursor-pointer hover:bg-or-hover rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                         children: t("Skip")
                     }, void 0, false, {
                         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                        lineNumber: 310,
+                        lineNumber: 230,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                lineNumber: 301,
+                lineNumber: 221,
                 columnNumber: 7
             }, this),
             isLoaderShown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-                lineNumber: 319,
+                lineNumber: 239,
                 columnNumber: 25
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/personal/PhoneNumberStep/PhoneNumberStep.tsx",
-        lineNumber: 230,
+        lineNumber: 150,
         columnNumber: 5
-    }, this));
+    }, this);
 };
 const StyledDiv = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$system$2f$esm$2f$styled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__styled$3e$__["styled"])("div")(()=>`
     display: flex;
@@ -2821,7 +2702,7 @@ const WalletAddressStep = ({ user, step, coin, walletAddress, amount, estimatedA
                         onClick: ()=>{
                             onChangeStep(step - 1);
                         },
-                        className: `mr-10 mt-2 rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                        className: `mr-10 mt-2 rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                         children: t("Prev step")
                     }, void 0, false, {
                         fileName: "[project]/components/personal/WalletAddressStep/WalletAddressStep.tsx",
@@ -2830,7 +2711,7 @@ const WalletAddressStep = ({ user, step, coin, walletAddress, amount, estimatedA
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: !isButtonNextStepDisabled ? isPayPal ? updatePaymentWithoutValidate : updatePaymentWithValidate : undefined,
-                        className: `${isButtonNextStepDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-indigo-100 "} rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`,
+                        className: `btn-st${isButtonNextStepDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:bg-or-hover "} rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`,
                         children: t("Next step")
                     }, void 0, false, {
                         fileName: "[project]/components/personal/WalletAddressStep/WalletAddressStep.tsx",
@@ -3358,7 +3239,7 @@ function MediaCard(props) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "shadow rounded-lg",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "rounded-md bg-gray-50 px-6 py-5 sm:flex sm:items-center sm:justify-between ",
+                    className: "bg-ard rounded-md px-6 py-5 sm:flex sm:items-center sm:justify-between ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                             className: "sr-only",
@@ -3399,7 +3280,7 @@ function MediaCard(props) {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "inline-flex items-center rounded-full bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-600 ring-1 ring-inset ring-indigo-500/10",
+                                                    className: "inline-flex items-center rounded-full bg-or px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-indigo-500/10",
                                                     children: [
                                                         item.products_amount,
                                                         "$"
@@ -3447,7 +3328,7 @@ function MediaCard(props) {
                                 type: "button",
                                 onClick: handleOpen,
                                 disabled: userLoading || !user || +user.balance < +item.products_amount,
-                                className: "inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
+                                className: "inline-flex items-center rounded-md bg-or px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-or-hover",
                                 children: t("Buy")
                             }, void 0, false, {
                                 fileName: "[project]/components/products/Card/index.js",
@@ -3580,7 +3461,7 @@ const Cards = ({ user, onFinish })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-end w-full mb-2",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "inline-flex items-center rounded-full bg-gray-50 px-1.5 py-0.5 text-md font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10",
+                    className: "inline-flex items-center rounded-full bg-or px-1.5 py-0.5 text-md font-medium text-white ring-1 ring-inset ring-gray-500/10",
                     children: t("Card availability varies by region.")
                 }, void 0, false, {
                     fileName: "[project]/components/products/Cards/index.jsx",
@@ -3795,18 +3676,7 @@ function Personal() {
             }, this);
         }
         const steps = getSteps(user, coins);
-        return(// <Stepper activeStep={step} orientation="vertical" className="stepper">
-        //   {steps.map((step, index) => (
-        //     <Step key={index}>
-        //       <StepLabel>{step.label}</StepLabel>
-        //       <StepContent>
-        //         <Typography>{step.description}</Typography>
-        //         {step.content}
-        //       </StepContent>
-        //     </Step>
-        //   ))}
-        // </Stepper>
-        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
             "aria-label": "Progress",
             className: "flex flex-col space-y-4 py-5",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -3819,10 +3689,10 @@ function Personal() {
                             children: [
                                 index !== steps.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "aria-hidden": "true",
-                                    className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600"
+                                    className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 "
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 252,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3831,23 +3701,23 @@ function Personal() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "flex h-9 items-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600",
+                                                className: "relative flex h-8 w-8 items-center justify-center rounded-full ",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$20$2f$solid$2f$esm$2f$CheckIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckIcon$3e$__["CheckIcon"], {
                                                     "aria-hidden": "true",
                                                     className: "h-5 w-5 text-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 260,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 259,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 269,
+                                            lineNumber: 258,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3857,18 +3727,18 @@ function Personal() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 278,
+                                                lineNumber: 267,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 266,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 268,
+                                    lineNumber: 257,
                                     columnNumber: 19
                                 }, this)
                             ]
@@ -3880,7 +3750,7 @@ function Personal() {
                                     className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 275,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3889,33 +3759,33 @@ function Personal() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "flex h-9 items-center",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-indigo-600 bg-white",
+                                                className: "relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-or bg-white",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "h-2.5 w-2.5 rounded-full bg-indigo-600"
+                                                    className: "h-2.5 w-2.5 rounded-full bg-or"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 283,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 293,
+                                                lineNumber: 282,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 281,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "ml-4 flex min-w-0 flex-col",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-sm font-medium text-indigo-600",
+                                                    className: "text-sm font-medium text-or",
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 298,
+                                                    lineNumber: 287,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3923,19 +3793,19 @@ function Personal() {
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 290,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 286,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 280,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3943,7 +3813,7 @@ function Personal() {
                                     children: item.content
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 306,
+                                    lineNumber: 295,
                                     columnNumber: 19
                                 }, this)
                             ]
@@ -3955,7 +3825,7 @@ function Personal() {
                                     className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 312,
+                                    lineNumber: 301,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3969,17 +3839,17 @@ function Personal() {
                                                     className: "h-2.5 w-2.5 rounded-full bg-transparent "
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 309,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 319,
+                                                lineNumber: 308,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 307,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3989,37 +3859,37 @@ function Personal() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 324,
+                                                lineNumber: 313,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 323,
+                                            lineNumber: 312,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 317,
+                                    lineNumber: 306,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true)
                     }, index, false, {
                         fileName: "[project]/app/personal/page.tsx",
-                        lineNumber: 253,
+                        lineNumber: 242,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 251,
+                lineNumber: 240,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/personal/page.tsx",
-            lineNumber: 250,
+            lineNumber: 239,
             columnNumber: 7
-        }, this));
+        }, this);
     }
     const tabs = [
         {
@@ -4032,7 +3902,7 @@ function Personal() {
                 statusPayment: user ? user.status_payment : "null"
             }, "withdrawalHistory", false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 343,
+                lineNumber: 332,
                 columnNumber: 9
             }, this)
         },
@@ -4043,7 +3913,7 @@ function Personal() {
                 onFinish: onFinish
             }, "cardShop", false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 351,
+                lineNumber: 340,
                 columnNumber: 16
             }, this)
         }
@@ -4058,7 +3928,7 @@ function Personal() {
             loading: userLoading || coinsLoading,
             loader: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 360,
+                lineNumber: 349,
                 columnNumber: 17
             }, void 0),
             error: userError || coinsError,
@@ -4068,117 +3938,73 @@ function Personal() {
             },
             render: ([user, coins])=>{
                 const steps = getSteps(user, coins);
-                return(// <div className="tabsstep">
-                //   <h2 className="title-balance">
-                //     {t("Your balance:")} {user.balance}$
-                //   </h2>
-                //   <Box
-                //     className="tab_field"
-                //     sx={{
-                //       flexGrow: 1,
-                //       bgcolor: "background.paper",
-                //       display: "flex",
-                //       height: "100%",
-                //     }}
-                //   >
-                //     <Tabs
-                //       value={tab}
-                //       onChange={onChangeTab}
-                //       tabs={{
-                //         labels: [
-                //           t("Withdrawal Request"),
-                //           t("Withdrawal History"),
-                //           t("Cards Shop"),
-                //           // t("Get $20"),
-                //         ],
-                //         content: [
-                //           <Stepper
-                //             key="withdrawalRequest"
-                //             activeStep={step}
-                //             orientation="vertical"
-                //             sx={{ width: "100%" }}
-                //             className="stepper"
-                //           >
-                //             {steps.map((step) => (
-                //               <Step key={step.label}>
-                //                 <StepLabel>{step.label}</StepLabel>
-                //                 <StepContent>
-                //                   <Typography>{step.description}</Typography>
-                //                   {step.content}
-                //                 </StepContent>
-                //               </Step>
-                //             ))}
-                //           </Stepper>,
-                //           <PaymentHistory
-                //             key="withdrawalHistory"
-                //             statusPayment={user.status_payment}
-                //           />,
-                //           <Cards key="cardsShop" user={user} onFinish={onFinish} />,
-                //           <UserBrands key="brands" />,
-                //         ],
-                //       }}
-                //     />
-                //   </Box>
-                // </div>
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "overflow-hidden",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col sm:flex-row",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "basis-1/4",
+                                className: "basis-1/4 tab-pers",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "px-4 py-2 bg-indigo-600 text-white rounded-lg",
-                                        children: [
-                                            t("Your balance:"),
-                                            " ",
-                                            user.balance,
-                                            "$"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/personal/page.tsx",
-                                        lineNumber: 426,
-                                        columnNumber: 19
-                                    }, void 0),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                                             "aria-label": "Tabs",
-                                            className: "isolate flex sm:flex-col divide-x divide-gray-200 rounded-lg ",
+                                            className: "isolate flex sm:flex-col divide-x tab-persmini",
                                             children: tabs.map((tab, tabIdx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>setCurrentTab(tabIdx),
-                                                    className: `py-2 border-b-4 transition-colors rounded-lg duration-300 text-left px-4 text-white ${tabIdx === currentTab ? "bg-indigo-200 font-bold " : "border-transparent hover:border-gray-200"}`,
+                                                    className: `py-2 border-b-4 transition-colors duration-300 text-left px-4 text-white ${tabIdx === currentTab ? "active-bg font-bold " : "border-transparent hover:border-gray-200"}`,
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: tab.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/personal/page.tsx",
-                                                        lineNumber: 444,
+                                                        lineNumber: 380,
                                                         columnNumber: 27
                                                     }, void 0)
                                                 }, tab.name, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 435,
+                                                    lineNumber: 371,
                                                     columnNumber: 25
                                                 }, void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 430,
+                                            lineNumber: 366,
                                             columnNumber: 21
                                         }, void 0)
                                     }, void 0, false, {
                                         fileName: "[project]/app/personal/page.tsx",
-                                        lineNumber: 429,
+                                        lineNumber: 365,
+                                        columnNumber: 19
+                                    }, void 0),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "px-4 py-2 text-white pers-balance",
+                                        children: [
+                                            t("Your balance:"),
+                                            " ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                children: [
+                                                    user.balance,
+                                                    "$"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/personal/page.tsx",
+                                                lineNumber: 386,
+                                                columnNumber: 42
+                                            }, void 0)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/personal/page.tsx",
+                                        lineNumber: 385,
                                         columnNumber: 19
                                     }, void 0)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/personal/page.tsx",
-                                lineNumber: 425,
+                                lineNumber: 363,
                                 columnNumber: 17
                             }, void 0),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "basis-3/4 mx-2 sm:ml-5 rounded-lg bg-white shadow",
+                                className: "basis-3/4 sm:ml-5 rounded-lg bg-white shadow content-pers",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: " mx-5",
                                     children: [
@@ -4187,41 +4013,41 @@ function Personal() {
                                             children: tabs[currentTab].name
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 453,
+                                            lineNumber: 392,
                                             columnNumber: 21
                                         }, void 0),
                                         tabs[currentTab].content
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 452,
+                                    lineNumber: 391,
                                     columnNumber: 19
                                 }, void 0)
                             }, void 0, false, {
                                 fileName: "[project]/app/personal/page.tsx",
-                                lineNumber: 450,
+                                lineNumber: 389,
                                 columnNumber: 17
                             }, void 0)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/personal/page.tsx",
-                        lineNumber: 424,
+                        lineNumber: 362,
                         columnNumber: 15
                     }, void 0)
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 423,
+                    lineNumber: 361,
                     columnNumber: 13
-                }, void 0));
+                }, void 0);
             }
         }, void 0, false, {
             fileName: "[project]/app/personal/page.tsx",
-            lineNumber: 357,
+            lineNumber: 346,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/personal/page.tsx",
-        lineNumber: 356,
+        lineNumber: 345,
         columnNumber: 5
     }, this);
 }

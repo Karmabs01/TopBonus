@@ -33,7 +33,7 @@ const Cards = ({ user, onFinish }) => {
         />
       ))}
       <div className="flex justify-end w-full mb-2">
-        <span className="inline-flex items-center rounded-full bg-gray-50 px-1.5 py-0.5 text-md font-medium text-gray-500 ring-1 ring-inset ring-gray-500/10">
+        <span className="inline-flex items-center rounded-full bg-or px-1.5 py-0.5 text-md font-medium text-white ring-1 ring-inset ring-gray-500/10">
           {t("Card availability varies by region.")}
         </span>
       </div>

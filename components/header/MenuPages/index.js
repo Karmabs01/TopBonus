@@ -192,7 +192,7 @@ const CustomBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
     top: "15px",
     right: "5px",
-    background: "#07B963",
+    background: "#fa932c",
     fontWeight: "700",
     fontSize: "11px",
   },

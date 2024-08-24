@@ -85,45 +85,7 @@ export const PaymentMethodStep = ({
   };
 
   return (
-    // <StyledDiv>
-    //   <Select
-    //     className={`select_coins ${coin}`}
-    //     value={coin}
-    //     onChange={onChangeCoin}
-    //   >
-    //     {coins.map((coin) => (
-    //       <MenuItem className={`${coin}`} key={coin} value={coin}>
-    //         {coin}
-    //       </MenuItem>
-    //     ))}
-    //     <MenuItem className="PayPal" key="paypal" value="PayPal">
-    //       PayPal
-    //     </MenuItem>
-    //   </Select>
-    //   <TextField
-    //     className="input_number"
-    //     placeholder={t("Sum")}
-    //     value={amount}
-    //     onChange={(e) => {
-    //       setIsError(false);
-    //       onChangeAmount(e);
-    //     }}
-    //     type="number"
-    //     error={error}
-    //     helperText={helperText}
-    //   />
-    //   <Box>
-    //     <Button
-    //       className="btn-primary w-48"
-    //       variant="contained"
-    //       onClick={getFeeAndEstimatedAmountAndThanGoToWalletAddressStep}
-    //       disabled={isButtonNextStepDisabled}
-    //     >
-    //       {t("Next step")}
-    //     </Button>
-    //   </Box>
-    //   {isLoading && <Loader />}
-    // </StyledDiv>
+
 
     <div>
       <div>
@@ -173,11 +135,11 @@ export const PaymentMethodStep = ({
               ? getFeeAndEstimatedAmountAndThanGoToWalletAddressStep
               : undefined
           }
-          className={`${
+          className={`btn-st${
             isButtonNextStepDisabled
               ? "cursor-not-allowed opacity-50"
-              : "cursor-pointer hover:bg-indigo-100 "
-          } rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
+              : "cursor-pointer hover:bg-or-hover "
+          } rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`}
         >
           {t("Next step")}
         </button>

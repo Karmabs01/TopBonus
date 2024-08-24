@@ -237,7 +237,7 @@
   );
   backdrop-filter: blur(12.5px);
   margin-top: auto;
-  padding: 10px 20px;
+  padding: 0;
 }
 
 .p {
@@ -296,4 +296,5 @@
   .footer-bg::after {
     display: none;
   }
+
 }

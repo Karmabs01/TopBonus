@@ -145,87 +145,7 @@ export const PhoneNumberStep = ({
     phoneNumber.length < DEFAULT_PHONE_NUMBER_LENGTH;
 
   return (
-    // <StyledDiv>
-    //   <StyledBoxTel className="relative">
-    //     <MuiTelInput
-    //       className="input_phone"
-    //       value={phoneNumber}
-    //       onChange={onChangePhoneNumber}
-    //       defaultCountry={defaultCountry}
-    //       fullWidth
-    //       helperText={sendUserPhoneNumberMessage}
-    //       error={isSendUserPhoneNumberError}
-    //     />
-    //     <StyledButton
-    //       disabled={isButtonSendCodeDisabled}
-    //       className="btn-primary absolute right-2 btn-radius"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onSendUserPhoneNumber(phoneNumber);
-    //       }}
-    //     >
-    //       {t("Send code")}
-    //     </StyledButton>
-    //   </StyledBoxTel>
 
-    //   <Dialog
-    //     open={isDialogOpen && !isSendUserPhoneNumberError}
-    //     onClose={onCloseDialog}
-    //   >
-    //     <StyledBox>
-    //       <OTP
-    //         length={DEFAULT_OTP_LENGTH}
-    //         value={otp}
-    //         onChange={setOtp}
-    //         separator=""
-    //       />
-    //     </StyledBox>
-    //     {otpMessage && <div>{otpMessage}</div>}
-    //     <Button
-    //       className="btn-primary"
-    //       variant="contained"
-    //       onClick={onConfirmOtp}
-    //       disabled={isButtonContinueDisabled}
-    //     >
-    //       {t("Continue")}
-    //     </Button>
-    //   </Dialog>
-    //   <Dialog open={isDialogOpen2} onClose={onConfDial} className="p-3">
-    //     <div className="p-3">
-    //       {t("Thank you for verifying your phone number! Your VIP manager will call you within 10 minutes to share our exclusive offers. Stay tuned!")}
-    //     </div>
-    //     <div className="p-3">
-    //       <Button
-    //         className="btn-primary"
-    //         variant="contained"
-    //         onClick={onConfDial}
-    //       >
-    //         {t("Continue")}
-    //       </Button>
-    //     </div>
-    //   </Dialog>
-    //   <Box>
-    //     <Button
-    //       className="btn-primary w-48 !mr-2"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onChangeStep(step - 1);
-    //       }}
-    //     >
-    //       {t("Prev step")}
-    //     </Button>
-    //     <Button
-    //       className="btn-primary w-48"
-    //       variant="contained"
-    //       onClick={() => {
-    //         onChangeStep(step + 1);
-    //       }}
-    //     >
-    //       {t("Skip")}
-    //     </Button>
-    //   </Box>
-    //   {isLoaderShown && <Loader />}
-    // </StyledDiv>
 
     <StyledDiv>
       <StyledBoxTel className="relative">
@@ -245,11 +165,11 @@ export const PhoneNumberStep = ({
                 ? onSendUserPhoneNumber(phoneNumber)
                 : undefined;
             }}
-            className={`${
+            className={`btn-st${
               isButtonSendCodeDisabled
                 ? "cursor-not-allowed opacity-50"
-                : "cursor-pointer hover:bg-indigo-100 "
-            } rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
+                : "cursor-pointer hover:bg-or-hover "
+            } rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`}
           >
             {t("Send code")}
           </button>
@@ -272,11 +192,11 @@ export const PhoneNumberStep = ({
         <div>
           <button
             onClick={!isButtonContinueDisabled ? onConfirmOtp : undefined}
-            className={`${
+            className={`btn-st${
               isButtonContinueDisabled
                 ? "cursor-not-allowed opacity-50"
                 : "cursor-pointer hover:bg-indigo-100 "
-            } rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
+            } rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`}
           >
             {t("Continue")}
           </button>
@@ -303,7 +223,7 @@ export const PhoneNumberStep = ({
           onClick={() => {
             onChangeStep(step - 1);
           }}
-          className={`mr-10 cursor-pointer hover:bg-indigo-100 rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
+          className={`mr-10 cursor-pointer hover:bg-or-hover rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`}
         >
           {t("Prev step")}
         </button>
@@ -311,7 +231,7 @@ export const PhoneNumberStep = ({
           onClick={() => {
             onChangeStep(step + 1);
           }}
-          className={`cursor-pointer hover:bg-indigo-100  rounded-md bg-indigo-50 px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm`}
+          className={`mr-10 cursor-pointer hover:bg-or-hover rounded-md bg-or px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm`}
         >
           {t("Skip")}
         </button>

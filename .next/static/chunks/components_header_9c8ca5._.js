@@ -356,7 +356,7 @@ const CustomBadge = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_mod
         "& .MuiBadge-badge": {
             top: "15px",
             right: "5px",
-            background: "#07B963",
+            background: "#fa932c",
             fontWeight: "700",
             fontSize: "11px"
         }

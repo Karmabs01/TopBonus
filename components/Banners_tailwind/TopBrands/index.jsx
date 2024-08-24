@@ -168,7 +168,7 @@ export default function TopBrands() {
                                 />
                                 <h3>{rowData.CasinoBrand}</h3>
                                 <p className="p">{rowData.OurOfferContent}</p>
-                                <div className="flex sm:mt-4">
+                                <div className="flex sm:mt-4 allbtn">
                                   <Link
                                     className="btnscale"
                                     href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}

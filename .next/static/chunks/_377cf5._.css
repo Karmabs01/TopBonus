@@ -329,7 +329,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   -webkit-backdrop-filter: blur(12.5px);
   backdrop-filter: blur(12.5px);
   margin-top: auto;
-  padding: 10px 20px;
+  padding: 0;
 }
 
 .p {

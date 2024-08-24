@@ -103,7 +103,7 @@ export default function MediaCard(props) {
         </Button>
       </div> */}
       <div className="shadow rounded-lg">
-        <div className="rounded-md bg-gray-50 px-6 py-5 sm:flex sm:items-center sm:justify-between ">
+        <div className="bg-ard rounded-md px-6 py-5 sm:flex sm:items-center sm:justify-between ">
           <h4 className="sr-only">Visa</h4>
           <div className="sm:flex sm:items-center">
             <Image
@@ -119,7 +119,7 @@ export default function MediaCard(props) {
                 <span aria-hidden="true" className="mx-2 inline">
                   &middot;
                 </span>
-                <span className="inline-flex items-center rounded-full bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-600 ring-1 ring-inset ring-indigo-500/10">
+                <span className="inline-flex items-center rounded-full bg-or px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-indigo-500/10">
                   {item.products_amount}$
                 </span>
               </div>
@@ -137,7 +137,7 @@ export default function MediaCard(props) {
               disabled={
                 userLoading || !user || +user.balance < +item.products_amount
               }
-              className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+              className="inline-flex items-center rounded-md bg-or px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-or-hover"
             >
               {t("Buy")}
             </button>
