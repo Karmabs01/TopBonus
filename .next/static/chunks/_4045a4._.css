@@ -2885,7 +2885,12 @@ input[type="number"] {
   }
 
   .pers-balance {
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+    order: 0;
+    margin-top: 10px;
+    margin-left: 5px;
   }
 
   .content-pers {
@@ -2917,6 +2922,14 @@ input[type="number"] {
 
 .tab-pers button {
   border-bottom: 1px solid #573e7d;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .tab-pers button {
+    border: 1px solid #fff6;
+    margin: 0 5px;
+    border-radius: 15px;
+  }
 }
 
 .pers-balance {
