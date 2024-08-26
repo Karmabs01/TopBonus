@@ -1,8 +1,6 @@
 {
   "app": {
-    "[project]/app/page": [],
-    "[project]/app/fast-withdrawal-casinos/page": [],
-    "[project]/app/crypto-casinos/page": []
+    "[project]/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

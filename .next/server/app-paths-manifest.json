@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/fast-withdrawal-casinos/page": "app/fast-withdrawal-casinos/page.js",
-  "/crypto-casinos/page": "app/crypto-casinos/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
