@@ -182,7 +182,7 @@ export default function Popular_offers() {
                   >
                     <li
                       key={index}
-                      className="col-span-1 hadow-sm"
+                      className="col-span-1"
                     >
                       <div className="li-img">
                         <Image
@@ -193,8 +193,8 @@ export default function Popular_offers() {
                           loading="lazy"
                         />
                       </div>
-                      <div className="flex flex-1 items-center justify-between truncate">
-                        <div className="flex-1 truncate px-4 py-2 text-sm">
+                      <div className="flex flex-1 items-center justify-between">
+                        <div className="flex-1 px-4 py-2 text-sm">
                           <a
                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                             className="font-medium"

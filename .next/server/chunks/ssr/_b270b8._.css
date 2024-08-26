@@ -365,14 +365,6 @@ header nav button {
   background-color: #ff8f1f;
 }
 
-.lucky-btn {
-  background-color: #ff8f1f;
-}
-
-.lucky-btn:hover {
-  background-color: #cc741c;
-}
-
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-ssr] (css) */
 .footer-bg {

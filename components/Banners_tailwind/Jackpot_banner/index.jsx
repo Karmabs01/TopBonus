@@ -31,7 +31,7 @@ export default function Jackpot_banner() {
 
   return (
     <>
-      <div className="main__container">
+      <div className="main__container !mt-10">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-jack px-6 py-2.5 sm:px-3.5">
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">
