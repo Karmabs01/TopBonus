@@ -1,7 +1,7 @@
 {
   "app": {
     "[project]/app/page": [],
-    "[project]/app/game-providers/bgaming/page": []
+    "[project]/app/crypto-casinos/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

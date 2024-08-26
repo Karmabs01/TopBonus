@@ -1,7 +1,7 @@
 import React from "react";
 
 // import { PokerChip, GameController } from "phosphor-react";
-import { ShoppingBagIcon, UserIcon } from "@heroicons/react/24/outline";
+import { ShoppingBagIcon, UserIcon, ChartPieIcon, BanknotesIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import "./styled.component.css";
 
@@ -13,7 +13,7 @@ const Mobile_tabs_navigation = () => {
           href="/casinos"
           className="flex flex-col items-center justify-center py-2"
         >
-          <ShoppingBagIcon
+          <BanknotesIcon
             aria-hidden="true"
             className="h-8 w-8  transition-colors duration-300 ease-in-out"
           />
@@ -36,7 +36,7 @@ const Mobile_tabs_navigation = () => {
           href="/fortune"
           className="flex flex-col items-center justify-center py-2"
         >
-          <ShoppingBagIcon
+          <ChartPieIcon
             aria-hidden="true"
             className="h-8 w-8 transition-colors duration-300 ease-in-out"
           />
