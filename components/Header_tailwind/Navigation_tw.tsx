@@ -37,6 +37,9 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
   const [isLoading, setIsLoading] = useState(false);
   const [openSubMenu, setOpenSubMenu] = useState<string | null>(null);
   const [windowWidth, setWindowWidth] = useState<number | null>(null);
+  const [source, setSource] = useState("");
+  const [redirectUrl, setRedirectUrl] = useState("");
+  const [newUrl, setNewUrl] = useState("");
 
   useEffect(() => {
     // Теперь можно безопасно использовать window
@@ -53,6 +56,29 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
     };
   }, []);
   const pathname = usePathname();
+
+  
+  useEffect(() => {
+    let url = "";
+    switch (source) {
+      case "partner1039":
+        url = "https://link.reg2dep.business/topbonus_rnd39";
+        break;
+      case "partner1043":
+        url = "https://link.reg2dep.business/topbonus_rnd43";
+        break;
+      case "partner1044":
+        url = "https://link.reg2dep.business/topbonus_rnd44";
+        break;
+      case "CLD_VIP":
+        url = "https://link.reg2dep.business/topbonus_rndcld";
+        break;
+      default:
+        url = "https://link.reg2dep.business/topbonus_rnd";
+    }
+    setRedirectUrl(url);
+  }, [source]);
+
 
   return (
     <>
@@ -107,8 +133,15 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                       fortune!
                     </p>
                   </div>
-                  <div className="flex ml-auto mt-2 sm:mt-0">
-                    <button className="relative px-4 py-2 text-white rounded-lg lucky-btn btn-blick overflow-hidden">Show more</button>
+                  <div className="flex ml-auto sm:mt-0">
+                  <Link
+                        href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
+                        target="_blank"
+                      >
+                        <div className="relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center">
+                          <p className="!mb-0">{t("Try Your Luck!")}</p>
+                        </div>
+                      </Link>
                   </div>
                 </div>
               </div>

@@ -27,7 +27,7 @@ export default function Banner_small() {
                   className="absolute minibanner"
                 />
 
-                <p className="!text-xl text-white ml-2">
+                <p className="!text-3xl text-white ml-2">
                   <span>TOP NEW RELEASES</span>
                 </p>
               </div>
