@@ -1,11 +1,6 @@
 {
   "app": {
-<<<<<<< HEAD
     "[project]/app/page": []
-=======
-    "[project]/app/page": [],
-    "[project]/app/crypto-casinos/page": []
->>>>>>> 651f75eb693417d481e671ae611b8de924b122e4
   },
   "appUsingSizeAdjust": false,
   "pages": {},
