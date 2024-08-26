@@ -1,10 +1,8 @@
 {
   "app": {
-    "[project]/app/payments/apple-pay/page": [],
-    "[project]/app/game-providers/amatic/page": [],
-    "[project]/app/crypto-casinos/page": [],
     "[project]/app/page": [],
-    "[project]/app/payments/bitcoin-casino/page": []
+    "[project]/app/fast-withdrawal-casinos/page": [],
+    "[project]/app/crypto-casinos/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

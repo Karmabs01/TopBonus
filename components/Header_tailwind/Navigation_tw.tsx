@@ -87,31 +87,6 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
 
         return (
           <Popover className="relative z-[9999]" key={link.label}>
-<<<<<<< HEAD
-          <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white w-full">
-
-            <span>{link.label}</span>
-
-          </PopoverButton>
-    
-          <PopoverPanel
-            transition
-            className="absolute left-1/2 z-50 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in "
-          >
-            <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl text-sm shadow-lg lg:max-w-3xl submenu-all">
-              <div className="grid grid-cols-1 gap-x-1 pt-4 lg:grid-cols-2">
-              {link.subMenu!.map((subLink) => (
-                  <div key={subLink.label} className="group relative flex gap-x-2 rounded-lg px-4 group-menu-item">
-                    <div className="mt-1 flex h-8 w-8 flex-none items-center justify-center rounded-lg menu-icon-background-color">
-                      {subLink.icon}
-                    </div>
-                    <div>
-                      <Link href={subLink.href} className="font-semibold text-gray-900">
-                      {subLink.label}
-                        <span className="absolute inset-0" />
-                      </Link>
-                      <p className="mt-1 text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, labore!</p>
-=======
             <PopoverButton className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 text-white w-full">
               <span>{link.label}</span>
             </PopoverButton>
@@ -132,13 +107,13 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                           {subLink.icon}
                         </div>
                         <div>
-                          <a
+                          <Link
                             href={subLink.href}
                             className="font-semibold text-gray-900"
                           >
                             {subLink.label}
                             <span className="absolute inset-0" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     ))}
@@ -152,7 +127,6 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                       <p className="rounded-full bg-orange text-xs font-semibold text-white">
                         Good Luck!
                       </p>
->>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                     </div>
                     <p className="mt-1 text-sm leading-6 text-white">
                       Feeling lucky? Discover random casino brands and test your

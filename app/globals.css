@@ -10214,7 +10214,11 @@ main > .topbr {
   }
 }
 
-<<<<<<< HEAD
+
+
+
+
+
 /*LOADER START*/
 
 .dot-spinner {
@@ -10322,7 +10326,6 @@ main > .topbr {
 }
 
 /*LOADER END*/
-=======
 .btn-blick:before {
   content: "";
   position: absolute;
@@ -10359,4 +10362,3 @@ main > .topbr {
 .lucky-btn:hover, .btn-play:hover  {
   background-color: #cc741c;
 }
->>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641

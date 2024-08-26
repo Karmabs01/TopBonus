@@ -1273,8 +1273,16 @@ select {
   margin-right: auto;
 }
 
+.\!mb-0 {
+  margin-bottom: 0 !important;
+}
+
 .\!mr-2 {
   margin-right: .5rem !important;
+}
+
+.\!mt-10 {
+  margin-top: 2.5rem !important;
 }
 
 .\!mt-16 {
@@ -1423,14 +1431,6 @@ select {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.\!mt-10 {
-  margin-top: 2.5rem !important;
-}
-
-.\!mb-0 {
-  margin-bottom: 0 !important;
 }
 
 .block {
@@ -2477,6 +2477,11 @@ select {
   vertical-align: middle;
 }
 
+.\!text-3xl {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+}
+
 .\!text-xl {
   font-size: 1.25rem !important;
   line-height: 1.75rem !important;
@@ -2519,21 +2524,6 @@ select {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
-}
-
-.\!text-4xl {
-  font-size: 2.25rem !important;
-  line-height: 2.5rem !important;
-}
-
-.\!text-2xl {
-  font-size: 1.5rem !important;
-  line-height: 2rem !important;
-}
-
-.\!text-3xl {
-  font-size: 1.875rem !important;
-  line-height: 2.25rem !important;
 }
 
 .font-black {
@@ -12729,7 +12719,6 @@ main > .topbr {
   }
 }
 
-<<<<<<< HEAD
 .dot-spinner {
   --uib-size: 2.8rem;
   --uib-speed: .9s;
@@ -12831,7 +12820,8 @@ main > .topbr {
     transform: scale(1);
     opacity: 1;
   }
-=======
+}
+
 .btn-blick:before {
   content: "";
   position: absolute;
@@ -12863,7 +12853,6 @@ main > .topbr {
 
 .lucky-btn:hover, .btn-play:hover {
   background-color: #cc741c;
->>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

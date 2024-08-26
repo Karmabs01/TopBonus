@@ -1,12 +1,6 @@
 {
-  "/payments/apple-pay/page": "app/payments/apple-pay/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/game-providers/amatic/page": "app/game-providers/amatic/page.js",
-  "/crypto-casinos/page": "app/crypto-casinos/page.js",
   "/page": "app/page.js",
-<<<<<<< HEAD
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-=======
-  "/payments/bitcoin-casino/page": "app/payments/bitcoin-casino/page.js"
->>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/fast-withdrawal-casinos/page": "app/fast-withdrawal-casinos/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js"
 }
