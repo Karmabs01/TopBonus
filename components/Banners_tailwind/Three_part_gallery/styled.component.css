@@ -102,7 +102,7 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  text-shadow: -2px -2px #35d2e7, -4px -2px #fa7088e6;
+  /* text-shadow: -2px -2px #35d2e7, -4px -2px #fa7088e6; */
   max-width: 286px;
   line-height: 80px;
 }

@@ -29,7 +29,7 @@
   font-size: 74px;
   font-weight: 400;
   line-height: normal;
-  text-shadow: -2px -2px 0px #35d2e7, -4px -2px 0px rgba(250, 112, 136, 0.9);
+  /* text-shadow: -2px -2px 0px #35d2e7, -4px -2px 0px rgba(250, 112, 136, 0.9); */
 }
 .bg-main h2 span {
   font-size: 60px;
