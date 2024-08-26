@@ -28,11 +28,14 @@ export default function TopBrands() {
 
   const settings = {
     infinite: true,
-    speed: 500,
     dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 480,

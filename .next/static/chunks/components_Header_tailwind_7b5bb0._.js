@@ -29,6 +29,9 @@ const Navigation = ({ navLinks, onLinkClick })=>{
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [openSubMenu, setOpenSubMenu] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [windowWidth, setWindowWidth] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [source, setSource] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [redirectUrl, setRedirectUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         // Теперь можно безопасно использовать window
         setWindowWidth(window.innerWidth);
@@ -41,10 +44,31 @@ const Navigation = ({ navLinks, onLinkClick })=>{
         };
     }, []);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        let url = "";
+        switch(source){
+            case "partner1039":
+                url = "https://link.reg2dep.business/topbonus_rnd39";
+                break;
+            case "partner1043":
+                url = "https://link.reg2dep.business/topbonus_rnd43";
+                break;
+            case "partner1044":
+                url = "https://link.reg2dep.business/topbonus_rnd44";
+                break;
+            case "CLD_VIP":
+                url = "https://link.reg2dep.business/topbonus_rndcld";
+                break;
+            default:
+                url = "https://link.reg2dep.business/topbonus_rnd";
+        }
+        setRedirectUrl(url);
+    }, [
+        source
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: navLinks.map((link)=>{
             const isActive = pathname === link.href;
-            const hasSubMenu = link.subMenu && link.subMenu.length > 0;
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Popover"], {
                 className: "relative z-[9999]",
                 children: [
@@ -54,13 +78,13 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: link.label
                         }, void 0, false, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 64,
-                            columnNumber: 13
+                            lineNumber: 91,
+                            columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 62,
-                        columnNumber: 11
+                        lineNumber: 90,
+                        columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverPanel"], {
                         transition: true,
@@ -70,18 +94,19 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid grid-cols-1 gap-x-1 pt-4 lg:grid-cols-2",
-                                    children: link.subMenu.map((subLink)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "group relative flex gap-x-2 rounded-lg px-4 group-menu-item",
+                                    children: link.subMenu && link.subMenu.map((subLink)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "group relative flex gap-x-2 rounded-lg px-4 group-menu-item py-2 flex items-center ",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "mt-1 flex h-8 w-8 flex-none items-center justify-center rounded-lg menu-icon-background-color",
                                                     children: subLink.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 76,
-                                                    columnNumber: 21
+                                                    lineNumber: 106,
+                                                    columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+<<<<<<< HEAD
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: subLink.href,
@@ -111,91 +136,151 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
+=======
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: subLink.href,
+                                                        className: "font-semibold text-gray-900",
+                                                        children: [
+                                                            subLink.label,
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "absolute inset-0"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                                lineNumber: 115,
+                                                                columnNumber: 29
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                        lineNumber: 110,
+                                                        columnNumber: 27
+                                                    }, this)
+                                                }, void 0, false, {
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 79,
-                                                    columnNumber: 21
+                                                    lineNumber: 109,
+                                                    columnNumber: 25
                                                 }, this)
                                             ]
                                         }, subLink.label, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 75,
-                                            columnNumber: 19
+                                            lineNumber: 102,
+                                            columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 73,
-                                    columnNumber: 15
+                                    lineNumber: 99,
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-my px-8 py-2",
+                                    className: "flex justify-between items-center bg-my px-8 py-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-x-2",
+                                            className: "",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    className: "text-sm font-semibold leading-6 text-white",
-                                                    children: "Try Your Luck!"
-                                                }, void 0, false, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center gap-x-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "text-sm font-semibold leading-6 text-white",
+                                                            children: "Try Your Luck!"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                            lineNumber: 124,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "rounded-full bg-orange text-xs font-semibold text-white",
+                                                            children: "Good Luck!"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                            lineNumber: 127,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 91,
-                                                    columnNumber: 19
+                                                    lineNumber: 123,
+                                                    columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "rounded-full bg-orange text-xs font-semibold text-white",
-                                                    children: "New"
+                                                    className: "mt-1 text-sm leading-6 text-white",
+                                                    children: "Feeling lucky? Discover random casino brands and test your fortune!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 92,
-                                                    columnNumber: 19
+                                                    lineNumber: 131,
+                                                    columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 90,
-                                            columnNumber: 17
+                                            lineNumber: 122,
+                                            columnNumber: 19
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "mt-1 text-sm leading-6 text-white",
-                                            children: "Feeling lucky? Discover random casino brands and test your fortune!"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex ml-auto sm:mt-0",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: `${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`,
+                                                target: "_blank",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "!mb-0",
+                                                        children: t("Try Your Luck!")
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                        lineNumber: 142,
+                                                        columnNumber: 27
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                    lineNumber: 141,
+                                                    columnNumber: 25
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                lineNumber: 137,
+                                                columnNumber: 19
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 17
+                                            lineNumber: 136,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 89,
-                                    columnNumber: 15
+                                    lineNumber: 121,
+                                    columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 72,
-                            columnNumber: 13
+                            lineNumber: 98,
+                            columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 68,
-                        columnNumber: 11
+                        lineNumber: 94,
+                        columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverBackdrop"], {
                         className: "fixed inset-0 w-screen h-screen z-10 -top-20 -left-32"
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 100,
-                        columnNumber: 11
+                        lineNumber: 149,
+                        columnNumber: 13
                     }, this)
                 ]
             }, link.label, true, {
                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                lineNumber: 61,
+                lineNumber: 89,
                 columnNumber: 11
             }, this);
         })
     }, void 0, false);
 };
-_s(Navigation, "dvw96eAQviFqfA3jEOWB3WMNfFs=", false, function() {
+_s(Navigation, "eBa9CMAOq0Kn4QKPWWczHjtnKfo=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]

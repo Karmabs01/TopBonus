@@ -33,9 +33,9 @@ export default async function Home() {
     <>
       <TopBrands />
       <Banner_small />
-      <Double_banners />
-      <Brands_double_carousel />
+      {/* <Double_banners /> */}
       <Random_block />
+      <Brands_double_carousel />
       <Jackpot_banner />
       <Three_part_gallery />
       <Next_event_banner />

@@ -712,6 +712,7 @@ const Loader = ()=>{
         className: "loader loader2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "loader-inner",
+<<<<<<< HEAD
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 class: "dot-spinner",
                 children: [
@@ -781,6 +782,84 @@ const Loader = ()=>{
             fileName: "[project]/components/FilterLoader.jsx",
             lineNumber: 7,
             columnNumber: 7
+=======
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 8,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 11,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 14,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 17,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 20,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/FilterLoader.jsx",
+            lineNumber: 7,
+            columnNumber: 5
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/FilterLoader.jsx",
@@ -1748,7 +1827,11 @@ const FilteredPayments = ()=>{
                     children: t("Catalog of all offered Online Casinos by Payment Methods in 2024")
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                     lineNumber: 31,
+=======
+                    lineNumber: 57,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1756,6 +1839,7 @@ const FilteredPayments = ()=>{
                     children: t("Looking for online casinos with specific payment methods? Explore our current database of numerous casino offers for you to choose from.")
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                     lineNumber: 34,
                     columnNumber: 9
                 }, this),
@@ -1770,16 +1854,44 @@ const FilteredPayments = ()=>{
                             }, item.currentTab, false, {
                                 fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
                                 lineNumber: 40,
+=======
+                    lineNumber: 60,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        "aria-label": "Tabs",
+                        className: "isolate isolate-tabs flex divide-x overflow-x-auto",
+                        children: navigateBrands.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(currentTab === item.currentTab ? 'decoration-2 underline-offset-8 ' : 'text-gray-500', 'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out'),
+                                onClick: ()=>handleTabChange(item.currentTab),
+                                children: [
+                                    item.icon,
+                                    item.currentText2
+                                ]
+                            }, item.currentTab, true, {
+                                fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+                                lineNumber: 66,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                         lineNumber: 38,
+=======
+                        lineNumber: 64,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                     lineNumber: 37,
+=======
+                    lineNumber: 63,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1794,13 +1906,21 @@ const FilteredPayments = ()=>{
                             currentText: item.currentText
                         }, `${item.currentTab}-${language}`, false, {
                             fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                             lineNumber: 60,
+=======
+                            lineNumber: 87,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
+<<<<<<< HEAD
                     lineNumber: 56,
+=======
+                    lineNumber: 83,
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
                     columnNumber: 9
                 }, this)
             ]

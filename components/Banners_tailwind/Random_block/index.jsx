@@ -18,26 +18,26 @@ export default function Random_block() {
     let url = "";
     switch (source) {
       case "partner1039":
-        url = "https://info.topbon.us/partner_aurnd";
+        url = "https://link.reg2dep.business/topbonus_rnd39";
         break;
       case "partner1043":
-        url = "https://info.topbon.us/rnd1043";
+        url = "https://link.reg2dep.business/topbonus_rnd43";
         break;
       case "partner1044":
-        url = "https://info.topbon.us/rnd1044";
+        url = "https://link.reg2dep.business/topbonus_rnd44";
         break;
       case "CLD_VIP":
-        url = "https://link.bo-nus.com/rnd_cld";
+        url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
       default:
-        url = "https://info.topbon.us/aurnd";
+        url = "https://link.reg2dep.business/topbonus_rnd";
     }
     setRedirectUrl(url);
   }, [source]);
 
   return (
     <>
-      <div className="pt-5 mb-10 mb00">
+      <div className="">
         <div className="main__container">
      
             <div className="relative py-16 ptpt">
@@ -59,12 +59,11 @@ export default function Random_block() {
                         className="text-3xl font-bold tracking-tight text-white random-title"
                         id="join-heading"
                       >
-                        BONUS BET <span> casino</span>
+                        {/* BONUS BET <span> casino</span> */}
+                        FEELING <span>LUCKY</span> today?
                       </h2>
                       <p className="text-lg text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ea eveniet numquam nam incidunt, asperiores quo.
-                        Perspiciatis exercitationem alias voluptatum modi.
+                        Click now to play and see if luck is on your side!
                       </p>
 
                       <Link

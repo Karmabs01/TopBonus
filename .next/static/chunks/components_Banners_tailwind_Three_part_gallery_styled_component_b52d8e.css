@@ -25,9 +25,17 @@
   line-height: 40px;
 }
 
-.fivehot-banner h3 span {
+.fivehot-banner h3 .span-orange {
   color: #ff8f1f;
-  font-size: 26px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.fivehot-banner h3 span {
+  color: #fff;
+  font-size: 22px;
   font-style: normal;
   font-weight: 900;
   line-height: 40px;
@@ -60,7 +68,9 @@
   justify-content: center;
   align-items: center;
   min-width: 70px;
+  max-width: 70px;
   min-height: 70px;
+  max-height: 70px;
   border-radius: 50%;
   border: 2px solid #ffffff27;
 }
@@ -107,7 +117,6 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  text-shadow: -2px -2px #35d2e7, -4px -2px #fa7088e6;
   max-width: 286px;
   line-height: 80px;
 }

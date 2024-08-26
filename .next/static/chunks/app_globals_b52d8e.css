@@ -738,6 +738,10 @@ select {
   margin-right: .5rem !important;
 }
 
+.\!mt-16 {
+  margin-top: 4rem !important;
+}
+
 .-ml-px {
   margin-left: -1px;
 }
@@ -880,6 +884,14 @@ select {
 
 .mt-auto {
   margin-top: auto;
+}
+
+.\!mt-10 {
+  margin-top: 2.5rem !important;
+}
+
+.\!mb-0 {
+  margin-bottom: 0 !important;
 }
 
 .block {
@@ -1926,6 +1938,11 @@ select {
   vertical-align: middle;
 }
 
+.\!text-xl {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1963,6 +1980,21 @@ select {
 .text-xs {
   font-size: .75rem;
   line-height: 1rem;
+}
+
+.\!text-4xl {
+  font-size: 2.25rem !important;
+  line-height: 2.5rem !important;
+}
+
+.\!text-2xl {
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
+}
+
+.\!text-3xl {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
 }
 
 .font-black {
@@ -12158,6 +12190,7 @@ main > .topbr {
   }
 }
 
+<<<<<<< HEAD
 .dot-spinner {
   --uib-size: 2.8rem;
   --uib-speed: .9s;
@@ -12259,6 +12292,39 @@ main > .topbr {
     transform: scale(1);
     opacity: 1;
   }
+=======
+.btn-blick:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(120deg, #fff0 30%, #fffc, #fff0 70%);
+  top: 0;
+  left: -100px;
+  animation: 2s linear infinite shine;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  20% {
+    left: 100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.lucky-btn {
+  background-color: #ff8f1f;
+}
+
+.lucky-btn:hover, .btn-play:hover {
+  background-color: #cc741c;
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

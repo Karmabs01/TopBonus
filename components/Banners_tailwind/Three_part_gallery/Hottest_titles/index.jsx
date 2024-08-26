@@ -80,7 +80,7 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Premium" };
+  const categoryBrands = { key1: "Hottest", key2: "1" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -164,10 +164,10 @@ export default function Popular_offers() {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                  5 HOTTEST <span>casinos</span>
+                  5 <span className="span-orange">HOTTEST</span> <span>casinos</span>
                 </h3>
-                <p className="mt-5">
-                  Discover the 5 hottest casino brands trending right now!
+                <p className="!text-xl mt-5">
+                  Discover 5 hottest casino brands trending right now!
                 </p>
               </div>
               <ul
@@ -182,7 +182,7 @@ export default function Popular_offers() {
                   >
                     <li
                       key={index}
-                      className="col-span-1 hadow-sm"
+                      className="col-span-1"
                     >
                       <div className="li-img">
                         <Image
@@ -193,8 +193,8 @@ export default function Popular_offers() {
                           loading="lazy"
                         />
                       </div>
-                      <div className="flex flex-1 items-center justify-between truncate">
-                        <div className="flex-1 truncate px-4 py-2 text-sm">
+                      <div className="flex flex-1 items-center justify-between">
+                        <div className="flex-1 px-4 py-2 text-sm">
                           <a
                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                             className="font-medium"

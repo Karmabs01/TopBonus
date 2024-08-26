@@ -10214,6 +10214,7 @@ main > .topbr {
   }
 }
 
+<<<<<<< HEAD
 /*LOADER START*/
 
 .dot-spinner {
@@ -10321,3 +10322,41 @@ main > .topbr {
 }
 
 /*LOADER END*/
+=======
+.btn-blick:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    /* Прозрачность начала блика */ rgba(255, 255, 255, 0.8),
+    /* Цвет блика */ rgba(255, 255, 255, 0) 70% /* Прозрачность конца блика */
+  );
+  top: 0;
+  left: -100px;
+  animation: shine 2s infinite linear; /* Анимация блика */
+}
+
+/* Ключевые кадры для анимации блика */
+@keyframes shine {
+  0% {
+    left: -100px; /* Начальная позиция блика (левая сторона кнопки) */
+  }
+  20% {
+    left: 100%; /* Позиция блика в конце (правая сторона кнопки) */
+  }
+  100% {
+    left: 100%; /* Завершение анимации */
+  }
+}
+
+.lucky-btn {
+  background-color: #ff8f1f;
+}
+
+.lucky-btn:hover, .btn-play:hover  {
+  background-color: #cc741c;
+}
+>>>>>>> 35e8411a1896a660f8b1ec7356ab17c96b8b5641

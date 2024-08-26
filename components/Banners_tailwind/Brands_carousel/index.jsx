@@ -172,7 +172,7 @@ export default function Brands_carousel({target, creative, categoryBrands}) {
                                                                 />
                                                             </Link>
                                                             <Link
-                                                                className="btn-play"
+                                                                className="relative btn-play btn-blick overflow-hidden"
                                                                 href={`${rowData.GoBig}/${newUrl}&creative_id=${creative}`}
                                                                 target="_blank"
                                                             >

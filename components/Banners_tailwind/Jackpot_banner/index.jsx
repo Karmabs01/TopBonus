@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Brands_carousel from "../Brands_carousel";
 import Counter from "./calc";
 import "./styled.component.css";
+import useSWR from "swr";
+import { useLanguage } from "@/components/switcher/LanguageContext";
 
 export default function Jackpot_banner() {
   const [currentValue, setCurrentValue] = useState(0);
@@ -25,13 +27,43 @@ export default function Jackpot_banner() {
     requestAnimationFrame(updateCounter);
   }, [targetValue, duration]);
 
-  const categoryBrands = { key1: "Networks", key2: "1" };
+  const [brands, setBrands] = useState([]);
+
   const target = "target-fw-jackpot";
   const creative = "NEW_JACKPOT";
+  const { language } = useLanguage();
 
+  const categoryBrands = { key1: "High_hybrid", key2: "1" };
+
+  const { data, error } = useSWR(
+    ["brands", language],
+    () => getBrands(language),
+    { initialData: brands }
+  );
+
+  useEffect(() => {
+    if (data) {
+      // Фильтрация по первому столбцу
+      const filteredData1 = data.filter(
+        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+      );
+  
+      // Фильтрация по второму столбцу (добавьте нужные ключи)
+      const filteredData2 = data.filter(
+        (rowData) => rowData["Networks"] === "1"
+      );
+  
+      // Объединение данных из двух фильтраций
+      const combinedData = [...filteredData1, ...filteredData2];
+  
+      console.log("FILTER", combinedData);
+      setBrands(combinedData);
+    }
+  }, [data, categoryBrands.key1, categoryBrands.key2]);
+  
   return (
     <>
-      <div className="main__container">
+      <div className="main__container !mt-10">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-jack px-6 py-2.5 sm:px-3.5">
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">

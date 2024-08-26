@@ -133,76 +133,45 @@ const LanguageSwitcher = ()=>{
     const { t, i18n } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const { data: selectedLanguage, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])("selectedLanguage", ()=>i18n.language);
     const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    // Define language options for different partners and the default list
     const availableLanguages = [
         {
-            code: "au",
-            label: "Australia",
-            flag: "🇦🇺"
-        },
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
             code: "de",
-            label: "Germany",
+            label: "German",
             flag: "🇩🇪"
         },
         {
-            code: "ie",
-            label: "Ireland",
-            flag: "🇮🇪"
-        },
-        {
-            code: "nz",
-            label: "New Zealand",
-            flag: "🇳🇿"
-        },
-        {
             code: "no",
-            label: "Norway",
+            label: "Norwegian",
             flag: "🇳🇴"
         },
         {
             code: "fi",
-            label: "Finland",
+            label: "Finnish",
             flag: "🇫🇮"
         },
         {
-            code: "at",
-            label: "Austria",
-            flag: "🇦🇹"
-        },
-        {
-            code: "ch",
-            label: "Switzerland",
-            flag: "🇨🇭"
-        },
-        {
             code: "dk",
-            label: "Denmark",
+            label: "Danish",
             flag: "🇩🇰"
         },
         {
             code: "fr",
-            label: "France",
+            label: "French",
             flag: "🇫🇷"
         },
         {
             code: "it",
-            label: "Italy",
+            label: "Italian",
             flag: "🇮🇹"
         },
         {
             code: "pl",
-            label: "Poland",
+            label: "Polish",
             flag: "🇵🇱"
         },
         {
             code: "se",
-            label: "Sweden",
+            label: "Swedish",
             flag: "🇸🇪"
         },
         {
@@ -212,37 +181,32 @@ const LanguageSwitcher = ()=>{
         },
         {
             code: "sk",
-            label: "Slovakia",
+            label: "Slovak",
             flag: "🇸🇰"
         },
         {
-            code: "be",
-            label: "Belgium",
-            flag: "🇧🇪"
-        },
-        {
             code: "gr",
-            label: "Greece",
+            label: "Greek",
             flag: "🇬🇷"
         },
         {
             code: "nl",
-            label: "Netherlands",
+            label: "Dutch",
             flag: "🇳🇱"
         },
         {
             code: "hu",
-            label: "Hungary",
+            label: "Hungarian",
             flag: "🇭🇺"
         },
         {
             code: "bg",
-            label: "Bulgaria",
+            label: "Bulgarian",
             flag: "🇧🇬"
         },
         {
             code: "all",
-            label: "World",
+            label: "English",
             flag: "🌍"
         }
     ];
@@ -258,57 +222,57 @@ const LanguageSwitcher = ()=>{
     const availableLanguages1044 = [
         {
             code: "cz",
-            label: "Czech Republic",
+            label: "Czech",
             flag: "🇨🇿"
         },
         {
             code: "dk",
-            label: "Denmark",
+            label: "Danish",
             flag: "🇩🇰"
         },
         {
             code: "fi",
-            label: "Finland",
+            label: "Finnish",
             flag: "🇫🇮"
         },
         {
             code: "fr",
-            label: "France",
+            label: "French",
             flag: "🇫🇷"
         },
         {
             code: "de",
-            label: "Germany",
+            label: "German",
             flag: "🇩🇪"
         },
         {
             code: "gr",
-            label: "Greece",
+            label: "Greek",
             flag: "🇬🇷"
         },
         {
             code: "it",
-            label: "Italy",
+            label: "Italian",
             flag: "🇮🇹"
         },
         {
             code: "nl",
-            label: "Netherlands",
+            label: "Dutch",
             flag: "🇳🇱"
         },
         {
             code: "no",
-            label: "Norway",
+            label: "Norwegian",
             flag: "🇳🇴"
         },
         {
             code: "pl",
-            label: "Poland",
+            label: "Polish",
             flag: "🇵🇱"
         },
         {
             code: "se",
-            label: "Sweden",
+            label: "Swedish",
             flag: "🇸🇪"
         },
         {
@@ -320,77 +284,77 @@ const LanguageSwitcher = ()=>{
     const availableLanguagesCLD_VIP = [
         {
             code: "cz",
-            label: "The Czech Republic",
+            label: "Czech",
             flag: "🇨🇿"
         },
         {
             code: "de",
-            label: "Germany",
+            label: "German",
             flag: "🇩🇪"
         },
         {
             code: "dk",
-            label: "Denmark",
+            label: "Danish",
             flag: "🇩🇰"
         },
         {
             code: "fi",
-            label: "Finland",
+            label: "Finnish",
             flag: "🇫🇮"
         },
         {
             code: "fr",
-            label: "France",
+            label: "French",
             flag: "🇫🇷"
         },
         {
             code: "gr",
-            label: "Greece",
+            label: "Greek",
             flag: "🇬🇷"
         },
         {
             code: "hu",
-            label: "Hungary",
+            label: "Hungarian",
             flag: "🇭🇺"
         },
         {
             code: "it",
-            label: "Italy",
+            label: "Italian",
             flag: "🇮🇹"
         },
         {
             code: "nl",
-            label: "Netherlands",
+            label: "Dutch",
             flag: "🇳🇱"
         },
         {
             code: "no",
-            label: "Norway",
+            label: "Norwegian",
             flag: "🇳🇴"
         },
         {
             code: "pl",
-            label: "Poland",
+            label: "Polish",
             flag: "🇵🇱"
         },
         {
             code: "es",
-            label: "Spain",
+            label: "Spanish",
             flag: "🇪🇸"
         },
         {
             code: "se",
-            label: "Sweden",
+            label: "Swedish",
             flag: "🇸🇪"
         },
         {
             code: "sk",
-            label: "Slovakia",
+            label: "Slovak",
             flag: "🇸🇰"
         },
         {
             code: "all",
-            label: "World",
+            label: "English",
             flag: "🌍"
         }
     ];
@@ -424,7 +388,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 112,
+        lineNumber: 101,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -468,14 +432,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 138,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 147,
+                                                    lineNumber: 136,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -485,18 +449,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 142,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 141,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 146,
+                                            lineNumber: 135,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -513,7 +477,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 172,
+                                                                            lineNumber: 161,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -521,7 +485,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 170,
+                                                                    lineNumber: 159,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -531,57 +495,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 177,
+                                                                        lineNumber: 166,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 165,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 150,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 146,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 134,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 132,
+                        lineNumber: 121,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 189,
+                        lineNumber: 178,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 131,
+                lineNumber: 120,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 130,
+            lineNumber: 119,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 129,
+        lineNumber: 118,
         columnNumber: 5
     }, this);
 };
