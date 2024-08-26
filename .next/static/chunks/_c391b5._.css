@@ -355,7 +355,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   }
 
   .background-slider {
-    padding: 20px 10px;
+    padding: 20px 10px 80px;
     height: initial;
   }
 
@@ -454,6 +454,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   position: relative;
   max-width: 220px;
   width: 100%;
+  transform: scale(.7);
 }
 
 .show-more:after {

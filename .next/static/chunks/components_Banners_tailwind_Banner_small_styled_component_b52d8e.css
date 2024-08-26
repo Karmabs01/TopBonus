@@ -52,6 +52,7 @@
   position: relative;
   max-width: 220px;
   width: 100%;
+  transform: scale(.7);
 }
 
 .show-more:after {
