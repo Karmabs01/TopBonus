@@ -108,6 +108,9 @@ input[type="number"] {
   color: #ff8f1f;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  footer .mx-auto {
+    overflow: hidden;
+  }
   .content-pers .mx-5 {
     margin: 0 !important;
   }
