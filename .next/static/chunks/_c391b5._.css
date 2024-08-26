@@ -2084,6 +2084,45 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   }
 }
 
+.payments-tabs, .providers-tabs {
+  border-radius: 30px;
+  box-shadow: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+  padding: 4px 0;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  overflow: hidden;
+}
+
+.payments-tabs button, .providers-tabs button {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 16px 10px;
+  position: relative;
+  overflow: visible;
+  border-right: 1px solid #4f4f4f !important;
+}
+
+.payments-tabs button:last-of-type, .providers-tabs button:last-of-type {
+  border-right: none !important;
+}
+
+.payments-tabs button svg, .providers-tabs button svg {
+  margin-right: 3px;
+}
+
+.payments-tabs .decoration-2:after, .providers-tabs .decoration-2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ff8f1f;
+  bottom: -4px;
+}
+
 
 /* [project]/node_modules/slick-carousel/slick/slick.css [app-client] (css) */
 .slick-slider {
