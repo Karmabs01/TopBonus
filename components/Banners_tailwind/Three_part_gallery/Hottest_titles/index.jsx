@@ -80,7 +80,7 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Premium" };
+  const categoryBrands = { key1: "Hottest", key2: "1" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -164,10 +164,10 @@ export default function Popular_offers() {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                  5 HOTTEST <span>casinos</span>
+                  5 <span className="span-orange">HOTTEST</span> <span>casinos</span>
                 </h3>
-                <p className="mt-5">
-                  Discover the 5 hottest casino brands trending right now!
+                <p className="!text-xl mt-5">
+                  Discover 5 hottest casino brands trending right now!
                 </p>
               </div>
               <ul

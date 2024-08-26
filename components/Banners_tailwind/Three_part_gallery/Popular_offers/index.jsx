@@ -177,7 +177,7 @@ export default function Popular_offers() {
                                                 <div className="btn-crd">
                                                     <a
                                                         href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
-                                                        className="relative flex items-center justify-center  px-8 py-2 text-lg font-medium text-white"
+                                                        className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
                                                     >
                                                         Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
                                                     </a>

@@ -1092,9 +1092,17 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   line-height: 40px;
 }
 
-.fivehot-banner h3 span {
+.fivehot-banner h3 .span-orange {
   color: #ff8f1f;
-  font-size: 26px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.fivehot-banner h3 span {
+  color: #fff;
+  font-size: 22px;
   font-style: normal;
   font-weight: 900;
   line-height: 40px;

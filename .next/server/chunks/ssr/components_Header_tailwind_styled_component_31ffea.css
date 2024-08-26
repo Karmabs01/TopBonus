@@ -246,4 +246,12 @@ header nav button {
   background-color: #ff8f1f;
 }
 
+.lucky-btn {
+  background-color: #ff8f1f;
+}
+
+.lucky-btn:hover {
+  background-color: #cc741c;
+}
+
 /*# sourceMappingURL=components_Header_tailwind_styled_component_31ffea.css.map*/

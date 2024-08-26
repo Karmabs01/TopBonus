@@ -17,6 +17,7 @@
   min-height: 329px;
   margin-bottom: 28px;
 }
+
 .fivehot-banner h3 {
   color: #fff;
   font-size: 36px;
@@ -24,9 +25,18 @@
   font-weight: 900;
   line-height: 40px;
 }
-.fivehot-banner h3 span {
+
+.fivehot-banner h3 .span-orange {
   color: #ff8f1f;
-  font-size: 26px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.fivehot-banner h3 span {
+  color: #fff;
+  font-size: 22px;
   font-style: normal;
   font-weight: 900;
   line-height: 40px;
