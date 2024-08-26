@@ -7,5 +7,7 @@
   "/payments/bitcoin-casino/page": "app/payments/bitcoin-casino/page.js",
   "/game-providers/amatic/page": "app/game-providers/amatic/page.js",
   "/crypto-casinos/page": "app/crypto-casinos/page.js",
-  "/payments/apple-pay/page": "app/payments/apple-pay/page.js"
+  "/payments/apple-pay/page": "app/payments/apple-pay/page.js",
+  "/fast-withdrawal-casinos/page": "app/fast-withdrawal-casinos/page.js",
+  "/deposit-bonuses/page": "app/deposit-bonuses/page.js"
 }

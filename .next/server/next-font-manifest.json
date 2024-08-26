@@ -5,7 +5,9 @@
     "[project]/app/payments/bitcoin-casino/page": [],
     "[project]/app/game-providers/amatic/page": [],
     "[project]/app/crypto-casinos/page": [],
-    "[project]/app/payments/apple-pay/page": []
+    "[project]/app/payments/apple-pay/page": [],
+    "[project]/app/fast-withdrawal-casinos/page": [],
+    "[project]/app/deposit-bonuses/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

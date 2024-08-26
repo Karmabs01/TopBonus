@@ -1,351 +1,6 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_dbbbac._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_24d3e7._.js", {
 
-"[project]/public/payments/visa.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/visa.b50aec2a.png");
-})()),
-"[project]/public/payments/visa.png.mjs { IMAGE => \"[project]/public/payments/visa.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$visa$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/visa.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$visa$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAlUlEQVR42mWIuwrCMBhG//wgBmqNiaUptISoRcHBDoI4eQHrBaSIgwUXBdHJZ9BdcfFVfEGr7VJ64OPwHQAgmI0kwkSYGsm/laloMN6NmRVshTs+19Xsatr9JderE635PUAsUdudvhy9fsvm5inb8UN29jc1vH9EK7rAD8PUc4P5YdUKIu5NDlyFR+aNdhVnsIAiJPe+nwgRu/GIvbwAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/bitcoin.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/bitcoin.f1212886.png");
-})()),
-"[project]/public/payments/bitcoin.png.mjs { IMAGE => \"[project]/public/payments/bitcoin.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/bitcoin.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAeklEQVR42oWOwQmDMBhGcwkpqUkhyV8oPRVaKK1KIoYQhLiNRw8evegITqMjOIALaSbwgwff6fEQOlv9TWzxSjLO2INz/iSEXDHGF0qpPD5D2xTWeQxLqNzgve+11k3EOdcZY9poKO37Zu8AuZTyF1FKpQDwF0J8ThN2b90Q1di6RHYAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/ecopayz.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/ecopayz.864d34f3.png");
-})()),
-"[project]/public/payments/ecopayz.png.mjs { IMAGE => \"[project]/public/payments/ecopayz.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/ecopayz.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAfklEQVR42oXOMQ9DQBiA4a8p5/QupT1O45pK2+TSNCcGsbFahMVgMhqJ1WAw+9P8A2/y7g/AUfxjv7h8KDvwAv5lUmUs9t5E3H3s0pvOQCSqxFExGyofwjqdmkn23fqf2+U3prWo4KRpCBC57lv6BVPDPCPmY8d5mi61EDkkbK19DeKeD52FAAAAAElFTkSuQmCC",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/mastercard.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/mastercard.57f27767.png");
-})()),
-"[project]/public/payments/mastercard.png.mjs { IMAGE => \"[project]/public/payments/mastercard.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$mastercard$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/mastercard.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$mastercard$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAsElEQVR42gGlAFr/AAAAAAAnAAUhkQARjpENDo+XVg6PmGERjikaBSAAAAAAAAUAAQOQABGM6gAb/fQwDv76fg7+9p0b/JdhEYoFAwECAAcAAQScABKX6wAb/vYzDf/7fQ3/954b/qJnEpUGBAEDAAAAAAE0AggyoQMVpacUE6esYhOmqW0VozomCTIBAAABAAEBAQQMCwsoGRESPBgREjwWEw8yFxQQNgwLCygBAQECqUUo0bluLdcAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/muchbetter.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/muchbetter.bdaba7a5.png");
-})()),
-"[project]/public/payments/muchbetter.png.mjs { IMAGE => \"[project]/public/payments/muchbetter.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/muchbetter.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAgElEQVR42mXLvQqDMBSG4RhOTVNKIOCY1KHp2AbSBltwKBw62Kl0U9zc3Ny9Aq9aBQd/nvX9PkIm8hgKe7vmzrkKAHZk7e9E+ktNgYid1vq1GSgJUf1R5TPxtTHmu4hAAyo43Z9VdInjk2eMHYLB/C3aTL6bTGPi72itfXDOw7H1esgOkw5j780AAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/neosurf.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/neosurf.5c5cb1e9.png");
-})()),
-"[project]/public/payments/neosurf.png.mjs { IMAGE => \"[project]/public/payments/neosurf.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neosurf$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/neosurf.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neosurf$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAn0lEQVR42oXNvw7BQADH8d9iVL0bDLSExF3SgUQipJtBKhjF6l+qgw7WuxBJkcgtF4kHaOMdLAxiF68kvIDv+h0+wL8WaHhtlKsWDDMPg1jIkCJM00E21wNv4YUwfiM83zDZXjHePOBHT/jrO+a7EwYBmijYK3dUvyyPXhIc+sl034lnUXdou7wESn4MYywthOBa65pSypFSViilqe/7AEWgIfPV6x5cAAAAAElFTkSuQmCC",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/neteller.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/neteller.d9b5b5ba.png");
-})()),
-"[project]/public/payments/neteller.png.mjs { IMAGE => \"[project]/public/payments/neteller.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neteller$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/neteller.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neteller$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAfUlEQVR42oXOvQqDMBRA4aylaTF1iaRYq01CKQVb70XBtxEHFXwPQR38QRxcfFN9Aw+c/SPkKFOcOHepIxTV1ot6/EnF/p27Z9vyLg+SVH5dzrCWMy5Z/5uKAfpiDKa8wzZt/I44X+MtgaFC8y+RoQ5ZrKNbLMEA+3NVh4QN4G0WBNGO7zUAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/paysafecard.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/paysafecard.63306d0e.png");
-})()),
-"[project]/public/payments/paysafecard.png.mjs { IMAGE => \"[project]/public/payments/paysafecard.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/paysafecard.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAcUlEQVR42oWOMQ6CMBhGnxbaUlv+ATAuLJ5AR2cTE3cjITCyMnACCFyc3oBv+fKGlzw42v2UFon1lixoXG6Qq4+fRlZYr9hcPcl3bGjXnmbp+M897+HJ63fj8akISss5FEJZV+SlRPsSbYNxCTpThwk7UKYKIkhLZykAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/skrill.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/skrill.663c8938.png");
-})()),
-"[project]/public/payments/skrill.png.mjs { IMAGE => \"[project]/public/payments/skrill.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$skrill$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/skrill.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$skrill$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 71,
-    height: 39,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAj0lEQVR42gGEAHv/AAAAAAAEAQMGBQIEBQEAAQECAQIDBwMFBgQBAwQAAAAAAA8FCxJMFjp0Thg8bTMPJ0g7GDBGYyxRb0ITM14EAgMDABMKEBBcIEh6ZRxNlmYcTphfKU5yejhliUwWO28FAgQEAAQCAwMPBQwSDQMKDxAEDBINBgsMEggPDwsDCQwBAAEAxIkPwDprYXgAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 4
-};
-
-})()),
-"[project]/public/payments/trustly.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/trustly.4438ab9d.png");
-})()),
-"[project]/public/payments/trustly.png.mjs { IMAGE => \"[project]/public/payments/trustly.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$trustly$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/trustly.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$trustly$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAaklEQVR42n3OOw5AYBAE4FmvBNGIQkPnERonkKhEqfgTen+ndxVxBpUTGomWTb5NdpodQCBicH9N2qKplHS2j4inSwZZ5JGJYZdDXXKGGRYG+rXSRhPKUfpGy+wEiBkkVFBJOdV4/v91uAFQOQoEGJpjpgAAAABJRU5ErkJggg==",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/applepay.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/applepay.38472acc.png");
-})()),
-"[project]/public/payments/applepay.png.mjs { IMAGE => \"[project]/public/payments/applepay.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$applepay$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/applepay.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$applepay$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAgklEQVR42nWOOwpCMRREb2K+kg8JCcE0ChEsBRtbcQeK7evt3gpchWt0H46dzTvNGS7cYYgA51wxxlbwGub0j7X2VGud4WNKafLeX40xe6XURkpZqLX2HmN8YoyPnPOzlDL13l+4zyGEC2mtDwg3fOyEEBXuzrkz2u7IW1qAYY/7+QuwNAsSWWv2vQAAAABJRU5ErkJggg==",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/maestro.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/maestro.6d7ccd9b.png");
-})()),
-"[project]/public/payments/maestro.png.mjs { IMAGE => \"[project]/public/payments/maestro.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$maestro$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/maestro.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$maestro$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAsElEQVR42gGlAFr/AAAAAAAnAAQhkAAQjn0PJo8RWoOPAGSNjgAbJiAAAAAAAAUAAQOQABCM6QAc/a46dP45i9j+AKHk/ABjjIoAAwUCAAcAAQScABKX6gEc/qo/e/89itj/AKLl/gBqlZUABAYDAAAAAAAxAAYroAMVo40WMaUYZ5anAm+coQAkMyoAAAAAAAAAAAABAQEEFQ0OLBkSEzoRFhg2DRIUKQEBAgQAAAAAalEnmpd1yAEAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/paypal.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/paypal.0b5e4d46.png");
-})()),
-"[project]/public/payments/paypal.png.mjs { IMAGE => \"[project]/public/payments/paypal.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paypal$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/paypal.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paypal$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAcElEQVR42oWOOQqDQAAAJ+uahM21m2wOglbCPsBGsBC1tLC1txJB8Ac+wS8rfsCpphoGdjn/Yu6uQl4t4qQ4eAJPmc3FUUFYTSTDzCdrsXnHM22wxYgtex5xDSZy6OCLvGh8/V+LDnl745tgrb52Dxb7XAk/GsYFLgAAAABJRU5ErkJggg==",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/pix.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/pix.689fb656.png");
-})()),
-"[project]/public/payments/pix.png.mjs { IMAGE => \"[project]/public/payments/pix.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$pix$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/pix.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$pix$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAkklEQVR42l3NMQrCMBiG4T81CCJVmqENbZM2NtWkxpRYcPIiTiKIiwjq5u5pPIGH8FBWRAWf7fuWF+DFQwg+UAtj77u7NKLxZrXvl4VMGQ+UMbF0LqVckDCMfEh265O73x7ycrzaecOnxvCJ0qxZLMssGxHoFSJhh+3ZV+P2r4KZrQfW1kTriuS5GL6zuPNr/nkC4OwR6nByQMUAAAAASUVORK5CYII=",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/public/payments/allpaymentmethods.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
-
-__turbopack_export_value__("/_next/static/media/allpaymentmethods.6b19d427.png");
-})()),
-"[project]/public/payments/allpaymentmethods.png.mjs { IMAGE => \"[project]/public/payments/allpaymentmethods.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png__$5b$app$2d$client$5d$__$28$static$29$__ = __turbopack_import__("[project]/public/payments/allpaymentmethods.png [app-client] (static)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 60,
-    height: 38,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAqUlEQVR42m3MvwqCQACA8fujp5SGR8tVDpUtlXcSVENwUEubBArREjRGELg1uPkA0RYENdRQ1BP0BA1Bz5QEbf7mjw+AlF6ntZwouSALVBDW5o1E3/ArHZXH1Mk7JiWGoiL0C7BJDBLzp3WSH37uvcKjuEW79nK2qEhCIAYQQ6RJNmFJd98/uO/Vw7ts750omNqe+r/AlGpphWLLEIOADddxNfR9u4kxgl8pfRqD45RWSwAAAABJRU5ErkJggg==",
-    blurWidth: 8,
-    blurHeight: 5
-};
-
-})()),
-"[project]/components/Brands_payments/Navigate.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"[project]/components/Brands_casinos/Navigate.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
@@ -353,345 +8,133 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$visa$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$visa$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/visa.png.mjs { IMAGE => "[project]/public/payments/visa.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/bitcoin.png.mjs { IMAGE => "[project]/public/payments/bitcoin.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/ecopayz.png.mjs { IMAGE => "[project]/public/payments/ecopayz.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$mastercard$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$mastercard$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/mastercard.png.mjs { IMAGE => "[project]/public/payments/mastercard.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/muchbetter.png.mjs { IMAGE => "[project]/public/payments/muchbetter.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neosurf$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$neosurf$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/neosurf.png.mjs { IMAGE => "[project]/public/payments/neosurf.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neteller$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$neteller$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/neteller.png.mjs { IMAGE => "[project]/public/payments/neteller.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/paysafecard.png.mjs { IMAGE => "[project]/public/payments/paysafecard.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$skrill$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$skrill$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/skrill.png.mjs { IMAGE => "[project]/public/payments/skrill.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$trustly$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$trustly$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/trustly.png.mjs { IMAGE => "[project]/public/payments/trustly.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$applepay$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$applepay$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/applepay.png.mjs { IMAGE => "[project]/public/payments/applepay.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$maestro$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$maestro$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/maestro.png.mjs { IMAGE => "[project]/public/payments/maestro.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paypal$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$paypal$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/paypal.png.mjs { IMAGE => "[project]/public/payments/paypal.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$pix$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$pix$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/pix.png.mjs { IMAGE => "[project]/public/payments/pix.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/payments/allpaymentmethods.png.mjs { IMAGE => "[project]/public/payments/allpaymentmethods.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CurrencyBtc$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyBtc$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/CurrencyBtc.esm.js [app-client] (ecmascript) <export default as CurrencyBtc>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$UsersThree$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UsersThree$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/UsersThree.esm.js [app-client] (ecmascript) <export default as UsersThree>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Cardholder$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cardholder$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Cardholder.esm.js [app-client] (ecmascript) <export default as Cardholder>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CalendarCheck$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/CalendarCheck.esm.js [app-client] (ecmascript) <export default as CalendarCheck>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Scroll$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Scroll$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Scroll.esm.js [app-client] (ecmascript) <export default as Scroll>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$DribbbleLogo$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DribbbleLogo$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/DribbbleLogo.esm.js [app-client] (ecmascript) <export default as DribbbleLogo>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
+var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
 const useNavigateBrands = ()=>{
+    _s();
+    const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     return [
         {
             currentTab: 1,
-            currentCategories: 85,
-            currentText: "All Payments",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$allpaymentmethods$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "payments",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 28,
-                columnNumber: 9
-            }, this),
+            currentCategories: 19,
+            currentText: "Crypto Casinos",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "payments"
+            currentText2: t("Crypto Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CurrencyBtc$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyBtc$3e$__["CurrencyBtc"], {
+                className: "mr-2 pb-1",
+                size: 32
+            }, void 0, false, {
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 23,
+                columnNumber: 13
+            }, this),
+            slug: "crypto-casinos"
         },
         {
             currentTab: 2,
-            currentCategories: 207,
-            currentText: "Apple pay",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$applepay$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$applepay$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "apple-pay",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 46,
-                columnNumber: 9
-            }, this),
+            currentCategories: 20,
+            currentText: "Fast Withdrawal Casinos",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "apple-pay"
+            currentText2: t("Fast Withdrawal Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Cardholder$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Cardholder$3e$__["Cardholder"], {
+                className: "mr-2 pb-1",
+                size: 32
+            }, void 0, false, {
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 33,
+                columnNumber: 13
+            }, this),
+            slug: "fast-withdrawal-casinos"
         },
         {
             currentTab: 3,
-            currentCategories: 88,
-            currentText: "Bitcoin",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$bitcoin$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "bitcoin",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 64,
-                columnNumber: 9
-            }, this),
+            currentCategories: 22,
+            currentText: "Live Casinos",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "bitcoin-casino"
+            currentText2: t("Live Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$UsersThree$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UsersThree$3e$__["UsersThree"], {
+                className: "mr-2 pb-1",
+                size: 32
+            }, void 0, false, {
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 43,
+                columnNumber: 13
+            }, this),
+            slug: "live-casinos"
         },
         {
             currentTab: 4,
-            currentCategories: 151,
-            currentText: "Ecopayz",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$ecopayz$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "ecopayz",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 82,
-                columnNumber: 9
-            }, this),
+            currentCategories: 24,
+            currentText: "Newest Casinos",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "ecopayz"
+            currentText2: t("Newest Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CalendarCheck$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck$3e$__["CalendarCheck"], {
+                className: "mr-2 pb-1",
+                size: 32
+            }, void 0, false, {
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 53,
+                columnNumber: 13
+            }, this),
+            slug: "newest-casinos"
         },
         {
             currentTab: 5,
-            currentCategories: 208,
-            currentText: "Maestro",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$maestro$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$maestro$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "maestro",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 100,
-                columnNumber: 9
-            }, this),
+            currentCategories: 26,
+            currentText: "Top Certified Casinos",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "maestro"
+            currentText2: t("Top Certified Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Scroll$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Scroll$3e$__["Scroll"], {
+                className: "mr-2 pb-1",
+                size: 32
+            }, void 0, false, {
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 63,
+                columnNumber: 13
+            }, this),
+            slug: "top-certified-casinos"
         },
         {
             currentTab: 6,
-            currentCategories: 135,
-            currentText: "Mastercard",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$mastercard$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$mastercard$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "mastercard",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 118,
-                columnNumber: 9
-            }, this),
+            currentCategories: 187,
+            currentText: "Top Sports Brands",
             segment: "CurrentStatus",
             value: "Ongoing",
-            slug: "mastercard"
-        },
-        {
-            currentTab: 8,
-            currentCategories: 181,
-            currentText: "Muchbetter",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$muchbetter$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "muchbetter",
-                width: 60,
-                height: 38,
-                loading: "lazy"
+            currentText2: t("Top Sports Casinos"),
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$DribbbleLogo$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DribbbleLogo$3e$__["DribbbleLogo"], {
+                className: "mr-2 pb-1",
+                size: 32
             }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 136,
-                columnNumber: 9
+                fileName: "[project]/components/Brands_casinos/Navigate.jsx",
+                lineNumber: 73,
+                columnNumber: 13
             }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "muchbetter"
-        },
-        {
-            currentTab: 9,
-            currentCategories: 158,
-            currentText: "Neosurf",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neosurf$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$neosurf$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "neosurf",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 154,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "neosurf"
-        },
-        {
-            currentTab: 10,
-            currentCategories: 89,
-            currentText: "Neteller",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$neteller$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$neteller$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "neteller",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 172,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "neteller-casino"
-        },
-        {
-            currentTab: 11,
-            currentCategories: 90,
-            currentText: "PayPal",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paypal$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$paypal$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "paypal",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 190,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "paypal-casino"
-        },
-        {
-            currentTab: 12,
-            currentCategories: 92,
-            currentText: "Paysafecard",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$paysafecard$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "paysafecard",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 208,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "paysafecard-casino"
-        },
-        {
-            currentTab: 13,
-            currentCategories: 136,
-            currentText: "Pix",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$pix$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$pix$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "pix",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 226,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "pix"
-        },
-        {
-            currentTab: 14,
-            currentCategories: 91,
-            currentText: "Skrill",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$skrill$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$skrill$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "skrill",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 245,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "skrill-casino"
-        },
-        {
-            currentTab: 15,
-            currentCategories: 171,
-            currentText: "Trustly",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$trustly$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$trustly$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "trustly",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 263,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "trustly"
-        },
-        {
-            currentTab: 16,
-            currentCategories: 134,
-            currentText: "Visa",
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                className: "mr-1",
-                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$payments$2f$visa$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$payments$2f$visa$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                alt: "visa",
-                width: 60,
-                height: 38,
-                loading: "lazy"
-            }, void 0, false, {
-                fileName: "[project]/components/Brands_payments/Navigate.jsx",
-                lineNumber: 281,
-                columnNumber: 9
-            }, this),
-            segment: "CurrentStatus",
-            value: "Ongoing",
-            slug: "visa"
+            slug: "top-sports-casinos"
         }
     ];
 };
+_s(useNavigateBrands, "zlIdU9EjM2llFt74AbE2KsUJXyM=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"]
+    ];
+});
 const __TURBOPACK__default__export__ = useNavigateBrands;
 
 })()),
@@ -712,75 +155,82 @@ const Loader = ()=>{
         className: "loader loader2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "loader-inner",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                class: "dot-spinner",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 24,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 25,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 26,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 27,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 28,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 29,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 30,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        class: "dot-spinner__dot"
-                    }, void 0, false, {
-                        fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 31,
-                        columnNumber: 11
+                        lineNumber: 9,
+                        columnNumber: 9
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/FilterLoader.jsx",
-                lineNumber: 23,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 8,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 11,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 14,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 17,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "loader-line-wrap",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "loader-line"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/components/FilterLoader.jsx",
+                    lineNumber: 20,
+                    columnNumber: 7
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/FilterLoader.jsx",
             lineNumber: 7,
-            columnNumber: 7
+            columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/FilterLoader.jsx",
@@ -794,12 +244,12 @@ var _c;
 __turbopack_refresh__.register(_c, "Loader");
 
 })()),
-"[project]/components/Brands_payments/AllPayments.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"[project]/components/Brands_casinos/AllCasinos.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
 // TopBrands.jsx (Клиентский компонент)
 __turbopack_esm__({
-    "default": ()=>AllPayments
+    "default": ()=>AllBonuses
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
@@ -816,10 +266,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/CaretDown.esm.js [app-client] (ecmascript) <export default as CaretDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$GameController$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GameController$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/GameController.esm.js [app-client] (ecmascript) <export default as GameController>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CurrencyCircleDollar$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CurrencyCircleDollar$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/CurrencyCircleDollar.esm.js [app-client] (ecmascript) <export default as CurrencyCircleDollar>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Play$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Play.esm.js [app-client] (ecmascript) <export default as Play>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Prohibit$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Prohibit$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Prohibit.esm.js [app-client] (ecmascript) <export default as Prohibit>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$MinusCircle$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MinusCircle$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/MinusCircle.esm.js [app-client] (ecmascript) <export default as MinusCircle>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$DotsThreeCircle$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DotsThreeCircle$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/DotsThreeCircle.esm.js [app-client] (ecmascript) <export default as DotsThreeCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Handshake$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Handshake$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Handshake.esm.js [app-client] (ecmascript) <export default as Handshake>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-client] (ecmascript)");
@@ -840,22 +288,22 @@ var _s = __turbopack_refresh__.signature();
 const LazySlider = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_require__("[project]/node_modules/react-slick/lib/index.js [app-client] (ecmascript, async loader)")(__turbopack_import__), {
     loadableGenerated: {
         modules: [
-            "components/Brands_payments/AllPayments.jsx -> " + "react-slick"
+            "components/Brands_casinos/AllCasinos.jsx -> " + "react-slick"
         ]
     },
     ssr: false,
     loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "Download..."
         }, void 0, false, {
-            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-            lineNumber: 26,
+            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+            lineNumber: 24,
             columnNumber: 18
         }, this)
 });
 _c = LazySlider;
 ;
 ;
-function AllPayments({ creative, isLoader, segment, value, target, brands, currentText }) {
+function AllBonuses({ creative, isLoader, segment, value, target, brands, currentText }) {
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const itemsPerPage = 2;
@@ -988,11 +436,10 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
     const handleCountriesClick = (brandId)=>{
         setOpenCountriesId((prevId)=>prevId === brandId ? null : brandId);
     };
-    console.log("BRANDS", vis, vis2);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: isLoader ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$FilterLoader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-            lineNumber: 192,
+            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+            lineNumber: 188,
             columnNumber: 9
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-wrap justify-between awesome",
@@ -1026,8 +473,8 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex ml-1 mb-3"
                                             }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 233,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 229,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1040,22 +487,22 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                         className: "mr-1 w40",
                                                         size: 40
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 237,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 232,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: " flex items-center review-bonus",
                                                         children: brand.OurOfferContent
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 240,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 235,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 236,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 231,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1068,8 +515,8 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                         className: "mr-1 mb-1 w40",
                                                         size: 40
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 245,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 240,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1083,25 +530,25 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                         brand.WithdrawalLimits
                                                                     ]
                                                                 }, void 0, true, {
-                                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                    lineNumber: 251,
+                                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                    lineNumber: 246,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                            lineNumber: 249,
+                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                            lineNumber: 244,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 248,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 243,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 244,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 239,
                                                 columnNumber: 21
                                             }, this),
                                             advantages && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1117,16 +564,16 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                 },
                                                                 size: 34
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 261,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 256,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "mt-1 ml-2",
                                                                 children: t("Advantages")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 262,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 257,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -1136,14 +583,14 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     color: "#ff8f1f"
                                                                 }
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 263,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 258,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 260,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 255,
                                                         columnNumber: 25
                                                     }, this),
                                                     isPlusesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1154,24 +601,24 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     className: "review-pros-item",
                                                                     children: advantage.advantage
                                                                 }, index, false, {
-                                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                    lineNumber: 273,
+                                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                    lineNumber: 268,
                                                                     columnNumber: 33
                                                                 }, this))
                                                         }, void 0, false, {
-                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                            lineNumber: 271,
+                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                            lineNumber: 266,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 270,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 265,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 256,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 251,
                                                 columnNumber: 23
                                             }, this),
                                             deposits && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1187,16 +634,16 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                 },
                                                                 size: 34
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 289,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 284,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "mt-1 ml-2",
                                                                 children: t("Payment Methods")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 293,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 288,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -1206,14 +653,14 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     color: "#ff8f1f"
                                                                 }
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 296,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 291,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 288,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 283,
                                                         columnNumber: 25
                                                     }, this),
                                                     isDepositsOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1227,24 +674,24 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     alt: `${deposit.deposit}`,
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                    lineNumber: 309,
+                                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                    lineNumber: 304,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             }, index, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 305,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 300,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 303,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 298,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 284,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 279,
                                                 columnNumber: 23
                                             }, this),
                                             withdrawals && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1260,16 +707,16 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                 },
                                                                 size: 34
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 328,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 323,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "mt-1 ml-2",
                                                                 children: t("Game Providers")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 332,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 327,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -1279,14 +726,14 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     color: "#ff8f1f"
                                                                 }
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 335,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 330,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 327,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 322,
                                                         columnNumber: 25
                                                     }, this),
                                                     isWithdrawalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1300,24 +747,24 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     alt: `${withdrawal.withdrawal}`,
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                    lineNumber: 348,
+                                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                    lineNumber: 343,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             }, index, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 344,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 339,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 342,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 337,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 323,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 318,
                                                 columnNumber: 23
                                             }, this),
                                             restricted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1333,16 +780,16 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                 },
                                                                 size: 34
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 367,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 362,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 className: "mt-1 ml-2",
                                                                 children: t("Restricted Countries")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 368,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 363,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -1352,14 +799,14 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     color: "#ff8f1f"
                                                                 }
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 371,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 366,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 366,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 361,
                                                         columnNumber: 25
                                                     }, this),
                                                     isCountriesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1373,43 +820,43 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                             color: "#dd3333",
                                                                             size: 18
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                            lineNumber: 386,
+                                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                            lineNumber: 380,
                                                                             columnNumber: 35
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             children: restrict.restrict
                                                                         }, void 0, false, {
-                                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                            lineNumber: 387,
+                                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                            lineNumber: 381,
                                                                             columnNumber: 35
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
-                                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                    lineNumber: 382,
+                                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                    lineNumber: 376,
                                                                     columnNumber: 33
                                                                 }, this))
                                                         }, void 0, false, {
-                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                            lineNumber: 380,
+                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                            lineNumber: 374,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 378,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 373,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 362,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 357,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 232,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 228,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1418,8 +865,8 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "brandImage p-3",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    className: `${target}`,
                                                     href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                    className: `${target}`,
                                                     target: "_blank",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: `/brands/${brand.CasinoBrand}.png`,
@@ -1429,18 +876,18 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                         loading: "lazy",
                                                         className: `${target}`
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 404,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 398,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, brand.id_brand, false, {
-                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 398,
+                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                    lineNumber: 392,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 397,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 391,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,28 +903,28 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: "bonus?"
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                        lineNumber: 430,
+                                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                        lineNumber: 412,
                                                                         columnNumber: 38
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 429,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 411,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "text-center m-0 text-slate-500 mini-p",
                                                                 children: t("Activate bonus in your casino account")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 432,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 414,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 428,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 410,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1488,36 +935,36 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 children: t("Play Now")
                                                             }, void 0, false, {
-                                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                                lineNumber: 441,
+                                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                                lineNumber: 423,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
-                                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                            lineNumber: 440,
+                                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                            lineNumber: 422,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
-                                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                        lineNumber: 436,
+                                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                        lineNumber: 418,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 415,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 409,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 396,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 390,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, brand.id_brand, true, {
-                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 228,
+                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                lineNumber: 224,
                                 columnNumber: 17
                             }, this);
                         }),
@@ -1527,19 +974,19 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: t("Load More Brands")
                             }, void 0, false, {
-                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 452,
+                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                lineNumber: 434,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                            lineNumber: 451,
+                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                            lineNumber: 433,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                    lineNumber: 195,
+                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                    lineNumber: 191,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1563,27 +1010,27 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 loading: "lazy",
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 471,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 453,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "p-3 text-center flex items-center review-bonus",
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 479,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 461,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 465,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 447,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 464,
+                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                    lineNumber: 446,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1594,24 +1041,24 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: t("Play Now")
                                         }, void 0, false, {
-                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 490,
+                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                            lineNumber: 472,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 489,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 471,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
-                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 484,
+                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                    lineNumber: 466,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
-                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                            lineNumber: 460,
+                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                            lineNumber: 442,
                             columnNumber: 19
                         }, this);
                     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
@@ -1635,27 +1082,27 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     loading: "lazy",
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 511,
+                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                    lineNumber: 493,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "p-3 text-center flex items-center review-bonus",
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
-                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 519,
+                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                    lineNumber: 501,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
-                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 505,
+                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                            lineNumber: 487,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 504,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 486,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1666,61 +1113,62 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: t("Play Now")
                                             }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 530,
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 512,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 529,
+                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                            lineNumber: 511,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 524,
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 506,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
-                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 500,
+                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                lineNumber: 482,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
-                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                        lineNumber: 497,
+                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                        lineNumber: 479,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                    lineNumber: 456,
+                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                    lineNumber: 438,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-            lineNumber: 194,
+            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+            lineNumber: 190,
             columnNumber: 9
         }, this)
     }, void 0, false);
 }
-_s(AllPayments, "CqknoNKPdqtNHPFU8IhQaC2LEqY=", false, function() {
+_s(AllBonuses, "CqknoNKPdqtNHPFU8IhQaC2LEqY=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"]
     ];
 });
-_c1 = AllPayments;
+_c1 = AllBonuses;
 var _c, _c1;
 __turbopack_refresh__.register(_c, "LazySlider");
-__turbopack_refresh__.register(_c1, "AllPayments");
+__turbopack_refresh__.register(_c1, "AllBonuses");
 
 })()),
-"[project]/components/Brands_payments/FilteredPayments.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"[project]/components/Brands_casinos/FilteredCasinos.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
+// TopBrands.jsx (Клієнтський компонент)
 __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
@@ -1728,8 +1176,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_payments$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_payments/Navigate.jsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_payments$2f$AllPayments$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_payments/AllPayments.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_casinos/Navigate.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$AllCasinos$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_casinos/AllCasinos.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/classnames/index.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
@@ -1743,13 +1191,13 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-const FilteredPayments = ()=>{
+const FilteredCasinos = ()=>{
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [isLoader, setIsLoader] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [currentTab, setCurrentTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
-    const navigateBrands = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_payments$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
+    const navigateBrands = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])();
     const handleTabChange = (tabNumber)=>{
         setCurrentTab(tabNumber);
         setIsLoader(true);
@@ -1758,24 +1206,24 @@ const FilteredPayments = ()=>{
         }, 500);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "main pt-10 pb-10 custom-bonuses ",
+        className: "main pt-10 pb-10 custom-bonuses",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "main__container",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                     className: "text-white",
-                    children: t("Catalog of all offered Online Casinos by Payment Methods in 2024")
+                    children: t("Comprehensive Compilation of 2024 Online Casino Selection")
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 57,
+                    fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "mt-3 pb-4 text-white",
-                    children: t("Looking for online casinos with specific payment methods? Explore our current database of numerous casino offers for you to choose from.")
+                    children: t("In Search of an Online Casino? Navigate through our up-to-date repository housing a myriad of casinos awaiting your consideration.")
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 60,
+                    fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1791,24 +1239,24 @@ const FilteredPayments = ()=>{
                                     item.currentText2
                                 ]
                             }, item.currentTab, true, {
-                                fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                                lineNumber: 66,
+                                fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                                lineNumber: 42,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
-                        fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                        lineNumber: 64,
+                        fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                        lineNumber: 40,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 63,
+                    fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "overlay-filter filter-brands",
                     children: navigateBrands.map((item)=>{
-                        return currentTab === item.currentTab && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_payments$2f$AllPayments$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        return currentTab === item.currentTab && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$AllCasinos$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             creative: item.currentText,
                             isLoader: isLoader,
                             segment: item.segment,
@@ -1816,39 +1264,39 @@ const FilteredPayments = ()=>{
                             target: item.target,
                             currentText: item.currentText
                         }, `${item.currentTab}-${language}`, false, {
-                            fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                            lineNumber: 87,
+                            fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                            lineNumber: 63,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 83,
+                    fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-            lineNumber: 29,
+            fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-        lineNumber: 28,
+        fileName: "[project]/components/Brands_casinos/FilteredCasinos.jsx",
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 };
-_s(FilteredPayments, "I7Kh1maguC6kekk02Lmsc1BcxI8=", false, function() {
+_s(FilteredCasinos, "I7Kh1maguC6kekk02Lmsc1BcxI8=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
-        __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_payments$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+        __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_casinos$2f$Navigate$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
     ];
 });
-_c = FilteredPayments;
-const __TURBOPACK__default__export__ = FilteredPayments;
+_c = FilteredCasinos;
+const __TURBOPACK__default__export__ = FilteredCasinos;
 var _c;
-__turbopack_refresh__.register(_c, "FilteredPayments");
+__turbopack_refresh__.register(_c, "FilteredCasinos");
 
 })()),
 "[project]/public/newimages/wheel_inner_pages.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
@@ -1874,7 +1322,7 @@ const __TURBOPACK__default__export__ = {
 };
 
 })()),
-"[project]/components/Brands_payments/ApplePay.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
+"[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
 __turbopack_esm__({
@@ -1895,7 +1343,7 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-const Payments = ()=>{
+const FastWithdrawalCasinos = ()=>{
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1908,27 +1356,28 @@ const Payments = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "text-white",
-                            children: t("Exceptional Online Casinos That Welcome Apple Pay Transactions in 2024")
+                            children: t("2024's Swiftest Payout Casino and Betting Platforms")
                         }, void 0, false, {
-                            fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-                            lineNumber: 17,
+                            fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+                            lineNumber: 19,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-white mt-5",
-                            children: t("Wondering which online casinos accept Apple Pay for financial transactions? Let our guide direct you to the most reliable Apple Pay casinos for a top-notch gaming experience.")
+                            children: t("The most advantageous aspect of rapid payout casinos is their swift and unwavering dispensation of your earnings. We've meticulously crafted this inventory to aid you in locating the supreme casinos offering expedited withdrawal processes, particularly when your earnings surge swiftly and substantially. Simply initiate a withdrawal and envisage the exhilarating possibilities for allocating those funds!")
                         }, void 0, false, {
-                            fileName: "[project]/components/Brands_payments/ApplePay.jsx",
+                            fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
                             lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-                    lineNumber: 16,
+                    fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$wheel_inner_pages$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$wheel_inner_pages$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                         alt: "Chip",
@@ -1936,42 +1385,42 @@ const Payments = ()=>{
                         loading: "lazy",
                         className: "absolute bottom-0 right-0 inner-image -z-10 opacity-30 lg:opacity-100"
                     }, void 0, false, {
-                        fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-                        lineNumber: 26,
-                        columnNumber: 11
+                        fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-                    lineNumber: 25,
+                    fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-            lineNumber: 15,
+            fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+            lineNumber: 16,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/components/Brands_payments/ApplePay.jsx",
-        lineNumber: 14,
+        fileName: "[project]/components/Brands_casinos/FastWithdrawalCasinos.jsx",
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 };
-_s(Payments, "zlIdU9EjM2llFt74AbE2KsUJXyM=", false, function() {
+_s(FastWithdrawalCasinos, "zlIdU9EjM2llFt74AbE2KsUJXyM=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"]
     ];
 });
-_c = Payments;
-const __TURBOPACK__default__export__ = Payments;
+_c = FastWithdrawalCasinos;
+const __TURBOPACK__default__export__ = FastWithdrawalCasinos;
 var _c;
-__turbopack_refresh__.register(_c, "Payments");
+__turbopack_refresh__.register(_c, "FastWithdrawalCasinos");
 
 })()),
-"[project]/app/payments/apple-pay/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
+"[project]/app/fast-withdrawal-casinos/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
 
 })()),
 }]);
 
-//# sourceMappingURL=_dbbbac._.js.map
+//# sourceMappingURL=_24d3e7._.js.map
