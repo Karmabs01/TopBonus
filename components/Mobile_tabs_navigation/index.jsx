@@ -8,7 +8,7 @@ import "./styled.component.css";
 const Mobile_tabs_navigation = () => {
   return (
     <div className="fixed bottom-0 left-0 w-full md:hidden z-30 rounded-t-xl pt-1">
-      <div className="relative flex justify-between text-center px-4 py-1 bg-mob-header rounded-t-xl">
+      <div className="relative flex justify-between text-center px-4 py-1 bg-mob-header rounded-t-xl rnd-logo">
         <a
           href="/casinos"
           className="flex flex-col items-center justify-center py-2"

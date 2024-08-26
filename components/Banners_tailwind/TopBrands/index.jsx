@@ -11,7 +11,8 @@ import { useLanguage } from "../../switcher/LanguageContext";
 import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
-import Timestamp from "./timestamp";
+import Pickup from "./pickup";
+// import Timestamp from "./timestamp";
 
 import "./styled.component.css";
 
@@ -186,7 +187,9 @@ export default function TopBrands() {
                       ))}
                   </Slider>
                 </div>
-                <Timestamp />
+                {/* <Timestamp /> */}
+                <Pickup newUrl={newUrl} />
+
               </div>
             )
           )}

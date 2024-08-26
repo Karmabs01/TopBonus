@@ -77,10 +77,10 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                       {subLink.icon}
                     </div>
                     <div>
-                      <a href={subLink.href} className="font-semibold text-gray-900">
+                      <Link href={subLink.href} className="font-semibold text-gray-900">
                       {subLink.label}
                         <span className="absolute inset-0" />
-                      </a>
+                      </Link>
                       <p className="mt-1 text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, labore!</p>
                     </div>
                   </div>

@@ -37,9 +37,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -49,9 +49,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -63,9 +63,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>

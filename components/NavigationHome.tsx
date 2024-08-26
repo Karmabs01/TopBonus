@@ -18,8 +18,6 @@ const NavigationHome = ({ navLinks }: Props) => {
   const [isLoading, setIsLoading] = useState(false);
   const handleLinkClick = () => {
     setIsLoading(true);
-
-    // Simulate some delay to show the loader (remove this in actual usage)
     setTimeout(() => {
       setIsLoading(false);
     }, 1000);
