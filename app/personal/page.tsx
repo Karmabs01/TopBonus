@@ -2,7 +2,6 @@
 
 import { Fetcher } from "@/components/Fetcher";
 import Loader from "@/components/Loader";
-
 import { FinallyStep } from "@/components/personal/FinallyStep";
 import { PaymentHistory } from "@/components/personal/PaymentHistory";
 import { PaymentMethodStep } from "@/components/personal/PaymentMethodStep";
@@ -20,15 +19,7 @@ import {
   useQueryFee,
   useQueryUser,
 } from "@/queries";
-import {
-  Box,
-  SelectChangeEvent,
-  Step,
-  StepContent,
-  StepLabel,
-  Stepper,
-  Typography,
-} from "@mui/material";
+
 import { ChangeEvent, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/components/switcher/LanguageContext";
@@ -66,8 +57,6 @@ export default function Personal() {
     refetch: refetchCoins,
   } = useQueryCoins();
 
-  const [currentStep, setCurrentStep] = useState(0);
-
   const [step, setStep] = useState(DEFAULT_STEP);
   const [coin, setCoin] = useState(DEFAULT_COIN);
   const [amount, setAmount] = useState("");
@@ -84,16 +73,12 @@ export default function Personal() {
     setStep(nextStep);
   };
 
-  const onChangeCoin = (
-    e: React.ChangeEvent<HTMLSelectElement>
-  ) => {
+  const onChangeCoin = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const nextCoin = e.target.value;
     setCoin(nextCoin);
   };
 
-  const onChangeAmount = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const onChangeAmount = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const nextAmount = e.target.value;
     setAmount(nextAmount);
   };
@@ -353,11 +338,7 @@ export default function Personal() {
           refetchCoins();
         }}
         render={([user, coins]) => {
-          const steps = getSteps(user, coins);
-
           return (
-
-
             <div className="overflow-hidden">
               <div className="flex flex-col sm:flex-row">
                 <div className="basis-1/4 tab-pers">

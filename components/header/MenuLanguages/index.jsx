@@ -222,8 +222,8 @@ export default function MultipleSelectPlaceholder() {
                     <div
                       className={`block text-sm text-white `}
                     >
-                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-                        {/* {t('Your country of residence')} */}
+                      <Label className="block text-sm font-medium leading-6 text-white w-full ml-2">
+                        {t('Your country of residence')}
                       </Label>
                       <BrandsSwitcher />
                     </div>
@@ -234,8 +234,8 @@ export default function MultipleSelectPlaceholder() {
                     <div
                       className={`block text-sm text-white lng-sw`}
                     >
-                      <Label className="block text-sm font-medium leading-6 text-gray-900 w-full">
-                        {/* {t("Website language")} */}
+                      <Label className="block text-sm font-medium leading-6 text-white w-full ml-2">
+                        {t("Website language")}
                       </Label>
                       <LanguageSwitcher />
                     </div>
