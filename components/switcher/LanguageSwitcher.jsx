@@ -147,8 +147,7 @@ const LanguageSwitcher = () => {
                     <span className="block truncate flex items-center text-white">
                       {/* {newLng.find((lang) => lang.code === selectedLanguage)?.flag}{' '} */}
                       <span className={`mr-2 flag-icon flag-icon-${newLng.find((lang) => lang.code === selectedLanguage)?.code}`} />
-                      {/* {newLng.find((lang) => lang.code === selectedLanguage)?.label} */}
-                      Language
+                      {newLng.find((lang) => lang.code === selectedLanguage)?.label}
                     </span>
                     <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
                       <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />

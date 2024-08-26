@@ -11,6 +11,7 @@ import { WalletAddressStep } from "@/components/personal/WalletAddressStep";
 import Cards from "@/components/products/Cards";
 import UserBrands from "@/components/UserBrands/UserBrands";
 import type { User } from "@/interfaces/user";
+import { CheckIcon } from "@heroicons/react/20/solid";
 import {
   Coins,
   useQueryCoins,
@@ -18,15 +19,7 @@ import {
   useQueryFee,
   useQueryUser,
 } from "@/queries";
-import {
-  Box,
-  SelectChangeEvent,
-  Step,
-  StepContent,
-  StepLabel,
-  Stepper,
-  Typography,
-} from "@mui/material";
+
 import { ChangeEvent, useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/components/switcher/LanguageContext";
@@ -44,10 +37,10 @@ const DEFAULT_STEP = 0;
 const BRAND_CATEGORIES = { key1: "Segment2", key2: "Premium" };
 
 export default function Personal() {
-
   const { t } = useTranslation();
   const { language } = useLanguage();
 
+  const [currentTab, setCurrentTab] = useState(2);
   const {
     data: user,
     loading: userLoading,
@@ -65,12 +58,6 @@ export default function Personal() {
   } = useQueryCoins();
 
   const [tab, setTab] = useState(2);
-
-
-
-
-
-
   
   const [step, setStep] = useState(DEFAULT_STEP);
   const [coin, setCoin] = useState(DEFAULT_COIN);
@@ -84,29 +71,21 @@ export default function Personal() {
     setBrands(brandsData);
   };
 
-  const onChangeTab = (_e: React.SyntheticEvent, newTabIndex: number) => {
-    setTab(newTabIndex);
-  };
-
   const onChangeStep = (nextStep: number) => {
     setStep(nextStep);
   };
 
-  const onChangeCoin = (e: ChangeEvent<HTMLSelectElement>) => {
+  const onChangeCoin = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const nextCoin = e.target.value;
     setCoin(nextCoin);
   };
 
-  const onChangeAmount = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const onChangeAmount = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const nextAmount = e.target.value;
     setAmount(nextAmount);
   };
 
-  const onChangeWalletAddress = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const onChangeWalletAddress = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const nextWalletAddress = e.target.value;
     setWalletAddress(nextWalletAddress);
   };
@@ -233,8 +212,123 @@ export default function Personal() {
     return initialSteps;
   };
 
+  function renderStepper() {
+    if (!user || !coins) {
+      return <Loader />;
+    }
+
+    const steps = getSteps(user, coins);
+
+    return (
+
+      <nav aria-label="Progress" className="flex flex-col space-y-4 py-5">
+        <ol role="list" className="overflow-hidden">
+          {steps.map((item, index) => (
+            <li
+              key={index}
+              className={`relative ${
+                index !== steps.length - 1 ? "pb-10" : ""
+              }`}
+            >
+              {index < step ? (
+                // Завершенные шаги
+                <>
+                  {index !== steps.length - 1 && (
+                    <div
+                      aria-hidden="true"
+                      className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 "
+                    />
+                  )}
+                  <div className="group relative flex items-center">
+                    <span className="flex h-9 items-center">
+                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full ">
+                        <CheckIcon
+                          aria-hidden="true"
+                          className="h-5 w-5 text-white"
+                        />
+                      </span>
+                    </span>
+                    <span className="ml-4 flex min-w-0 flex-col">
+                      <span className="text-sm font-medium">{item.label}</span>
+                    </span>
+                  </div>
+                </>
+              ) : index === step ? (
+                // Текущий шаг
+                <>
+                  {index !== steps.length - 1 && (
+                    <div
+                      aria-hidden="true"
+                      className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
+                    />
+                  )}
+                  <div className="group relative flex items-start">
+                    <span className="flex h-9 items-center">
+                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-or bg-white">
+                        <span className="h-2.5 w-2.5 rounded-full bg-or" />
+                      </span>
+                    </span>
+                    <span className="ml-4 flex min-w-0 flex-col">
+                      <span className="text-sm font-medium text-or">
+                        {item.label}
+                      </span>
+                      <span className="text-sm text-gray-500">
+                        {item.description}
+                      </span>
+                    </span>
+                  </div>
+                  <div className="mt-4 px-10">{item.content}</div>
+                </>
+              ) : (
+                // Будущие шаги
+                <>
+                  {index !== steps.length - 1 && (
+                    <div
+                      aria-hidden="true"
+                      className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
+                    />
+                  )}
+                  <div className="group relative flex items-center">
+                    <span className="flex h-9 items-center">
+                      <span className="relative flex h-8 w-8 items-center justify-center rounded-full border-2 border-solid border-gray-300 bg-white">
+                        <span className="h-2.5 w-2.5 rounded-full bg-transparent " />
+                      </span>
+                    </span>
+                    <span className="ml-4 flex min-w-0 flex-col">
+                      <span className="text-sm font-medium text-gray-500">
+                        {item.label}
+                      </span>
+                    </span>
+                  </div>
+                </>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    );
+  }
+
+  const tabs = [
+    { name: t("Withdrawal Request"), content: renderStepper() },
+    {
+      name: t("Withdrawal History"),
+      content: (
+        <PaymentHistory
+          key="withdrawalHistory"
+          statusPayment={user ? user.status_payment : "null"}
+        />
+      ),
+    },
+    {
+      name: t("Cards Shop"),
+      content: <Cards key="cardShop" user={user} onFinish={onFinish} />,
+    },
+  ];
+
+
   return (
-    <div className="page-personal main__container pb-10">
+    <div className="page-personal main__container pb-10 !my-10">
       <Fetcher
         payload={[user, coins]}
         loading={userLoading || coinsLoading}
@@ -244,61 +338,102 @@ export default function Personal() {
           refetchUser();
           refetchCoins();
         }}
-        render={([user, coins]) => {
-          const steps = getSteps(user, coins);
+        // render={([user, coins]) => {
+        //   const steps = getSteps(user, coins);
 
+        //   return (
+        //     <div className="tabsstep">
+        //       <h2 className="title-balance">
+        //         {t("Your balance:")} {user.balance}$
+        //       </h2>
+        //       <Box
+        //         className="tab_field"
+        //         sx={{
+        //           flexGrow: 1,
+        //           bgcolor: "background.paper",
+        //           display: "flex",
+        //           height: "100%",
+        //         }}
+        //       >
+        //         <Tabs
+        //           value={tab}
+        //           onChange={onChangeTab}
+        //           tabs={{
+        //             labels: [
+        //               t("Withdrawal Request"),
+        //               t("Withdrawal History"),
+        //               t("Cards Shop"),
+        //               // t("Get $20"),
+        //             ],
+        //             content: [
+        //               <Stepper
+        //                 key="withdrawalRequest"
+        //                 activeStep={step}
+        //                 orientation="vertical"
+        //                 sx={{ width: "100%" }}
+        //                 className="stepper"
+        //               >
+        //                 {steps.map((step) => (
+        //                   <Step key={step.label}>
+        //                     <StepLabel>{step.label}</StepLabel>
+        //                     <StepContent>
+        //                       <Typography>{step.description}</Typography>
+        //                       {step.content}
+        //                     </StepContent>
+        //                   </Step>
+        //                 ))}
+        //               </Stepper>,
+        //               <PaymentHistory
+        //                 key="withdrawalHistory"
+        //                 statusPayment={user.status_payment}
+        //               />,
+        //               <Cards key="cardsShop" user={user} onFinish={onFinish} />,
+        //               <UserBrands key="brands" />,
+        //             ],
+        //           }}
+        //         />
+        //       </Box>
+        //     </div>
+        //   );
+        // }}
+        render={([user, coins]) => {
           return (
-            <div className="tabsstep">
-              <h2 className="title-balance">
-                {t("Your balance:")} {user.balance}$
-              </h2>
-              <Box
-                className="tab_field"
-                sx={{
-                  flexGrow: 1,
-                  bgcolor: "background.paper",
-                  display: "flex",
-                  height: "100%",
-                }}
-              >
-                <Tabs
-                  value={tab}
-                  onChange={onChangeTab}
-                  tabs={{
-                    labels: [
-                      t("Withdrawal Request"),
-                      t("Withdrawal History"),
-                      t("Cards Shop"),
-                      // t("Get $20"),
-                    ],
-                    content: [
-                      <Stepper
-                        key="withdrawalRequest"
-                        activeStep={step}
-                        orientation="vertical"
-                        sx={{ width: "100%" }}
-                        className="stepper"
-                      >
-                        {steps.map((step) => (
-                          <Step key={step.label}>
-                            <StepLabel>{step.label}</StepLabel>
-                            <StepContent>
-                              <Typography>{step.description}</Typography>
-                              {step.content}
-                            </StepContent>
-                          </Step>
-                        ))}
-                      </Stepper>,
-                      <PaymentHistory
-                        key="withdrawalHistory"
-                        statusPayment={user.status_payment}
-                      />,
-                      <Cards key="cardsShop" user={user} onFinish={onFinish} />,
-                      <UserBrands key="brands" />,
-                    ],
-                  }}
-                />
-              </Box>
+            <div className="overflow-hidden">
+              <div className="flex flex-col sm:flex-row">
+                <div className="basis-1/4 tab-pers">
+                 
+                  <div className="">
+                    <nav
+                      aria-label="Tabs"
+                      className="isolate flex sm:flex-col divide-x tab-persmini"
+                    >
+                      {tabs.map((tab, tabIdx) => (
+                        <button
+                          key={tab.name}
+                          onClick={() => setCurrentTab(tabIdx)}
+                          className={`py-2 border-b-4 transition-colors duration-300 text-left px-4 text-white ${
+                            tabIdx === currentTab
+                              ? "active-bg font-bold "
+                              : "border-transparent hover:border-gray-200"
+                          }`}
+                        >
+                          <span>{tab.name}</span>
+                        </button>
+                      ))}
+                    </nav>
+                  </div>
+                  <div className="px-4 py-2 text-white pers-balance">
+                    {t("Your balance:")} <span>{user.balance}$</span>
+                  </div>
+                </div>
+                <div className="basis-3/4 sm:ml-5 rounded-lg bg-white shadow content-pers">
+                  {/* Show active tab content. */}
+                  <div className=" mx-5">
+                    <h4 className="mt-5">{tabs[currentTab].name}</h4>
+                    {tabs[currentTab].content}
+                  </div>
+                </div>
+              </div>
             </div>
           );
         }}
