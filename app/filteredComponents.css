@@ -551,7 +551,7 @@
   font-size: 38px;
 }
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .card-brand-filtered {
     padding: 20px 10px;
   }
@@ -559,7 +559,6 @@
     margin-left: 0;
   }
   .overlay-filter {
-
   }
   .slws {
     max-width: 100%;
@@ -568,10 +567,53 @@
   .slsk {
     max-width: 100%;
   }
-  .awesome .slick-list, .awesome .slick-track {
+  .awesome .slick-list,
+  .awesome .slick-track {
     max-height: 350px;
   }
   .isolate-tabs {
     padding: 0;
   }
+}
+
+.payments-tabs,
+.providers-tabs {
+  border-radius: 30px;
+
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  padding: 4px 0;
+  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.payments-tabs button,
+.providers-tabs button {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 16px 10px;
+  border-right: 1px solid #4f4f4f !important;
+  position: relative;
+  overflow: visible;
+}
+.payments-tabs button:last-of-type,
+.providers-tabs button:last-of-type {
+  border-right: none !important;
+}
+.payments-tabs button svg,
+.providers-tabs button svg {
+  margin-right: 3px;
+}
+.payments-tabs .decoration-2:after,
+.providers-tabs .decoration-2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #ff8f1f;
+  bottom: -4px;
 }

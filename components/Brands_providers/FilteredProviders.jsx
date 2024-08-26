@@ -28,32 +28,6 @@ const FilteredProviders = () => {
   return (
     <div className="main pt-10 pb-10 custom-bonuses">
       <div className="main__container">
-        {/* <div className="content flex flex-wrap">
-          <div className="left flex flex-col justify-center basis-[60%]">
-            <h2 className="text-white">
-              {t("Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers")}
-            </h2>
-            <p className="text-white mt-5">
-              {t("Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.")}
-            </p>
-          </div>
-        </div>
-        <div className="flex navigate-filter flex-wrap">
-          {navigateBrands.map((item) => (
-            <button
-              key={item.currentTab}
-              className={`flex justify-center flex-col basis-[7.69%] items-center p-2 border text-lg button-tab ${
-                currentTab === item.currentTab ? "active" : ""
-              }`}
-              onClick={() => handleTabChange(item.currentTab)}
-            >
-              <div className="flex items-center">
-                {item.currentText}
-              </div>
-            </button>
-          ))}
-        </div> */}
-
         {/*  Tailwind tab bar */}
         <h2 className="text-white">
           {t("Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers")}
@@ -61,8 +35,8 @@ const FilteredProviders = () => {
         <p className="text-black mt-5 text-white">
           {t("Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.")}
         </p>
-        <div className="">
-          <nav aria-label="Tabs" className="isolate isolate-tabs flex divide-x overflow-x-auto">
+        <div>
+          <nav aria-label="Tabs" className="isolate providers-tabs flex flex-wrap justify-start">
             {navigateBrands.map((item) => (
               <button
                 key={item.currentTab}
@@ -70,8 +44,8 @@ const FilteredProviders = () => {
                   currentTab === item.currentTab
                     ? 'decoration-2 underline-offset-8 '
                     : 'text-gray-500',
-                  'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out',
-                )}
+                    'group relative overflow-hidden text-center text-sm font-medium flex justify-center flex-row items-center !px-0 !py-3 basis-[20%] sm:basis-[16%] lg:basis-[11%] transition-colors duration-300 ease-in-out',
+                  )}
                 onClick={() => handleTabChange(item.currentTab)}
               >
                 {item.currentText}
