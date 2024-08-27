@@ -28,7 +28,7 @@
         position: relative;
     }
     .minilogos img {
-        filter: drop-shadow(0px -6px 15px rgba(255, 255, 255, 1));
+        /* filter: drop-shadow(0px -6px 15px rgba(255, 255, 255, 1)); */
     }
     .minilogos:after {
         content: "";
@@ -38,6 +38,7 @@
         top: -6px;
         left: -17px;
         /* backdrop-filter: blur(20px); */
-        background: linear-gradient(rgb(122, 0, 172), rgb(96, 0, 147));
+
+        background: linear-gradient(to right, rgb(122, 0, 172), rgb(122, 0, 172));
     }
 }

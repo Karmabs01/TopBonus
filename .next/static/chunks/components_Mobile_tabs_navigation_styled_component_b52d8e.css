@@ -32,7 +32,6 @@
   }
 
   .minilogos img {
-    filter: drop-shadow(0 -6px 15px #fff);
   }
 
   .minilogos:after {
@@ -42,7 +41,7 @@
     position: absolute;
     top: -6px;
     left: -17px;
-    background: linear-gradient(#7a00ac, #600093);
+    background: linear-gradient(to right, #7a00ac, #7a00ac);
   }
 }
 

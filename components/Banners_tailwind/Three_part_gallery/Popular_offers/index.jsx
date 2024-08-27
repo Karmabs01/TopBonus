@@ -142,7 +142,7 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="pt-5 popular-offers mob-mt10m">
+            <div className="pt-10 popular-offers">
           
                 <div className="main__container">
                     {loading ? (

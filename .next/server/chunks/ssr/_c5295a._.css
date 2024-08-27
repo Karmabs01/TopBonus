@@ -857,6 +857,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .ptpt {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .main__container.\!mt16 {
+    margin-top: 0 !important;
+  }
+
+  .mmt-mob {
+    margin-top: 40px !important;
   }
 }
 
@@ -1013,6 +1022,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 /* [project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/styled.component.css [app-ssr] (css) */
 .popular-offers .slick-slide {
   margin-right: 0 !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .cards-th {
+    margin-top: 40px;
+  }
 }
 
 
