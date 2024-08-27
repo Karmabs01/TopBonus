@@ -190,26 +190,27 @@ export default function Popular_offers() {
                           loading="lazy"
                         />
                       </div>
-                      <div className="flex flex-1 items-center justify-between">
-                        <div className="flex-1 px-4 py-2 text-sm">
+                      <div className="flex items-center flex-col">
+                        <div className="flex-1 px-4 text-sm">
                           <a
                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                             className="font-medium"
                           >
                             {rowData.CasinoBrand}
                           </a>
-                          <p className="">
+                          <p className="!m-0">
                             {" "}
                             {rowData.OurOfferContent}
                           </p>
                         </div>
-                        <div className="flex-shrink-0 pr-2">
-                          {/* <button
+                        <div className="flex-shrink-0 pr-2 flex justify-end w-full">
+                          <a
                             type="button"
-                            className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-transparent bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            className="inline-flex h-8 w-20 items-center justify-center rounded-full bg-transparent lucky-btn text-white px-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                           >
+                            {t("Play now!")}
                             <span className="sr-only">Open options</span>
-                          </button> */}
+                          </a>
                         </div>
                       </div>
                     </li>
