@@ -60,10 +60,10 @@ export default function Random_block() {
                         id="join-heading"
                       >
                         {/* BONUS BET <span> casino</span> */}
-                        FEELING <span>LUCKY</span> today?
+                         TRY YOUR <span>luck!</span>
                       </h2>
                       <p className="text-lg text-white">
-                        Click now to play and see if luck is on your side!
+                      Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!
                       </p>
 
                       <Link
