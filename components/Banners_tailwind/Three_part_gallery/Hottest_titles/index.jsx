@@ -91,7 +91,6 @@ export default function Popular_offers() {
       const filteredData = data.filter(
         (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
       );
-      console.log("FILTER", filteredData);
       setBrands(filteredData);
       setLoading(false);
     }
@@ -120,8 +119,6 @@ export default function Popular_offers() {
 
     return () => clearInterval(interval);
   }, [brands.length]);
-
-  console.log("BRANDS", brands);
 
   const projects = [
     {
@@ -164,10 +161,10 @@ export default function Popular_offers() {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                  5 <span className="span-orange">HOTTEST</span> <span>casinos</span>
+                  5 <span className="span-orange">{t("HOTTEST")}</span> <span>{t("casinos")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
-                  Discover 5 hottest casino brands trending right now!
+                  {t("Discover 5 hottest casino brands trending right now!")}
                 </p>
               </div>
               <ul
@@ -193,26 +190,26 @@ export default function Popular_offers() {
                           loading="lazy"
                         />
                       </div>
-                      <div className="flex flex-1 items-center justify-between">
-                        <div className="flex-1 px-4 py-2 text-sm">
+                      <div className="flex items-center flex-col">
+                        <div className="flex-1 px-4 text-sm">
                           <a
                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                             className="font-medium"
                           >
                             {rowData.CasinoBrand}
                           </a>
-                          <p className="">
+                          <p className="!m-0">
                             {" "}
                             {rowData.OurOfferContent}
                           </p>
                         </div>
-                        <div className="flex-shrink-0 pr-2">
-                          {/* <button
+                        <div className="flex-shrink-0 pr-2 flex justify-end w-full">
+                          <a
                             type="button"
-                            className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-transparent bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            className="inline-flex h-8 items-center justify-center rounded-full bg-transparent lucky-btn text-white px-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                           >
-                            <span className="sr-only">Open options</span>
-                          </button> */}
+                            {t("Play Now")}
+                          </a>
                         </div>
                       </div>
                     </li>

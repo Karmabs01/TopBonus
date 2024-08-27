@@ -3,7 +3,7 @@ import { TheHeader } from "@/components/TheHeader";
 import { Header_tailwind } from "@/components/Header_tailwind";
 import { Footer_tailwind } from "@/components/Footer_tailwind";
 import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
-
+import BackToTopButton from "@/components/BackToTopButton";
 
 import "./globals.css";
 import type { Metadata } from "next";
@@ -52,16 +52,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <LanguageProvider>
           {/* <Marque /> */}
           {/* <TheHeader /> */}
-          <Header_tailwind/>
-          <Mobile_tabs_navigation/>
+          <Header_tailwind />
+          <Mobile_tabs_navigation />
 
           <main>
             {children}
             <Analytics />
           </main>
           {/* <TheFooter /> */}
-          <Footer_tailwind/>
+          <Footer_tailwind />
         </LanguageProvider>
+        <BackToTopButton />
 
         <Script id="hotjar">
           {`

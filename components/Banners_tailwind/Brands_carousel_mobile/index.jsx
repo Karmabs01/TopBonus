@@ -117,7 +117,6 @@ export default function Brands_carousel_mobile() {
             const filteredData = data.filter(
                 (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
             );
-            console.log("FILTER", filteredData);
             setBrands(filteredData);
             setLoading(false);
         }
@@ -134,8 +133,6 @@ export default function Brands_carousel_mobile() {
 
         return () => clearInterval(interval);
     }, [brands.length]);
-
-    console.log("BRANDS", brands);
 
     return (
         <>
@@ -199,7 +196,7 @@ export default function Brands_carousel_mobile() {
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                             className=" flex items-center justify-center rounded-md border border-transparent bg-indigo-500 px-2 py-2 text-lg font-medium text-white hover:bg-indigo-600"
                                                         >
-                                                            Play Now<span className="sr-only">, {rowData.CasinoBrand}</span>
+                                                            {t("Play Now")}<span className="sr-only">, {rowData.CasinoBrand}</span>
                                                         </a>
                                                     </div>
                                                 </div>

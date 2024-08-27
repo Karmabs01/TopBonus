@@ -365,6 +365,10 @@ header nav button {
   background-color: #ff8f1f;
 }
 
+.text-orange {
+  color: #ff8f1f;
+}
+
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-client] (css) */
 .footer-bg {
@@ -1151,6 +1155,10 @@ select {
   bottom: 0;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .left-0 {
   left: 0;
 }
@@ -1169,6 +1177,10 @@ select {
 
 .right-0 {
   right: 0;
+}
+
+.right-10 {
+  right: 2.5rem;
 }
 
 .right-2 {
@@ -1193,6 +1205,10 @@ select {
 
 .top-4 {
   top: 1rem;
+}
+
+.bottom-2 {
+  bottom: .5rem;
 }
 
 .isolate {
@@ -1237,6 +1253,10 @@ select {
 
 .m-2 {
   margin: .5rem;
+}
+
+.\!m-0 {
+  margin: 0 !important;
 }
 
 .\!my-10 {
@@ -2224,6 +2244,10 @@ select {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.\!p-0 {
+  padding: 0 !important;
 }
 
 .\!px-0 {
@@ -12885,6 +12909,28 @@ main > .topbr {
   background-color: #cc741c;
 }
 
+.backToTopBtn {
+  fill: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  stroke-width: 2px;
+  stroke: #9d4eb3;
+  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 2px solid #ffffff27;
+}
+
+.backToTopBtn:hover {
+  background-color: #4e1d5a;
+}
+
 .placeholder\:text-gray-300::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -12938,6 +12984,11 @@ main > .topbr {
 .hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-300:hover {

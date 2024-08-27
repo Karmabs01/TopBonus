@@ -365,6 +365,10 @@ header nav button {
   background-color: #ff8f1f;
 }
 
+.text-orange {
+  color: #ff8f1f;
+}
+
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-ssr] (css) */
 .footer-bg {
