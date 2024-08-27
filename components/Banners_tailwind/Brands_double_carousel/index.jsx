@@ -78,7 +78,7 @@ export default function Brands_double_carousel() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const categoryBrands = { key1: "High_hybrid", key2: "1" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -199,13 +199,12 @@ export default function Brands_double_carousel() {
                   <div className="mx-auto max-w-2xl pb-5 pt-5 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
                     <div className="">
                       <h2 className="mt-4">
-                        Lorem <span>ipsum dolor</span>
+                        Best Payout<span> Casinos</span>
                       </h2>
-                      <h3>Lorem ipsum dolor sit amet</h3>
+                      <h3>Best payout casinos</h3>
                       <p className="mt-4 text-gray-500">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Et, egestas tempus tellus etiam sed. Quam a scelerisque
-                        amet ullamcorper eu enim et fermentum, augue.
+                      Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!
+
                       </p>
                     </div>
                   </div>

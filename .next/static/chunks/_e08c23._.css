@@ -670,7 +670,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   z-index: 1;
   padding-left: 48px;
   color: #fff !important;
-  font-size: 108px !important;
+  font-size: 98px !important;
 }
 
 .brands_rows h2.mt-4 span {
@@ -679,7 +679,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-weight: 400;
   line-height: normal;
   color: #f9a23d !important;
-  font-size: 90px !important;
+  font-size: 80px !important;
 }
 
 .brands_rows h3 {
@@ -2169,8 +2169,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("/fonts/slick.eot");
-  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
+  src: url("../media/slick.a3496dc3.eot");
 }
 
 .slick-prev, .slick-next {
