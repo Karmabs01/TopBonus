@@ -8,18 +8,18 @@ const Footer_tailwind = () => {
     const { t } = useTranslation();
     const navigation = {
         solutions: [
-            { name: 'Casino by Category', href: '#' },
-            { name: 'Casino by Payment Methods', href: '#' },
-            { name: 'Casino by Game Providers', href: '#' },
-            { name: 'Best Bonuses', href: '#' },
+            { name: t("Casino by Category"), href: '#' },
+            { name: t("Casino by Payment Methods"), href: '#' },
+            { name: t("Casino by Game Providers"), href: '#' },
+            { name: t("Best Bonuses"), href: '#' },
         ],
         support: [
-            { name: 'Responsible Gaming', href: '#' },
-            { name: 'Privacy Policy', href: '#' },
-            { name: 'Terms and Conditions', href: '#' },
+            { name: t("Responsible Gaming"), href: '#' },
+            { name: t("Privacy Policy"), href: '#' },
+            { name: t("Terms and Conditions"), href: '#' },
         ],
         company: [
-            { name: 'Our Contacts: support@myawardwallet.com', href: 'mailto:support@myawardwallet.com' },
+            { name: t("Our Contacts") + ": support@myawardwallet.com ", href: 'mailto:support@myawardwallet.com' },
         ],
     }
     return (
@@ -82,7 +82,7 @@ const Footer_tailwind = () => {
                                 name="email-address"
                                 type="email"
                                 required
-                                placeholder="Enter your email"
+                                placeholder={t("Enter your email")}
                                 autoComplete="email"
                                 className=""
                             />
