@@ -14,7 +14,7 @@
   background-size: cover;
   border-radius: 30px;
   min-height: 329px;
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 
 .fivehot-banner h3 {
@@ -52,7 +52,6 @@
 
 .fivehot .ul-list {
   padding: 28px 0;
-  border-top: 1px solid #573e7d;
   margin-left: 21px;
   margin-right: 21px;
 }

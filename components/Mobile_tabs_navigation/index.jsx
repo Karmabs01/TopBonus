@@ -1,9 +1,16 @@
 import React from "react";
+import Link from "next/link";
 
 // import { PokerChip, GameController } from "phosphor-react";
-import { ShoppingBagIcon, UserIcon, ChartPieIcon, BanknotesIcon } from "@heroicons/react/24/outline";
+import {
+  ShoppingBagIcon,
+  UserIcon,
+  ChartPieIcon,
+  BanknotesIcon,
+} from "@heroicons/react/24/outline";
 import Image from "next/image";
 import "./styled.component.css";
+import mini from "@/public/logomini2.png";
 
 const Mobile_tabs_navigation = () => {
   return (
@@ -30,7 +37,11 @@ const Mobile_tabs_navigation = () => {
           <span className="text-sm text-white text-semibold">Shop</span>
         </a>
 
-        <div className="w-16"></div>
+        <div className="w-16 minilogos">
+          <Link href="/">
+            <Image src={mini} width={77} height={62} loading="lazy" />
+          </Link>
+        </div>
 
         <a
           href="/fortune"

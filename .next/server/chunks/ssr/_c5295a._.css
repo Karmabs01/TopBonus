@@ -301,6 +301,16 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     margin-top: 20px;
     margin-right: 4%;
   }
+
+  .h5 {
+    margin-bottom: 15px;
+    font-size: 42px !important;
+  }
+
+  .jins > div .btn {
+    margin-top: 0;
+    margin-left: 15% !important;
+  }
 }
 
 .h5 {
@@ -619,7 +629,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .brands_rows .marquee {
-  animation: 20s linear infinite scroll;
+  animation: 200s linear infinite scroll;
 }
 
 .brands_rows .reverce {
@@ -1842,7 +1852,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("/_next/static/media/slick.a3496dc3.eot");
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("/_next/static/media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {

@@ -29,7 +29,7 @@ export default function Popular_offers() {
         infinite: true,
         speed: 1000,
         autoplaySpeed: 2000,
-        arrows: false,
+        arrows: true,
         slidesToShow: 2,
         slidesToScroll: 2,
         cssEase: "linear",
@@ -100,7 +100,7 @@ export default function Popular_offers() {
         }
     }, [language]);
 
-    const categoryBrands = { key1: "Segment2", key2: "Premium" };
+    const categoryBrands = { key1: "Trendsetting", key2: "1" };
     const { data, error } = useSWR(
         ["brands", language],
         () => getBrands(language),
@@ -145,7 +145,8 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="pt-5 popular-offers">
+            <div className="pt-5 popular-offers mob-mt10m">
+                <h3 className="text-white">Popular Offers</h3>
                 <div className="main__container">
                     {loading ? (
                         <Loader />
@@ -193,7 +194,7 @@ export default function Popular_offers() {
                                         <Slider {...settings}>
                                             {brands.map((rowData, index) => (
                                                 <div key={index} className="overflow-hidden card-thr">
-                                                    <div className="">
+                                                    <div className="pm10">
                                                         <div className="imgp">
                                                             <Image
                                                                 src={`/brands/${rowData.CasinoBrand}.png`}

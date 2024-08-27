@@ -24,14 +24,20 @@
     width: 10rem !important;
     height: 10rem !important;
     }
-    .rnd-logo:after {
+    .minilogos {
+        position: relative;
+    }
+    .minilogos img {
+        filter: drop-shadow(0px -6px 15px rgba(255, 255, 255, 1));
+    }
+    .minilogos:after {
         content: "";
-        width: 104px;
-        height: 10px;
+        width: 102px;
+        height: 2px;
         position: absolute;
-        top: -2px;
-        left: 135px;
-        backdrop-filter: blur(20px);
-        background: #310877;
+        top: -6px;
+        left: -17px;
+        /* backdrop-filter: blur(20px); */
+        background: linear-gradient(rgb(122, 0, 172), rgb(96, 0, 147));
     }
 }

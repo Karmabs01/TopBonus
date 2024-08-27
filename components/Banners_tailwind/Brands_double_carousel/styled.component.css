@@ -47,7 +47,7 @@
 }
 
 .brands_rows .marquee {
-  animation: scroll 20s linear infinite;
+  animation: scroll 200s linear infinite;
 }
 .brands_rows .reverce {
   animation-direction: reverse;

@@ -882,10 +882,6 @@ select {
   margin-top: 1.5rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1205,10 +1201,6 @@ select {
 
 .basis-\[49\%\] {
   flex-basis: 49%;
-}
-
-.basis-\[58\%\] {
-  flex-basis: 58%;
 }
 
 .basis-\[60\%\] {
@@ -2391,7 +2383,39 @@ input[type="number"] {
   color: #ff8f1f;
 }
 
+.card-not-slider {
+  max-width: 230px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-rel {
+  position: relative;
+  z-index: 1;
+}
+
+.card-not-slider:nth-child(5) {
+  margin-right: 0;
+}
+
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+  color: #ff8f1f !important;
+}
+
+.mob-mt10 {
+  margin-top: 3.5rem !important;
+}
+
 @media (width >= 320px) and (width <= 767px) {
+  .pm10 {
+    padding: 0 10px;
+  }
+
+  .mob-mt10, .mob-mt10m {
+    margin-top: 3.5rem;
+  }
+
   footer .mx-auto {
     overflow: hidden;
   }

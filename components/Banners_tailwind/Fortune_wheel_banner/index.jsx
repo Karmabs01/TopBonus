@@ -3,9 +3,13 @@
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import "./styled.component.css";
+import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 
 export default function Banner_small() {
   const { t } = useTranslation();
+  const categoryBrands = { key1: "FirstPriority", key2: "1" };
+  const target = "target-fw-brands-main-page";
+  const creative = "target-fw-brands-main-page";
 
   return (
     <>
@@ -42,6 +46,7 @@ export default function Banner_small() {
           </p>
         </div>
       </div>
+      <Brands_carousel creative={creative} target={target} categoryBrands={categoryBrands} />
     </>
   );
 }

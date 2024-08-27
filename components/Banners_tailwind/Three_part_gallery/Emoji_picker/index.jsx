@@ -2,8 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import img from "@/public/newimages/facmob.png";
+import { useTranslation } from "react-i18next";
 
 export default function Banner_small() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="emojis">
@@ -13,7 +16,7 @@ export default function Banner_small() {
               What is your choise <span>for today?</span>
             </h3>
             <div className="mob-none">
-              <Image src={img} alt={img} width={583} height={329} />
+              <Image src={img} alt={img} width={400} height={150} />
             </div>
             <div className="flex items-center justify-start btns-ch">
               <div className="h-20 w-20 btn-choose">

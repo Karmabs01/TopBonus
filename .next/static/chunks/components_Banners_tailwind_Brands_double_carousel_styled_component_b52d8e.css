@@ -53,7 +53,7 @@
 }
 
 .brands_rows .marquee {
-  animation: 20s linear infinite scroll;
+  animation: 200s linear infinite scroll;
 }
 
 .brands_rows .reverce {
