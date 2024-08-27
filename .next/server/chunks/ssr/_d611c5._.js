@@ -45,7 +45,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
         dots: false,
         slidesToShow: 5,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         autoplay: false,
         speed: 1000,
         autoplaySpeed: 2000,
@@ -132,7 +132,6 @@ function Brands_carousel({ target, creative, categoryBrands }) {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         if (data) {
             const filteredData = data.filter((rowData)=>rowData[categoryBrands.key1] === categoryBrands.key2);
-            console.log("FILTER", filteredData);
             setBrands(filteredData);
             setLoading(false);
         }
@@ -153,15 +152,14 @@ function Brands_carousel({ target, creative, categoryBrands }) {
     }, [
         brands.length
     ]);
-    console.log("BRANDS", brands);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "sm:mt-10 sm:mb-10 mt-5 mb-5",
+            className: "sm:mt-10 sm:mb-10 mt-5 mb-5 mob-mt10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "main__container",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 145,
+                    lineNumber: 142,
                     columnNumber: 25
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -189,68 +187,68 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                                                             className: `${target}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 162,
                                                             columnNumber: 65
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 156,
                                                         columnNumber: 61
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        className: "btn-play",
+                                                        className: "relative btn-play btn-blick overflow-hidden",
                                                         href: `${rowData.GoBig}/${newUrl}&creative_id=${creative}`,
                                                         target: "_blank",
-                                                        children: "Play Now"
+                                                        children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 171,
                                                         columnNumber: 61
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                lineNumber: 158,
+                                                lineNumber: 155,
                                                 columnNumber: 57
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 154,
                                             columnNumber: 53
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                        lineNumber: 156,
+                                        lineNumber: 153,
                                         columnNumber: 49
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                    lineNumber: 152,
+                                    lineNumber: 149,
                                     columnNumber: 45
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                            lineNumber: 149,
+                            lineNumber: 146,
                             columnNumber: 33
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                        lineNumber: 148,
+                        lineNumber: 145,
                         columnNumber: 29
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 147,
+                    lineNumber: 144,
                     columnNumber: 25
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                lineNumber: 143,
+                lineNumber: 140,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-            lineNumber: 142,
+            lineNumber: 139,
             columnNumber: 13
         }, this)
     }, void 0, false);

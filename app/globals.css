@@ -74,6 +74,9 @@
 .content-pers * {
   color: #fff;
 }
+.page-fortune .slick-list {
+  margin-right: 0 !important;
+}
 .content-pers select,
 .content-pers input {
   border-radius: 4px;
@@ -107,7 +110,41 @@ input[type="number"] {
 .text-or {
   color: #ff8f1f;
 }
+.card-not-slider {
+  max-width: 230px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+.card-rel {
+  position: relative;
+  z-index: 1;
+}
+.card-not-slider:nth-child(5) {
+  margin-right: 0;
+}
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+  color: #ff8f1f !important;
+}
+.mob-mt10 {
+  margin-top: 3.5rem !important;
+}
+.footer-bg {
+  overflow: hidden;
+}
 @media (min-width: 320px) and (max-width: 767px) {
+  .page-fortune .pb-10 {
+    padding-bottom: 0;
+  }
+  .page-fortune .slick-slider button {
+    display: none !important;
+  }
+  .pm10 {
+    padding: 0 10px;
+  }
+  .mob-mt10, .mob-mt10m {
+    margin-top: 3.5rem;
+  }
   footer .mx-auto {
     overflow: hidden;
   }
@@ -10364,10 +10401,10 @@ main > .topbr {
 }
 
 .backToTopBtn {
-  fill: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  fill: linear-gradient(161deg, #f3a4101a 0%, #fc7d060d 101.7%);
   stroke-width: 2px;
   stroke: #9d4eb3;
-  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  filter: drop-shadow(0 0 17.4px #f0892980);
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   display: flex;
@@ -10383,4 +10420,9 @@ main > .topbr {
 
 .backToTopBtn:hover {
   background-color: #4e1d5a;
+}
+@media(min-width: 320px) and (max-width: 767px) {
+  .backToTopBtn {
+    display: none;
+  }
 }

@@ -3,4 +3,10 @@
   margin-right: 0 !important;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .cards-th {
+    margin-top: 40px;
+  }
+}
+
 /*# sourceMappingURL=d1aee_Banners_tailwind_Three_part_gallery_Popular_offers_styled_component_b52d8e.css.map*/

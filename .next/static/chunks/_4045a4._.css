@@ -527,16 +527,21 @@ header nav button {
     height: 10rem !important;
   }
 
-  .rnd-logo:after {
+  .minilogos {
+    position: relative;
+  }
+
+  .minilogos img {
+  }
+
+  .minilogos:after {
     content: "";
-    width: 104px;
-    height: 10px;
+    width: 102px;
+    height: 2px;
     position: absolute;
-    top: -2px;
-    left: 135px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    background: #310877;
+    top: -6px;
+    left: -17px;
+    background: linear-gradient(to right, #7a00ac, #7a00ac);
   }
 }
 
@@ -1437,10 +1442,6 @@ select {
   margin-top: 1.5rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1760,10 +1761,6 @@ select {
 
 .basis-\[49\%\] {
   flex-basis: 49%;
-}
-
-.basis-\[58\%\] {
-  flex-basis: 58%;
 }
 
 .basis-\[60\%\] {
@@ -2909,6 +2906,10 @@ select {
   color: #fff;
 }
 
+.page-fortune .slick-list {
+  margin-right: 0 !important;
+}
+
 .content-pers select, .content-pers input {
   border-radius: 4px;
   border-top: 1.5px solid #fff6;
@@ -2946,7 +2947,51 @@ input[type="number"] {
   color: #ff8f1f;
 }
 
+.card-not-slider {
+  max-width: 230px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-rel {
+  position: relative;
+  z-index: 1;
+}
+
+.card-not-slider:nth-child(5) {
+  margin-right: 0;
+}
+
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+  color: #ff8f1f !important;
+}
+
+.mob-mt10 {
+  margin-top: 3.5rem !important;
+}
+
+.footer-heading {
+  overflow: hidden;
+}
+
 @media (width >= 320px) and (width <= 767px) {
+  .page-fortune .pb-10 {
+    padding-bottom: 0;
+  }
+
+  .page-fortune .slick-slider button {
+    display: none !important;
+  }
+
+  .pm10 {
+    padding: 0 10px;
+  }
+
+  .mob-mt10, .mob-mt10m {
+    margin-top: 3.5rem;
+  }
+
   footer .mx-auto {
     overflow: hidden;
   }
@@ -12872,10 +12917,10 @@ main > .topbr {
 }
 
 .backToTopBtn {
-  fill: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  fill: linear-gradient(161deg, #f3a4101a 0%, #fc7d060d 101.7%);
   stroke-width: 2px;
   stroke: #9d4eb3;
-  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  filter: drop-shadow(0 0 17.4px #f0892980);
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   display: flex;
@@ -12891,6 +12936,12 @@ main > .topbr {
 
 .backToTopBtn:hover {
   background-color: #4e1d5a;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .backToTopBtn {
+    display: none;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

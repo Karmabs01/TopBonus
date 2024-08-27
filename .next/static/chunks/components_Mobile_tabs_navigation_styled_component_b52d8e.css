@@ -27,16 +27,21 @@
     height: 10rem !important;
   }
 
-  .rnd-logo:after {
+  .minilogos {
+    position: relative;
+  }
+
+  .minilogos img {
+  }
+
+  .minilogos:after {
     content: "";
-    width: 104px;
-    height: 10px;
+    width: 102px;
+    height: 2px;
     position: absolute;
-    top: -2px;
-    left: 135px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    background: #310877;
+    top: -6px;
+    left: -17px;
+    background: linear-gradient(to right, #7a00ac, #7a00ac);
   }
 }
 

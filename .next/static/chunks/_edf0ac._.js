@@ -2183,9 +2183,13 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+<<<<<<< HEAD
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f$UserBrands$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Brands_home/UserBrands.tsx [app-client] (ecmascript)");
+=======
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Banners_tailwind/Brands_carousel/index.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
@@ -2252,9 +2256,7 @@ function Next_event_banner() {
                 lineNumber: 14,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$Brands_carousel$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                categoryBrands: categoryBrands
-            }, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f$UserBrands$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Next_event_banner/index.jsx",
                 lineNumber: 24,
                 columnNumber: 7
@@ -2305,7 +2307,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$facmob$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$facmob$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/newimages/facmob.png.mjs { IMAGE => "[project]/public/newimages/facmob.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
+<<<<<<< HEAD
+=======
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
@@ -2319,6 +2324,9 @@ var _s = __turbopack_refresh__.signature();
 ;
 function Banner_small() {
     _s();
+<<<<<<< HEAD
+    const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
+=======
     const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [source, setSource] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [redirectUrl, setRedirectUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -2345,6 +2353,7 @@ function Banner_small() {
     }, [
         source
     ]);
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "emojis",
@@ -2361,13 +2370,22 @@ function Banner_small() {
                                     children: t("for today?")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                    lineNumber: 16,
+                                    columnNumber: 35
+=======
                                     lineNumber: 43,
                                     columnNumber: 41
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                            lineNumber: 15,
+=======
                             lineNumber: 42,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2375,16 +2393,24 @@ function Banner_small() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$facmob$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$facmob$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
                                 alt: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$facmob$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$facmob$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
-                                width: 583,
-                                height: 329
+                                width: 200,
+                                height: 150
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                lineNumber: 19,
+=======
                                 lineNumber: 46,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                            lineNumber: 18,
+=======
                             lineNumber: 45,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2398,12 +2424,20 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                        lineNumber: 23,
+=======
                                         lineNumber: 50,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                    lineNumber: 22,
+=======
                                     lineNumber: 49,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2414,12 +2448,20 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                        lineNumber: 28,
+=======
                                         lineNumber: 56,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                    lineNumber: 27,
+=======
                                     lineNumber: 55,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2430,39 +2472,67 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                        lineNumber: 33,
+=======
                                         lineNumber: 62,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                                    lineNumber: 32,
+=======
                                     lineNumber: 61,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                            lineNumber: 21,
+=======
                             lineNumber: 48,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                    lineNumber: 14,
+=======
                     lineNumber: 41,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+                lineNumber: 13,
+=======
                 lineNumber: 40,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
+<<<<<<< HEAD
+            lineNumber: 12,
+=======
             lineNumber: 39,
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
             columnNumber: 7
         }, this)
     }, void 0, false);
 }
+<<<<<<< HEAD
+_s(Banner_small, "zlIdU9EjM2llFt74AbE2KsUJXyM=", false, function() {
+=======
 _s(Banner_small, "/wEz7sHdsdFNW57b57LAMm6yOrY=", false, function() {
+>>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"]
     ];

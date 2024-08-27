@@ -29,7 +29,7 @@ export default function Popular_offers() {
         infinite: true,
         speed: 1000,
         autoplaySpeed: 2000,
-        arrows: false,
+        arrows: true,
         slidesToShow: 2,
         slidesToScroll: 2,
         cssEase: "linear",
@@ -142,7 +142,8 @@ export default function Popular_offers() {
 
     return (
         <>
-            <div className="pt-5 popular-offers">
+            <div className="pt-10 popular-offers">
+          
                 <div className="main__container">
                     {loading ? (
                         <Loader />
@@ -194,7 +195,7 @@ export default function Popular_offers() {
                                         <Slider {...settings}>
                                             {brands.map((rowData, index) => (
                                                 <div key={index} className="overflow-hidden card-thr">
-                                                    <div className="">
+                                                    <div className="pm10">
                                                         <div className="imgp">
                                                             <Image
                                                                 src={`/brands/${rowData.CasinoBrand}.png`}

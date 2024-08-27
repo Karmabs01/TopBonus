@@ -301,6 +301,16 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     margin-top: 20px;
     margin-right: 4%;
   }
+
+  .h5 {
+    margin-bottom: 15px;
+    font-size: 42px !important;
+  }
+
+  .jins > div .btn {
+    margin-top: 0;
+    margin-left: 15% !important;
+  }
 }
 
 .h5 {
@@ -847,6 +857,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .ptpt {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .main__container.\!mt16 {
+    margin-top: 0 !important;
+  }
+
+  .mmt-mob {
+    margin-top: 40px !important;
   }
 }
 
@@ -1003,6 +1022,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 /* [project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/styled.component.css [app-ssr] (css) */
 .popular-offers .slick-slide {
   margin-right: 0 !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .cards-th {
+    margin-top: 40px;
+  }
 }
 
 
@@ -1842,7 +1867,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("/_next/static/media/slick.a3496dc3.eot");
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("/_next/static/media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {

@@ -1,6 +1,11 @@
 {
   "app": {
+<<<<<<< HEAD
     "[project]/app/page": []
+=======
+    "[project]/app/page": [],
+    "[project]/app/casinos/page": []
+>>>>>>> b5975991cb8cfa55430f2dfdc6feb89ab8c072f6
   },
   "appUsingSizeAdjust": false,
   "pages": {},

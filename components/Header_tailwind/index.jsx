@@ -49,6 +49,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import "./styled.component.css";
+import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
 
 const Header_tailwind = () => {
   const { t } = useTranslation();
@@ -59,10 +60,21 @@ const Header_tailwind = () => {
 
   const userNavigation = [
     {
-      name: "My Profile", href: "/personal", icon: <UserIcon aria-hidden="true" className="h-6 w-6" />},
-    { name: "My Wallet", href: "/personal", icon: <WalletIcon aria-hidden="true" className="h-6 w-6" />},
+      name: "My Profile",
+      href: "/personal",
+      icon: <UserIcon aria-hidden="true" className="h-6 w-6" />,
+    },
+    {
+      name: "My Wallet",
+      href: "/personal",
+      icon: <WalletIcon aria-hidden="true" className="h-6 w-6" />,
+    },
     // { name: 'Fortune wheel', href: '/fortune' },
-    { name: "Card Shop", href: "/shop", icon: <ShoppingBagIcon aria-hidden="true" className="h-6 w-6" />},
+    {
+      name: "Card Shop",
+      href: "/shop",
+      icon: <ShoppingBagIcon aria-hidden="true" className="h-6 w-6" />,
+    },
   ];
 
   const getParamsFromUrl = () => {
@@ -211,7 +223,6 @@ const Header_tailwind = () => {
     }
   }, [data]);
 
-  
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const [showResponsiveDialog, setShowResponsiveDialog] = useState(false);
@@ -319,9 +330,7 @@ const Header_tailwind = () => {
                   <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 avatar-new">
                     <span className="absolute -inset-1.5" />
                     {load ? (
-                      <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
-
-                      </div>
+                      <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600"></div>
                     ) : (
                       ""
                     )}
@@ -429,59 +438,6 @@ const Header_tailwind = () => {
                     ))}
                   </div>
                   <div className="py-6 border-t border-gray-200 pb-3 pt-4">
-                    {/* <div className="flex items-center px-4 mb-5">
-                    <div className="flex-shrink-0 relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                      {load ? (
-                        <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600">
-                          {dataUser.login[0]}
-                        </div>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                    <div className="ml-3">
-                      <div className="text-base font-medium text-white">
-                        {load ? (
-                          <div className="text-lg font-semibold text-gray-50">
-                            {dataUser.login}
-                          </div>
-                        ) : (
-                          "Username"
-                        )}
-                      </div>
-                      <div className="text-sm font-medium text-gray-50">
-                        Any description
-                      </div>
-                    </div>
-                    <button
-                      type="button"
-                      className="relative ml-auto flex-shrink-0 rounded-full p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                    >
-                      <span className="absolute -inset-1.5" />
-                      <span className="sr-only">View notifications</span>
-                      <Link
-                        href={`/fortune`}
-                        className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-                      >
-                        {load ? (
-                          <Badge
-                            badgeContent={`${dataUser.tickets}`}
-                            color="primary"
-                          >
-                            <>
-                              <TicketIcon
-                                aria-hidden="true"
-                                className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
-                              />
-                            </>
-                          </Badge>
-                        ) : (
-                          ""
-                        )}
-                      </Link>
-                    </button>
-                  </div> */}
-
                     <Disclosure as="div" className="-mx-3">
                       {userNavigation.map((item) => (
                         <DisclosureButton
@@ -497,21 +453,6 @@ const Header_tailwind = () => {
                         </DisclosureButton>
                       ))}
                     </Disclosure>
-
-                    {/* <div className="flex flex-row items-center justify-center">
-                    <div className="w-full">
-                      <div>
-                        <BrandsSwitcher />
-                        <p className="block text-sm font-medium leading-6 text-gray-900 text-center w-full text-white"></p>
-                      </div>
-                    </div>
-                    <div className="w-full">
-                      <div>
-                        <LanguageSwitcher />
-                        <p className="block text-sm font-medium leading-6 text-gray-900 w-full text-center text-white"></p>
-                      </div>
-                    </div>
-                  </div> */}
                   </div>
                 </div>
               </div>
@@ -519,6 +460,7 @@ const Header_tailwind = () => {
           </Dialog>
         </div>
       </header>
+      {load && dataUser && <Mobile_tabs_navigation dataUser={dataUser} />}
     </>
   );
 };

@@ -85,5 +85,12 @@
   }
   .ptpt {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .main__container.\!mt16 {
+    margin-top: 0 !important;
+  }
+  .mmt-mob {
+    margin-top: 40px !important;
   }
 }

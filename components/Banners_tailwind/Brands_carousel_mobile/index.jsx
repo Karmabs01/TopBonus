@@ -25,7 +25,7 @@ export default function Brands_carousel_mobile() {
         dots: true,
         slidesToShow: 5,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         autoplay: true,
         speed: 1000,
         autoplaySpeed: 2000,
@@ -136,7 +136,7 @@ export default function Brands_carousel_mobile() {
 
     return (
         <>
-            <div className="sm:mt-10 sm:mb-10 mt-5 mb-5">
+            <div className="sm:mt-10 sm:mb-10 mt-5 mb-5 mob-mt10">
                 <div className="main__container">
                     {loading ? (
                         <Loader />

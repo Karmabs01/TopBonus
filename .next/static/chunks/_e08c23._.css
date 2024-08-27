@@ -301,6 +301,16 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     margin-top: 20px;
     margin-right: 4%;
   }
+
+  .h5 {
+    margin-bottom: 15px;
+    font-size: 42px !important;
+  }
+
+  .jins > div .btn {
+    margin-top: 0;
+    margin-left: 15% !important;
+  }
 }
 
 .h5 {
@@ -847,6 +857,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .ptpt {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .main__container.\!mt16 {
+    margin-top: 0 !important;
+  }
+
+  .mmt-mob {
+    margin-top: 40px !important;
   }
 }
 
@@ -1005,6 +1024,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   margin-right: 0 !important;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .cards-th {
+    margin-top: 40px;
+  }
+}
+
 
 /* [project]/components/Banners_tailwind/Three_part_gallery/styled.component.css [app-client] (css) */
 .fivehot {
@@ -1022,7 +1047,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background-size: cover;
   border-radius: 30px;
   min-height: 329px;
-  margin-bottom: 28px;
+  margin-bottom: 0;
 }
 
 .fivehot-banner h3 {
@@ -1060,7 +1085,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .fivehot .ul-list {
   padding: 28px 0;
-  border-top: 1px solid #573e7d;
   margin-left: 21px;
   margin-right: 21px;
 }
@@ -1120,7 +1144,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 .emojis h3 {
   color: #fff;
   font-family: AA Duke;
-  font-size: 85px;
+  font-size: 83px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -2169,7 +2193,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("../media/slick.a3496dc3.eot");
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {
