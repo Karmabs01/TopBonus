@@ -29,7 +29,7 @@ const Footer_tailwind = () => {
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm text-white font-semibold leading-6 uppercase footer-h3">Casinos</h3>
+                                <h3 className="text-sm text-white font-semibold leading-6 uppercase footer-h3">{t("Casinos")}</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
@@ -41,7 +41,7 @@ const Footer_tailwind = () => {
                                 </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
-                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">Support</h3>
+                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Support")}</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
@@ -55,7 +55,7 @@ const Footer_tailwind = () => {
                         </div>
                         <div className="">
                             <div>
-                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">Company</h3>
+                                <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Company")}</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
@@ -69,13 +69,13 @@ const Footer_tailwind = () => {
                         </div>
                     </div>
                     <div className="mt-10 xl:mt-0">
-                        <h4 className="text-sm font-semibold leading-6 text-gray-900 uppercase text-white footer-h4">Join the community of our subscribers</h4>
+                        <h4 className="text-sm font-semibold leading-6 text-gray-900 uppercase text-white footer-h4">{t("Join the community of our subscribers")}</h4>
                         <p className="mt-4 text-xs leading-6 text-white footer-p">
-                            Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!
+                            {t("Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!")}
                         </p>
                         <form className="mt-6 sm:flex flex-col sm:max-w-md form-subscribe">
                             <label htmlFor="email-address" className="sr-only">
-                                Email address
+                                {t("Email address")}
                             </label>
                             <input
                                 id="email-address"
@@ -91,7 +91,7 @@ const Footer_tailwind = () => {
                                     type="submit"
                                     className="flex w-full items-center justify-center rounded-md px-3 text-sm font-semibold text-white   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 btn-orange"
                                 >
-                                    Subscribe
+                                    {t("Subscribe")}
                                 </button>
                             </div>
                         </form>
@@ -108,7 +108,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="comments" className="font-medium text-white">
-                                        I agree with Terms and Conditions and Privacy Policy.
+                                        {t("I agree with Terms and Conditions and Privacy Policy.")}
                                         </label>
                                     </div>
                                 </div>
@@ -123,7 +123,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="candidates" className="font-medium text-white">
-                                        I agree to receive promotional emails from TOPBON.US and its partners.
+                                            {t("I agree to receive promotional emails from TOPBON.US and its partners.")}
                                         </label>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="offers" className="font-medium text-white">
-                                        I agree to receive promotional sms from TOPBON.US.
+                                        {t("I agree to receive promotional sms from TOPBON.US.")}
                                         </label>
                                     </div>
                                 </div>

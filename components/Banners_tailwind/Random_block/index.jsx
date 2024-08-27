@@ -59,10 +59,10 @@ export default function Random_block() {
                         className="text-3xl font-bold tracking-tight text-white random-title"
                         id="join-heading"
                       >
-                         TRY YOUR <span>luck!</span>
+                         {t("TRY YOUR")} <span>{t("luck!")}</span>
                       </h2>
                       <p className="text-lg text-white">
-                      Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!
+                        {t("Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!")}
                       </p>
 
                       <Link

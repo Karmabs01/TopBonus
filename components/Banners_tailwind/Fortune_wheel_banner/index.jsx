@@ -16,10 +16,10 @@ export default function Banner_small() {
               <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
                 <div>
                   <h2 className="mt-10 uppercase">
-                    Fortune wheel <span>brands</span>
+                    {t("Fortune wheel")} <span>{t("brands")}</span>
                   </h2>
                   <h5 className="text-lg leading-8 text-gray-300 font-normal">
-                    Pick a brand below, make first deposit and <span>win real cash</span>
+                    {t("Pick a brand below, make first deposit and")} <span>{t("win real cash")}</span>
                   </h5>
                   <div className="flex mt-4">
                     <Link
@@ -36,9 +36,7 @@ export default function Banner_small() {
             </div>
           </div>
           <p className="text-center mt-2 p">
-            To qualify for withdrawals, ensure your first deposit is at least
-            €25 or the equivalent in other currencies and was made after
-            requesting a withdrawal.
+           {t("To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.")}
           </p>
         </div>
       </div>

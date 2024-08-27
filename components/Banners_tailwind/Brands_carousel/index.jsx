@@ -173,7 +173,7 @@ export default function Brands_carousel({target, creative, categoryBrands}) {
                                                                 href={`${rowData.GoBig}/${newUrl}&creative_id=${creative}`}
                                                                 target="_blank"
                                                             >
-                                                                Play Now
+                                                                {t("Play Now")}
                                                             </Link>
                                                         </div>
                                                     </div>

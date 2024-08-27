@@ -15,8 +15,6 @@ import {
   PopoverPanel,
   PopoverBackdrop,
 } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { SquaresPlusIcon } from "@heroicons/react/24/outline";
 
 type NavLink = {
   class: string;
@@ -122,15 +120,14 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                   <div className="">
                     <div className="flex items-center gap-x-2">
                       <h3 className="text-sm font-semibold leading-6 text-orange">
-                        Try Your Luck!
+                        {t("Try Your Luck!")}
                       </h3>
                       {/* <p className="rounded-full bg-orange text-xs font-semibold text-white">
                         Good Luck!
                       </p> */}
                     </div>
                     <p className="mt-1 text-sm leading-6 text-white">
-                      Feeling lucky? Discover random casino brands and test your
-                      fortune!
+                      {t("Feeling lucky? Discover random casino brands and test your fortune!")}
                     </p>
                   </div>
                   <div className="flex ml-auto sm:mt-0">

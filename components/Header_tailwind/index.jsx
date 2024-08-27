@@ -251,7 +251,6 @@ const Header_tailwind = () => {
                 onClick={() => setMobileMenuOpen(true)}
                 className="-m-2.5 inline-flex items-center justify-start rounded-md p-2.5 text-white"
               >
-                <span className="sr-only">Burger btn</span>
                 <Bars3Icon aria-hidden="true" className="h-6 w-6" />
               </button>
             </div>
@@ -395,7 +394,6 @@ const Header_tailwind = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className="-m-2.5 rounded-md p-2.5 text-white"
                 >
-                  <span className="sr-only">Close menu</span>
                   <XMarkIcon aria-hidden="true" className="h-6 w-6" />
                 </button>
               </div>

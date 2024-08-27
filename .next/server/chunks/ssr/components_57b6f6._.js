@@ -2530,7 +2530,7 @@ const Footer_tailwind = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-sm text-white font-semibold leading-6 uppercase footer-h3",
-                                                    children: "Casinos"
+                                                    children: t("Casinos")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                     lineNumber: 32,
@@ -2570,7 +2570,7 @@ const Footer_tailwind = ()=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-sm font-semibold leading-6 text-white uppercase footer-h3",
-                                                    children: "Support"
+                                                    children: t("Support")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                     lineNumber: 44,
@@ -2617,7 +2617,7 @@ const Footer_tailwind = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "text-sm font-semibold leading-6 text-white uppercase footer-h3",
-                                                children: "Company"
+                                                children: t("Company")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                 lineNumber: 58,
@@ -2668,7 +2668,7 @@ const Footer_tailwind = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                     className: "text-sm font-semibold leading-6 text-gray-900 uppercase text-white footer-h4",
-                                    children: "Join the community of our subscribers"
+                                    children: t("Join the community of our subscribers")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
                                     lineNumber: 72,
@@ -2676,7 +2676,7 @@ const Footer_tailwind = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-xs leading-6 text-white footer-p",
-                                    children: "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!"
+                                    children: t("Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
                                     lineNumber: 73,
@@ -2688,7 +2688,7 @@ const Footer_tailwind = ()=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             htmlFor: "email-address",
                                             className: "sr-only",
-                                            children: "Email address"
+                                            children: t("Email address")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                             lineNumber: 77,
@@ -2712,7 +2712,7 @@ const Footer_tailwind = ()=>{
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 type: "submit",
                                                 className: "flex w-full items-center justify-center rounded-md px-3 text-sm font-semibold text-white   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 btn-orange",
-                                                children: "Subscribe"
+                                                children: t("Subscribe")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                 lineNumber: 90,
@@ -2758,7 +2758,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "comments",
                                                             className: "font-medium text-white",
-                                                            children: "I agree with Terms and Conditions and Privacy Policy."
+                                                            children: t("I agree with Terms and Conditions and Privacy Policy.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 110,
@@ -2800,7 +2800,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "candidates",
                                                             className: "font-medium text-white",
-                                                            children: "I agree to receive promotional emails from TOPBON.US and its partners."
+                                                            children: t("I agree to receive promotional emails from TOPBON.US and its partners.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 125,
@@ -2842,7 +2842,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "offers",
                                                             className: "font-medium text-white",
-                                                            children: "I agree to receive promotional sms from TOPBON.US."
+                                                            children: t("I agree to receive promotional sms from TOPBON.US.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 140,

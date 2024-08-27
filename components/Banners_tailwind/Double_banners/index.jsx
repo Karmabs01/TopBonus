@@ -155,7 +155,7 @@ export default function Double_banners() {
                     : "not-active"
                 }`}
               >
-                Biggest Jackpots
+                {t("Biggest Jackpots")}
               </button>
               <button
                 onClick={() => setSelectedTab(1)}
@@ -165,7 +165,7 @@ export default function Double_banners() {
                     : "not-active"
                 }`}
               >
-                Top Tournaments
+                {t("Top Tournaments")}
               </button>
             </div>
           </div>
@@ -204,7 +204,7 @@ export default function Double_banners() {
                   ))
                 ) : (
                   <div className="flex px-6 justify-center text-white font-black">
-                    <p>NO AVAILABLE BRANDS</p>
+                    <p>{t("NO AVAILABLE BRANDS")}</p>
                   </div>
                 )}
               <p className="mt-10">
@@ -247,7 +247,7 @@ export default function Double_banners() {
                   ))
                 ) : (
                   <div className="flex px-6 lg:px-8 justify-center text-white font-black">
-                    <p>NO AVAILABLE BRANDS</p>
+                    <p>{t("NO AVAILABLE BRANDS")}</p>
                   </div>
                 )}
               <p className="mt-10">

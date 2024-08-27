@@ -161,10 +161,10 @@ export default function Popular_offers() {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                  5 <span className="span-orange">HOTTEST</span> <span>casinos</span>
+                  5 <span className="span-orange">{t("HOTTEST")}</span> <span>{t("casinos")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
-                  Discover 5 hottest casino brands trending right now!
+                  {t("Discover 5 hottest casino brands trending right now!")}
                 </p>
               </div>
               <ul
@@ -206,10 +206,9 @@ export default function Popular_offers() {
                         <div className="flex-shrink-0 pr-2 flex justify-end w-full">
                           <a
                             type="button"
-                            className="inline-flex h-8 w-20 items-center justify-center rounded-full bg-transparent lucky-btn text-white px-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            className="inline-flex h-8 items-center justify-center rounded-full bg-transparent lucky-btn text-white px-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                           >
-                            {t("Play now!")}
-                            <span className="sr-only">Open options</span>
+                            {t("Play Now")}
                           </a>
                         </div>
                       </div>

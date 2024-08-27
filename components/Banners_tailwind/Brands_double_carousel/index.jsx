@@ -81,15 +81,15 @@ export default function Brands_double_carousel() {
       const filteredData1 = data.filter(
         (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
       );
-  
+
       // Фильтрация по второму столбцу (добавьте нужные ключи)
       const filteredData2 = data.filter(
         (rowData) => rowData["Networks"] === "1"
       );
-  
+
       // Объединение данных из двух фильтраций
       const combinedData = [...filteredData1, ...filteredData2];
-  
+
       setBrands(combinedData);
       setLoading(false);
     }
@@ -197,12 +197,11 @@ export default function Brands_double_carousel() {
                   <div className="mx-auto max-w-2xl pb-5 pt-5 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
                     <div className="">
                       <h2 className="mt-4">
-                        Best Payout<span> Casinos</span>
+                        {t("Best Payout")}<span> {t("Casinos")}</span>
                       </h2>
-                      <h3>Best payout casinos</h3>
+                      <h3>{t("Best payout casinos")}</h3>
                       <p className="mt-4 text-gray-500">
-                      Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!
-
+                        {t("Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!")}
                       </p>
                     </div>
                   </div>

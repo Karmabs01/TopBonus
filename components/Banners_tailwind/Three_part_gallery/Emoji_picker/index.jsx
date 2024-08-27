@@ -40,7 +40,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              What is your choise <span>for today?</span>
+              {t("What is your choise")}<span>{t("for today?")}</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={583} height={329} />
@@ -49,19 +49,19 @@ export default function Banner_small() {
               <div className="h-20 w-20 btn-choose">
                 <Link href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
                   target="_blank">
-                  Choose
+                  {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
                 <Link href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
                   target="_blank">
-                  Choose
+                  {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
                 <Link href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
                   target="_blank">
-                  Choose
+                  {t("Choose")}
                 </Link>
               </div>
             </div>
