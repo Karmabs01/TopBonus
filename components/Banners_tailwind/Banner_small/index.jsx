@@ -14,7 +14,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="">
             <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
-              <div className="flex flex-row items-center">
+              {/* <div className="flex flex-row items-center">
                 <div className="absolute abs-p flex justify-center items-center">
                   <p>NEW</p>
                 </div>
@@ -33,7 +33,13 @@ export default function Banner_small() {
               </div>
               <div className="flex ml-auto mt-2 sm:mt-0 show-more">
                 <button className="btn btn-secondary2">Show more</button>
-              </div>
+              </div> */}
+
+              <h2
+                className="text-3xl font-bold tracking-tight text-white random-title"
+              >
+                TOP NEW <span>releases</span>
+              </h2>
             </div>
           </div>
         </div>

@@ -117,7 +117,6 @@ export default function Brands_carousel_mobile() {
             const filteredData = data.filter(
                 (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
             );
-            console.log("FILTER", filteredData);
             setBrands(filteredData);
             setLoading(false);
         }
@@ -134,8 +133,6 @@ export default function Brands_carousel_mobile() {
 
         return () => clearInterval(interval);
     }, [brands.length]);
-
-    console.log("BRANDS", brands);
 
     return (
         <>

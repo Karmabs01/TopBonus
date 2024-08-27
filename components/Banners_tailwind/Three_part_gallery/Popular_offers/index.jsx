@@ -100,7 +100,7 @@ export default function Popular_offers() {
         }
     }, [language]);
 
-    const categoryBrands = { key1: "Segment2", key2: "Premium" };
+    const categoryBrands = { key1: "Trendsetting", key2: "1" };
     const { data, error } = useSWR(
         ["brands", language],
         () => getBrands(language),
@@ -111,7 +111,6 @@ export default function Popular_offers() {
             const filteredData = data.filter(
                 (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
             );
-            console.log("FILTER", filteredData);
             setBrands(filteredData);
             setLoading(false);
         }
@@ -141,8 +140,6 @@ export default function Popular_offers() {
         return () => clearInterval(interval);
     }, [brands.length]);
 
-    console.log("BRANDS", brands);
-
     return (
         <>
             <div className="pt-5 popular-offers">
@@ -152,7 +149,11 @@ export default function Popular_offers() {
                     ) : (
                         cards2 && (
                             <div className="w-full">
-                            
+                                <h2
+                                    className="text-3xl font-bold tracking-tight text-white random-title"
+                                >
+                                    POPULAR <span>offers</span>
+                                </h2>
                                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                                     <div className="cards-thr">
                                         {brands.slice(0, 6).map((rowData, index) => (
@@ -172,7 +173,7 @@ export default function Popular_offers() {
                                                         <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
                                                         <p className="mt-1 text-sm text-gray-500 h-10">{rowData.OurOfferContent}</p>
                                                     </div>
-                                                
+
                                                 </div>
                                                 <div className="btn-crd">
                                                     <a

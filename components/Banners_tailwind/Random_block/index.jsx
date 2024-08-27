@@ -59,7 +59,6 @@ export default function Random_block() {
                         className="text-3xl font-bold tracking-tight text-white random-title"
                         id="join-heading"
                       >
-                        {/* BONUS BET <span> casino</span> */}
                          TRY YOUR <span>luck!</span>
                       </h2>
                       <p className="text-lg text-white">

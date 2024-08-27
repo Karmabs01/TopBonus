@@ -97,7 +97,6 @@ export default function Double_banners() {
       const filteredData = data.filter(
         (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
       );
-      console.log("FILTER", filteredData);
       setBrands(filteredData);
       setLoading(false);
     }
@@ -108,10 +107,8 @@ export default function Double_banners() {
       const filteredData2 = data.filter(
         (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
       );
-      console.log("FILTER2", filteredData2);
       setBrands2(filteredData2);
       setLoading(false);
-      console.log("DATA:", data);
     }
   }, [data, categoryBrands2.key1, categoryBrands2.key2]);
 
@@ -138,8 +135,6 @@ export default function Double_banners() {
 
     return () => clearInterval(interval);
   }, [brands.length]);
-
-  console.log("BRANDS", brands);
 
   const tabs = [
     { name: "Biggest Jackpots", current: true },

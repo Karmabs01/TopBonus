@@ -56,7 +56,6 @@ export default function Jackpot_banner() {
       // Объединение данных из двух фильтраций
       const combinedData = [...filteredData1, ...filteredData2];
   
-      console.log("FILTER", combinedData);
       setBrands(combinedData);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
