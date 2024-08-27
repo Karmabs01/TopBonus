@@ -148,25 +148,15 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex items-center gap-x-2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            className: "text-sm font-semibold leading-6 text-white",
-                                                            children: "Try Your Luck!"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                            lineNumber: 124,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "rounded-full bg-orange text-xs font-semibold text-white",
-                                                            children: "Good Luck!"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                            lineNumber: 127,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "text-sm font-semibold leading-6 text-orange",
+                                                        children: "Try Your Luck!"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
+                                                        lineNumber: 124,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
                                                     lineNumber: 123,
                                                     columnNumber: 21
@@ -194,7 +184,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     className: "relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         className: "!mb-0",
-                                                        children: t("Try Your Luck!")
+                                                        children: t("Take a Chance!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
                                                         lineNumber: 142,

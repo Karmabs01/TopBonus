@@ -121,12 +121,12 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                 <div className="flex justify-between items-center bg-my px-8 py-2">
                   <div className="">
                     <div className="flex items-center gap-x-2">
-                      <h3 className="text-sm font-semibold leading-6 text-white">
+                      <h3 className="text-sm font-semibold leading-6 text-orange">
                         Try Your Luck!
                       </h3>
-                      <p className="rounded-full bg-orange text-xs font-semibold text-white">
+                      {/* <p className="rounded-full bg-orange text-xs font-semibold text-white">
                         Good Luck!
-                      </p>
+                      </p> */}
                     </div>
                     <p className="mt-1 text-sm leading-6 text-white">
                       Feeling lucky? Discover random casino brands and test your
@@ -139,7 +139,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                         target="_blank"
                       >
                         <div className="relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center">
-                          <p className="!mb-0">{t("Try Your Luck!")}</p>
+                          <p className="!mb-0">{t("Take a Chance!")}</p>
                         </div>
                       </Link>
                   </div>
