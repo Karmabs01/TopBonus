@@ -1,16 +1,12 @@
 "use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import img from "@/public/newimages/facmob.png";
-<<<<<<< HEAD
 import { useTranslation } from "react-i18next";
 
-export default function Banner_small() {
-  const { t } = useTranslation();
 
-=======
-import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
+
 
 export default function Banner_small() {
   const [newUrl, setNewUrl] = useState("");
@@ -41,14 +37,13 @@ export default function Banner_small() {
     setRedirectUrl(url);
   }, [source]);
 
->>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
   return (
     <>
       <div className="emojis">
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("What is your choise")}<span>{t("for today?")}</span>
+              {t("What is your choise")}<span>{t(" for today?")}</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={400} height={150} />

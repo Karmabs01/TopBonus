@@ -658,10 +658,6 @@ select {
   top: 1rem;
 }
 
-.bottom-2 {
-  bottom: .5rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -694,6 +690,10 @@ select {
   grid-column: span 1 / span 1;
 }
 
+.\!m-0 {
+  margin: 0 !important;
+}
+
 .-m-2\.5 {
   margin: -.625rem;
 }
@@ -704,10 +704,6 @@ select {
 
 .m-2 {
   margin: .5rem;
-}
-
-.\!m-0 {
-  margin: 0 !important;
 }
 
 .\!my-10 {
@@ -1695,10 +1691,6 @@ select {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.\!p-0 {
-  padding: 0 !important;
 }
 
 .\!px-0 {
@@ -12435,11 +12427,6 @@ main > .topbr {
 .hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-gray-300:hover {

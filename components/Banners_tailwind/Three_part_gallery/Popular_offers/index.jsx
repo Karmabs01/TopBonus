@@ -143,7 +143,7 @@ export default function Popular_offers() {
     return (
         <>
             <div className="pt-5 popular-offers mob-mt10m">
-                <h3 className="text-white">Popular Offers</h3>
+          
                 <div className="main__container">
                     {loading ? (
                         <Loader />

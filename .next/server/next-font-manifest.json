@@ -1,16 +1,6 @@
 {
   "app": {
-<<<<<<< HEAD
     "[project]/app/page": []
-=======
-    "[project]/app/page": [],
-    "[project]/app/crypto-casinos/page": [],
-    "[project]/app/fast-withdrawal-casinos/page": [],
-    "[project]/app/payments/maestro/page": [],
-    "[project]/app/exclusive-bonuses/page": [],
-    "[project]/app/payments/apple-pay/page": [],
-    "[project]/app/game-providers/amatic/page": []
->>>>>>> 5db1108bd0acba39d44c6341379b3fecef954db7
   },
   "appUsingSizeAdjust": false,
   "pages": {},
