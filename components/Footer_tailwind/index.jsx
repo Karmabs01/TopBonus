@@ -4,9 +4,7 @@ import Img from "@/public/logo3.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "phosphor-react";
 import "./styled.component.css";
-
 const Footer_tailwind = () => {
-
     const { t } = useTranslation();
     const navigation = {
         solutions: [
@@ -25,8 +23,6 @@ const Footer_tailwind = () => {
         ],
     }
     return (
-
-
         <footer aria-labelledby="footer-heading" className="footer-bg">
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-10 sm:pt-24 lg:px-8 lg:pt-12">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8 mb42">
@@ -37,9 +33,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -49,9 +45,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
@@ -63,14 +59,13 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
-                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </Link>
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
-            
                         </div>
                     </div>
                     <div className="mt-10 xl:mt-0">
@@ -91,8 +86,6 @@ const Footer_tailwind = () => {
                                 autoComplete="email"
                                 className=""
                             />
-
-
                             <div className="mt-4 sm:mt-0 sm:flex-shrink-0">
                                 <button
                                     type="submit"
@@ -101,7 +94,6 @@ const Footer_tailwind = () => {
                                     Subscribe
                                 </button>
                             </div>
-
                         </form>
                         <fieldset>
                             <div className="mt-6">
@@ -163,5 +155,4 @@ const Footer_tailwind = () => {
         </footer>
     );
 };
-
 export { Footer_tailwind };
