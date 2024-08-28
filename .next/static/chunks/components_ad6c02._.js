@@ -2728,39 +2728,39 @@ const Footer_tailwind = ()=>{
     const navigation = {
         solutions: [
             {
-                name: 'Casino by Category',
+                name: t("Casino by Category"),
                 href: '#'
             },
             {
-                name: 'Casino by Payment Methods',
+                name: t("Casino by Payment Methods"),
                 href: '#'
             },
             {
-                name: 'Casino by Game Providers',
+                name: t("Casino by Game Providers"),
                 href: '#'
             },
             {
-                name: 'Best Bonuses',
+                name: t("Best Bonuses"),
                 href: '#'
             }
         ],
         support: [
             {
-                name: 'Responsible Gaming',
+                name: t("Responsible Gaming"),
                 href: '#'
             },
             {
-                name: 'Privacy Policy',
+                name: t("Privacy Policy"),
                 href: '#'
             },
             {
-                name: 'Terms and Conditions',
+                name: t("Terms and Conditions"),
                 href: '#'
             }
         ],
         company: [
             {
-                name: 'Our Contacts: support@myawardwallet.com',
+                name: t("Our Contacts") + ": support@myawardwallet.com ",
                 href: 'mailto:support@myawardwallet.com'
             }
         ]
@@ -2953,7 +2953,7 @@ const Footer_tailwind = ()=>{
                                             name: "email-address",
                                             type: "email",
                                             required: true,
-                                            placeholder: "Enter your email",
+                                            placeholder: t("Enter your email"),
                                             autoComplete: "email",
                                             className: ""
                                         }, void 0, false, {

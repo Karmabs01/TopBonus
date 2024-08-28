@@ -656,4 +656,23 @@
   bottom: -4px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .card-brand-filtered {
+    flex-wrap: wrap;
+  }
+
+  .card-brand-filtered .card-36 {
+    order: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-brand-filtered .card-63 {
+    order: 1;
+  }
+
+  .items-center.p-2.min-w-40 {
+    min-width: auto;
+  }
+}
+
 /*# sourceMappingURL=app_filteredComponents_b52d8e.css.map*/

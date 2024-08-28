@@ -617,3 +617,19 @@
   background: #ff8f1f;
   bottom: -4px;
 }
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .card-brand-filtered {
+    flex-wrap: wrap;
+  }
+  .card-brand-filtered .card-36 {
+    order: 0;
+    margin-bottom: 10px;
+  }
+  .card-brand-filtered .card-63 {
+    order: 1;
+  }
+  .items-center.p-2.min-w-40 {
+    min-width: auto;
+  }
+}

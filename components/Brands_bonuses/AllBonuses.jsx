@@ -34,7 +34,7 @@ export default function AllBonuses({
   value,
   target,
   brands,
-  currentText
+  currentText,
 }) {
   const { t } = useTranslation();
   const itemsPerPage = 2;
@@ -69,9 +69,11 @@ export default function AllBonuses({
     if (data) {
       setVisible(true);
       const filteredData = data.filter((rowData) => {
-        return rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2 &&
+        return (
+          rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2 &&
           rowData.categories &&
-          rowData.categories.includes(currentText);
+          rowData.categories.includes(currentText)
+        );
       });
 
       const topData = data.filter(
@@ -85,7 +87,8 @@ export default function AllBonuses({
     categoryBrandsAll.key1,
     categoryBrandsAll.key2,
     categoryBrands.key1,
-    categoryBrands.key2, currentText
+    categoryBrands.key2,
+    currentText,
   ]);
 
   useEffect(() => {
@@ -111,16 +114,13 @@ export default function AllBonuses({
   const [randomBrands2, setRandomBrands2] = useState([]);
   const [brandsGenerated, setBrandsGenerated] = useState(false);
 
-
   useEffect(() => {
     const generateRandomBrands = () => {
       if (!brandsGenerated && filteredBrands.length > 0) {
         const shuffledBrands = [...filteredBrands].sort(
           () => Math.random() - 0.5
         );
-        const shuffledBrands2 = [...topBrands].sort(
-          () => Math.random() - 0.5
-        );
+        const shuffledBrands2 = [...topBrands].sort(() => Math.random() - 0.5);
 
         setRandomBrands(shuffledBrands);
         setRandomBrands2(shuffledBrands2);
@@ -181,7 +181,6 @@ export default function AllBonuses({
     setOpenCountriesId((prevId) => (prevId === brandId ? null : brandId));
   };
 
-
   return (
     <>
       {isLoader ? (
@@ -193,26 +192,26 @@ export default function AllBonuses({
               const advantages =
                 brand.advantages !== null
                   ? brand.advantages
-                    .split(",")
-                    .map((advantage) => ({ advantage: advantage.trim() }))
+                      .split(",")
+                      .map((advantage) => ({ advantage: advantage.trim() }))
                   : "";
               const deposits =
                 brand.DepositMethods !== null
                   ? brand.DepositMethods.split(",").map((deposit) => ({
-                    deposit: deposit.trim(),
-                  }))
+                      deposit: deposit.trim(),
+                    }))
                   : "";
               const withdrawals =
                 brand.WithdrawalMethods !== null
                   ? brand.WithdrawalMethods.split(",").map((withdrawal) => ({
-                    withdrawal: withdrawal.trim(),
-                  }))
+                      withdrawal: withdrawal.trim(),
+                    }))
                   : "";
               const restricted =
                 brand.RestrictedCountries !== null
                   ? brand.RestrictedCountries.split(",").map((restrict) => ({
-                    restrict: restrict.trim(),
-                  }))
+                      restrict: restrict.trim(),
+                    }))
                   : "";
 
               const isPlusesOpen = openPlusesId === brand.id_brand;
@@ -225,21 +224,24 @@ export default function AllBonuses({
                   className="p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full"
                   key={brand.id_brand}
                 >
-                  <div className="flex flex-col basis-[63%]">
-                    <div className="flex ml-1 mb-3">
-                    </div>
+                  <div className="flex flex-col basis-[63%] card-63">
+                    <div className="flex ml-1 mb-3"></div>
                     <div className="flex mb-1">
-                      <Gift style={{ color: "#ff8f1f" }}
+                      <Gift
+                        style={{ color: "#ff8f1f" }}
                         className="mr-1 w40"
-                        size={40} />
+                        size={40}
+                      />
                       <div className=" flex items-center review-bonus">
                         {brand.OurOfferContent}
                       </div>
                     </div>
                     <div className="mb-2 withdrawal withdrawal-limits flex items-center">
-                      <Handshake style={{ color: "#ff8f1f" }}
+                      <Handshake
+                        style={{ color: "#ff8f1f" }}
                         className="mr-1 mb-1 w40"
-                        size={40} />
+                        size={40}
+                      />
                       <div className="title mr-2">
                         <p>
                           {t("Withdrawal Limits:")}
@@ -320,10 +322,7 @@ export default function AllBonuses({
                         className="withdrawal custom-list-item mb-1"
                       >
                         <div className="title flex items-center">
-                          <GameController
-                            style={{ color: "#fff" }}
-                            size={34}
-                          />
+                          <GameController style={{ color: "#fff" }} size={34} />
                           <span className="mt-1 ml-2">
                             {t("Game Providers")}
                           </span>
@@ -437,8 +436,49 @@ export default function AllBonuses({
           </div>
           <div className="flex flex-col basis-[24%] py-6 slsk">
             {!isMobile ? (
-              vis2.slice(0, visibleBrands2).map((item) => {
-                return (
+              vis2.length > 1 ? (
+                <LazySlider {...settings}>
+                  {vis2.slice(0, visibleBrands2).map((item) => {
+                    return (
+                      <div
+                        className="card-brand-banner mb-2 flex flex-col items-center pb-3"
+                        key={item.id_brand}
+                      >
+                        <div className="brandImage p-3">
+                          <Link
+                            className="flex justify-center flex-col items-center target-listing-brands"
+                            key={item.id_brand}
+                            href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                            target="_blank"
+                          >
+                            <Image
+                              src={`/brands/${item.CasinoBrand}.png`}
+                              alt={`/brands/${item.CasinoBrand}.png`}
+                              width={200}
+                              height={80}
+                              loading="lazy"
+                              className="target-listing-brands"
+                            />
+                            <div className="p-3 text-center flex items-center review-bonus">
+                              {item.OurOfferContent}
+                            </div>
+                          </Link>
+                        </div>
+                        <Link
+                          key={item.id_brand}
+                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                          target="_blank"
+                        >
+                          <div className="btn btn-new-mini target-listing-brands">
+                            <p>{t("Play Now")}</p>
+                          </div>
+                        </Link>
+                      </div>
+                    );
+                  })}
+                </LazySlider>
+              ) : (
+                vis2.map((item) => (
                   <div
                     className="card-brand-banner mb-2 flex flex-col items-center pb-3"
                     key={item.id_brand}
@@ -473,8 +513,8 @@ export default function AllBonuses({
                       </div>
                     </Link>
                   </div>
-                );
-              })
+                ))
+              )
             ) : (
               <LazySlider {...settings}>
                 {vis2.map((item) => {
