@@ -2667,39 +2667,39 @@ const Footer_tailwind = ()=>{
     const navigation = {
         solutions: [
             {
-                name: 'Casino by Category',
-                href: '#'
+                name: t("Casino by Category"),
+                href: '/casinos'
             },
             {
-                name: 'Casino by Payment Methods',
-                href: '#'
+                name: t("Casino by Payment Methods"),
+                href: '/payments'
             },
             {
-                name: 'Casino by Game Providers',
-                href: '#'
+                name: t("Casino by Game Providers"),
+                href: '/game-providers'
             },
             {
-                name: 'Best Bonuses',
-                href: '#'
+                name: t("Best Bonuses"),
+                href: '/bonuses'
             }
         ],
         support: [
             {
-                name: 'Responsible Gaming',
-                href: '#'
+                name: t("Responsible Gaming"),
+                href: '/responsible-gaming'
             },
             {
-                name: 'Privacy Policy',
-                href: '#'
+                name: t("Privacy Policy"),
+                href: '/privacy-policy'
             },
             {
-                name: 'Terms and Conditions',
-                href: '#'
+                name: t("Terms and Conditions"),
+                href: '/terms-and-conditions'
             }
         ],
         company: [
             {
-                name: 'Our Contacts: support@myawardwallet.com',
+                name: t("Our Contacts") + ": support@myawardwallet.com ",
                 href: 'mailto:support@myawardwallet.com'
             }
         ]
@@ -2892,7 +2892,7 @@ const Footer_tailwind = ()=>{
                                             name: "email-address",
                                             type: "email",
                                             required: true,
-                                            placeholder: "Enter your email",
+                                            placeholder: t("Enter your email"),
                                             autoComplete: "email",
                                             className: ""
                                         }, void 0, false, {

@@ -40,14 +40,19 @@ export default function Pickup({ newUrl }) {
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">
-                  <Image
-                    src={`/brands/${rowData.CasinoBrand}.png`}
-                    alt={rowData.CasinoBrand}
-                    width={150}
-                    height={75}
-                    loading="lazy"
-                    className="target-top-new-releases"
-                  />
+                  <Link
+                    href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                    target="_blank"
+                  >
+                    <Image
+                      src={`/brands/${rowData.CasinoBrand}.png`}
+                      alt={rowData.CasinoBrand}
+                      width={150}
+                      height={75}
+                      loading="lazy"
+                      className="target-top-new-releases"
+                    />
+                  </Link>
                 </div>
                 <p className="p">{rowData.OurOfferContent}</p>
                 <Link
@@ -55,9 +60,9 @@ export default function Pickup({ newUrl }) {
                   href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                   target="_blank"
                 >
-              
-                    <p>{t("Play Now")}</p>
-            
+
+                  <p>{t("Play Now")}</p>
+
                 </Link>
               </div>
             ))}

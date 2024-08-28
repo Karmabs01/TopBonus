@@ -161,14 +161,19 @@ export default function TopBrands() {
                           <div className="flex flex-col">
                             <div className="flex flex-row">
                               <div className="basis-3/3">
-                                <Image
-                                  src={`/brands/${rowData.CasinoBrand}.png`}
-                                  alt={rowData.CasinoBrand}
-                                  width={150}
-                                  height={75}
-                                  loading="lazy"
-                                  className="target-top-new-releases"
-                                />
+                                <Link
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  target="_blank"
+                                >
+                                  <Image
+                                    src={`/brands/${rowData.CasinoBrand}.png`}
+                                    alt={rowData.CasinoBrand}
+                                    width={150}
+                                    height={75}
+                                    loading="lazy"
+                                    className="target-top-new-releases"
+                                  />
+                                </Link>
                                 <h3>{rowData.CasinoBrand}</h3>
                                 <p className="p">{rowData.OurOfferContent}</p>
                                 <div className="flex sm:mt-4 allbtn">

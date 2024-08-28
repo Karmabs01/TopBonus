@@ -13,7 +13,7 @@ export default function Banner_small() {
   return (
     <>
       <div>
-        <div className="main__container">
+        <div id="real-block" className="main__container">
           <div className="">
             <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
               {/* <div className="flex flex-row items-center">

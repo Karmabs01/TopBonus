@@ -8,15 +8,15 @@ const Footer_tailwind = () => {
     const { t } = useTranslation();
     const navigation = {
         solutions: [
-            { name: t("Casino by Category"), href: '#' },
-            { name: t("Casino by Payment Methods"), href: '#' },
-            { name: t("Casino by Game Providers"), href: '#' },
-            { name: t("Best Bonuses"), href: '#' },
+            { name: t("Casino by Category"), href: '/casinos' },
+            { name: t("Casino by Payment Methods"), href: '/payments' },
+            { name: t("Casino by Game Providers"), href: '/game-providers' },
+            { name: t("Best Bonuses"), href: '/bonuses' },
         ],
         support: [
-            { name: t("Responsible Gaming"), href: '#' },
-            { name: t("Privacy Policy"), href: '#' },
-            { name: t("Terms and Conditions"), href: '#' },
+            { name: t("Responsible Gaming"), href: '/responsible-gaming' },
+            { name: t("Privacy Policy"), href: '/privacy-policy' },
+            { name: t("Terms and Conditions"), href: '/terms-and-conditions' },
         ],
         company: [
             { name: t("Our Contacts") + ": support@myawardwallet.com ", href: 'mailto:support@myawardwallet.com' },

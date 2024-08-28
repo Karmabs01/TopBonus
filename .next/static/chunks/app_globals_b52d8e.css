@@ -10715,6 +10715,14 @@ input.error {
   top: 35px;
 }
 
+.page-gaming p, .page-gaming li {
+  color: #fff;
+}
+
+.page-gaming h2, .page-gaming h1 {
+  color: #ff8f1f;
+}
+
 .page-gaming li {
   position: relative;
   font-size: 14px;
@@ -10727,7 +10735,7 @@ input.error {
 
 .page-gaming li a, .page-gaming a {
   text-decoration: underline;
-  color: #0967e3;
+  color: #ff8f1f;
 }
 
 .page-gaming ul {
@@ -10743,7 +10751,7 @@ input.error {
   border-radius: 50%;
   top: 8px;
   z-index: 1;
-  background: #0967e3;
+  background: #ff8f1f;
 }
 
 .btn-new {

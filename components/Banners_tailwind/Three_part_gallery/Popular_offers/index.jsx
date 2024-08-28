@@ -143,7 +143,7 @@ export default function Popular_offers() {
     return (
         <>
             <div className="pt-10 popular-offers">
-          
+
                 <div className="main__container">
                     {loading ? (
                         <Loader />
@@ -161,14 +161,18 @@ export default function Popular_offers() {
                                             <div key={"Popular_offers" + index} className="card-thr">
                                                 <div className="relative">
                                                     <div className="relative flex align-center justify-center">
-                                                        <Image
-                                                            src={`/brands/${rowData.CasinoBrand}.png`}
-                                                            alt={rowData.CasinoBrand}
-                                                            width={190}
-                                                            height={130}
-                                                            loading="lazy"
-                                                            className=" w-full object-contain object-center"
-                                                        />
+                                                        <Link
+                                                            href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                        >
+                                                            <Image
+                                                                src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                alt={rowData.CasinoBrand}
+                                                                width={190}
+                                                                height={130}
+                                                                loading="lazy"
+                                                                className=" w-full object-contain object-center"
+                                                            />
+                                                        </Link>
                                                     </div>
                                                     <div className="relative mt-4 text-center">
                                                         <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
@@ -177,12 +181,12 @@ export default function Popular_offers() {
 
                                                 </div>
                                                 <div className="btn-crd">
-                                                    <a
+                                                    <Link
                                                         href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                         className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
                                                     >
                                                         {t("Play Now")}
-                                                    </a>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         ))}
@@ -197,14 +201,19 @@ export default function Popular_offers() {
                                                 <div key={index} className="overflow-hidden card-thr">
                                                     <div className="pm10">
                                                         <div className="imgp">
-                                                            <Image
-                                                                src={`/brands/${rowData.CasinoBrand}.png`}
-                                                                alt={rowData.CasinoBrand}
-                                                                width={100}
-                                                                height={100}
-                                                                loading="lazy"
-                                                                className="w-full object-contain object-center"
-                                                            />
+                                                            <Link
+                                                                target="_blank"
+                                                                href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                                            >
+                                                                <Image
+                                                                    src={`/brands/${rowData.CasinoBrand}.png`}
+                                                                    alt={rowData.CasinoBrand}
+                                                                    width={100}
+                                                                    height={100}
+                                                                    loading="lazy"
+                                                                    className="w-full object-contain object-center"
+                                                                />
+                                                            </Link>
                                                         </div>
                                                         <div className="mt-4 text-center">
                                                             <h3 className="text-lg font-semibold text-gray-900">{rowData.CasinoBrand}</h3>
@@ -212,12 +221,12 @@ export default function Popular_offers() {
                                                         </div>
                                                     </div>
                                                     <div className="mt-6">
-                                                        <a
+                                                        <Link
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                                                             className=" flex items-center justify-center text-white btn-crd"
                                                         >
                                                             {t("Play Now")}
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             ))}

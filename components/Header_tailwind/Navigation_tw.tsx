@@ -75,6 +75,10 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
         url = "https://link.reg2dep.business/topbonus_rnd";
     }
     setRedirectUrl(url);
+    const savedUrl = localStorage.getItem("savedUrl");
+    if (savedUrl) {
+        setNewUrl(savedUrl);
+    }
   }, [source]);
 
 

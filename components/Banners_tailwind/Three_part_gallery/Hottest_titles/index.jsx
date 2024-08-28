@@ -190,8 +190,8 @@ export default function Popular_offers() {
                           loading="lazy"
                         />
                       </div>
-                      <div className="flex items-center flex-col">
-                        <div className="flex-1 px-4 text-sm">
+                      <div className="flex items-center flex-col w-full">
+                        <div className="flex-1 px-4 text-sm h-full w-full">
                           <a
                             href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
                             className="font-medium"
