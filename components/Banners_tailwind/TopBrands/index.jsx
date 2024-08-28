@@ -33,14 +33,14 @@ export default function TopBrands() {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    speed: 3000,
+    speed: 500,
     autoplaySpeed: 3000,
     cssEase: "linear",
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 767,
         settings: {
-          dots: false,
+          dots: true,
         },
       },
     ],

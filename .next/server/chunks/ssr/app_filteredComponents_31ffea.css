@@ -144,6 +144,18 @@
     justify-content: center;
     text-align: center;
   }
+
+  .filter-brands .slick-slide:nth-child(3n+1) .card-brand-banner {
+    background: url("/newimages/first-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+2) .card-brand-banner {
+    background: url("/newimages/second-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+3) .card-brand-banner {
+    background: url("/newimages/third-banner_small.png") center no-repeat !important;
+  }
 }
 
 .card-brand-filtered {
@@ -654,6 +666,25 @@
   width: 100%;
   background: #ff8f1f;
   bottom: -4px;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .card-brand-filtered {
+    flex-wrap: wrap;
+  }
+
+  .card-brand-filtered .card-36 {
+    order: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-brand-filtered .card-63 {
+    order: 1;
+  }
+
+  .items-center.p-2.min-w-40 {
+    min-width: auto;
+  }
 }
 
 /*# sourceMappingURL=app_filteredComponents_31ffea.css.map*/

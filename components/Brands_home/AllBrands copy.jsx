@@ -210,7 +210,7 @@ export default function AllBrands({
                   className="p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full"
                   key={brand.id_brand}
                 >
-                  <div className="flex flex-col basis-[63%]">
+                  <div className="flex flex-col basis-[63%] card-63">
                     <div className="flex ml-1 mb-3"></div>
                     <div className="flex mb-1">
                       <Gift className="mr-1" size={24} />

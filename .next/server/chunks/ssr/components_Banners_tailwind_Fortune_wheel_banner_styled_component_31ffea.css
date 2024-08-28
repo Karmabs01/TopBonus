@@ -64,6 +64,11 @@
   .mtt {
     margin-top: 0;
   }
+
+  .background-roulete {
+    background: url("/newimages/banner-roulete_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=components_Banners_tailwind_Fortune_wheel_banner_styled_component_31ffea.css.map*/

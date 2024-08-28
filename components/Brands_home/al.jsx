@@ -226,7 +226,7 @@ export default function AllBrands({
                     className="p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full"
                     key={brand.id_brand}
                   >
-                    <div className="flex flex-col basis-[63%]">
+                    <div className="flex flex-col basis-[63%] card-63">
                       <div className="flex ml-1 mb-3"></div>
                       <div className="flex mb-1">
                         <Gift className="mr-1" size={24} />
@@ -413,10 +413,51 @@ export default function AllBrands({
               </button>
             )}
           </div>
-          <div className="flex flex-col basis-[24%] py-6">
+          <div className="flex flex-col basis-[24%] py-6 slsk">
             {!isMobile ? (
-              topBrands.slice(0, visibleBrands2).map((item) => {
-                return (
+              vis2.length > 1 ? (
+                <LazySlider {...settings}>
+                  {vis2.slice(0, visibleBrands2).map((item) => {
+                    return (
+                      <div
+                        className="card-brand-banner mb-2 flex flex-col items-center pb-3"
+                        key={item.id_brand}
+                      >
+                        <div className="brandImage p-3">
+                          <Link
+                            className="flex justify-center flex-col items-center target-listing-brands"
+                            key={item.id_brand}
+                            href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                            target="_blank"
+                          >
+                            <Image
+                              src={`/brands/${item.CasinoBrand}.png`}
+                              alt={`/brands/${item.CasinoBrand}.png`}
+                              width={200}
+                              height={80}
+                              loading="lazy"
+                              className="target-listing-brands"
+                            />
+                            <div className="p-3 text-center flex items-center review-bonus">
+                              {item.OurOfferContent}
+                            </div>
+                          </Link>
+                        </div>
+                        <Link
+                          key={item.id_brand}
+                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                          target="_blank"
+                        >
+                          <div className="btn btn-new-mini target-listing-brands">
+                            <p>{t("Play Now")}</p>
+                          </div>
+                        </Link>
+                      </div>
+                    );
+                  })}
+                </LazySlider>
+              ) : (
+                vis2.map((item) => (
                   <div
                     className="card-brand-banner mb-2 flex flex-col items-center pb-3"
                     key={item.id_brand}
@@ -442,19 +483,20 @@ export default function AllBrands({
                       </Link>
                     </div>
                     <Link
-                      className="btn btn-primary btn-new target-listing-brands"
                       key={item.id_brand}
                       href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
                       target="_blank"
                     >
-                      {t("Play Now")}
+                      <div className="btn btn-new-mini target-listing-brands">
+                        <p>{t("Play Now")}</p>
+                      </div>
                     </Link>
                   </div>
-                );
-              })
+                ))
+              )
             ) : (
               <LazySlider {...settings}>
-                {topBrands.map((item) => {
+                {vis2.map((item) => {
                   return (
                     <div
                       className="card-brand-banner mb-2 flex flex-col items-center pb-3"
@@ -464,16 +506,16 @@ export default function AllBrands({
                         <Link
                           className="flex justify-center flex-col items-center target-listing-brands"
                           key={item.id_brand}
-                          href={`${item.GoBig}/${newUrl}`}
+                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
                           target="_blank"
                         >
                           <Image
-                            className="target-listing-brands"
                             src={`/brands/${item.CasinoBrand}.png`}
                             alt={`/brands/${item.CasinoBrand}.png`}
                             width={200}
                             height={80}
                             loading="lazy"
+                            className="target-listing-brands"
                           />
                           <div className="p-3 text-center flex items-center review-bonus">
                             {item.OurOfferContent}
@@ -481,12 +523,13 @@ export default function AllBrands({
                         </Link>
                       </div>
                       <Link
-                        className="btn btn-primary btn-new target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
                         target="_blank"
                       >
-                        {t("Play Now")}
+                        <div className="btn btn-new-mini target-listing-brands">
+                          <p>{t("Play Now")}</p>
+                        </div>
                       </Link>
                     </div>
                   );

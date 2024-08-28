@@ -315,14 +315,14 @@ function TopBrands() {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
-        speed: 3000,
+        speed: 500,
         autoplaySpeed: 3000,
         cssEase: "linear",
         responsive: [
             {
-                breakpoint: 480,
+                breakpoint: 767,
                 settings: {
-                    dots: false
+                    dots: true
                 }
             }
         ]
@@ -4895,7 +4895,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                 className: "p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col basis-[63%]",
+                                        className: "flex flex-col basis-[63%] card-63",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex ml-1 mb-3"
@@ -5418,8 +5418,8 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[31%] py-6 slsk",
-                    children: !isMobile ? vis2.slice(0, visibleBrands2).map((item)=>{
+                    className: `flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`,
+                    children: !isMobile || vis2.length < 2 ? vis2.slice(0, visibleBrands2).map((item)=>{
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [

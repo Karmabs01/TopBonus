@@ -222,7 +222,7 @@ export default function AllBrands({
                     className="p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full"
                     key={brand.id_brand}
                   >
-                    <div className="flex flex-col basis-[63%]">
+                    <div className="flex flex-col basis-[63%] card-63">
                       <div className="flex ml-1 mb-3"></div>
                       <div className="flex mb-1">
                         <Gift
@@ -437,8 +437,8 @@ export default function AllBrands({
               </div>
             )}
           </div>
-          <div className="flex flex-col basis-[31%] py-6 slsk">
-            {!isMobile ? (
+          <div className={`flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`}>
+            {!isMobile || vis2.length < 2 ? (
               vis2.slice(0, visibleBrands2).map((item) => {
                 return (
                   <div

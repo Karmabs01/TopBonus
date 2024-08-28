@@ -1,11 +1,4 @@
 {
   "/page": "app/page.js",
-  "/responsible-gaming/page": "app/responsible-gaming/page.js",
-  "/privacy-policy/page": "app/privacy-policy/page.js",
-  "/terms-and-conditions/page": "app/terms-and-conditions/page.js",
-  "/casinos/page": "app/casinos/page.js",
-  "/payments/page": "app/payments/page.js",
-  "/game-providers/page": "app/game-providers/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/bonuses/page": "app/bonuses/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

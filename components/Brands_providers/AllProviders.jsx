@@ -227,7 +227,7 @@ export default function AllProviders({
                   className="p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full"
                   key={brand.id_brand}
                 >
-                  <div className="flex flex-col basis-[63%]">
+                  <div className="flex flex-col basis-[63%] card-63">
                     <div className="flex ml-1 mb-3">
                       {/* <div className="filter-flag">{filtered.flag}</div> */}
                     </div>
@@ -450,12 +450,51 @@ export default function AllProviders({
               </div>
             )}
           </div>
-          <div className="flex flex-col basis-[31%] py-6 slsk">
+          <div className="flex flex-col basis-[24%] py-6 slsk">
             {!isMobile ? (
-              vis2.slice(0, visibleBrands2).map((item) => {
-                // const reviewImgSrc = extractReviewImage(item.content.rendered);
-                // const playLink = extractLink(item.content.rendered);
-                return (
+              vis2.length > 1 ? (
+                <LazySlider {...settings}>
+                  {vis2.slice(0, visibleBrands2).map((item) => {
+                    return (
+                      <div
+                        className="card-brand-banner mb-2 flex flex-col items-center pb-3"
+                        key={item.id_brand}
+                      >
+                        <div className="brandImage p-3">
+                          <Link
+                            className="flex justify-center flex-col items-center target-listing-brands"
+                            key={item.id_brand}
+                            href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                            target="_blank"
+                          >
+                            <Image
+                              src={`/brands/${item.CasinoBrand}.png`}
+                              alt={`/brands/${item.CasinoBrand}.png`}
+                              width={200}
+                              height={80}
+                              loading="lazy"
+                              className="target-listing-brands"
+                            />
+                            <div className="p-3 text-center flex items-center review-bonus">
+                              {item.OurOfferContent}
+                            </div>
+                          </Link>
+                        </div>
+                        <Link
+                          key={item.id_brand}
+                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                          target="_blank"
+                        >
+                          <div className="btn btn-new-mini target-listing-brands">
+                            <p>{t("Play Now")}</p>
+                          </div>
+                        </Link>
+                      </div>
+                    );
+                  })}
+                </LazySlider>
+              ) : (
+                vis2.map((item) => (
                   <div
                     className="card-brand-banner mb-2 flex flex-col items-center pb-3"
                     key={item.id_brand}
@@ -490,8 +529,8 @@ export default function AllProviders({
                       </div>
                     </Link>
                   </div>
-                );
-              })
+                ))
+              )
             ) : (
               <LazySlider {...settings}>
                 {vis2.map((item) => {
