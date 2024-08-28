@@ -412,6 +412,21 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .footer-bg:after {
     display: none;
   }
+
+  .slick-slide:nth-child(3n+1) .background-slider {
+    background: url("/newimages/new-banner-slider-1_small.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .slick-slide:nth-child(3n+2) .background-slider {
+    background: url("/newimages/new-banner-slider-2_small.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .slick-slide:nth-child(3n+3) .background-slider {
+    background: url("/newimages/new-banner-slider-3_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -867,6 +882,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .mmt-mob {
     margin-top: 40px !important;
   }
+
+  .bg-random {
+    background: url("/newimages/banner-random_small_opacity.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -923,6 +943,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .mb00 {
     margin-bottom: 0;
+  }
+
+  .banner-jack {
+    background: url("/newimages/bannerNight_small.png") center no-repeat;
+    background-size: cover;
   }
 }
 
@@ -1015,6 +1040,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     line-height: 32px;
     text-align: center;
     margin-bottom: 0;
+  }
+
+  .banner-event {
+    background: url("/newimages/banner-long_small.png") center no-repeat;
+    background-size: cover;
   }
 }
 
@@ -1423,6 +1453,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .mtt {
     margin-top: 0;
   }
+
+  .background-roulete {
+    background: url("/newimages/banner-roulete_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -1571,6 +1606,18 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+1) .card-brand-banner {
+    background: url("/newimages/first-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+2) .card-brand-banner {
+    background: url("/newimages/second-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+3) .card-brand-banner {
+    background: url("/newimages/third-banner_small.png") center no-repeat !important;
   }
 }
 

@@ -61,4 +61,9 @@
   .mtt {
     margin-top: 0;
   }
+
+  .background-roulete {
+    background: url(/newimages/banner-roulete_small.png) no-repeat center;
+    background-size: cover;
+  }
 }

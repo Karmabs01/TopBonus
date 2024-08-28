@@ -305,6 +305,21 @@
   .footer-bg:after {
     display: none;
   }
+
+  .slick-slide:nth-child(3n+1) .background-slider {
+    background: url("/newimages/new-banner-slider-1_small.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .slick-slide:nth-child(3n+2) .background-slider {
+    background: url("/newimages/new-banner-slider-2_small.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .slick-slide:nth-child(3n+3) .background-slider {
+    background: url("/newimages/new-banner-slider-3_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=components_Banners_tailwind_TopBrands_styled_component_31ffea.css.map*/

@@ -48,4 +48,8 @@
   .mb00 {
     margin-bottom: 0;
   }
+  .banner-jack {
+    background: url(/newimages/bannerNight_small.png) no-repeat center;
+    background-size: cover;
+  }
 }

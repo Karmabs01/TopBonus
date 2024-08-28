@@ -87,6 +87,11 @@
     text-align: center;
     margin-bottom: 0;
   }
+
+  .banner-event {
+    background: url("/newimages/banner-long_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=components_Banners_tailwind_Next_event_banner_styled_component_b52d8e.css.map*/

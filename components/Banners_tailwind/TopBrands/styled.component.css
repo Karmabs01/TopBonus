@@ -195,12 +195,12 @@
   margin-top: 50px;
   margin-right: 4%;
 }
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .jins > div .btn {
     margin-left: 35%;
     margin-top: 20px;
     margin-right: 4%;
-  } 
+  }
   .h5 {
     font-size: 42px !important;
     margin-bottom: 15px;
@@ -305,5 +305,18 @@
   }
   .footer-bg::after {
     display: none;
+  }
+
+  .slick-slide:nth-child(3n + 1) .background-slider {
+    background: url(/newimages/new-banner-slider-1_small.png) no-repeat center;
+    background-size: cover;
+  }
+  .slick-slide:nth-child(3n + 2) .background-slider {
+    background: url(/newimages/new-banner-slider-2_small.png) no-repeat center;
+    background-size: cover;
+  }
+  .slick-slide:nth-child(3n + 3) .background-slider {
+    background: url(/newimages/new-banner-slider-3_small.png) no-repeat center;
+    background-size: cover;
   }
 }

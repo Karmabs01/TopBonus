@@ -144,6 +144,18 @@
     justify-content: center;
     text-align: center;
   }
+
+  .filter-brands .slick-slide:nth-child(3n+1) .card-brand-banner {
+    background: url("/newimages/first-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+2) .card-brand-banner {
+    background: url("/newimages/second-banner_small.png") center no-repeat !important;
+  }
+
+  .filter-brands .slick-slide:nth-child(3n+3) .card-brand-banner {
+    background: url("/newimages/third-banner_small.png") center no-repeat !important;
+  }
 }
 
 .card-brand-filtered {

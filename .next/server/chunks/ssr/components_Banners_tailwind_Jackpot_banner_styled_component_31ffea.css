@@ -52,6 +52,11 @@
   .mb00 {
     margin-bottom: 0;
   }
+
+  .banner-jack {
+    background: url("/newimages/bannerNight_small.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 /*# sourceMappingURL=components_Banners_tailwind_Jackpot_banner_styled_component_31ffea.css.map*/
