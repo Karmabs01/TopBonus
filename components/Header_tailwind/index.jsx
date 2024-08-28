@@ -111,7 +111,7 @@ const Header_tailwind = () => {
     async function updateUserData(data) {
       localStorage.setItem("user_id", data);
 
-      const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP"];
+      const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1"];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
           localStorage.setItem("source", partner);

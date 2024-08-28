@@ -31,6 +31,9 @@ export default function Banner_small() {
       case "CLD_VIP":
         url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
+      case "partner1045_b1":
+        url = "https://link.reg2dep.business/topbonus_rndcld";
+        break;
       default:
         url = "https://link.reg2dep.business/topbonus_rnd";
     }
