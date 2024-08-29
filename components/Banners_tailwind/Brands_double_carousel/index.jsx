@@ -119,6 +119,11 @@ export default function Brands_double_carousel() {
     return () => clearInterval(interval);
   }, [brands.length]);
 
+  const firstCut = (brands.length / 2) / 2
+  const secondCut = brands.length / 2
+  const thirdCut = firstCut + secondCut
+  const end = brands.length - 1
+  
   return (
     <>
       <div className="brands_rows pt-10 pb-10">
@@ -212,7 +217,7 @@ export default function Brands_double_carousel() {
                       <div className="wrap">
                         <div className="items-wrap">
                           <div className="items marquee">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(0,firstCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -232,7 +237,7 @@ export default function Brands_double_carousel() {
                             ))}
                           </div>
                           <div aria-hidden="true" class="items marquee">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(0,firstCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -254,7 +259,7 @@ export default function Brands_double_carousel() {
                         </div>
                         <div class="items-wrap">
                           <div class="items marquee reverce">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(firstCut,secondCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -274,7 +279,7 @@ export default function Brands_double_carousel() {
                             ))}
                           </div>
                           <div aria-hidden="true" class="items marquee reverce">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(firstCut,secondCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -296,7 +301,7 @@ export default function Brands_double_carousel() {
                         </div>
                         <div className="items-wrap">
                           <div className="items marquee">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(secondCut,thirdCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -316,7 +321,7 @@ export default function Brands_double_carousel() {
                             ))}
                           </div>
                           <div aria-hidden="true" class="items marquee">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(secondCut,thirdCut).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -338,7 +343,7 @@ export default function Brands_double_carousel() {
                         </div>
                         <div class="items-wrap">
                           <div class="items marquee reverce">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(thirdCut,end).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""
@@ -358,7 +363,7 @@ export default function Brands_double_carousel() {
                             ))}
                           </div>
                           <div aria-hidden="true" class="items marquee reverce">
-                            {brands.map((rowData, index) => (
+                            {brands.slice(thirdCut,end).map((rowData, index) => (
                               <div className="item">
                                 <Link
                                   className=""

@@ -1484,6 +1484,10 @@ select {
   text-wrap: wrap;
 }
 
+.break-words {
+  overflow-wrap: break-word;
+}
+
 .rounded {
   border-radius: .25rem;
 }
@@ -12645,6 +12649,10 @@ main > .topbr {
 
   .sm\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .sm\:inline {
+    display: inline;
   }
 
   .sm\:flex {
