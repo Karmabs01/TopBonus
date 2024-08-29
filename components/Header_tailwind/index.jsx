@@ -60,18 +60,18 @@ const Header_tailwind = () => {
 
   const userNavigation = [
     {
-      name: "My Profile",
+      name: t("My Profile"),
       href: "/personal",
       icon: <UserIcon aria-hidden="true" className="h-6 w-6" />,
     },
     {
-      name: "My Wallet",
+      name: t("My Wallet"),
       href: "/personal",
       icon: <WalletIcon aria-hidden="true" className="h-6 w-6" />,
     },
     // { name: 'Fortune wheel', href: '/fortune' },
     {
-      name: "Card Shop",
+      name: t("Cards Shop"),
       href: "/shop",
       icon: <ShoppingBagIcon aria-hidden="true" className="h-6 w-6" />,
     },

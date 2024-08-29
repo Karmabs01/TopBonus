@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import "./styled.component.css";
 import mini from "@/public/logomini2.png";
+import { t } from "i18next";
 
 const Mobile_tabs_navigation = ({ dataUser }) => {
 
@@ -28,7 +29,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
             aria-hidden="true"
             className="h-8 w-8  transition-colors duration-300 ease-in-out"
           />
-          <span className="text-sm text-white text-semibold">Casino</span>
+          <span className="text-sm text-white text-semibold">{t("Casino")}</span>
         </Link>
         <Link
           href="/shop"
@@ -38,7 +39,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
             aria-hidden="true"
             className="h-8 w-8 transition-colors duration-300 ease-in-out"
           />
-          <span className="text-sm text-white text-semibold">Shop</span>
+          <span className="text-sm text-white text-semibold">{t("Shop")}</span>
         </Link>
 
         <div className="w-16 minilogos">
@@ -59,7 +60,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
               />
             </>
           </Badge>
-          <span className="text-sm text-white text-semibold">Wheel</span>
+          <span className="text-sm text-white text-semibold">{t("Wheel")}</span>
         </Link>
         <Link
           href="/personal"
@@ -69,7 +70,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
             aria-hidden="true"
             className="h-8 w-8 transition-colors duration-300 ease-in-out"
           />
-          <span className="text-sm text-white text-semibold">Profile</span>
+          <span className="text-sm text-white text-semibold">{t("Profile")}</span>
         </Link>
       </div>
 

@@ -601,7 +601,13 @@ async function initializeI18n() {
         "Try Your Luck!":"Try Your Luck!",
         "Our Contacts":"Our Contacts",
         "Enter your email":"Enter your email",
-        "Subscribe":"Subscribe"
+        "Subscribe":"Subscribe",
+
+        "Casino":"Casino",
+        "Shop":"Shop",
+        "Wheel":"Wheel",
+        "Profile":"Profile",
+        "My Profile":"My Profile"
       },
     },
 
@@ -1048,6 +1054,11 @@ async function initializeI18n() {
         "Our Contacts": "Nasze Kontakty",
          "Enter your email": "Wpisz swój email",
         "Subscribe": "Zapisz się",
+        "Casino": "Kasyno",
+        "Shop": "Sklep",
+        "Wheel": "Koło",
+        "Profile": "Profil",
+        "My Profile": "Mój Profil"
       },
     },
     de: {
@@ -1493,7 +1504,12 @@ async function initializeI18n() {
         "Try Your Luck!":"Versuche dein Glück!",
         "Our Contacts":"Unsere Kontakte",
         "Enter your email": "Geben Sie Ihre E-Mail ein",
-        "Subscribe": "Abonnieren"
+        "Subscribe": "Abonnieren",
+        "Casino": "Casino",
+        "Shop": "Shop",
+        "Wheel": "Rad",
+        "Profile": "Profil",
+        "My Profile": "Mein Profil"
       },
     },
     bg: {
@@ -1934,7 +1950,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Пробвай Късмета Си!",
         "Our Contacts": "Нашите Контакти",
          "Enter your email": "Въведете своя имейл",
-        "Subscribe": "Абонирай се"
+        "Subscribe": "Абонирай се",
+        "Casino": "Казино",
+        "Shop": "Магазин",
+        "Wheel": "Колело",
+        "Profile": "Профил",
+        "My Profile": "Моят профил"
       },
     },
     cz: {
@@ -2376,7 +2397,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Zkuste Štěstí!",
         "Our Contacts": "Naše Kontakty",
         "Enter your email": "Zadejte svůj email",
-        "Subscribe": "Přihlásit se k odběru"
+        "Subscribe": "Přihlásit se k odběru",
+        "Casino": "Kasino",
+        "Shop": "Obchod",
+        "Wheel": "Kolo",
+        "Profile": "Profil",
+        "My Profile": "Můj profil"
       },
     },
     dk: {
@@ -2818,7 +2844,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Prøv Dit Held!",
         "Our Contacts": "Vores Kontakter",
         "Enter your email": "Indtast din email",
-        "Subscribe": "Abonner"
+        "Subscribe": "Abonner",
+        "Casino": "Casino",
+        "Shop": "Butik",
+        "Wheel": "Hjul",
+        "Profile": "Profil",
+        "My Profile": "Min Profil"
       },
     },
     nl: {
@@ -3260,8 +3291,13 @@ async function initializeI18n() {
         "Company": "Bedrijf",
         "Try Your Luck!": "Probeer Je Geluk!",
         "Our Contacts": "Onze Contacten",
-         "Enter your email": "Voer uw e-mail in",
-        "Subscribe": "Inschrijven"
+          "Enter your email": "Voer uw e-mail in",
+        "Subscribe": "Inschrijven",
+        "Casino": "Casino",
+        "Shop": "Winkel",
+        "Wheel": "Wiel",
+        "Profile": "Profiel",
+        "My Profile": "Mijn Profiel"
       },
     },
     es: {
@@ -3704,7 +3740,12 @@ async function initializeI18n() {
         "Try Your Luck!": "¡Prueba tu Suerte!",
         "Our Contacts": "Nuestros Contactos",
           "Enter your email": "Introduce tu correo electrónico",
-        "Subscribe": "Suscribirse"
+        "Subscribe": "Suscribirse",
+        "Casino": "Casino",
+        "Shop": "Tienda",
+        "Wheel": "Ruleta",
+        "Profile": "Perfil",
+        "My Profile": "Mi Perfil"
       },
     },
     fi: {
@@ -4145,8 +4186,13 @@ async function initializeI18n() {
         "Company": "Yritys",
         "Try Your Luck!": "Kokeile Onneasi!",
         "Our Contacts": "Yhteystietomme",
-          "Enter your email": "Syötä sähköpostisi",
-        "Subscribe": "Tilaa"
+        "Enter your email": "Syötä sähköpostisi",
+        "Subscribe": "Tilaa",
+        "Casino": "Kasino",
+        "Shop": "Kauppa",
+        "Wheel": "Ratas",
+        "Profile": "Profiili",
+        "My Profile": "Oma Profiili"
       },
     },
     fr: {
@@ -4590,7 +4636,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Tentez votre Chance !",
         "Our Contacts": "Nos Contacts",
         "Enter your email": "Entrez votre email",
-        "Subscribe": "S'abonner"
+        "Subscribe": "S'abonner",
+        "Casino": "Casino",
+        "Shop": "Boutique",
+        "Wheel": "Roue",
+        "Profile": "Profil",
+        "My Profile": "Mon Profil"
       },
     },
 
@@ -5035,7 +5086,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Δοκιμάστε την Τύχη Σας!",
         "Our Contacts": "Οι Επαφές Μας",
         "Enter your email": "Εισάγετε το email σας",
-        "Subscribe": "Εγγραφείτε"
+        "Subscribe": "Εγγραφείτε",
+        "Casino": "Καζίνο",
+        "Shop": "Κατάστημα",
+        "Wheel": "Τροχός",
+        "Profile": "Προφίλ",
+        "My Profile": "Το Προφίλ Μου"
       },
     },
     hu: {
@@ -5479,7 +5535,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Próbáld ki a szerencséd!",
         "Our Contacts": "Kapcsolataink",
         "Enter your email": "Adja meg e-mail címét",
-        "Subscribe": "Feliratkozás"
+        "Subscribe": "Feliratkozás",
+        "Casino": "Kaszinó",
+        "Shop": "Bolt",
+        "Wheel": "Kerék",
+        "Profile": "Profil",
+        "My Profile": "Saját Profilom"
       },
     },
     it: {
@@ -5923,7 +5984,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Prova la tua Fortuna!",
         "Our Contacts": "I nostri Contatti",
         "Enter your email": "Inserisci la tua email",
-        "Subscribe": "Iscriviti"
+        "Subscribe": "Iscriviti",
+        "Casino": "Casinò",
+        "Shop": "Negozio",
+        "Wheel": "Ruota",
+        "Profile": "Profilo",
+        "My Profile": "Il Mio Profilo"
       },
     },
     no: {
@@ -6367,7 +6433,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Prøv lykken din!",
         "Our Contacts": "Våre kontakter",
         "Enter your email": "Skriv inn e-posten din",
-        "Subscribe": "Abonner"
+        "Subscribe": "Abonner",
+        "Casino": "Casino",
+        "Shop": "Butikk",
+        "Wheel": "Hjul",
+        "Profile": "Profil",
+        "My Profile": "Min Profil"
       },
     },
     pt: {
@@ -6811,7 +6882,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Tente a Sua Sorte!",
         "Our Contacts": "Nossos Contatos",
         "Enter your email": "Digite seu e-mail",
-        "Subscribe": "Inscrever-se"
+        "Subscribe": "Inscrever-se",
+        "Casino": "Cassino",
+        "Shop": "Loja",
+        "Wheel": "Roda",
+        "Profile": "Perfil",
+        "My Profile": "Meu Perfil"
       },
     },
     se: {
@@ -7256,7 +7332,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Pröva din lycka!",
         "Our Contacts": "Våra kontakter",
         "Enter your email": "Ange din e-postadress",
-        "Subscribe": "Prenumerera"
+        "Subscribe": "Prenumerera",
+        "Casino": "Casino",
+        "Shop": "Butik",
+        "Wheel": "Hjul",
+        "Profile": "Profil",
+        "My Profile": "Min Profil"
       },
     },
     sk: {
@@ -7700,7 +7781,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Skúste svoje šťastie!",
         "Our Contacts": "Naše Kontakty",
         "Enter your email": "Zadajte svoj e-mail",
-        "Subscribe": "Prihlásiť sa na odber"
+        "Subscribe": "Prihlásiť sa na odber",
+        "Casino": "Kasíno",
+        "Shop": "Obchod",
+        "Wheel": "Koleso",
+        "Profile": "Profil",
+        "My Profile": "Môj Profil"
       },
     },
     tr: {
@@ -8142,7 +8228,12 @@ async function initializeI18n() {
         "Try Your Luck!": "Şansını Dene!",
         "Our Contacts": "İletişim Bilgilerimiz",
         "Enter your email": "E-posta adresinizi girin",
-        "Subscribe": "Abone Ol"
+        "Subscribe": "Abone Ol",
+        "Casino": "Kumarhane",
+        "Shop": "Dükkan",
+        "Wheel": "Tekerlek",
+        "Profile": "Profil",
+        "My Profile": "Profilim"
       },
     },
   };
