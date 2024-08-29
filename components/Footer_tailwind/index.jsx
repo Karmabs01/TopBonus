@@ -40,7 +40,7 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-10 md:mt-0 hidden sm:display">
+                            <div className="mt-10 md:mt-0 hidden sm:inline">
                                 <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Support")}</h3>
                                 <ul role="list" className="mt-6 space-y-2">
                                     {navigation.support.map((item) => (
@@ -52,7 +52,7 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-10 md:mt-0  sm:hidden">
+                            <div className="mt-10 md:mt-0 sm:hidden">
                                 <div>
                                     <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Company")}</h3>
                                     <ul role="list" className="mt-6 space-y-2">
@@ -67,7 +67,7 @@ const Footer_tailwind = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="hidden sm:display">
+                        <div className="hidden sm:inline">
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Company")}</h3>
                                 <ul role="list" className="mt-6 space-y-2">
