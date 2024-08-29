@@ -32,7 +32,7 @@ export default function Jackpot_banner() {
   const [brands, setBrands] = useState([]);
 
   const target = "target-fw-jackpot";
-  const creative = "NEW_JACKPOT";
+  const creative = "Jackpot";
   const { language } = useLanguage();
 
   const categoryBrands = { key1: "High_hybrid", key2: "1" };

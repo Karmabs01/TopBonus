@@ -1015,7 +1015,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                 className: "p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col basis-[63%]",
+                                        className: "flex flex-col basis-[63%] card-63",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex ml-1 mb-3"
@@ -1413,7 +1413,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 className: "brandImage p-3",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     className: `${target}`,
-                                                    href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                    href: `${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`,
                                                     target: "_blank",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: `/brands/${brand.CasinoBrand}.png`,
@@ -1475,7 +1475,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                        href: `${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`,
                                                         target: "_blank",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "btn btn-new-mini",
@@ -1537,8 +1537,8 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[31%] py-6 slsk",
-                    children: !isMobile ? vis2.slice(0, visibleBrands2).map((item)=>{
+                    className: `flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`,
+                    children: !isMobile || vis2.length < 2 ? vis2.slice(0, visibleBrands2).map((item)=>{
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [
@@ -1546,7 +1546,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                     className: "brandImage p-3",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         className: "flex justify-center flex-col items-center target-listing-brands",
-                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
                                         target: "_blank",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1581,7 +1581,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                    href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
                                     target: "_blank",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "btn btn-new-mini target-listing-brands",
@@ -1589,17 +1589,17 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 490,
+                                            lineNumber: 491,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 489,
+                                        lineNumber: 490,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 484,
+                                    lineNumber: 485,
                                     columnNumber: 21
                                 }, this)
                             ]
@@ -1618,7 +1618,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                         className: "brandImage p-3",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "flex justify-center flex-col items-center target-listing-brands",
-                                            href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                            href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
                                             target: "_blank",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1630,7 +1630,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 511,
+                                                    lineNumber: 512,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1638,22 +1638,22 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 519,
+                                                    lineNumber: 520,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 505,
+                                            lineNumber: 506,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 504,
+                                        lineNumber: 505,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
                                         target: "_blank",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "btn btn-new-mini target-listing-brands",
@@ -1661,29 +1661,29 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 530,
+                                                lineNumber: 531,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 529,
+                                            lineNumber: 530,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 524,
+                                        lineNumber: 525,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 500,
+                                lineNumber: 501,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                        lineNumber: 497,
+                        lineNumber: 498,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {

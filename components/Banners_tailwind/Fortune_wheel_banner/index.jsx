@@ -9,7 +9,7 @@ export default function Banner_small() {
   const { t } = useTranslation();
   const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-main-page";
-  const creative = "target-fw-brands-main-page";
+  const creative = "FW_Brands_Main_Page";
 
   return (
     <>
@@ -27,7 +27,7 @@ export default function Banner_small() {
                   </h5>
                   <div className="flex mt-4">
                     <Link
-                      href={`&creative_id=XXL_FORTUNE_WHEEL`}
+                      href={`&creative_id=FORTUNE_WHEEL`}
                       target="_blank"
                     >
                       <div className="btn btn-new">
