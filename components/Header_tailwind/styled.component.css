@@ -85,14 +85,13 @@ header nav button {
 }
 
 .marquee-container {
-  display: grid;
-  grid-auto-flow: column;
   overflow: hidden;
   white-space: nowrap;
 }
 
 .marquee {
   display: flex;
+  justify-content: start;
   white-space: nowrap;
   animation: scroll 60s linear infinite;
   will-change: transform;
@@ -103,8 +102,9 @@ header nav button {
   font-weight: 600;
   display: inline-block;
   color: #fff;
-  padding-right: 100%; /* This ensures smooth repeat */
+  /* padding-right: 100%; */
 }
+
 .marquee b {
   color: #ff8f1f;
 }
@@ -115,10 +115,10 @@ header nav button {
 
 @keyframes scroll {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translateX(0);
   }
   100% {
-    transform: translate3d(-100%, 0, 0);
+    transform: translateX(-100%);
   }
 }
 

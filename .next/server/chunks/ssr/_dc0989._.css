@@ -203,18 +203,16 @@ header nav button {
 }
 
 .marquee-container {
-  position: relative;
-  display: flex;
   overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+  white-space: nowrap;
 }
 
 .marquee {
   display: flex;
+  justify-content: start;
   white-space: nowrap;
   animation: 60s linear infinite scroll;
+  will-change: transform;
 }
 
 .marquee span {
@@ -222,7 +220,6 @@ header nav button {
   font-weight: 600;
   display: inline-block;
   color: #fff;
-  padding-right: 100%;
 }
 
 .marquee b {
