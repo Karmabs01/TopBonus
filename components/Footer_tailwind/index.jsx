@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Img from "@/public/logo3.png";
 import { useTranslation } from "react-i18next";
-import { Link } from "phosphor-react";
+import Link from "next/link";
 import "./styled.component.css";
 const Footer_tailwind = () => {
     const { t } = useTranslation();

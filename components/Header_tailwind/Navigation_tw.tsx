@@ -55,7 +55,6 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
   }, []);
   const pathname = usePathname();
 
-  
   useEffect(() => {
     let url = "";
     switch (source) {
@@ -71,16 +70,18 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
       case "CLD_VIP":
         url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
+      case "partner1045_b1":
+        url = "https://link.reg2dep.business/topbonus_rndcld";
+        break;
       default:
         url = "https://link.reg2dep.business/topbonus_rnd";
     }
     setRedirectUrl(url);
     const savedUrl = localStorage.getItem("savedUrl");
     if (savedUrl) {
-        setNewUrl(savedUrl);
+      setNewUrl(savedUrl);
     }
   }, [source]);
-
 
   return (
     <>
@@ -131,18 +132,20 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                       </p> */}
                     </div>
                     <p className="mt-1 text-sm leading-6 text-white">
-                      {t("Feeling lucky? Discover random casino brands and test your fortune!")}
+                      {t(
+                        "Feeling lucky? Discover random casino brands and test your fortune!"
+                      )}
                     </p>
                   </div>
                   <div className="flex ml-auto sm:mt-0">
-                  <Link
-                        href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
-                        target="_blank"
-                      >
-                        <div className="relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center">
-                          <p className="!mb-0">{t("Take a Chance!")}</p>
-                        </div>
-                      </Link>
+                    <Link
+                      href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
+                      target="_blank"
+                    >
+                      <div className="relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center">
+                        <p className="!mb-0">{t("Take a Chance!")}</p>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>

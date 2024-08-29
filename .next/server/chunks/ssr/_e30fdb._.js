@@ -682,7 +682,8 @@ function Brands_carousel({ target, creative, categoryBrands }) {
             "partner1039",
             "partner1043",
             "partner1044",
-            "CLD_VIP"
+            "CLD_VIP",
+            "partner1045_b1"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -989,7 +990,8 @@ function Brands_double_carousel() {
             "partner1039",
             "partner1043",
             "partner1044",
-            "CLD_VIP"
+            "CLD_VIP",
+            "partner1045_b1"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -1733,10 +1735,17 @@ function Random_block() {
             case "CLD_VIP":
                 url = "https://link.reg2dep.business/topbonus_rndcld";
                 break;
+            case "partner1045_b1":
+                url = "https://link.reg2dep.business/topbonus_rndcld";
+                break;
             default:
                 url = "https://link.reg2dep.business/topbonus_rnd";
         }
         setRedirectUrl(url);
+        const savedUrl = localStorage.getItem("savedUrl");
+        if (savedUrl) {
+            setNewUrl(savedUrl);
+        }
     }, [
         source
     ]);
@@ -1762,13 +1771,13 @@ function Random_block() {
                                         loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 47,
-                                        columnNumber: 21
+                                        lineNumber: 54,
+                                        columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 46,
-                                    columnNumber: 19
+                                    lineNumber: 53,
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative bg-random lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl",
@@ -1785,22 +1794,22 @@ function Random_block() {
                                                         children: t("luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 62,
-                                                        columnNumber: 42
+                                                        lineNumber: 69,
+                                                        columnNumber: 39
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 58,
-                                                columnNumber: 23
+                                                lineNumber: 65,
+                                                columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-lg text-white",
                                                 children: t("Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 64,
-                                                columnNumber: 23
+                                                lineNumber: 71,
+                                                columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: `${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`,
@@ -1812,54 +1821,54 @@ function Random_block() {
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 74,
-                                                        columnNumber: 27
+                                                        lineNumber: 81,
+                                                        columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                    lineNumber: 73,
-                                                    columnNumber: 25
+                                                    lineNumber: 80,
+                                                    columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 68,
-                                                columnNumber: 23
+                                                lineNumber: 75,
+                                                columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 57,
-                                        columnNumber: 21
+                                        lineNumber: 64,
+                                        columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 56,
-                                    columnNumber: 19
+                                    lineNumber: 63,
+                                    columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                            lineNumber: 45,
-                            columnNumber: 17
+                            lineNumber: 52,
+                            columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                        lineNumber: 44,
-                        columnNumber: 15
+                        lineNumber: 51,
+                        columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                    lineNumber: 43,
-                    columnNumber: 13
+                    lineNumber: 50,
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                lineNumber: 41,
+                lineNumber: 48,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-            lineNumber: 40,
+            lineNumber: 47,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -2589,6 +2598,10 @@ const getBrands = async (categoryBrands, lng)=>{
             url: apiCLD_VIP,
             languages: availableLanguagesCLD_VIP
         },
+        partner1045_b1: {
+            url: apiCLD_VIP,
+            languages: availableLanguagesCLD_VIP
+        },
         default: {
             url: apiAll,
             languages: availableLanguages
@@ -3192,6 +3205,9 @@ function Banner_small() {
             case "CLD_VIP":
                 url = "https://link.reg2dep.business/topbonus_rndcld";
                 break;
+            case "partner1045_b1":
+                url = "https://link.reg2dep.business/topbonus_rndcld";
+                break;
             default:
                 url = "https://link.reg2dep.business/topbonus_rnd";
         }
@@ -3215,13 +3231,13 @@ function Banner_small() {
                                     children: t(" for today?")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 49,
                                     columnNumber: 41
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 45,
+                            lineNumber: 48,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3233,12 +3249,12 @@ function Banner_small() {
                                 height: 150
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 49,
+                                lineNumber: 52,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 48,
+                            lineNumber: 51,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3252,12 +3268,12 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 56,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 55,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3268,12 +3284,12 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 62,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3284,34 +3300,34 @@ function Banner_small() {
                                         children: t("Choose")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 68,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 67,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 51,
+                            lineNumber: 54,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                    lineNumber: 44,
+                    lineNumber: 47,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 43,
+                lineNumber: 46,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-            lineNumber: 42,
+            lineNumber: 45,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -3386,7 +3402,8 @@ function Popular_offers() {
             "partner1039",
             "partner1043",
             "partner1044",
-            "CLD_VIP"
+            "CLD_VIP",
+            "partner1045_b1"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -3751,7 +3768,8 @@ function Popular_offers() {
             "partner1039",
             "partner1043",
             "partner1044",
-            "CLD_VIP"
+            "CLD_VIP",
+            "partner1045_b1"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
