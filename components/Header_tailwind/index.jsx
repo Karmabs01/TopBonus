@@ -111,7 +111,13 @@ const Header_tailwind = () => {
     async function updateUserData(data) {
       localStorage.setItem("user_id", data);
 
-      const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1"];
+      const partners = [
+        "partner1039",
+        "partner1043",
+        "partner1044",
+        "CLD_VIP",
+        "partner1045_b1",
+      ];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
           localStorage.setItem("source", partner);
@@ -437,23 +443,25 @@ const Header_tailwind = () => {
                       </Disclosure>
                     ))}
                   </div>
-                  <div className="py-6 border-t border-gray-200 pb-3 pt-4">
-                    <Disclosure as="div" className="-mx-3">
-                      {userNavigation.map((item) => (
-                        <DisclosureButton
-                          key={item.name}
-                          as="a"
-                          href={item.href}
-                          className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
-                        >
-                          <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
-                            {item.icon}
-                          </div>
-                          {item.name}
-                        </DisclosureButton>
-                      ))}
-                    </Disclosure>
-                  </div>
+                  {load && dataUser && (
+                    <div className="py-6 border-t border-gray-200 pb-3 pt-4">
+                      <Disclosure as="div" className="-mx-3">
+                        {userNavigation.map((item) => (
+                          <DisclosureButton
+                            key={item.name}
+                            as="a"
+                            href={item.href}
+                            className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
+                          >
+                            <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
+                              {item.icon}
+                            </div>
+                            {item.name}
+                          </DisclosureButton>
+                        ))}
+                      </Disclosure>
+                    </div>
+                  )}
                 </div>
               </div>
             </DialogPanel>
