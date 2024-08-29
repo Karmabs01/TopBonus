@@ -30,7 +30,7 @@ const Footer_tailwind = () => {
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-sm text-white font-semibold leading-6 uppercase footer-h3">{t("Casinos")}</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul role="list" className="mt-6 space-y-2">
                                     {navigation.solutions.map((item) => (
                                         <li key={item.name}>
                                             <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
@@ -40,9 +40,9 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-10 md:mt-0">
+                            <div className="mt-10 md:mt-0 hidden sm:inline">
                                 <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Support")}</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul role="list" className="mt-6 space-y-2">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
                                             <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
@@ -52,11 +52,25 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
+                            <div className="mt-10 md:mt-0 sm:hidden">
+                                <div>
+                                    <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Company")}</h3>
+                                    <ul role="list" className="mt-6 space-y-2">
+                                        {navigation.company.map((item) => (
+                                            <li key={item.name}>
+                                                <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                                    {item.name}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div className="">
+                        <div className="hidden sm:inline">
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Company")}</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul role="list" className="mt-6 space-y-2">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
                                             <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
@@ -66,6 +80,18 @@ const Footer_tailwind = () => {
                                     ))}
                                 </ul>
                             </div>
+                        </div>
+                        <div className=" sm:hidden">
+                            <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Support")}</h3>
+                            <ul role="list" className="mt-6 space-y-2">
+                                {navigation.support.map((item) => (
+                                    <li key={item.name}>
+                                        <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            {item.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
                     </div>
                     <div className="mt-10 xl:mt-0">
@@ -108,7 +134,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="comments" className="font-medium text-white">
-                                        {t("I agree with Terms and Conditions and Privacy Policy.")}
+                                            {t("I agree with Terms and Conditions and Privacy Policy.")}
                                         </label>
                                     </div>
                                 </div>
@@ -138,7 +164,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="offers" className="font-medium text-white">
-                                        {t("I agree to receive promotional sms from TOPBON.US.")}
+                                            {t("I agree to receive promotional sms from TOPBON.US.")}
                                         </label>
                                     </div>
                                 </div>
