@@ -44,7 +44,7 @@ export default function Random_block() {
 
   return (
     <>
-      <div className="">
+      <div id="try-your-luck" className="">
         <div className="main__container">
 
           <div className="relative py-16 ptpt">
