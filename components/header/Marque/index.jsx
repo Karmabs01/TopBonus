@@ -1,8 +1,33 @@
 "use client";
-import React from "react";
-import { useTranslation } from "react-i18next";
+import React, { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
-const Marque = () => {
+const Marquee = () => {
+  const marqueeRef = useRef(null);
+  const { t } = useTranslation();
+
+  useEffect(() => {
+    const marquee = marqueeRef.current;
+    let animationFrame;
+    let speed = 2; // Скорость прокрутки
+
+    const scrollMarquee = () => {
+      if (marquee) {
+        marquee.scrollLeft += speed;
+        if (marquee.scrollLeft >= marquee.scrollWidth / 2) {
+          marquee.scrollLeft = 0;
+        }
+      }
+      animationFrame = requestAnimationFrame(scrollMarquee);
+    };
+
+    animationFrame = requestAnimationFrame(scrollMarquee);
+
+    return () => {
+      cancelAnimationFrame(animationFrame);
+    };
+  }, []);
+
   const handleClick = () => {
     const targetElement = document.getElementById("real-block");
     if (targetElement) {
@@ -20,34 +45,19 @@ const Marque = () => {
     }
   };
 
-  const { t } = useTranslation();
-
   return (
     <div className="wrap-line-text">
-      <div className="marquee-container">
-        <div className="marquee">
-          <span onClick={handleClick}>
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>
-          </span>
-        </div>
-        <div aria-hidden="true" className="marquee">
-          <span onClick={handleClick}>
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
-            {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>
-          </span>
+      <div className="marquee-container" ref={marqueeRef} style={{ overflow: 'hidden', whiteSpace: 'nowrap' }}>
+        <div style={{ display: 'inline-block' }}>
+          {Array(2).fill(
+            <span onClick={handleClick} style={{ paddingRight: '50px', cursor: 'pointer' }}>
+              {t("* Explore the Hottest New Brands –")} <b>{t("Click Here!")}</b>{" "}
+            </span>
+          )}
         </div>
       </div>
     </div>
   );
 };
 
-export default Marque;
+export default Marquee;
