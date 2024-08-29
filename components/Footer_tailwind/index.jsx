@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Img from "@/public/logo3.png";
 import { useTranslation } from "react-i18next";
-import { Link } from "phosphor-react";
+import Link from "next/link";
 import "./styled.component.css";
 const Footer_tailwind = () => {
     const { t } = useTranslation();
@@ -31,13 +31,33 @@ const Footer_tailwind = () => {
                             <div>
                                 <h3 className="text-sm text-white font-semibold leading-6 uppercase footer-h3">{t("Casinos")}</h3>
                                 <ul role="list" className="mt-6 space-y-4">
-                                    {navigation.solutions.map((item) => (
+                                    {/* {navigation.solutions.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
-                                    ))}
+                                    ))} */}
+                                    <li>
+                                        <Link href={'/casinos'} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            {t("Casino by Category")}
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/casinos'} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            {t("Casino by Category")}
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/casinos'} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            {t("Casino by Category")}
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/casinos'} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            {t("Casino by Category")}
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
@@ -45,9 +65,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -59,9 +79,9 @@ const Footer_tailwind = () => {
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
+                                            <Link href={item.href} className="text-sm leading-6 text-white hover:text-gray-300">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>
@@ -108,7 +128,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="comments" className="font-medium text-white">
-                                        {t("I agree with Terms and Conditions and Privacy Policy.")}
+                                            {t("I agree with Terms and Conditions and Privacy Policy.")}
                                         </label>
                                     </div>
                                 </div>
@@ -138,7 +158,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="offers" className="font-medium text-white">
-                                        {t("I agree to receive promotional sms from TOPBON.US.")}
+                                            {t("I agree to receive promotional sms from TOPBON.US.")}
                                         </label>
                                     </div>
                                 </div>

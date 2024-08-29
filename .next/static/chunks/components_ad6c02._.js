@@ -2470,6 +2470,10 @@ const getBrands = async (lng)=>{
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
+        partner1045_b1: {
+            url: apiCLD_VIP,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+        },
         default: {
             url: apiAll,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguages"]
@@ -2712,7 +2716,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$logo3$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/logo3.png.mjs { IMAGE => "[project]/public/logo3.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Link$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Link.esm.js [app-client] (ecmascript) <export default as Link>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
@@ -2793,22 +2797,69 @@ const Footer_tailwind = ()=>{
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                                     role: "list",
                                                     className: "mt-6 space-y-4",
-                                                    children: navigation.solutions.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                                href: item.href,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                href: '/casinos',
                                                                 className: "text-sm leading-6 text-white hover:text-gray-300",
-                                                                children: item.name
+                                                                children: t("Casino by Category")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                                lineNumber: 36,
-                                                                columnNumber: 45
+                                                                lineNumber: 42,
+                                                                columnNumber: 41
                                                             }, this)
-                                                        }, item.name, false, {
+                                                        }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 35,
-                                                            columnNumber: 41
-                                                        }, this))
-                                                }, void 0, false, {
+                                                            lineNumber: 41,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                href: '/casinos',
+                                                                className: "text-sm leading-6 text-white hover:text-gray-300",
+                                                                children: t("Casino by Category")
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                                lineNumber: 47,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                            lineNumber: 46,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                href: '/casinos',
+                                                                className: "text-sm leading-6 text-white hover:text-gray-300",
+                                                                children: t("Casino by Category")
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                                lineNumber: 52,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                            lineNumber: 51,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                href: '/casinos',
+                                                                className: "text-sm leading-6 text-white hover:text-gray-300",
+                                                                children: t("Casino by Category")
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                                lineNumber: 57,
+                                                                columnNumber: 41
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Footer_tailwind/index.jsx",
+                                                            lineNumber: 56,
+                                                            columnNumber: 37
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                     lineNumber: 33,
                                                     columnNumber: 33
@@ -2827,36 +2878,36 @@ const Footer_tailwind = ()=>{
                                                     children: t("Support")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                    lineNumber: 44,
+                                                    lineNumber: 64,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                                     role: "list",
                                                     className: "mt-6 space-y-4",
                                                     children: navigation.support.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                 href: item.href,
                                                                 className: "text-sm leading-6 text-white hover:text-gray-300",
                                                                 children: item.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                                lineNumber: 48,
+                                                                lineNumber: 68,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, item.name, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 47,
+                                                            lineNumber: 67,
                                                             columnNumber: 41
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 65,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                            lineNumber: 43,
+                                            lineNumber: 63,
                                             columnNumber: 29
                                         }, this)
                                     ]
@@ -2874,41 +2925,41 @@ const Footer_tailwind = ()=>{
                                                 children: t("Company")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 78,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                                 role: "list",
                                                 className: "mt-6 space-y-4",
                                                 children: navigation.company.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: item.href,
                                                             className: "text-sm leading-6 text-white hover:text-gray-300",
                                                             children: item.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 62,
+                                                            lineNumber: 82,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, item.name, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 61,
+                                                        lineNumber: 81,
                                                         columnNumber: 41
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 79,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                        lineNumber: 57,
+                                        lineNumber: 77,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 76,
                                     columnNumber: 25
                                 }, this)
                             ]
@@ -2925,7 +2976,7 @@ const Footer_tailwind = ()=>{
                                     children: t("Join the community of our subscribers")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                    lineNumber: 72,
+                                    lineNumber: 92,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2933,7 +2984,7 @@ const Footer_tailwind = ()=>{
                                     children: t("Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                    lineNumber: 73,
+                                    lineNumber: 93,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2945,7 +2996,7 @@ const Footer_tailwind = ()=>{
                                             children: t("Email address")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                            lineNumber: 77,
+                                            lineNumber: 97,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2958,7 +3009,7 @@ const Footer_tailwind = ()=>{
                                             className: ""
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                            lineNumber: 80,
+                                            lineNumber: 100,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2969,18 +3020,18 @@ const Footer_tailwind = ()=>{
                                                 children: t("Subscribe")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 90,
+                                                lineNumber: 110,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 109,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                    lineNumber: 76,
+                                    lineNumber: 96,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("fieldset", {
@@ -2999,12 +3050,12 @@ const Footer_tailwind = ()=>{
                                                             className: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 122,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 121,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3015,18 +3066,18 @@ const Footer_tailwind = ()=>{
                                                             children: t("I agree with Terms and Conditions and Privacy Policy.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 130,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 109,
+                                                        lineNumber: 129,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 100,
+                                                lineNumber: 120,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3041,12 +3092,12 @@ const Footer_tailwind = ()=>{
                                                             className: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 117,
+                                                            lineNumber: 137,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 136,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3057,18 +3108,18 @@ const Footer_tailwind = ()=>{
                                                             children: t("I agree to receive promotional emails from TOPBON.US and its partners.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 145,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 124,
+                                                        lineNumber: 144,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 115,
+                                                lineNumber: 135,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3083,12 +3134,12 @@ const Footer_tailwind = ()=>{
                                                             className: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 152,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 151,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3099,35 +3150,35 @@ const Footer_tailwind = ()=>{
                                                             children: t("I agree to receive promotional sms from TOPBON.US.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                            lineNumber: 140,
+                                                            lineNumber: 160,
                                                             columnNumber: 41
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 159,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                                lineNumber: 130,
+                                                lineNumber: 150,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 119,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                                    lineNumber: 98,
+                                    lineNumber: 118,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer_tailwind/index.jsx",
-                            lineNumber: 71,
+                            lineNumber: 91,
                             columnNumber: 21
                         }, this)
                     ]
@@ -3143,12 +3194,12 @@ const Footer_tailwind = ()=>{
                         children: "Copyright © 2024, topbon.us All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/components/Footer_tailwind/index.jsx",
-                        lineNumber: 150,
+                        lineNumber: 170,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Footer_tailwind/index.jsx",
-                    lineNumber: 149,
+                    lineNumber: 169,
                     columnNumber: 17
                 }, this)
             ]

@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_4f7e9a._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_4a55c0._.js", {
 
 "[project]/components/slider/Card.module.css [app-client] (css module)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
@@ -1813,10 +1813,6 @@ function Random_block() {
                 url = "https://link.reg2dep.business/topbonus_rnd";
         }
         setRedirectUrl(url);
-        const savedUrl = localStorage.getItem("savedUrl");
-        if (savedUrl) {
-            setNewUrl(savedUrl);
-        }
     }, [
         source
     ]);
@@ -1842,12 +1838,12 @@ function Random_block() {
                                         loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 50,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 53,
+                                    lineNumber: 49,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1865,13 +1861,13 @@ function Random_block() {
                                                         children: t("luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 69,
+                                                        lineNumber: 65,
                                                         columnNumber: 39
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 65,
+                                                lineNumber: 61,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1879,7 +1875,7 @@ function Random_block() {
                                                 children: t("Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 71,
+                                                lineNumber: 67,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1892,54 +1888,54 @@ function Random_block() {
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 77,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 76,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 75,
+                                                lineNumber: 71,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 60,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 63,
+                                    lineNumber: 59,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                            lineNumber: 52,
+                            lineNumber: 48,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                        lineNumber: 51,
+                        lineNumber: 47,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                    lineNumber: 50,
+                    lineNumber: 46,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                lineNumber: 48,
+                lineNumber: 44,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-            lineNumber: 47,
+            lineNumber: 43,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -2199,539 +2195,6 @@ _s(Jackpot_banner, "ZmXC9zJrtuJxoVqWfYYQgFuHJmg=", false, function() {
 _c = Jackpot_banner;
 var _c;
 __turbopack_refresh__.register(_c, "Jackpot_banner");
-
-})()),
-"[project]/components/getBrands/getBrands.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
-"use strict";
-
-__turbopack_esm__({
-    "getBrands": ()=>getBrands
-});
-const getBrands = async (categoryBrands, lng)=>{
-    const apiAll = "https://bonusnumber1.com/api/brandsNew/read.php";
-    const api1039 = "https://bonusnumber1.com/api/brandsNew2/read.php";
-    const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
-    const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
-    const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
-    const availableLanguages = [
-        {
-            code: "au",
-            label: "Australia",
-            flag: "🇦🇺"
-        },
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
-            code: "de",
-            label: "Germany",
-            flag: "🇩🇪"
-        },
-        {
-            code: "ie",
-            label: "Ireland",
-            flag: "🇮🇪"
-        },
-        {
-            code: "nz",
-            label: "New Zealand",
-            flag: "🇳🇿"
-        },
-        {
-            code: "no",
-            label: "Norway",
-            flag: "🇳🇴"
-        },
-        {
-            code: "fi",
-            label: "Finland",
-            flag: "🇫🇮"
-        },
-        {
-            code: "at",
-            label: "Austria",
-            flag: "🇦🇹"
-        },
-        {
-            code: "ch",
-            label: "Switzerland",
-            flag: "🇨🇭"
-        },
-        {
-            code: "dk",
-            label: "Denmark",
-            flag: "🇩🇰"
-        },
-        {
-            code: "fr",
-            label: "France",
-            flag: "🇫🇷"
-        },
-        {
-            code: "it",
-            label: "Italy",
-            flag: "🇮🇹"
-        },
-        {
-            code: "pl",
-            label: "Poland",
-            flag: "🇵🇱"
-        },
-        {
-            code: "se",
-            label: "Sweden",
-            flag: "🇸🇪"
-        },
-        {
-            code: "cz",
-            label: "Czech",
-            flag: "🇨🇿"
-        },
-        {
-            code: "sk",
-            label: "Slovakia",
-            flag: "🇸🇰"
-        },
-        {
-            code: "be",
-            label: "Belgium",
-            flag: "🇧🇪"
-        },
-        {
-            code: "gr",
-            label: "Greece",
-            flag: "🇬🇷"
-        },
-        {
-            code: "nl",
-            label: "Netherlands",
-            flag: "🇳🇱"
-        },
-        {
-            code: "hu",
-            label: "Hungary",
-            flag: "🇭🇺"
-        },
-        {
-            code: "bg",
-            label: "Bulgaria",
-            flag: "🇧🇬"
-        },
-        {
-            code: "all",
-            label: "World",
-            flag: "🌍"
-        }
-    ];
-    const availableLanguages1039 = [
-        {
-            code: "au",
-            label: "Australia",
-            flag: "🇦🇺"
-        },
-        {
-            code: "at",
-            label: "Austria",
-            flag: "🇦🇹"
-        },
-        {
-            code: "be",
-            label: "Belgium",
-            flag: "🇧🇪"
-        },
-        {
-            code: "bg",
-            label: "Bulgaria",
-            flag: "🇧🇬"
-        },
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
-            code: "cz",
-            label: "Czech",
-            flag: "🇨🇿"
-        },
-        {
-            code: "dk",
-            label: "Denmark",
-            flag: "🇩🇰"
-        },
-        {
-            code: "fi",
-            label: "Finland",
-            flag: "🇫🇮"
-        },
-        {
-            code: "fr",
-            label: "France",
-            flag: "🇫🇷"
-        },
-        {
-            code: "de",
-            label: "Germany",
-            flag: "🇩🇪"
-        },
-        {
-            code: "gr",
-            label: "Greece",
-            flag: "🇬🇷"
-        },
-        {
-            code: "hu",
-            label: "Hungary",
-            flag: "🇭🇺"
-        },
-        {
-            code: "ie",
-            label: "Ireland",
-            flag: "🇮🇪"
-        },
-        {
-            code: "it",
-            label: "Italy",
-            flag: "🇮🇹"
-        },
-        {
-            code: "nl",
-            label: "Netherlands",
-            flag: "🇳🇱"
-        },
-        {
-            code: "nz",
-            label: "New Zealand",
-            flag: "🇳🇿"
-        },
-        {
-            code: "no",
-            label: "Norway",
-            flag: "🇳🇴"
-        },
-        {
-            code: "pl",
-            label: "Poland",
-            flag: "🇵🇱"
-        },
-        {
-            code: "pt",
-            label: "Portugal",
-            flag: "🇵🇹"
-        },
-        {
-            code: "sk",
-            label: "Slovakia",
-            flag: "🇸🇰"
-        },
-        {
-            code: "es",
-            label: "Spain",
-            flag: "🇪🇸"
-        },
-        {
-            code: "se",
-            label: "Sweden",
-            flag: "🇸🇪"
-        },
-        {
-            code: "ch",
-            label: "Switzerland",
-            flag: "🇨🇭"
-        },
-        {
-            code: "tr",
-            label: "Turkey",
-            flag: "🇹🇷"
-        },
-        {
-            code: "gb",
-            label: "United Kingdom",
-            flag: "🇬🇧"
-        },
-        {
-            code: "all",
-            label: "World",
-            flag: "🌍"
-        }
-    ];
-    const availableLanguages1043 = [
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
-            code: "us",
-            label: "United States",
-            flag: "🇺🇸"
-        },
-        {
-            code: "all",
-            label: "World",
-            flag: "🌍"
-        }
-    ];
-    const availableLanguages1044 = [
-        {
-            code: "au",
-            label: "Australia",
-            flag: "🇦🇺"
-        },
-        {
-            code: "at",
-            label: "Austria",
-            flag: "🇦🇹"
-        },
-        {
-            code: "be",
-            label: "Belgium",
-            flag: "🇧🇪"
-        },
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
-            code: "ch",
-            label: "Switzerland",
-            flag: "🇨🇭"
-        },
-        {
-            code: "nl",
-            label: "Netherlands",
-            flag: "🇳🇱"
-        },
-        {
-            code: "de",
-            label: "Germany",
-            flag: "🇩🇪"
-        },
-        {
-            code: "gr",
-            label: "Greece",
-            flag: "🇬🇷"
-        },
-        {
-            code: "cz",
-            label: "The Czech Republic",
-            flag: "🇨🇿"
-        },
-        {
-            code: "fi",
-            label: "Finland",
-            flag: "🇫🇮"
-        },
-        {
-            code: "gb",
-            label: "Great Britain",
-            flag: "🇬🇧"
-        },
-        {
-            code: "ie",
-            label: "Ireland",
-            flag: "🇮🇪"
-        },
-        {
-            code: "it",
-            label: "Italy",
-            flag: "🇮🇹"
-        },
-        {
-            code: "nz",
-            label: "New Zealand",
-            flag: "🇳🇿"
-        },
-        {
-            code: "no",
-            label: "Norway",
-            flag: "🇳🇴"
-        },
-        {
-            code: "pl",
-            label: "Poland",
-            flag: "🇵🇱"
-        },
-        {
-            code: "za",
-            label: "South Africa",
-            flag: "🇿🇦"
-        },
-        {
-            code: "se",
-            label: "Sweden",
-            flag: "🇸🇪"
-        },
-        {
-            code: "us",
-            label: "USA",
-            flag: "🇺🇸"
-        },
-        {
-            code: "all",
-            label: "World",
-            flag: "🌍"
-        }
-    ];
-    const availableLanguagesCLD_VIP = [
-        {
-            code: "au",
-            label: "Australia",
-            flag: "🇦🇺"
-        },
-        {
-            code: "at",
-            label: "Austria",
-            flag: "🇦🇹"
-        },
-        {
-            code: "be",
-            label: "Belgium",
-            flag: "🇧🇪"
-        },
-        {
-            code: "ca",
-            label: "Canada",
-            flag: "🇨🇦"
-        },
-        {
-            code: "ch",
-            label: "Switzerland",
-            flag: "🇨🇭"
-        },
-        {
-            code: "cz",
-            label: "The Czech Republic",
-            flag: "🇨🇿"
-        },
-        {
-            code: "de",
-            label: "Germany",
-            flag: "🇩🇪"
-        },
-        {
-            code: "dk",
-            label: "Denmark",
-            flag: "🇩🇰"
-        },
-        {
-            code: "fi",
-            label: "Finland",
-            flag: "🇫🇮"
-        },
-        {
-            code: "fr",
-            label: "France",
-            flag: "🇫🇷"
-        },
-        {
-            code: "gr",
-            label: "Greece",
-            flag: "🇬🇷"
-        },
-        {
-            code: "hu",
-            label: "Hungary",
-            flag: "🇭🇺"
-        },
-        {
-            code: "ie",
-            label: "Ireland",
-            flag: "🇮🇪"
-        },
-        {
-            code: "it",
-            label: "Italy",
-            flag: "🇮🇹"
-        },
-        {
-            code: "no",
-            label: "Norway",
-            flag: "🇳🇴"
-        },
-        {
-            code: "nz",
-            label: "New Zealand",
-            flag: "🇳🇿"
-        },
-        {
-            code: "pl",
-            label: "Poland",
-            flag: "🇵🇱"
-        },
-        {
-            code: "se",
-            label: "Sweden",
-            flag: "🇸🇪"
-        },
-        {
-            code: "sk",
-            label: "Slovakia",
-            flag: "🇸🇰"
-        },
-        {
-            code: "all",
-            label: "World",
-            flag: "🌍"
-        }
-    ];
-    const partners = {
-        partner1039: {
-            url: api1039,
-            languages: availableLanguages1039
-        },
-        partner1043: {
-            url: api1043,
-            languages: availableLanguages1043
-        },
-        partner1044: {
-            url: api1044,
-            languages: availableLanguages1044
-        },
-        CLD_VIP: {
-            url: apiCLD_VIP,
-            languages: availableLanguagesCLD_VIP
-        },
-        partner1045_b1: {
-            url: apiCLD_VIP,
-            languages: availableLanguagesCLD_VIP
-        },
-        default: {
-            url: apiAll,
-            languages: availableLanguages
-        }
-    };
-    const source = localStorage.getItem("source") || "default";
-    const { url, languages } = partners[source];
-    // Проверяем, поддерживается ли переданный язык
-    let supportedLanguage = languages.find((language)=>language.code.toUpperCase() === lng.toUpperCase());
-    // Если язык не поддерживается, используем "all"
-    if (!supportedLanguage) {
-        supportedLanguage = {
-            code: "all"
-        };
-    }
-    try {
-        const res = await fetch(url);
-        if (!res.ok) {
-            console.error("Failed to fetch data:", res.status);
-            return [];
-        }
-        const responseData = await res.json();
-        const filteredData = responseData.brandsNew.filter((rowData)=>(rowData.GEO === supportedLanguage.code.toUpperCase() || supportedLanguage.code === "ALL") && rowData["CurrentStatus"] === "Ongoing" && ![
-                "Mirax (FS)",
-                "Katsubet (FS)",
-                "7Bit (FS)"
-            ].includes(rowData["CasinoBrand"]) && rowData[categoryBrands.key1] === categoryBrands.key2);
-        return filteredData;
-    } catch (error) {
-        console.error("An error occurred:", error);
-        return [];
-    }
-};
 
 })()),
 "[project]/components/Brands_home/UserBrands.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
@@ -5918,4 +5381,4 @@ __turbopack_refresh__.register(_c, "FilteredHome");
 })()),
 }]);
 
-//# sourceMappingURL=_4f7e9a._.js.map
+//# sourceMappingURL=_4a55c0._.js.map
