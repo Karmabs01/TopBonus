@@ -95,6 +95,7 @@ header nav button {
   display: flex;
   white-space: nowrap;
   animation: scroll 60s linear infinite;
+  will-change: transform;
 }
 
 .marquee span {
@@ -114,12 +115,15 @@ header nav button {
 
 @keyframes scroll {
   0% {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
   100% {
+    -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
 }
+
 @media (min-width: 320px) and (max-width: 1259px) {
   .wrap-line-text {
     position: fixed;
