@@ -23,7 +23,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
       <div className="relative flex justify-between text-center px-4 py-1 bg-mob-header rounded-t-xl rnd-logo">
         <Link
           href="/casinos"
-          className="flex flex-col items-center justify-center py-2"
+          className="flex flex-col items-center justify-center py-2 mrnu-wi"
         >
           <BanknotesIcon
             aria-hidden="true"
@@ -33,7 +33,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
         </Link>
         <Link
           href="/shop"
-          className="flex flex-col items-center justify-center py-2"
+          className="flex flex-col items-center justify-center py-2 mrnu-wi"
         >
           <ShoppingBagIcon
             aria-hidden="true"
@@ -50,7 +50,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
 
         <Link
           href="/fortune"
-          className="flex flex-col items-center justify-center py-2"
+          className="flex flex-col items-center justify-center py-2 mrnu-wi"
         >
           <Badge badgeContent={`${dataUser.tickets}`} color="primary">
             <>
@@ -64,7 +64,7 @@ const Mobile_tabs_navigation = ({ dataUser }) => {
         </Link>
         <Link
           href="/personal"
-          className="flex flex-col items-center justify-center py-2"
+          className="flex flex-col items-center justify-center py-2 mrnu-wi"
         >
           <UserIcon
             aria-hidden="true"
