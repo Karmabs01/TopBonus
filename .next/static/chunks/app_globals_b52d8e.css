@@ -1484,10 +1484,6 @@ select {
   text-wrap: wrap;
 }
 
-.break-words {
-  overflow-wrap: break-word;
-}
-
 .rounded {
   border-radius: .25rem;
 }

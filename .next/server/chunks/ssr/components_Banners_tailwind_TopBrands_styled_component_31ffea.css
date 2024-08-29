@@ -264,6 +264,10 @@
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .mrnu-wi {
+    max-width: 35px;
+  }
+
   .wrap-line-text {
     z-index: 99;
   }

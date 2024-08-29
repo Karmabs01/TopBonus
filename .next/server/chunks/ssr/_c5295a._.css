@@ -371,6 +371,10 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .mrnu-wi {
+    max-width: 35px;
+  }
+
   .wrap-line-text {
     z-index: 99;
   }
