@@ -668,6 +668,25 @@
   bottom: -4px;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .card-brand-filtered {
+    flex-wrap: wrap;
+  }
+
+  .card-brand-filtered .card-36 {
+    order: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-brand-filtered .card-63 {
+    order: 1;
+  }
+
+  .items-center.p-2.min-w-40 {
+    min-width: auto;
+  }
+}
+
 
 /* [project]/node_modules/slick-carousel/slick/slick.css [app-client] (css) */
 .slick-slider {
@@ -777,7 +796,8 @@
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("../media/slick.a3496dc3.eot");
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {

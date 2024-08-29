@@ -461,7 +461,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                 className: "p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col basis-[63%]",
+                                        className: "flex flex-col basis-[63%] card-63",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex ml-1 mb-3"
@@ -983,9 +983,85 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[31%] py-6 slsk",
-                    children: !isMobile ? vis2.slice(0, visibleBrands2).map((item)=>{
-                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col basis-[24%] py-6 slsk",
+                    children: !isMobile ? vis2.length > 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
+                        ...settings,
+                        children: vis2.slice(0, visibleBrands2).map((item)=>{
+                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "brandImage p-3",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            className: "flex justify-center flex-col items-center target-listing-brands",
+                                            href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                            target: "_blank",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    src: `/brands/${item.CasinoBrand}.png`,
+                                                    alt: `/brands/${item.CasinoBrand}.png`,
+                                                    width: 200,
+                                                    height: 80,
+                                                    loading: "lazy",
+                                                    className: "target-listing-brands"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                    lineNumber: 455,
+                                                    columnNumber: 29
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "p-3 text-center flex items-center review-bonus",
+                                                    children: item.OurOfferContent
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                    lineNumber: 463,
+                                                    columnNumber: 29
+                                                }, this)
+                                            ]
+                                        }, item.id_brand, true, {
+                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                            lineNumber: 449,
+                                            columnNumber: 27
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 448,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                        target: "_blank",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "btn btn-new-mini target-listing-brands",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                children: t("Play Now")
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                                lineNumber: 474,
+                                                columnNumber: 29
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                            lineNumber: 473,
+                                            columnNumber: 27
+                                        }, this)
+                                    }, item.id_brand, false, {
+                                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                        lineNumber: 468,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, item.id_brand, true, {
+                                fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                                lineNumber: 444,
+                                columnNumber: 23
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
+                        lineNumber: 441,
+                        columnNumber: 17
+                    }, this) : vis2.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1004,7 +1080,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                                lineNumber: 453,
+                                                lineNumber: 494,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1012,18 +1088,18 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                                lineNumber: 461,
+                                                lineNumber: 502,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
                                         fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                        lineNumber: 447,
+                                        lineNumber: 488,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                    lineNumber: 446,
+                                    lineNumber: 487,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1035,26 +1111,25 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                            lineNumber: 472,
+                                            lineNumber: 513,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                        lineNumber: 471,
+                                        lineNumber: 512,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                    lineNumber: 466,
+                                    lineNumber: 507,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
                             fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                            lineNumber: 442,
+                            lineNumber: 483,
                             columnNumber: 19
-                        }, this);
-                    }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
+                        }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
                         ...settings,
                         children: vis2.map((item)=>{
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1076,7 +1151,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                                    lineNumber: 493,
+                                                    lineNumber: 534,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1084,18 +1159,18 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                                    lineNumber: 501,
+                                                    lineNumber: 542,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                            lineNumber: 487,
+                                            lineNumber: 528,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                        lineNumber: 486,
+                                        lineNumber: 527,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1107,29 +1182,29 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                                lineNumber: 512,
+                                                lineNumber: 553,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                            lineNumber: 511,
+                                            lineNumber: 552,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                        lineNumber: 506,
+                                        lineNumber: 547,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                                lineNumber: 482,
+                                lineNumber: 523,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
-                        lineNumber: 479,
+                        lineNumber: 520,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
