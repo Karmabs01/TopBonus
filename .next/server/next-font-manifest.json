@@ -1,6 +1,8 @@
 {
   "app": {
-    "[project]/app/page": []
+    "[project]/app/page": [],
+    "[project]/app/crypto-casinos/page": [],
+    "[project]/app/payments/apple-pay/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

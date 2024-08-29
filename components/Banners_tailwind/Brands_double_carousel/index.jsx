@@ -221,7 +221,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -241,7 +241,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -263,7 +263,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -283,7 +283,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -305,7 +305,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -325,7 +325,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -347,7 +347,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image
@@ -367,7 +367,7 @@ export default function Brands_double_carousel() {
                               <div className="item">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
                                   target="_blank"
                                 >
                                   <Image

@@ -41,7 +41,7 @@ export default function Pickup({ newUrl }) {
               <div>
                 <div className="img-wrap">
                   <Link
-                    href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                    href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice`}
                     target="_blank"
                   >
                     <Image
@@ -57,7 +57,7 @@ export default function Pickup({ newUrl }) {
                 <p className="p">{rowData.OurOfferContent}</p>
                 <Link
                   className="btnscale btn btn-new"
-                  href={`${rowData.GoBig}/${newUrl}&creative_id=XXL_Top_New_Releases`}
+                  href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice`}
                   target="_blank"
                 >
 
