@@ -13,7 +13,7 @@ export default function Pickup({ newUrl }) {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
-  const categoryBrands = { key1: "Segment2", key2: "Premium" };
+  const categoryBrands = { key1: "PremiumChoice", key2: "1" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
