@@ -508,7 +508,7 @@ export default function AllBrands({
                       </div>
                       <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">

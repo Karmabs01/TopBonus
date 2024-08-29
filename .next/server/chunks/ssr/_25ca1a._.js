@@ -1537,85 +1537,9 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[24%] py-6 slsk",
-                    children: !isMobile ? vis2.length > 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
-                        ...settings,
-                        children: vis2.slice(0, visibleBrands2).map((item)=>{
-                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "brandImage p-3",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            className: "flex justify-center flex-col items-center target-listing-brands",
-                                            href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
-                                            target: "_blank",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: `/brands/${item.CasinoBrand}.png`,
-                                                    alt: `/brands/${item.CasinoBrand}.png`,
-                                                    width: 200,
-                                                    height: 80,
-                                                    loading: "lazy",
-                                                    className: "target-listing-brands"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 473,
-                                                    columnNumber: 29
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "p-3 text-center flex items-center review-bonus",
-                                                    children: item.OurOfferContent
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 481,
-                                                    columnNumber: 29
-                                                }, this)
-                                            ]
-                                        }, item.id_brand, true, {
-                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 467,
-                                            columnNumber: 27
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 466,
-                                        columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "btn btn-new-mini target-listing-brands",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                children: t("Play Now")
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 492,
-                                                columnNumber: 29
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 491,
-                                            columnNumber: 27
-                                        }, this)
-                                    }, item.id_brand, false, {
-                                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 486,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, item.id_brand, true, {
-                                fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 462,
-                                columnNumber: 23
-                            }, this);
-                        })
-                    }, void 0, false, {
-                        fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                        lineNumber: 459,
-                        columnNumber: 17
-                    }, this) : vis2.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: `flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`,
+                    children: !isMobile || vis2.length < 2 ? vis2.slice(0, visibleBrands2).map((item)=>{
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1634,7 +1558,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 512,
+                                                lineNumber: 471,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1642,18 +1566,18 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 520,
+                                                lineNumber: 479,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 506,
+                                        lineNumber: 465,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 505,
+                                    lineNumber: 464,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1665,25 +1589,26 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 531,
+                                            lineNumber: 491,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 530,
+                                        lineNumber: 490,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 525,
+                                    lineNumber: 485,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                            lineNumber: 501,
+                            lineNumber: 460,
                             columnNumber: 19
-                        }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
+                        }, this);
+                    }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
                         ...settings,
                         children: vis2.map((item)=>{
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1705,7 +1630,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 552,
+                                                    lineNumber: 512,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1713,18 +1638,18 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 560,
+                                                    lineNumber: 520,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 546,
+                                            lineNumber: 506,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 545,
+                                        lineNumber: 505,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1736,29 +1661,29 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 571,
+                                                lineNumber: 531,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 570,
+                                            lineNumber: 530,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 565,
+                                        lineNumber: 525,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 541,
+                                lineNumber: 501,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                        lineNumber: 538,
+                        lineNumber: 498,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {

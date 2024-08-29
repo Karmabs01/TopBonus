@@ -2,7 +2,8 @@
   "app": {
     "[project]/app/page": [],
     "[project]/app/crypto-casinos/page": [],
-    "[project]/app/payments/apple-pay/page": []
+    "[project]/app/payments/apple-pay/page": [],
+    "[project]/app/exclusive-bonuses/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},
