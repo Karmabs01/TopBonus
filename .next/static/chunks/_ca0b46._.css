@@ -3037,6 +3037,78 @@ select {
   font-size: 44px !important;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .background-slider h3 {
+    font-size: 35px;
+  }
+
+  .random-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .h5 {
+    margin-bottom: 15px;
+    font-size: 30px !important;
+  }
+
+  .brands_rows h2.mt-4 {
+    padding-left: 0;
+    font-size: 30px !important;
+  }
+
+  .brands_rows h2.mt-4 span {
+    font-size: 25px !important;
+  }
+
+  .emojis h3 {
+    max-width: initial;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .emojis h3 span {
+    font-size: 25px;
+  }
+
+  .bg-main h2 {
+    font-size: 22px;
+    line-height: 42px;
+  }
+
+  .banner-jack h3 {
+    text-align: center;
+    line-height: 45px;
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    border-radius: 15px 15px 0 0;
+  }
+
+  .banner-jack p {
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    width: 100%;
+    border-radius: 0 0 15px 15px !important;
+  }
+
+  .fivehot-banner h3 .span-orange {
+    font-size: 30px;
+  }
+
+  .mt-10.uppercase {
+    margin-top: 0 !important;
+  }
+
+  .bg-main h2 span {
+    font-size: 30px;
+  }
+
+  .big-p, .big-p span {
+    font-size: 18px;
+  }
+}
+
 @font-face {
   font-family: AA Duke;
   src: url("/fonts/AADuke-Fill.eot");
