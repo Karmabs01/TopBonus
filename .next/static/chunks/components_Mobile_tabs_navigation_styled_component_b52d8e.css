@@ -31,17 +31,18 @@
     position: relative;
   }
 
-  .minilogos img {
-  }
-
   .minilogos:after {
     content: "";
-    width: 102px;
+    width: 100px;
     height: 2px;
     position: absolute;
     top: -6px;
-    left: -17px;
-    background: linear-gradient(to right, #7a00ac, #7a00ac);
+    left: -21px;
+    background: linear-gradient(90deg, #7a00ac, #7a00ac);
+  }
+
+  #real-block .random-title {
+    text-align: center;
   }
 }
 
