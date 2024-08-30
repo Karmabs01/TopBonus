@@ -447,7 +447,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "HOTTEST",
                 "casinos": "casinos",
-                "Discover 5 hottest casino brands trending right now!": "Discover 5 hottest casino brands trending right now!",
+                "Discover the hottest casino brands trending right now!": "Discover the hottest casino brands trending right now!",
                 "What is your choise": "What is your choise",
                 "for today?": "for today?",
                 "Choose": "Choose",
@@ -493,7 +493,8 @@ async function initializeI18n() {
                 "Shop": "Shop",
                 "Wheel": "Wheel",
                 "Profile": "Profile",
-                "My Profile": "My Profile"
+                "My Profile": "My Profile",
+                "Get ready for the hottest brands, arriving soon!": "Get ready for the hottest brands, arriving soon!"
             }
         },
         pl: {
@@ -779,7 +780,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "NAJGORĘTSZE",
                 "casinos": "kasyna",
-                "Discover 5 hottest casino brands trending right now!": "Odkryj 5 najgorętszych marek kasyn, które są teraz na topie!",
+                "Discover the hottest casino brands trending right now!": "Odkryj najgorętszych marek kasyn, które są teraz na topie!",
                 "What is your choise": "Jaki jest Twój wybór",
                 "for today?": "na dzisiaj?",
                 "Choose": "Wybierz",
@@ -821,7 +822,8 @@ async function initializeI18n() {
                 "Shop": "Sklep",
                 "Wheel": "Koło",
                 "Profile": "Profil",
-                "My Profile": "Mój Profil"
+                "My Profile": "Mój Profil",
+                "Get ready for the hottest brands, arriving soon!": "Przygotuj się na najgorętsze marki, które wkrótce nadejdą!"
             }
         },
         de: {
@@ -1108,7 +1110,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "HEISSESTE",
                 "casinos": "Casinos",
-                "Discover 5 hottest casino brands trending right now!": "Entdecke 5 der angesagtesten Casino-Marken, die gerade im Trend liegen!",
+                "Discover the hottest casino brands trending right now!": "Entdecke die heißesten Casino-Marken, die gerade im Trend liegen!",
                 "What is your choise": "Was ist deine Wahl",
                 "for today?": "für heute?",
                 "Choose": "Wähle",
@@ -1150,7 +1152,8 @@ async function initializeI18n() {
                 "Shop": "Shop",
                 "Wheel": "Rad",
                 "Profile": "Profil",
-                "My Profile": "Mein Profil"
+                "My Profile": "Mein Profil",
+                "Get ready for the hottest brands, arriving soon!": "Mach dich bereit für die heißesten Marken, die bald kommen!"
             }
         },
         bg: {
@@ -1436,7 +1439,7 @@ async function initializeI18n() {
                 "JACKPOT!": "ДЖАКПОТА!",
                 "HOTTEST": "НАЙ-ГОРЕЩИ",
                 "casinos": "казина",
-                "Discover 5 hottest casino brands trending right now!": "Открий 5 най-горещи марки казина, които са на мода в момента!",
+                "Discover the hottest casino brands trending right now!": "Открий най-горещите казино марки, които са на мода в момента!",
                 "What is your choise": "Какъв е твоят избор",
                 "for today?": "за днес?",
                 "Choose": "Избери",
@@ -1478,7 +1481,8 @@ async function initializeI18n() {
                 "Shop": "Магазин",
                 "Wheel": "Колело",
                 "Profile": "Профил",
-                "My Profile": "Моят профил"
+                "My Profile": "Моят профил",
+                "Get ready for the hottest brands, arriving soon!": "Подгответе се за най-горещите марки, които скоро ще пристигнат!"
             }
         },
         cz: {
@@ -1764,7 +1768,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "NEJŽHAVĚJŠÍ",
                 "casinos": "kasina",
-                "Discover 5 hottest casino brands trending right now!": "Objevte 5 nejžhavějších kasinových značek, které jsou právě teď v kurzu!",
+                "Discover the hottest casino brands trending right now!": "Objevte nejžhavější kasinové značky, které jsou právě teď v kurzu!",
                 "What is your choise": "Jaká je vaše volba",
                 "for today?": "na dnešek?",
                 "Choose": "Vyberte",
@@ -1806,7 +1810,8 @@ async function initializeI18n() {
                 "Shop": "Obchod",
                 "Wheel": "Kolo",
                 "Profile": "Profil",
-                "My Profile": "Můj profil"
+                "My Profile": "Můj profil",
+                "Get ready for the hottest brands, arriving soon!": "Připravte se na nejžhavější značky, které brzy dorazí!"
             }
         },
         dk: {
@@ -2092,7 +2097,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOTTEN!",
                 "HOTTEST": "HOTTES",
                 "casinos": "kasinoer",
-                "Discover 5 hottest casino brands trending right now!": "Opdag de 5 hotteste kasino-mærker, der trender lige nu!",
+                "Discover the hottest casino brands trending right now!": "Oplev de hotteste casino-brands, der trender lige nu!",
                 "What is your choise": "Hvad er dit valg",
                 "for today?": "for i dag?",
                 "Choose": "Vælg",
@@ -2134,7 +2139,8 @@ async function initializeI18n() {
                 "Shop": "Butik",
                 "Wheel": "Hjul",
                 "Profile": "Profil",
-                "My Profile": "Min Profil"
+                "My Profile": "Min Profil",
+                "Get ready for the hottest brands, arriving soon!": "Gør dig klar til de hotteste brands, der snart ankommer!"
             }
         },
         nl: {
@@ -2420,7 +2426,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "HEETSTE",
                 "casinos": "casino's",
-                "Discover 5 hottest casino brands trending right now!": "Ontdek de 5 heetste casino merken die op dit moment populair zijn!",
+                "Discover the hottest casino brands trending right now!": "Ontdek de heetste casinomerken die op dit moment trending zijn!",
                 "What is your choise": "Wat is je keuze",
                 "for today?": "voor vandaag?",
                 "Choose": "Kies",
@@ -2462,7 +2468,8 @@ async function initializeI18n() {
                 "Shop": "Winkel",
                 "Wheel": "Wiel",
                 "Profile": "Profiel",
-                "My Profile": "Mijn Profiel"
+                "My Profile": "Mijn Profiel",
+                "Get ready for the hottest brands, arriving soon!": "Maak je klaar voor de heetste merken, die binnenkort komen!"
             }
         },
         es: {
@@ -2748,7 +2755,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "LOS MÁS CALIENTES",
                 "casinos": "casinos",
-                "Discover 5 hottest casino brands trending right now!": "¡Descubre las 5 marcas de casino más populares en este momento!",
+                "Discover the hottest casino brands trending right now!": "¡Descubre las marcas de casinos más populares del momento!",
                 "What is your choise": "¿Cuál es tu elección",
                 "for today?": "para hoy?",
                 "Choose": "Elige",
@@ -2790,7 +2797,8 @@ async function initializeI18n() {
                 "Shop": "Tienda",
                 "Wheel": "Ruleta",
                 "Profile": "Perfil",
-                "My Profile": "Mi Perfil"
+                "My Profile": "Mi Perfil",
+                "Get ready for the hottest brands, arriving soon!": "¡Prepárate para las marcas más populares que llegarán pronto!"
             }
         },
         fi: {
@@ -3076,7 +3084,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "KUUMIMMAT",
                 "casinos": "kasinot",
-                "Discover 5 hottest casino brands trending right now!": "Löydä 5 kuuminta kasinobrändiä juuri nyt!",
+                "Discover the hottest casino brands trending right now!": "Löydä kuumimmat kasino-brändit, jotka ovat juuri nyt trendikkäitä!",
                 "What is your choise": "Mikä on valintasi",
                 "for today?": "tänään?",
                 "Choose": "Valitse",
@@ -3118,7 +3126,8 @@ async function initializeI18n() {
                 "Shop": "Kauppa",
                 "Wheel": "Ratas",
                 "Profile": "Profiili",
-                "My Profile": "Oma Profiili"
+                "My Profile": "Oma Profiili",
+                "Get ready for the hottest brands, arriving soon!": "Valmistaudu kuumimpiin brändeihin, jotka ovat pian tulossa!"
             }
         },
         fr: {
@@ -3405,7 +3414,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT !",
                 "HOTTEST": "LES PLUS CHAUDS",
                 "casinos": "casinos",
-                "Discover 5 hottest casino brands trending right now!": "Découvrez les 5 marques de casino les plus tendance en ce moment !",
+                "Discover the hottest casino brands trending right now!": "Découvrez les marques de casino les plus en vogue du moment!",
                 "What is your choise": "Quel est votre choix",
                 "for today?": "pour aujourd'hui ?",
                 "Choose": "Choisir",
@@ -3447,7 +3456,8 @@ async function initializeI18n() {
                 "Shop": "Boutique",
                 "Wheel": "Roue",
                 "Profile": "Profil",
-                "My Profile": "Mon Profil"
+                "My Profile": "Mon Profil",
+                "Get ready for the hottest brands, arriving soon!": "Préparez-vous pour les marques les plus en vogue, qui arrivent bientôt!"
             }
         },
         gr: {
@@ -3734,7 +3744,7 @@ async function initializeI18n() {
                 "JACKPOT!": "ΤΖΑΚΠΟΤ!",
                 "HOTTEST": "ΠΙΟ ΚΑΥΤΑ",
                 "casinos": "καζίνο",
-                "Discover 5 hottest casino brands trending right now!": "Ανακαλύψτε τις 5 πιο δημοφιλείς μάρκες καζίνο που είναι τάση αυτή τη στιγμή!",
+                "Discover the hottest casino brands trending right now!": "Ανακαλύψτε τις πιο καυτές μάρκες καζίνο που είναι τώρα στη μόδα!",
                 "What is your choise": "Ποια είναι η επιλογή σας",
                 "for today?": "για σήμερα;",
                 "Choose": "Επιλέξτε",
@@ -3776,7 +3786,8 @@ async function initializeI18n() {
                 "Shop": "Κατάστημα",
                 "Wheel": "Τροχός",
                 "Profile": "Προφίλ",
-                "My Profile": "Το Προφίλ Μου"
+                "My Profile": "Το Προφίλ Μου",
+                "Get ready for the hottest brands, arriving soon!": "Ετοιμαστείτε για τις πιο καυτές μάρκες, που έρχονται σύντομα!"
             }
         },
         hu: {
@@ -4063,7 +4074,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOTOT!",
                 "HOTTEST": "LEGFORRÓBB",
                 "casinos": "kaszinók",
-                "Discover 5 hottest casino brands trending right now!": "Fedezd fel az 5 legtrendibb kaszinó márkát, amelyek most éppen hódítanak!",
+                "Discover the hottest casino brands trending right now!": "Fedezd fel a legtrendibb kaszinómárkákat, amelyek most hódítanak!",
                 "What is your choise": "Mi a választásod",
                 "for today?": "ma?",
                 "Choose": "Válassz",
@@ -4105,7 +4116,8 @@ async function initializeI18n() {
                 "Shop": "Bolt",
                 "Wheel": "Kerék",
                 "Profile": "Profil",
-                "My Profile": "Saját Profilom"
+                "My Profile": "Saját Profilom",
+                "Get ready for the hottest brands, arriving soon!": "Készülj fel a legmenőbb márkákra, amelyek hamarosan érkeznek!"
             }
         },
         it: {
@@ -4392,7 +4404,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "PIÙ CALDI",
                 "casinos": "casinò",
-                "Discover 5 hottest casino brands trending right now!": "Scopri i 5 marchi di casinò più in voga in questo momento!",
+                "Discover the hottest casino brands trending right now!": "Scopri i marchi di casinò più caldi del momento!",
                 "What is your choise": "Qual è la tua scelta",
                 "for today?": "per oggi?",
                 "Choose": "Scegli",
@@ -4434,7 +4446,8 @@ async function initializeI18n() {
                 "Shop": "Negozio",
                 "Wheel": "Ruota",
                 "Profile": "Profilo",
-                "My Profile": "Il Mio Profilo"
+                "My Profile": "Il Mio Profilo",
+                "Get ready for the hottest brands, arriving soon!": "Preparati per i marchi più caldi, in arrivo presto!"
             }
         },
         no: {
@@ -4721,7 +4734,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "HETESTE",
                 "casinos": "kasinoer",
-                "Discover 5 hottest casino brands trending right now!": "Oppdag 5 heteste kasinomerker som trender akkurat nå!",
+                "Discover the hottest casino brands trending right now!": "Oppdag de hotteste casino-merkene som trender akkurat nå!",
                 "What is your choise": "Hva er ditt valg",
                 "for today?": "for i dag?",
                 "Choose": "Velg",
@@ -4763,7 +4776,8 @@ async function initializeI18n() {
                 "Shop": "Butikk",
                 "Wheel": "Hjul",
                 "Profile": "Profil",
-                "My Profile": "Min Profil"
+                "My Profile": "Min Profil",
+                "Get ready for the hottest brands, arriving soon!": "Gjør deg klar for de hotteste merkene, som snart kommer!"
             }
         },
         pt: {
@@ -5050,7 +5064,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "MAIS QUENTES",
                 "casinos": "cassinos",
-                "Discover 5 hottest casino brands trending right now!": "Descubra as 5 marcas de cassinos mais populares do momento!",
+                "Discover the hottest casino brands trending right now!": "Descubra as marcas de cassino mais quentes que estão em alta agora!",
                 "What is your choise": "Qual é a sua escolha",
                 "for today?": "para hoje?",
                 "Choose": "Escolha",
@@ -5092,7 +5106,8 @@ async function initializeI18n() {
                 "Shop": "Loja",
                 "Wheel": "Roda",
                 "Profile": "Perfil",
-                "My Profile": "Meu Perfil"
+                "My Profile": "Meu Perfil",
+                "Get ready for the hottest brands, arriving soon!": "Prepare-se para as marcas mais quentes, que chegam em breve!"
             }
         },
         se: {
@@ -5379,7 +5394,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "HETASTE",
                 "casinos": "kasinon",
-                "Discover 5 hottest casino brands trending right now!": "Upptäck de 5 hetaste kasinomärkena just nu!",
+                "Discover the hottest casino brands trending right now!": "Upptäck de hetaste casinovarumärkena som trendar just nu!",
                 "What is your choise": "Vad är ditt val",
                 "for today?": "för idag?",
                 "Choose": "Välj",
@@ -5421,7 +5436,8 @@ async function initializeI18n() {
                 "Shop": "Butik",
                 "Wheel": "Hjul",
                 "Profile": "Profil",
-                "My Profile": "Min Profil"
+                "My Profile": "Min Profil",
+                "Get ready for the hottest brands, arriving soon!": "Gör dig redo för de hetaste märkena, som snart kommer!"
             }
         },
         sk: {
@@ -5708,7 +5724,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "NAJHORÚCEJŠIE",
                 "casinos": "kasína",
-                "Discover 5 hottest casino brands trending right now!": "Objavte 5 najhorúcejších značiek kasín, ktoré sú práve teraz populárne!",
+                "Discover the hottest casino brands trending right now!": "Objavte najhorúcejšie kasínové značky, ktoré sú práve teraz v trende!",
                 "What is your choise": "Aká je vaša voľba",
                 "for today?": "pre dnešok?",
                 "Choose": "Vyberte si",
@@ -5750,7 +5766,8 @@ async function initializeI18n() {
                 "Shop": "Obchod",
                 "Wheel": "Koleso",
                 "Profile": "Profil",
-                "My Profile": "Môj Profil"
+                "My Profile": "Môj Profil",
+                "Get ready for the hottest brands, arriving soon!": "Pripravte sa na najhorúcejšie značky, ktoré čoskoro prídu!"
             }
         },
         tr: {
@@ -6037,7 +6054,7 @@ async function initializeI18n() {
                 "JACKPOT!": "JACKPOT!",
                 "HOTTEST": "EN POPÜLER",
                 "casinos": "kasinolar",
-                "Discover 5 hottest casino brands trending right now!": "Şu anda trend olan 5 en popüler casino markasını keşfedin!",
+                "Discover the hottest casino brands trending right now!": "Şu anda trend olan en popüler casino markalarını keşfedin!",
                 "What is your choise": "Seçiminiz nedir",
                 "for today?": "bugün için?",
                 "Choose": "Seçin",
@@ -6079,7 +6096,8 @@ async function initializeI18n() {
                 "Shop": "Dükkan",
                 "Wheel": "Tekerlek",
                 "Profile": "Profil",
-                "My Profile": "Profilim"
+                "My Profile": "Profilim",
+                "Get ready for the hottest brands, arriving soon!": "En popüler markalar yakında geliyor, hazır olun!"
             }
         }
     };
