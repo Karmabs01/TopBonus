@@ -83,12 +83,9 @@
 
 .abs-p p {
   color: #fff;
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   z-index: 1;
-  font-size: 64px !important;
 }
 
 @media (width >= 320px) and (width <= 767px) {

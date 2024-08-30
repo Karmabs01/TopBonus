@@ -1,7 +1,4 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/crypto-casinos/page": "app/crypto-casinos/page.js",
-  "/payments/apple-pay/page": "app/payments/apple-pay/page.js",
-  "/exclusive-bonuses/page": "app/exclusive-bonuses/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }

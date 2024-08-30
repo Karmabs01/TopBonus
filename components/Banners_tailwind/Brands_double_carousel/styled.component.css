@@ -84,22 +84,19 @@
 }
 .brands_rows h2.mt-4 {
   color: #fff !important;
-  font-family: "AA Duke";
-  font-size: 98px !important;
+
+
   font-style: normal;
-  font-weight: 400;
+
   line-height: normal;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
-  padding-left: 48px;
+
 }
 .brands_rows h2.mt-4 span {
   color: #f9a23d !important;
-  font-family: "AA Duke";
-  font-size: 80px !important;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 .brands_rows h3 {
@@ -133,13 +130,7 @@
   .brands_rows svg {
     display: none;
   }
-  .brands_rows h2.mt-4 {
-    font-size: 42px !important;
-    padding-left: 0;
-  }
-  .brands_rows h2.mt-4 span {
-    font-size: 36px !important;
-  }
+
   .brands_rows h3 {
     margin-top: 0;
     padding-left: 0;

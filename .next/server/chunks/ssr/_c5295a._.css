@@ -220,10 +220,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .background-slider h3 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 94px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -315,17 +312,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 @media (width >= 320px) and (width <= 767px) {
   .jins > div .btn {
-    margin-left: 35%;
     margin-top: 20px;
     margin-right: 4%;
-  }
-
-  .h5 {
-    margin-bottom: 15px;
-    font-size: 42px !important;
-  }
-
-  .jins > div .btn {
     margin-top: 0;
     margin-left: 15% !important;
   }
@@ -333,10 +321,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .h5 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 54px;
   text-align: center;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -394,10 +379,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .background-slider {
     padding: 20px 10px 80px;
     height: initial;
-  }
-
-  .background-slider h3 {
-    font-size: 48px;
   }
 
   .background-slider p, .jins p {
@@ -537,12 +518,9 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .abs-p p {
   color: #fff;
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   z-index: 1;
-  font-size: 64px !important;
 }
 
 @media (width >= 320px) and (width <= 767px) {
@@ -708,25 +686,18 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .brands_rows h2.mt-4 {
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
-  padding-left: 48px;
   color: #fff !important;
-  font-size: 98px !important;
 }
 
 .brands_rows h2.mt-4 span {
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   color: #f9a23d !important;
-  font-size: 80px !important;
 }
 
 .brands_rows h3 {
@@ -760,15 +731,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .brands_rows svg {
     display: none;
-  }
-
-  .brands_rows h2.mt-4 {
-    padding-left: 0;
-    font-size: 42px !important;
-  }
-
-  .brands_rows h2.mt-4 span {
-    font-size: 36px !important;
   }
 
   .brands_rows h3 {
@@ -850,10 +812,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .random-title {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 64px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -927,19 +886,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .banner-jack h3, .banner-jack p {
   color: #fff;
-  font-family: AA Duke;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
-}
-
-.banner-jack h3 {
-  font-size: 60px;
-}
-
-.banner-jack h3 span {
-  font-size: 50px;
-  color: #ff8f1f;
 }
 
 .banner-jack p {
@@ -1110,15 +1057,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .bg-main h2 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 74px;
-  font-weight: 400;
   line-height: normal;
-}
-
-.bg-main h2 span {
-  font-size: 60px;
-  color: #ff8f1f;
 }
 
 .bg-main h5 {
@@ -1134,11 +1073,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 @media (width >= 320px) and (width <= 767px) {
-  .bg-main h2 {
-    font-size: 36px;
-    line-height: 42px;
-  }
-
   .bg-main .p {
     padding: 0 10px;
     font-size: 12px;
@@ -1736,11 +1670,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 .big-p {
   color: #fff;
   text-align: center;
-  font-family: AA Duke;
-  font-size: 43px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 50px;
   text-transform: uppercase;
 }
 
@@ -1751,11 +1681,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
-}
-
-.big-p span {
-  color: #ff8f1f;
-  font-size: 38px;
 }
 
 @media (width >= 320px) and (width <= 767px) {
@@ -1955,7 +1880,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-family: slick;
   font-weight: normal;
   font-style: normal;
-  src: url("/_next/static/media/slick.a3496dc3.eot");
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("/_next/static/media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {

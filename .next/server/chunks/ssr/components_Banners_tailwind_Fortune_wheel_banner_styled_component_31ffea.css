@@ -25,15 +25,7 @@
 
 .bg-main h2 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 74px;
-  font-weight: 400;
   line-height: normal;
-}
-
-.bg-main h2 span {
-  font-size: 60px;
-  color: #ff8f1f;
 }
 
 .bg-main h5 {
@@ -49,11 +41,6 @@
 }
 
 @media (width >= 320px) and (width <= 767px) {
-  .bg-main h2 {
-    font-size: 36px;
-    line-height: 42px;
-  }
-
   .bg-main .p {
     padding: 0 10px;
     font-size: 12px;
