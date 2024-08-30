@@ -30,15 +30,13 @@
     .minilogos img {
         /* filter: drop-shadow(0px -6px 15px rgba(255, 255, 255, 1)); */
     }
-    .minilogos:after {
+    .minilogos::after {
         content: "";
-        width: 102px;
+        width: 100px;
         height: 2px;
         position: absolute;
         top: -6px;
-        left: -17px;
-        /* backdrop-filter: blur(20px); */
-
-        background: linear-gradient(to right, rgb(122, 0, 172), rgb(122, 0, 172));
+        left: -21px;
+        background: linear-gradient(90deg,#7a00ac,#7a00ac);
     }
 }
