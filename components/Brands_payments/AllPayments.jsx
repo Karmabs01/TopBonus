@@ -398,7 +398,7 @@ export default function AllPayments({
                       <Link
                         className={`${target}`}
                         key={brand.id_brand}
-                        href={`${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
                         target="_blank"
                       >
                         <Image
@@ -434,7 +434,7 @@ export default function AllPayments({
                         </p>
                       </div>
                       <Link
-                        href={`${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini">
@@ -453,51 +453,10 @@ export default function AllPayments({
               </div>
             )}
           </div>
-          <div className="flex flex-col basis-[24%] py-6 slsk">
-            {!isMobile ? (
-              vis2.length > 1 ? (
-                <LazySlider {...settings}>
-                  {vis2.slice(0, visibleBrands2).map((item) => {
-                    return (
-                      <div
-                        className="card-brand-banner mb-2 flex flex-col items-center pb-3"
-                        key={item.id_brand}
-                      >
-                        <div className="brandImage p-3">
-                          <Link
-                            className="flex justify-center flex-col items-center target-listing-brands"
-                            key={item.id_brand}
-                            href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
-                            target="_blank"
-                          >
-                            <Image
-                              src={`/brands/${item.CasinoBrand}.png`}
-                              alt={`/brands/${item.CasinoBrand}.png`}
-                              width={200}
-                              height={80}
-                              loading="lazy"
-                              className="target-listing-brands"
-                            />
-                            <div className="p-3 text-center flex items-center review-bonus">
-                              {item.OurOfferContent}
-                            </div>
-                          </Link>
-                        </div>
-                        <Link
-                          key={item.id_brand}
-                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
-                          target="_blank"
-                        >
-                          <div className="btn btn-new-mini target-listing-brands">
-                            <p>{t("Play Now")}</p>
-                          </div>
-                        </Link>
-                      </div>
-                    );
-                  })}
-                </LazySlider>
-              ) : (
-                vis2.map((item) => (
+          <div className={`flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`}>
+          {!isMobile || vis2.length < 2 ? (
+              vis2.slice(0, visibleBrands2).map((item) => {
+                return (
                   <div
                     className="card-brand-banner mb-2 flex flex-col items-center pb-3"
                     key={item.id_brand}
@@ -506,7 +465,7 @@ export default function AllPayments({
                       <Link
                         className="flex justify-center flex-col items-center target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                         target="_blank"
                       >
                         <Image
@@ -522,9 +481,10 @@ export default function AllPayments({
                         </div>
                       </Link>
                     </div>
+
                     <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
@@ -532,8 +492,8 @@ export default function AllPayments({
                       </div>
                     </Link>
                   </div>
-                ))
-              )
+                );
+              })
             ) : (
               <LazySlider {...settings}>
                 {vis2.map((item) => {
@@ -546,7 +506,7 @@ export default function AllPayments({
                         <Link
                           className="flex justify-center flex-col items-center target-listing-brands"
                           key={item.id_brand}
-                          href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                          href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                           target="_blank"
                         >
                           <Image
@@ -564,7 +524,7 @@ export default function AllPayments({
                       </div>
                       <Link
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini target-listing-brands">

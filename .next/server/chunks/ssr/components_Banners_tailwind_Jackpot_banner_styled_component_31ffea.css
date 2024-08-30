@@ -13,19 +13,7 @@
 
 .banner-jack h3, .banner-jack p {
   color: #fff;
-  font-family: AA Duke;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
-}
-
-.banner-jack h3 {
-  font-size: 60px;
-}
-
-.banner-jack h3 span {
-  font-size: 50px;
-  color: #ff8f1f;
 }
 
 .banner-jack p {

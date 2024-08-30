@@ -10,6 +10,243 @@
   border: 0px;
 }
 
+.all {
+  .random-title {
+    font-family: "AA Duke";
+    font-size: 64px;
+    font-weight: 400;
+  }
+
+  .background-slider h3 {
+    font-family: "AA Duke";
+    font-size: 94px;
+    font-weight: 400;
+  }
+  .h5 {
+    font-family: "AA Duke";
+    font-size: 54px;
+    font-weight: 400;
+  }
+
+  .brands_rows h2.mt-4 {
+    font-family: "AA Duke";
+    font-size: 98px !important;
+    font-weight: 400;
+    padding-left: 48px;
+  }
+  .brands_rows h2.mt-4 span {
+    font-family: "AA Duke";
+    font-size: 80px !important;
+    font-weight: 400;
+  }
+  .banner-jack h3,
+  .banner-jack p {
+    font-family: "AA Duke";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .banner-jack h3 {
+    font-size: 60px;
+  }
+  .banner-jack h3 span {
+    font-size: 50px;
+    color: #ff8f1f;
+  }
+  .emojis h3 {
+    font-family: "AA Duke";
+    font-size: 83px;
+    font-weight: 400;
+    max-width: 286px;
+    line-height: 80px;
+  }
+  .emojis h3 span {
+    color: #ff8f1f;
+    font-size: 65px;
+  }
+
+  .bg-main h2 {
+    font-family: "AA Duke";
+    font-size: 74px;
+    font-weight: 400;
+  }
+  .bg-main h2 span {
+    font-size: 60px;
+    color: #ff8f1f;
+  }
+  .big-p {
+    font-family: "AA Duke";
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+  .big-p span {
+    color: #ff8f1f;
+    font-size: 38px;
+  }
+  .abs-p p {
+    font-family: "AA Duke";
+    font-size: 64px !important;
+    font-weight: 400;
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .background-slider h3 {
+      font-size: 48px;
+    }
+    .h5 {
+      font-size: 42px !important;
+      margin-bottom: 15px;
+    }
+    .brands_rows h2.mt-4 {
+      font-size: 42px !important;
+      padding-left: 0;
+    }
+    .brands_rows h2.mt-4 span {
+      font-size: 36px !important;
+    }
+    .emojis h3 {
+      max-width: initial;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: center;
+    }
+    .emojis h3 span {
+      font-size: 38px;
+    }
+    .bg-main h2 {
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+}
+.random-title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.background-slider h3 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.h5 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.brands_rows h2.mt-4 {
+  font-size: 51px !important;
+  font-weight: 700;
+  padding-left: 48px;
+}
+.brands_rows h2.mt-4 span {
+  font-size: 40px !important;
+  font-weight: 700;
+}
+.banner-jack h3,
+.banner-jack p {
+  font-style: normal;
+  font-weight: 700;
+}
+.banner-jack h3 {
+  font-size: 40px;
+}
+.banner-jack h3 span {
+  font-size: 30px;
+  color: #ff8f1f;
+}
+.emojis h3 {
+  font-size: 43px;
+  font-weight: 700;
+  max-width: 286px;
+  line-height: 60px;
+}
+.emojis h3 span {
+  color: #ff8f1f;
+  font-size: 35px;
+}
+
+.bg-main h2 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.bg-main h2 span {
+  font-size: 40px;
+  color: #ff8f1f;
+}
+.big-p {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.big-p span {
+  color: #ff8f1f;
+  font-size: 28px;
+}
+.abs-p p {
+  font-size: 44px !important;
+  font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .background-slider h3 {
+    font-size: 35px;
+  }
+  .random-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .h5 {
+    font-size: 30px !important;
+    margin-bottom: 15px;
+  }
+  .brands_rows h2.mt-4 {
+    font-size: 30px !important;
+    padding-left: 0;
+  }
+  .brands_rows h2.mt-4 span {
+    font-size: 25px !important;
+  }
+  .emojis h3 {
+    max-width: initial;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .emojis h3 span {
+    font-size: 25px;
+  }
+  .bg-main h2 {
+    font-size: 22px;
+    line-height: 42px;
+  }
+  .banner-jack h3 {
+    text-align: center;
+    line-height: 45px;
+
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    border-radius: 15px 15px 0 0;
+  }
+  .banner-jack p {
+
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    width: 100%;
+    border-radius: 0 0 15px 15px !important;
+  }
+  .fivehot-banner h3 .span-orange {
+    font-size: 30px;
+  }
+  .mt-10.uppercase {
+    margin-top: 0 !important;
+  }
+  .bg-main h2 span {
+    font-size: 30px;
+  }
+  .big-p, .big-p span {
+    font-size: 18px;
+  }
+}
+
 @font-face {
   font-family: "AA Duke";
   src: url("/fonts/AADuke-Fill.eot");
@@ -123,7 +360,8 @@ input[type="number"] {
 .card-not-slider:nth-child(5) {
   margin-right: 0;
 }
-.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
   color: #ff8f1f !important;
 }
 .mob-mt10 {
@@ -142,7 +380,8 @@ input[type="number"] {
   .pm10 {
     padding: 0 10px;
   }
-  .mob-mt10, .mob-mt10m {
+  .mob-mt10,
+  .mob-mt10m {
     margin-top: 3.5rem;
   }
   footer .mx-auto {
@@ -165,7 +404,6 @@ input[type="number"] {
   .content-pers {
     margin-top: 15px;
   }
-
 }
 .tab-pers {
   border-radius: 30px;
@@ -196,10 +434,10 @@ input[type="number"] {
   border-bottom: 1px solid #573e7d;
 }
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .tab-pers button {
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  margin: 0 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 0 5px;
     border-radius: 15px;
   }
 }
@@ -8774,10 +9012,12 @@ input.error {
   width: 34px;
   top: 35px;
 }
-.page-gaming p, .page-gaming li {
+.page-gaming p,
+.page-gaming li {
   color: #fff;
 }
-.page-gaming h2, .page-gaming h1 {
+.page-gaming h2,
+.page-gaming h1 {
   color: #ff8f1f;
 }
 .page-gaming li {
@@ -10257,16 +10497,11 @@ main > .topbr {
   }
 }
 
-
-
-
-
-
 /*LOADER START*/
 
 .dot-spinner {
   --uib-size: 2.8rem;
-  --uib-speed: .9s;
+  --uib-speed: 0.9s;
   --uib-color: #ff8f1f;
   position: relative;
   display: flex;
@@ -10288,7 +10523,7 @@ main > .topbr {
 }
 
 .dot-spinner__dot::before {
-  content: '';
+  content: "";
   height: 20%;
   width: 20%;
   border-radius: 50%;
@@ -10402,7 +10637,8 @@ main > .topbr {
   background-color: #ff8f1f;
 }
 
-.lucky-btn:hover, .btn-play:hover  {
+.lucky-btn:hover,
+.btn-play:hover {
   background-color: #cc741c;
 }
 
@@ -10427,7 +10663,7 @@ main > .topbr {
 .backToTopBtn:hover {
   background-color: #4e1d5a;
 }
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .backToTopBtn {
     display: none;
   }

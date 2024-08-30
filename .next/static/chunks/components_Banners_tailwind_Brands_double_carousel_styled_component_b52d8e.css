@@ -95,25 +95,18 @@
 }
 
 .brands_rows h2.mt-4 {
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
   position: relative;
   z-index: 1;
-  padding-left: 48px;
   color: #fff !important;
-  font-size: 98px !important;
 }
 
 .brands_rows h2.mt-4 span {
-  font-family: AA Duke;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   color: #f9a23d !important;
-  font-size: 80px !important;
 }
 
 .brands_rows h3 {
@@ -147,15 +140,6 @@
 
   .brands_rows svg {
     display: none;
-  }
-
-  .brands_rows h2.mt-4 {
-    padding-left: 0;
-    font-size: 42px !important;
-  }
-
-  .brands_rows h2.mt-4 span {
-    font-size: 36px !important;
   }
 
   .brands_rows h3 {

@@ -2029,10 +2029,6 @@ select {
   text-wrap: wrap;
 }
 
-.break-words {
-  overflow-wrap: break-word;
-}
-
 .rounded {
   border-radius: .25rem;
 }
@@ -2837,6 +2833,280 @@ select {
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+.all .random-title {
+  font-family: AA Duke;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.all .background-slider h3 {
+  font-family: AA Duke;
+  font-size: 94px;
+  font-weight: 400;
+}
+
+.all .h5 {
+  font-family: AA Duke;
+  font-size: 54px;
+  font-weight: 400;
+}
+
+.all .brands_rows h2.mt-4 {
+  font-family: AA Duke;
+  font-weight: 400;
+  padding-left: 48px;
+  font-size: 98px !important;
+}
+
+.all .brands_rows h2.mt-4 span {
+  font-family: AA Duke;
+  font-weight: 400;
+  font-size: 80px !important;
+}
+
+.all .banner-jack h3, .all .banner-jack p {
+  font-family: AA Duke;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.all .banner-jack h3 {
+  font-size: 60px;
+}
+
+.all .banner-jack h3 span {
+  font-size: 50px;
+  color: #ff8f1f;
+}
+
+.all .emojis h3 {
+  font-family: AA Duke;
+  font-size: 83px;
+  font-weight: 400;
+  max-width: 286px;
+  line-height: 80px;
+}
+
+.all .emojis h3 span {
+  color: #ff8f1f;
+  font-size: 65px;
+}
+
+.all .bg-main h2 {
+  font-family: AA Duke;
+  font-size: 74px;
+  font-weight: 400;
+}
+
+.all .bg-main h2 span {
+  font-size: 60px;
+  color: #ff8f1f;
+}
+
+.all .big-p {
+  font-family: AA Duke;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.all .big-p span {
+  color: #ff8f1f;
+  font-size: 38px;
+}
+
+.all .abs-p p {
+  font-family: AA Duke;
+  font-weight: 400;
+  font-size: 64px !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .all .background-slider h3 {
+    font-size: 48px;
+  }
+
+  .all .h5 {
+    margin-bottom: 15px;
+    font-size: 42px !important;
+  }
+
+  .all .brands_rows h2.mt-4 {
+    padding-left: 0;
+    font-size: 42px !important;
+  }
+
+  .all .brands_rows h2.mt-4 span {
+    font-size: 36px !important;
+  }
+
+  .all .emojis h3 {
+    max-width: initial;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .all .emojis h3 span {
+    font-size: 38px;
+  }
+
+  .all .bg-main h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+.random-title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.background-slider h3 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.h5 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.brands_rows h2.mt-4 {
+  font-weight: 700;
+  padding-left: 48px;
+  font-size: 51px !important;
+}
+
+.brands_rows h2.mt-4 span {
+  font-weight: 700;
+  font-size: 40px !important;
+}
+
+.banner-jack h3, .banner-jack p {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.banner-jack h3 {
+  font-size: 40px;
+}
+
+.banner-jack h3 span {
+  font-size: 30px;
+  color: #ff8f1f;
+}
+
+.emojis h3 {
+  font-size: 43px;
+  font-weight: 700;
+  max-width: 286px;
+  line-height: 60px;
+}
+
+.emojis h3 span {
+  color: #ff8f1f;
+  font-size: 35px;
+}
+
+.bg-main h2 {
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.bg-main h2 span {
+  font-size: 40px;
+  color: #ff8f1f;
+}
+
+.big-p {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.big-p span {
+  color: #ff8f1f;
+  font-size: 28px;
+}
+
+.abs-p p {
+  font-weight: 700;
+  font-size: 44px !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .background-slider h3 {
+    font-size: 35px;
+  }
+
+  .random-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .h5 {
+    margin-bottom: 15px;
+    font-size: 30px !important;
+  }
+
+  .brands_rows h2.mt-4 {
+    padding-left: 0;
+    font-size: 30px !important;
+  }
+
+  .brands_rows h2.mt-4 span {
+    font-size: 25px !important;
+  }
+
+  .emojis h3 {
+    max-width: initial;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .emojis h3 span {
+    font-size: 25px;
+  }
+
+  .bg-main h2 {
+    font-size: 22px;
+    line-height: 42px;
+  }
+
+  .banner-jack h3 {
+    text-align: center;
+    line-height: 45px;
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    border-radius: 15px 15px 0 0;
+  }
+
+  .banner-jack p {
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    width: 100%;
+    border-radius: 0 0 15px 15px !important;
+  }
+
+  .fivehot-banner h3 .span-orange {
+    font-size: 30px;
+  }
+
+  .mt-10.uppercase {
+    margin-top: 0 !important;
+  }
+
+  .bg-main h2 span {
+    font-size: 30px;
+  }
+
+  .big-p, .big-p span {
+    font-size: 18px;
+  }
 }
 
 @font-face {

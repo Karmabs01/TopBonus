@@ -113,10 +113,7 @@
 
 .background-slider h3 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 94px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -208,17 +205,8 @@
 
 @media (width >= 320px) and (width <= 767px) {
   .jins > div .btn {
-    margin-left: 35%;
     margin-top: 20px;
     margin-right: 4%;
-  }
-
-  .h5 {
-    margin-bottom: 15px;
-    font-size: 42px !important;
-  }
-
-  .jins > div .btn {
     margin-top: 0;
     margin-left: 15% !important;
   }
@@ -226,10 +214,7 @@
 
 .h5 {
   color: #fff;
-  font-family: AA Duke;
-  font-size: 54px;
   text-align: center;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -264,6 +249,10 @@
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .mrnu-wi {
+    max-width: 35px;
+  }
+
   .wrap-line-text {
     z-index: 99;
   }
@@ -283,10 +272,6 @@
   .background-slider {
     padding: 20px 10px 80px;
     height: initial;
-  }
-
-  .background-slider h3 {
-    font-size: 48px;
   }
 
   .background-slider p, .jins p {

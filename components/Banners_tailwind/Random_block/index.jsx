@@ -44,7 +44,7 @@ export default function Random_block() {
 
   return (
     <>
-      <div className="">
+      <div id="try-your-luck" className="">
         <div className="main__container">
 
           <div className="relative py-16 ptpt">
@@ -73,7 +73,7 @@ export default function Random_block() {
                     </p>
 
                     <Link
-                      href={`${redirectUrl}/${newUrl}&creative_id=XXL_Try_Your_Luck`}
+                      href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck`}
                       target="_blank"
                       className="flex mlml"
                     >

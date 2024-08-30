@@ -25,16 +25,9 @@
 }
 .bg-main h2 {
   color: #fff;
-  font-family: "AA Duke";
-  font-size: 74px;
-  font-weight: 400;
   line-height: normal;
-  /* text-shadow: -2px -2px 0px #35d2e7, -4px -2px 0px rgba(250, 112, 136, 0.9); */
 }
-.bg-main h2 span {
-  font-size: 60px;
-  color: #ff8f1f;
-}
+
 .bg-main h5 {
   color: #fff;
   font-size: 20px;
@@ -48,10 +41,7 @@
 
 @media(min-width: 320px) and (max-width: 767px) {
 
-  .bg-main h2 {
-    font-size: 36px;
-    line-height: 42px;
-  }
+
   .bg-main .p {
     padding: 0 10px;
     font-size: 12px;

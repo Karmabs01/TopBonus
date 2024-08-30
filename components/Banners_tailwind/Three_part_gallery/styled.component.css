@@ -107,20 +107,11 @@
 }
 .emojis h3 {
   color: #fff;
-  font-family: "AA Duke";
-  font-size: 83px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  /* text-shadow: -2px -2px #35d2e7, -4px -2px #fa7088e6; */
-  max-width: 286px;
-  line-height: 80px;
 }
-.emojis h3 span {
-  color: #ff8f1f;
-  font-size: 65px;
-}
+
 
 .btn-choose {
   width: 91px;
@@ -244,15 +235,7 @@
   .face-mob {
     flex-direction: column;
   }
-  .emojis h3 {
-    max-width: initial;
-    font-size: 42px;
-    line-height: 50px;
-    text-align: center;
-  }
-  .emojis h3 span {
-    font-size: 38px;
-  }
+
   .btns-ch {
     width: 100%;
     margin-right: 0;

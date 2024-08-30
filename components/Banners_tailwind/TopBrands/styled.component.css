@@ -103,13 +103,8 @@
 
 .background-slider h3 {
   color: #fff;
-  font-family: "AA Duke";
-  font-size: 94px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  /* Первый слой бордера, смещенный вверх и влево */
-  /* text-shadow: -2px -2px 0px #35d2e7, -4px -2px 0px rgba(250, 112, 136, 0.9); */
 }
 
 .background-slider p,
@@ -216,10 +211,7 @@
     margin-top: 20px;
     margin-right: 4%;
   }
-  .h5 {
-    font-size: 42px !important;
-    margin-bottom: 15px;
-  }
+
   .jins > div .btn {
     margin-left: 15% !important;
     margin-top: 0;
@@ -227,12 +219,8 @@
 }
 .h5 {
   color: #fff;
-  font-family: "AA Duke";
-  font-size: 54px;
   text-align: center;
-  font-weight: 400;
   line-height: normal;
-  /* text-shadow: -2px -2px 0px #35d2e7, -4px -2px 0px rgba(250, 112, 136, 0.9); */
 }
 .jins > div p,
 .jins > div h5,
@@ -290,9 +278,7 @@
     padding: 20px 10px 80px 10px;
     height: initial;
   }
-  .background-slider h3 {
-    font-size: 48px;
-  }
+
   .background-slider p,
   .jins p {
     font-size: 16px;

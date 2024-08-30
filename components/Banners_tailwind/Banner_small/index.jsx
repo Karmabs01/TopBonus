@@ -46,7 +46,7 @@ export default function Banner_small() {
           </div>
         </div>
       </div>
-      <Brands_carousel categoryBrands={categoryBrands} />
+      <Brands_carousel categoryBrands={categoryBrands} creative={"Top_New_Releases"} />
     </>
   );
 }
