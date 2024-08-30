@@ -39,4 +39,7 @@
         left: -21px;
         background: linear-gradient(90deg,#7a00ac,#7a00ac);
     }
+    #real-block .random-title {
+        text-align: center;
+    }
 }
