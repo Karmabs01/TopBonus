@@ -77,10 +77,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-        <Script
-          src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
-          defer
-        ></Script>
+        <Script id="ladesc">
+          {`
+            (function (d, src, c) {
+              var t = d.scripts[d.scripts.length - 1],
+                s = d.createElement("script");
+              s.id = "la_x2s6df8d";
+              s.defer = true;
+              s.src = src;
+              s.onload = s.onreadystatechange = function () {
+                var rs = this.readyState;
+                if (rs && rs != "complete" && rs != "loaded") {
+                  return;
+                }
+                c(this);
+              };
+              t.parentElement.insertBefore(s, t.nextSibling);
+            })(document, "https://maw.ladesk.com/scripts/track.js", function (e) {
+              LiveAgent.createButton("32wx1d8n", e);
+            });
+          `}
+        </Script>
       </body>
     </html>
   );
