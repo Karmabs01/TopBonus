@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
@@ -42,7 +42,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           `}
         </Script>
         
-      </Head>
+      </head>
+      
       <body>
         <noscript>
           <iframe
