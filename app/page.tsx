@@ -20,9 +20,9 @@ import NewArrivals from "@/components/newArrivals/NewArrivals";
 
 
 export const metadata: Metadata = {
-  title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
+  title: "topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights",
   description:
-    "Welcome to topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights. Whether you're a seasoned gambler or just starting your casino journey, we're here to guide you through the world of online casinos. Our expert team meticulously reviews casinos, covering game variety, bonuses, payment options, security, and more. With our in-depth analysis and unbiased recommendations, you can make informed decisions and elevate your gaming experience. Explore our extensive database, stay updated with the latest trends, and embark on a rewarding casino adventure with Bonus topbon.us.",
+    "Welcome to topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights. Whether you're a seasoned gambler or just starting your casino journey, we're here to guide you through the world of online casinos. Our expert team meticulously reviews casinos, covering game variety, bonuses, payment options, security, and more. With our in-depth analysis and unbiased recommendations, you can make informed decisions and elevate your gaming experience. Explore our extensive database, stay updated with the latest trends, and embark on a rewarding casino adventure with Bonus topbonuspicks.com.",
 };
 
 export default async function Home() {
