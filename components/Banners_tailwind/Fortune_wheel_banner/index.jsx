@@ -50,7 +50,7 @@ export default function Banner_small() {
       setTimeout(() => {
         scrollToElement();
         setLoading(false);
-      }, 2000); // 2 секунды задержки для гарантии рендеринга
+      }, 3000); // 2 секунды задержки для гарантии рендеринга
     } else {
       setLoading(false); // Если нет хэша, сразу отключаем загрузку
     }
