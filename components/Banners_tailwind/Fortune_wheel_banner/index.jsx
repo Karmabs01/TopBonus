@@ -18,18 +18,19 @@ export default function Banner_small() {
     const hash = window.location.hash;
 
     if (hash && elementRef.current) {
-      const observer = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
-          const id = hash.substring(1); // Убираем первый символ "#" из строки
-          const element = document.getElementById(id);
-          if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-          }
-          observer.disconnect(); // Отключаем наблюдатель после прокрутки
+      // Используем requestAnimationFrame для более надёжной прокрутки
+      const scrollToElement = () => {
+        const id = hash.substring(1); // Убираем первый символ "#" из строки
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
         }
-      });
+      };
 
-      observer.observe(elementRef.current);
+      // Задержка для завершения рендеринга других компонентов
+      setTimeout(() => {
+        requestAnimationFrame(scrollToElement);
+      }, 100); // Можно настроить это значение в зависимости от сложности страницы
     }
   }, []);
 
