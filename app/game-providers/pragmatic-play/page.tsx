@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <PragmaticPlay />
       {/* <TopBrands /> */}
-      <FilteredProviders />
+      <FilteredProviders tab={11}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

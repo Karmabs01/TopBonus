@@ -12,7 +12,7 @@ export default async function Bonuses() {
   return (
     <div className="page-bonuses">
       <div className="main__container">
-        <FilteredBonuses />
+        <FilteredBonuses tab={2} />
       </div>
       {/* <PreviewBonuses /> */}
       {/* <TopBrandsOriginal /> */}

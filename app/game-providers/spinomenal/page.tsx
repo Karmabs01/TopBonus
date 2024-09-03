@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <Spinomenal />
       {/* <TopBrands /> */}
-      <FilteredProviders />
+      <FilteredProviders tab={13}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

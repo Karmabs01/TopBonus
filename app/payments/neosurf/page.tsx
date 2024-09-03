@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <NeoSurf />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments tab={9}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <Trustly />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments tab={15}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

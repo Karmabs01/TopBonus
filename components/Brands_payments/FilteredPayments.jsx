@@ -7,12 +7,12 @@ import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
 import "../../app/filteredComponents.css"
 
-const FilteredPayments = () => {
+const FilteredPayments = ({tab}) => {
   const { t } = useTranslation();
   const { language } = useLanguage();
   const [isLoader, setIsLoader] = useState(false);
 
-  const [currentTab, setCurrentTab] = useState(1);
+  const [currentTab, setCurrentTab] = useState(tab);
 
   const navigateBrands = useNavigateBrands();
 

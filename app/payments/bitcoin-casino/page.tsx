@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <BitcoinCasinos />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments tab={3}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

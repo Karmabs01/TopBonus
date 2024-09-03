@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <Skrill />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments tab={14}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

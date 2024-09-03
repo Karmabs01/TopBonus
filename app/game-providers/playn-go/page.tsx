@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <Playngo />
       {/* <TopBrands /> */}
-      <FilteredProviders />
+      <FilteredProviders tab={10}/>
       {/* <GuideSlotsPage /> */}
     </div>
   );

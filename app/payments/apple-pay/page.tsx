@@ -15,7 +15,7 @@ export default async function Bonuses() {
     <div className="page-bonuses">
       <ApplePay />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments tab={2} />
       {/* <GuideSlotsPage /> */}
     </div>
   );
