@@ -4,8 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import "./styled.component.css";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
-import { useEffect, useRef, useState } from "react";
-import Loader from "@/components/Loader";
+import { useEffect, useRef } from "react";
 
 export default function Banner_small() {
   const { t } = useTranslation();
@@ -14,8 +13,6 @@ export default function Banner_small() {
   const creative = "FW_Brands_Main_Page";
 
   const elementRef = useRef(null);
-
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const hash = window.location.hash;
@@ -49,47 +46,40 @@ export default function Banner_small() {
       // Задержка для рендеринга других компонентов
       setTimeout(() => {
         scrollToElement();
-        setLoading(false);
-      }, 3000); // 2 секунды задержки для гарантии рендеринга
-    } else {
-      setLoading(false); // Если нет хэша, сразу отключаем загрузку
+      }, 3000); // Увеличьте значение задержки, если требуется больше времени для рендеринга
     }
   }, []);
 
   return (
     <>
-      {loading ? (
-        <Loader />
-      ) : (
-        <div ref={elementRef} id="fortune-wheel" className="mt-10 mtt mmt-mob">
-          <div className="main__container bg-main">
-            <div className="background overflow-hidden background-roulete rounded-xl h-full">
-              <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
-                <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
-                  <div>
-                    <h2 className="mt-10 uppercase">
-                      {t("Fortune wheel")} <span>{t("brands")}</span>
-                    </h2>
-                    <h5 className="text-lg leading-8 text-gray-300 font-normal">
-                      {t("Pick a brand below, make first deposit and")} <span>{t("win real cash")}</span>
-                    </h5>
-                    <div className="flex mt-4">
-                      <Link href={`/fortune/?creative_id=FORTUNE_WHEEL`} target="_blank">
-                        <div className="btn btn-new">
-                          <p>{t("Spin the Roulette")}</p>
-                        </div>
-                      </Link>
-                    </div>
+      <div ref={elementRef} id="fortune-wheel" className="mt-10 mtt mmt-mob">
+        <div className="main__container bg-main">
+          <div className="background overflow-hidden background-roulete rounded-xl h-full">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
+              <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row">
+                <div>
+                  <h2 className="mt-10 uppercase">
+                    {t("Fortune wheel")} <span>{t("brands")}</span>
+                  </h2>
+                  <h5 className="text-lg leading-8 text-gray-300 font-normal">
+                    {t("Pick a brand below, make first deposit and")} <span>{t("win real cash")}</span>
+                  </h5>
+                  <div className="flex mt-4">
+                    <Link href={`/fortune/?creative_id=FORTUNE_WHEEL`} target="_blank">
+                      <div className="btn btn-new">
+                        <p>{t("Spin the Roulette")}</p>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <p className="text-center mt-2 p">
-              {t("To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.")}
-            </p>
           </div>
+          <p className="text-center mt-2 p">
+            {t("To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.")}
+          </p>
         </div>
-      )}
+      </div>
       <Brands_carousel creative={creative} target={target} categoryBrands={categoryBrands} />
     </>
   );
