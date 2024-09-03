@@ -18,45 +18,22 @@ export default function Banner_small() {
     const hash = window.location.hash;
 
     if (hash && elementRef.current) {
-      // Создаем MutationObserver для отслеживания изменений в DOM
-      const observer = new MutationObserver((mutationsList, observer) => {
-        let allComponentsLoaded = true;
-
-        // Проверяем, все ли элементы загружены
-        for (const mutation of mutationsList) {
-          if (mutation.type === "childList" || mutation.type === "subtree") {
-            allComponentsLoaded = false;
-            break;
-          }
-        }
-
-        if (allComponentsLoaded) {
-          // Выполняем скролл к элементу после завершения всех изменений
-          const id = hash.substring(1); // Убираем первый символ "#" из строки
-          const element = document.getElementById(id);
-          if (element) {
-            element.scrollIntoView({ behavior: "smooth" });
-          }
-
-          // Отключаем observer, так как он больше не нужен
-          observer.disconnect();
-        }
-      });
-
-      // Начинаем наблюдение за изменениями в DOM
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-      });
-
-      // Задержка для рендеринга других компонентов
-      setTimeout(() => {
+      const scrollToElement = () => {
         const id = hash.substring(1); // Убираем первый символ "#" из строки
         const element = document.getElementById(id);
         if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+          });
         }
-      }, 100); // Можно настроить это значение в зависимости от сложности страницы
+      };
+
+      // Задержка для рендеринга других компонентов
+      setTimeout(() => {
+        scrollToElement();
+      }, 300); // Увеличьте значение задержки, если требуется больше времени для рендеринга
     }
   }, []);
 
