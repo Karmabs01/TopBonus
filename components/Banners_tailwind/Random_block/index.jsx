@@ -9,7 +9,6 @@ import "./styled.component.css";
 export default function Random_block() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
-
   const [redirectUrl, setRedirectUrl] = useState("");
 
   const { t } = useTranslation();
@@ -36,11 +35,23 @@ export default function Random_block() {
         url = "https://link.reg2dep.business/topbonus_rnd";
     }
     setRedirectUrl(url);
+
     const savedUrl = localStorage.getItem("savedUrl");
     if (savedUrl) {
       setNewUrl(savedUrl);
     }
   }, [source]);
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.substring(1); // Убираем первый символ "#" из строки
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
 
   return (
     <>
