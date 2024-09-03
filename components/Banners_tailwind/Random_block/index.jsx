@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import banner from "@/public/newimages/bannerRandom.png";
@@ -12,6 +12,7 @@ export default function Random_block() {
   const [redirectUrl, setRedirectUrl] = useState("");
 
   const { t } = useTranslation();
+  const elementRef = useRef(null);
 
   useEffect(() => {
     let url = "";
@@ -26,8 +27,6 @@ export default function Random_block() {
         url = "https://link.reg2dep.business/topbonus_rnd44";
         break;
       case "CLD_VIP":
-        url = "https://link.reg2dep.business/topbonus_rndcld";
-        break;
       case "partner1045_b1":
         url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
@@ -44,22 +43,46 @@ export default function Random_block() {
 
   useEffect(() => {
     const hash = window.location.hash;
-    if (hash) {
-      const id = hash.substring(1); // Убираем первый символ "#" из строки
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
+
+    if (hash && elementRef.current) {
+      const scrollToElement = () => {
+        const id = hash.substring(1);
+        const element = document.getElementById(id);
+        if (element) {
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          const scrollAttempt = () => {
+            const currentScrollY = window.scrollY;
+            window.scrollTo({
+              top: elementPosition,
+              behavior: "smooth",
+            });
+
+            // Проверяем, достигнуто ли нужное положение
+            requestAnimationFrame(() => {
+              if (Math.abs(currentScrollY - elementPosition) > 1) {
+                // Если не достигнуто, повторяем попытку
+                scrollAttempt();
+              }
+            });
+          };
+
+          scrollAttempt();
+        }
+      };
+
+      // Задержка для рендеринга других компонентов
+      setTimeout(() => {
+        scrollToElement();
+      }, 1500); // Увеличьте значение задержки, если требуется больше времени для рендеринга
     }
   }, []);
 
   return (
     <>
-      <div id="try-your-luck" className="">
+      <div ref={elementRef} id="try-your-luck" className="">
         <div className="main__container">
-
           <div className="relative py-16 ptpt">
-            <div className="mx-auto max-w-7xl lg:bg-transparent ">
+            <div className="mx-auto max-w-7xl lg:bg-transparent">
               <div className="lg:grid lg:grid-cols-12">
                 <div className="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16 abs-banner">
                   <Image
@@ -97,7 +120,6 @@ export default function Random_block() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </>

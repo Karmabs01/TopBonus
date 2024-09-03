@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import useSWR from "swr";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -11,10 +11,10 @@ import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { useTranslation } from "react-i18next";
 
-
 const NewArrivals = () => {
   const { t } = useTranslation();
   const [newUrl, setNewUrl] = useState("");
+  const elementRef = useRef(null);
 
   const settings = {
     infinite: true,
@@ -32,6 +32,7 @@ const NewArrivals = () => {
       },
     ],
   };
+
   const { language } = useLanguage();
   const [brands, setBrands] = useState([]);
   useEffect(() => {
@@ -43,15 +44,6 @@ const NewArrivals = () => {
     }
   }, []);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const sandBrands = await getBrands(categoryBrands, language);
-  //     setBrands(sandBrands);
-  //   };
-
-  //   fetchData();
-  // }, [language]);
-
   const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
 
   const { data, error } = useSWR(
@@ -59,6 +51,7 @@ const NewArrivals = () => {
     () => getBrands(language),
     { initialData: brands }
   );
+
   useEffect(() => {
     if (data) {
       const filteredData = data.filter(
@@ -68,8 +61,45 @@ const NewArrivals = () => {
       setBrands(filteredData);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
+
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash && elementRef.current) {
+      const scrollToElement = () => {
+        const id = hash.substring(1);
+        const element = document.getElementById(id);
+        if (element) {
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          const scrollAttempt = () => {
+            const currentScrollY = window.scrollY;
+            window.scrollTo({
+              top: elementPosition,
+              behavior: "smooth",
+            });
+
+            // Проверяем, достигнуто ли нужное положение
+            requestAnimationFrame(() => {
+              if (Math.abs(currentScrollY - elementPosition) > 1) {
+                // Если не достигнуто, повторяем попытку
+                scrollAttempt();
+              }
+            });
+          };
+
+          scrollAttempt();
+        }
+      };
+
+      // Задержка для рендеринга других компонентов
+      setTimeout(() => {
+        scrollToElement();
+      }, 1500); // Увеличьте значение задержки, если требуется больше времени для рендеринга
+    }
+  }, []);
+
   return (
-    <div id="real-block" className="bl-sand">
+    <div ref={elementRef} id="real-block" className="bl-sand">
       <div className="main__container block-sandbox">
         <h2>{t("Top New Releases")}</h2>
         {brands.length > 3 ? (
