@@ -2488,11 +2488,6 @@ select {
   vertical-align: middle;
 }
 
-.\!text-3xl {
-  font-size: 1.875rem !important;
-  line-height: 2.25rem !important;
-}
-
 .\!text-xl {
   font-size: 1.25rem !important;
   line-height: 1.75rem !important;

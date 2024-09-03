@@ -19,21 +19,34 @@ export default function Banner_small() {
 
     if (hash && elementRef.current) {
       const scrollToElement = () => {
-        const id = hash.substring(1); // Убираем первый символ "#" из строки
+        const id = hash.substring(1);
         const element = document.getElementById(id);
         if (element) {
           const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-          window.scrollTo({
-            top: elementPosition,
-            behavior: "smooth",
-          });
+          const scrollAttempt = () => {
+            const currentScrollY = window.scrollY;
+            window.scrollTo({
+              top: elementPosition,
+              behavior: "smooth",
+            });
+
+            // Проверяем, достигнуто ли нужное положение
+            requestAnimationFrame(() => {
+              if (Math.abs(currentScrollY - elementPosition) > 1) {
+                // Если не достигнуто, повторяем попытку
+                scrollAttempt();
+              }
+            });
+          };
+
+          scrollAttempt();
         }
       };
 
       // Задержка для рендеринга других компонентов
       setTimeout(() => {
         scrollToElement();
-      }, 300); // Увеличьте значение задержки, если требуется больше времени для рендеринга
+      }, 500); // Увеличьте значение задержки, если требуется больше времени для рендеринга
     }
   }, []);
 
