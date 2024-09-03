@@ -49,31 +49,21 @@ export default function Random_block() {
         const id = hash.substring(1);
         const element = document.getElementById(id);
         if (element) {
+          // Позиция элемента
           const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-          const scrollAttempt = () => {
-            const currentScrollY = window.scrollY;
-            window.scrollTo({
-              top: elementPosition,
-              behavior: "smooth",
-            });
 
-            // Проверяем, достигнуто ли нужное положение
-            requestAnimationFrame(() => {
-              if (Math.abs(currentScrollY - elementPosition) > 1) {
-                // Если не достигнуто, повторяем попытку
-                scrollAttempt();
-              }
-            });
-          };
-
-          scrollAttempt();
+          // Плавный скролл
+          window.scrollTo({
+            top: elementPosition,
+            behavior: "smooth",
+          });
         }
       };
 
-      // Задержка для рендеринга других компонентов
+      // Увеличенная задержка для более плавного рендеринга
       setTimeout(() => {
         scrollToElement();
-      }, 2000); // Увеличьте значение задержки, если требуется больше времени для рендеринга
+      }, 500); // Попробуйте разные значения, например 500ms
     }
   }, []);
 
@@ -96,10 +86,7 @@ export default function Random_block() {
 
                 <div className="relative bg-random lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl">
                   <div className="relative mx-auto max-w-md space-y-6 px-6 py-12 sm:max-w-3xl sm:py-16 lg:col-span-6 lg:col-start-4 lg:max-w-none lg:p-0">
-                    <h2
-                      className="text-3xl font-bold tracking-tight text-white random-title"
-                      id="join-heading"
-                    >
+                    <h2 className="text-3xl font-bold tracking-tight text-white random-title" id="join-heading">
                       {t("TRY YOUR")} <span>{t("luck!")}</span>
                     </h2>
                     <p className="text-lg text-white">
