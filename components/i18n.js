@@ -32,6 +32,8 @@ async function initializeI18n() {
     defLng = "all";
   }
 
+  console.log("LANG@", defLng)
+
 
   const availableLanguages = [
     "au",

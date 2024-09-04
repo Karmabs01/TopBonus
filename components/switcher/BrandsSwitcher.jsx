@@ -27,6 +27,7 @@ const BrandsSwitcher = () => {
       setLanguage("all");
     }
   };
+  console.log("LANG", language)
   useEffect(() => {
     const savedLanguage = localStorage.getItem("country_brands");
     if (!savedLanguage) {
