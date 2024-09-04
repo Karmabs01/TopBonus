@@ -3,7 +3,6 @@
 "[project]/components/i18n.js [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
 
-// i18n.js
 __turbopack_esm__({
     "default": ()=>__TURBOPACK__default__export__
 });
@@ -18,18 +17,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18
 async function initializeI18n() {
     let defLng;
     try {
-        const response = await fetch("https://ipapi.co/json");
-        const data = await response.json();
+        // Проверяем, есть ли значение "country" в localStorage
         if (typeof window !== "undefined") {
-            if (localStorage.getItem("country") === null) {
+            const storedCountry = localStorage.getItem("country");
+            if (!storedCountry) {
+                const response = await fetch('/api/geolocation');
+                const data = await response.json();
+                // Записываем данные в localStorage только если он пуст
                 localStorage.setItem("country", data.country);
+                localStorage.setItem("country_phone", data.country);
+                localStorage.setItem("country_data", data.country);
+                localStorage.setItem("country_name", data.country);
                 defLng = data.country.toLowerCase();
             } else {
-                defLng = localStorage.getItem("country");
+                // Если данные уже есть, используем их
+                defLng = storedCountry.toLowerCase();
             }
-            localStorage.setItem("country_phone", data.country);
-            localStorage.setItem("country_data", data.country);
-            localStorage.setItem("country_name", data.country_name);
+        } else {
+            defLng = "all";
         }
     } catch (error) {
         console.error("Ошибка при запросе к API:", error);
