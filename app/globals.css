@@ -362,7 +362,7 @@ input[type="number"] {
 }
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
-  color: #ff8f1f !important;
+  color: #C1A7E4 !important;
 }
 .mob-mt10 {
   margin-top: 3.5rem !important;
@@ -569,6 +569,9 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover !important;
+}
+.light {
+  background-color: #E9EDF1 !important;
 }
 .light body {
   background-image: url(/newimageslight/bglight.svg) !important;

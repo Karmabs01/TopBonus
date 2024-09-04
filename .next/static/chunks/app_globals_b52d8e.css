@@ -2680,7 +2680,7 @@ input[type="number"] {
 }
 
 .slick-slider .slick-prev:before, .slick-slider .slick-next:before {
-  color: #ff8f1f !important;
+  color: #c1a7e4 !important;
 }
 
 .mob-mt10 {
@@ -2908,6 +2908,10 @@ body {
   background-position: top;
   background-image: url("/newimages/bg.svg") !important;
   background-size: cover !important;
+}
+
+.light {
+  background-color: #e9edf1 !important;
 }
 
 .light body {
