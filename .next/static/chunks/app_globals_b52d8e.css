@@ -2910,6 +2910,10 @@ body {
   background-size: cover !important;
 }
 
+.light body {
+  background-image: url("/newimageslight/bglight.svg") !important;
+}
+
 main {
 }
 
