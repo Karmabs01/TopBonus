@@ -184,6 +184,7 @@ function Pickup({ newUrl }) {
         categoryBrands.key2
     ]);
     const shuffledBrands = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lodash$2f$shuffle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(brands);
+    console.log("FRST", brands);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center justify-end jins w-full",
@@ -195,10 +196,10 @@ function Pickup({ newUrl }) {
                         children: t("Premium Choice of the Day")
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this),
-                    shuffledBrands.length > 0 && shuffledBrands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -215,17 +216,17 @@ function Pickup({ newUrl }) {
                                             className: "target-top-new-releases"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                            lineNumber: 47,
+                                            lineNumber: 48,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 43,
+                                        lineNumber: 44,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 42,
+                                    lineNumber: 43,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -233,7 +234,7 @@ function Pickup({ newUrl }) {
                                     children: rowData.OurOfferContent
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 58,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -244,29 +245,29 @@ function Pickup({ newUrl }) {
                                         children: t("Play Now")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 65,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                            lineNumber: 41,
+                            lineNumber: 42,
                             columnNumber: 15
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 7
         }, this)
     }, void 0, false);

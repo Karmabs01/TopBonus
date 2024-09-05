@@ -30,13 +30,14 @@ export default function Pickup({ newUrl }) {
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
   const shuffledBrands = shuffle(brands);
+  console.log("FRST", brands);
   return (
     <>
       <div className="flex items-center justify-end jins w-full">
         <div className="thrdjin">
           <h5 className="h5">{t("Premium Choice of the Day")}</h5>
-          {shuffledBrands.length > 0 &&
-            shuffledBrands.slice(0, 1).map((rowData, index) => (
+          {brands.length > 0 &&
+            brands.slice(0, 1).map((rowData, index) => (
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">

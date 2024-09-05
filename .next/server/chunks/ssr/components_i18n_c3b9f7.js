@@ -40,6 +40,7 @@ async function initializeI18n() {
         console.error("Ошибка при запросе к API:", error);
         defLng = "all";
     }
+    console.log("LANG@", defLng);
     const availableLanguages = [
         "au",
         "ca",
