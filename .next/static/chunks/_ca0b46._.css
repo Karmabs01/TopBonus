@@ -3335,6 +3335,175 @@ input[type="number"] {
   background: #fee000 !important;
 }
 
+.light .marquee b {
+  color: #fee000;
+}
+
+.light .thrdjin {
+  background: url("/newimageslight/thrdjin.png") center no-repeat;
+}
+
+.light .random-title span {
+  color: #fee000;
+}
+
+.light .btn-play, .light .lucky-btn {
+  background: #fee000;
+  box-shadow: 0 -5px 30px #ffec1f4d;
+}
+
+.light .lucky-btn:hover, .light .btn-play:hover {
+  background-color: #fee000df;
+}
+
+.light .bg-random {
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+}
+
+.light .bg-random p.text-white {
+  color: #fff !important;
+}
+
+.light .brands_rows p {
+  color: #fff;
+}
+
+.light .emojis {
+  background: url("/newimageslight/threeface.png") center no-repeat;
+}
+
+.light .fivehot {
+  border-top: 2.5px solid #c1a7e4;
+  border-bottom: 2.5px solid #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+}
+
+.light .fivehot .ul-list .li-img {
+  stroke: #fee000;
+  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  border: 2px solid #fee000;
+}
+
+.light .ul-list li {
+  border-bottom: 1px solid #88bade;
+}
+
+.light .ul-list p {
+  color: #fff;
+}
+
+.light .fivehot-banner h3 .span-orange, .light .emojis h3 span, .light .brands_rows h2.mt-4 span {
+  color: #fee000 !important;
+}
+
+.light .btn-choose a {
+  background: url("/newimageslight/btn-choose.png") center no-repeat;
+}
+
+.light .right-c .random-title, .light .brands_rows h2.mt-4 {
+  color: #35303a !important;
+}
+
+.light .card-thr {
+  background: #fff;
+}
+
+.light .card-thr p, .light .card-thr h3 {
+  color: var(--Text, #402e52);
+}
+
+.light .card-thr .btn-crd {
+  background: #fee000;
+}
+
+.light .background-roulete {
+  background: url("/newimageslight/banner-roulete.png") center no-repeat;
+}
+
+.light .bg-main {
+  background: #fff;
+}
+
+.light .card-sl {
+  background: #fff;
+}
+
+.light .banner-jack h3 span, .light .bg-main h2 span, .light .bg-main h5 span, .light .banner-event-p span, .light .big-p span {
+  color: #fee000;
+}
+
+.our-content {
+  background: linear-gradient(161deg, #ffffff2b 0%, #ffffff14 101.7%);
+  padding: 10px 15px 0;
+  border-radius: 15px;
+}
+
+.light .isolate-tabs {
+  border-top: 2.5px solid #c1a7e4;
+  border-bottom: 2.5px solid #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.light .isolate-tabs .decoration-2:after {
+  background: #fee000;
+}
+
+.light .card-36 .brandImage {
+  background: url("/newimageslight/banner32.png") center no-repeat;
+  background-size: cover;
+}
+
+.light .card-brand-filtered {
+  background: #fff;
+}
+
+.light .w40 {
+  color: #f44a7e !important;
+}
+
+.light .card-brand-filtered .review-bonus, .light .card-brand-filtered .title p {
+  color: #402e52 !important;
+}
+
+.light .custom-list-item {
+  border-top: 2px solid #fff6;
+  border-bottom: 2px solid #fff6;
+  background: #6879e3;
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.light .card-36 {
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: #6879e3;
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.light .btn-new-mini {
+  color: #402e52 !important;
+}
+
+.light .btn-new-mini:after {
+  background: url("/newimageslight/btn-new-mini.png") center no-repeat;
+}
+
+.light .footer-bg {
+  border-radius: 30px 30px 0 0;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0 4px 30px #d180ee33;
+}
+
+.light .footer-bg:after {
+  background: url("/newimageslight/footer.png") center no-repeat;
+  height: 249px;
+  background-size: contain;
+}
+
 @media (width >= 320px) and (width <= 767px) {
   .tab-pers button {
     border: 1px solid #fff6;

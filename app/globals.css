@@ -457,7 +457,140 @@ input[type="number"] {
 .light .topbr-tw .slider-left .slick-dots li, .light .topbr-tw .slider-left .slick-dots li.slick-active {
   background: #FEE000 !important;
 }
+.light .marquee b {
+  color: #FEE000;
+}
+.light .thrdjin {
+  background: url("/newimageslight/thrdjin.png") center no-repeat;
+}
+.light .random-title span {
+  color: #FEE000;
+}
+.light .btn-play, .light .lucky-btn {
+  background: #FEE000;
+  box-shadow: 0 -5px 30px #ffec1f4d;
+}
 
+.light .lucky-btn:hover, .light .btn-play:hover {
+  background-color: #fee000df;
+}
+.light .bg-random {
+  background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+}
+.light .bg-random p.text-white {
+  color: #fff !important;
+}
+.light .brands_rows p {
+  color: #fff;
+}
+.light .emojis {
+  background: url("/newimageslight/threeface.png") center no-repeat;
+}
+.light .fivehot {
+  border-top: 2.5px solid #C1A7E4;
+border-bottom: 2.5px solid #C1A7E4;
+background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+}
+.light .fivehot .ul-list .li-img {
+  stroke: #FEE000;
+  filter: drop-shadow(0 0 17.4px #9d4eb380);
+  border: 2px solid #FEE000;
+}
+.light .ul-list li {
+  border-bottom: 1px solid #88BADE;
+}
+.light .ul-list p {
+  color: #fff;
+}
+.light .fivehot-banner h3 .span-orange, .light .emojis h3 span, .light .brands_rows h2.mt-4 span {
+  color: #FEE000 !important;
+
+}
+.light .btn-choose a {
+  background: url("/newimageslight/btn-choose.png") center no-repeat;
+}
+.light .right-c .random-title, .light .brands_rows h2.mt-4 {
+  color: #35303a !important;
+}
+.light .card-thr {
+  background: #fff;
+}
+.light .card-thr p, .light .card-thr h3 {
+  color: var(--Text, #402E52);
+}
+.light .card-thr .btn-crd {
+  background: #FEE000;
+}
+.light .background-roulete {
+  background: url("/newimageslight/banner-roulete.png") center no-repeat;
+}
+.light .bg-main {
+  background: #fff;
+}
+.light .card-sl {
+  background: #fff;
+}
+.light .banner-jack h3 span, .light .bg-main h2 span, .light .bg-main h5 span, .light .banner-event-p span, .light .big-p span {
+  color: #FEE000;
+}
+.our-content {
+  background: linear-gradient(161deg, #ffffff2b 0%, #ffffff14 101.7%);
+  /* backdrop-filter: blur(12.5px); */
+  padding: 10px 15px 0;
+  border-radius: 15px;
+}
+.light .isolate-tabs {
+  border-top: 2.5px solid #C1A7E4;
+  border-bottom: 2.5px solid #C1A7E4;
+  background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+  backdrop-filter: blur(17.915000915527344px);
+}
+.light .isolate-tabs .decoration-2::after {
+  background: #FEE000;
+}
+.light .card-36 .brandImage {
+  background: url("/newimageslight/banner32.png") center no-repeat;
+  background-size: cover;
+}
+.light .card-brand-filtered {
+  background: #fff;
+}
+.light .w40 {
+  color: #F44A7E !important;
+  
+}
+.light .card-brand-filtered .review-bonus, .light .card-brand-filtered .title p {
+  color: #402E52 !important;
+}
+.light .custom-list-item {
+  border-top: 2px solid rgba(255, 255, 255, 0.40);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.40);
+  background: #6879E3;
+  backdrop-filter: blur(17.915000915527344px);
+}
+.light .card-36 {
+  border-radius: 30px;
+border-top: 2.5px solid rgba(255, 255, 255, 0.40);
+border-bottom: 2.5px solid rgba(255, 255, 255, 0.40);
+background: #6879E3;
+backdrop-filter: blur(17.915000915527344px);
+}
+.light .btn-new-mini {
+  color: #402e52 !important;
+}
+.light .btn-new-mini::after {
+  background: url("/newimageslight/btn-new-mini.png") center no-repeat;
+}
+.light .footer-bg {
+  border-radius: 30px 30px 0px 0px;
+background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.20);
+}
+.light .footer-bg::after {
+  background: url("/newimageslight/footer.png") center no-repeat;
+  height: 249px;
+  background-size: contain;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .tab-pers button {
     border: 1px solid rgba(255, 255, 255, 0.4);

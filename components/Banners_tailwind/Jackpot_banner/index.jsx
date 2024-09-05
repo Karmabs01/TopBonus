@@ -49,33 +49,40 @@ export default function Jackpot_banner() {
       const filteredData1 = data.filter(
         (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
       );
-  
+
       // Фильтрация по второму столбцу (добавьте нужные ключи)
       const filteredData2 = data.filter(
         (rowData) => rowData["Networks"] === "1"
       );
-  
+
       // Объединение данных из двух фильтраций
       const combinedData = [...filteredData1, ...filteredData2];
-  
+
       setBrands(combinedData);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
-  
+
   return (
     <>
       <div className="main__container !mt-16">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-jack px-6 py-2.5 sm:px-3.5">
-            <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">
-              {t("HIT THE")} <span>{t("JACKPOT!")}</span>
-            </h3>
-            {/* <p>$360 000</p> */}
-            <p><Counter /></p>
+            <div className="our-content flex flex-col items-center">
+              <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">
+                {t("HIT THE")} <span>{t("JACKPOT!")}</span>
+              </h3>
+              <p>
+                <Counter />
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <Brands_carousel creative={creative} target={target} categoryBrands={categoryBrands} />
+      <Brands_carousel
+        creative={creative}
+        target={target}
+        categoryBrands={categoryBrands}
+      />
     </>
   );
 }
