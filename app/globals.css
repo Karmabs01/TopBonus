@@ -128,7 +128,7 @@
   font-weight: 700;
 }
 .h5 {
-  font-size: 34px;
+  font-size: 33px;
   font-weight: 700;
 }
 
@@ -430,8 +430,32 @@ input[type="number"] {
 .bg-co tbody {
   background: #0f0926e4 !important;
 }
+.light .bg-co tbody {
+  /* background-color: #e9edf1 !important; */
+}
 .tab-pers button {
   border-bottom: 1px solid #573e7d;
+}
+
+.light {
+  background-color: #e9edf1 !important;
+}
+
+.light body {
+  background-image: url("/newimageslight/bglight.svg") !important;
+  background-size: cover !important;
+}
+.light .slick-slide:nth-child(3n+1) .background-slider {
+  background: url(/newimageslight/new-banner-slider-1.png) center no-repeat;
+}
+.light .btn-new:after {
+  background: url("/newimageslight/btnhover.png") center no-repeat;
+}
+.light .background-slider .btn p, .jins .btn p {
+  color: #0A1C2C;
+}
+.light .topbr-tw .slider-left .slick-dots li, .light .topbr-tw .slider-left .slick-dots li.slick-active {
+  background: #FEE000 !important;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -568,13 +592,14 @@ body {
   background-image: url(/newimages/bg.svg) !important;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover !important;
+  background-size: contain !important;
 }
 .light {
   background-color: #E9EDF1 !important;
 }
 .light body {
-  background-image: url(/newimageslight/bglight.svg) !important;
+  background-image: url(/newimageslight/bgtest.svg) !important;
+  
 
 }
 main {
