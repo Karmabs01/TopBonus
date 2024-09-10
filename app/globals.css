@@ -227,7 +227,6 @@
     border-radius: 15px 15px 0 0;
   }
   .banner-jack p {
-
     -webkit-backdrop-filter: blur(12.5px);
     backdrop-filter: blur(12.5px);
     width: 100%;
@@ -242,7 +241,8 @@
   .bg-main h2 span {
     font-size: 30px;
   }
-  .big-p, .big-p span {
+  .big-p,
+  .big-p span {
     font-size: 18px;
   }
 }
@@ -362,7 +362,7 @@ input[type="number"] {
 }
 .slick-slider .slick-prev:before,
 .slick-slider .slick-next:before {
-  color: #C1A7E4 !important;
+  color: #c1a7e4 !important;
 }
 .mob-mt10 {
   margin-top: 3.5rem !important;
@@ -445,37 +445,44 @@ input[type="number"] {
   background-image: url("/newimageslight/bglight.svg") !important;
   background-size: cover !important;
 }
-.light .slick-slide:nth-child(3n+1) .background-slider {
+.light .slick-slide:nth-child(3n + 1) .background-slider {
   background: url(/newimageslight/new-banner-slider-1.png) center no-repeat;
+}
+.light .slick-slide:nth-child(3n + 2) .background-slider {
+  background: url(/newimageslight/new-banner-slider-2.png) center no-repeat;
 }
 .light .btn-new:after {
   background: url("/newimageslight/btnhover.png") center no-repeat;
 }
-.light .background-slider .btn p, .jins .btn p {
-  color: #0A1C2C;
+.light .background-slider .btn p,
+.jins .btn p {
+  color: #0a1c2c;
 }
-.light .topbr-tw .slider-left .slick-dots li, .light .topbr-tw .slider-left .slick-dots li.slick-active {
-  background: #FEE000 !important;
+.light .topbr-tw .slider-left .slick-dots li,
+.light .topbr-tw .slider-left .slick-dots li.slick-active {
+  background: #fee000 !important;
 }
-.light .marquee b {
-  color: #FEE000;
-}
+/* .light .marquee b {
+  color: #fee000;
+} */
 .light .thrdjin {
   background: url("/newimageslight/thrdjin.png") center no-repeat;
 }
 .light .random-title span {
-  color: #FEE000;
+  color: #fee000;
 }
-.light .btn-play, .light .lucky-btn {
-  background: #FEE000;
+.light .btn-play,
+.light .lucky-btn {
+  background: #fee000;
   box-shadow: 0 -5px 30px #ffec1f4d;
 }
 
-.light .lucky-btn:hover, .light .btn-play:hover {
+.light .lucky-btn:hover,
+.light .btn-play:hover {
   background-color: #fee000df;
 }
 .light .bg-random {
-  background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
 }
 .light .bg-random p.text-white {
   color: #fff !important;
@@ -487,39 +494,42 @@ input[type="number"] {
   background: url("/newimageslight/threeface.png") center no-repeat;
 }
 .light .fivehot {
-  border-top: 2.5px solid #C1A7E4;
-border-bottom: 2.5px solid #C1A7E4;
-background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+  border-top: 2.5px solid #c1a7e4;
+  border-bottom: 2.5px solid #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
 }
 .light .fivehot .ul-list .li-img {
-  stroke: #FEE000;
+  stroke: #fee000;
   filter: drop-shadow(0 0 17.4px #9d4eb380);
-  border: 2px solid #FEE000;
+  border: 2px solid #fee000;
 }
 .light .ul-list li {
-  border-bottom: 1px solid #88BADE;
+  border-bottom: 1px solid #88bade;
 }
 .light .ul-list p {
   color: #fff;
 }
-.light .fivehot-banner h3 .span-orange, .light .emojis h3 span, .light .brands_rows h2.mt-4 span {
-  color: #FEE000 !important;
-
+.light .fivehot-banner h3 .span-orange,
+.light .emojis h3 span,
+.light .brands_rows h2.mt-4 span {
+  color: #fee000 !important;
 }
 .light .btn-choose a {
   background: url("/newimageslight/btn-choose.png") center no-repeat;
 }
-.light .right-c .random-title, .light .brands_rows h2.mt-4 {
+.light .right-c .random-title,
+.light .brands_rows h2.mt-4 {
   color: #35303a !important;
 }
 .light .card-thr {
   background: #fff;
 }
-.light .card-thr p, .light .card-thr h3 {
-  color: var(--Text, #402E52);
+.light .card-thr p,
+.light .card-thr h3 {
+  color: var(--Text, #402e52);
 }
 .light .card-thr .btn-crd {
-  background: #FEE000;
+  background: #fee000;
 }
 .light .background-roulete {
   background: url("/newimageslight/banner-roulete.png") center no-repeat;
@@ -530,8 +540,12 @@ background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
 .light .card-sl {
   background: #fff;
 }
-.light .banner-jack h3 span, .light .bg-main h2 span, .light .bg-main h5 span, .light .banner-event-p span, .light .big-p span {
-  color: #FEE000;
+.light .banner-jack h3 span,
+.light .bg-main h2 span,
+.light .bg-main h5 span,
+.light .banner-event-p span,
+.light .big-p span {
+  color: #fee000;
 }
 .our-content {
   background: linear-gradient(161deg, #ffffff2b 0%, #ffffff14 101.7%);
@@ -540,13 +554,13 @@ background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
   border-radius: 15px;
 }
 .light .isolate-tabs {
-  border-top: 2.5px solid #C1A7E4;
-  border-bottom: 2.5px solid #C1A7E4;
-  background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+  border-top: 2.5px solid #c1a7e4;
+  border-bottom: 2.5px solid #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
   backdrop-filter: blur(17.915000915527344px);
 }
 .light .isolate-tabs .decoration-2::after {
-  background: #FEE000;
+  background: #fee000;
 }
 .light .card-36 .brandImage {
   background: url("/newimageslight/banner32.png") center no-repeat;
@@ -556,24 +570,24 @@ background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
   background: #fff;
 }
 .light .w40 {
-  color: #F44A7E !important;
-  
+  color: #f44a7e !important;
 }
-.light .card-brand-filtered .review-bonus, .light .card-brand-filtered .title p {
-  color: #402E52 !important;
+.light .card-brand-filtered .review-bonus,
+.light .card-brand-filtered .title p {
+  color: #402e52 !important;
 }
 .light .custom-list-item {
-  border-top: 2px solid rgba(255, 255, 255, 0.40);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.40);
-  background: #6879E3;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  background: #6879e3;
   backdrop-filter: blur(17.915000915527344px);
 }
 .light .card-36 {
   border-radius: 30px;
-border-top: 2.5px solid rgba(255, 255, 255, 0.40);
-border-bottom: 2.5px solid rgba(255, 255, 255, 0.40);
-background: #6879E3;
-backdrop-filter: blur(17.915000915527344px);
+  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
+  background: #6879e3;
+  backdrop-filter: blur(17.915000915527344px);
 }
 .light .btn-new-mini {
   color: #402e52 !important;
@@ -583,13 +597,69 @@ backdrop-filter: blur(17.915000915527344px);
 }
 .light .footer-bg {
   border-radius: 30px 30px 0px 0px;
-background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
-box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.20);
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.2);
 }
 .light .footer-bg::after {
   background: url("/newimageslight/footer.png") center no-repeat;
   height: 249px;
   background-size: contain;
+}
+.light .card-brand-filtered .review-pros li::before {
+  background: #fee000;
+}
+.light .btn-orange {
+  background: #fee000;
+  color: #402e52;
+
+}
+.light .lang-menu {
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.2);
+}
+.light .banner-jack {
+  background: url("/newimageslight/bannerNight.png") center no-repeat;
+}
+.light .banner-event {
+  background: url("/newimageslight/banner-long.png") center no-repeat;
+}
+.light .submenu-all {
+  background: #fff;
+}
+.light .submenu-all a {
+  color: #402e52;
+}
+.light .submenu-all .menu-icon-background-color {
+  background: #6366f1;
+}
+.light .bg-my {
+  border-radius: 0px 0px 30px 30px;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0px 4px 30px 0px rgba(209, 128, 238, 0.2);
+}
+.light .text-orange {
+  color: #fff;
+
+}
+.light .lucky-btn, .light .btn-play, .light .btn-new p, .light .btn-choose a, .light .btn-crd a {
+  color: #402e52;
+
+}
+.light .inner-top-block {
+  background: var(--BG, linear-gradient(161deg, #088AF6 0%, #D992E6 101.7%));
+backdrop-filter: blur(17.915000915527344px);
+border-radius: 30px;
+overflow: hidden;
+}
+.light .custom-bonuses h2, .light .custom-bonuses p {
+  color: #402e52;
+
+}
+.light .btn *, .light .btn-crd * {
+  font-weight: 700 !important;
+}
+.light .btn:hover * {
+  color: #fff !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .tab-pers button {
@@ -728,12 +798,10 @@ body {
   background-size: contain !important;
 }
 .light {
-  background-color: #E9EDF1 !important;
+  background-color: #e9edf1 !important;
 }
 .light body {
   background-image: url(/newimageslight/bgtest.svg) !important;
-  
-
 }
 main {
 }

@@ -226,7 +226,7 @@ export default function AllBrands({
                       <div className="flex ml-1 mb-3"></div>
                       <div className="flex mb-1">
                         <Gift
-                          style={{ color: "#ff8f1f" }}
+                          style={{ color: "FEE000" }}
                           className="mr-1 w40"
                           size={40}
                         />
@@ -236,7 +236,7 @@ export default function AllBrands({
                       </div>
                       <div className="mb-2 withdrawal withdrawal-limits flex items-center">
                         <Handshake
-                          style={{ color: "#ff8f1f" }}
+                          style={{ color: "FEE000" }}
                           className="mr-1 mb-1 w40"
                           size={40}
                         />
@@ -259,7 +259,7 @@ export default function AllBrands({
                             <CaretDown
                               className="ml-auto"
                               size={20}
-                              style={{ color: "#ff8f1f" }}
+                              style={{ color: "FEE000" }}
                             />
                           </div>
                           {isPlusesOpen && (
@@ -292,7 +292,7 @@ export default function AllBrands({
                             <CaretDown
                               className="ml-auto"
                               size={20}
-                              style={{ color: "#ff8f1f" }}
+                              style={{ color: "FEE000" }}
                             />
                           </div>
                           {isDepositsOpen && (
@@ -331,7 +331,7 @@ export default function AllBrands({
                             <CaretDown
                               className="ml-auto"
                               size={20}
-                              style={{ color: "#ff8f1f" }}
+                              style={{ color: "FEE000" }}
                             />
                           </div>
                           {isWithdrawalOpen && (
@@ -367,7 +367,7 @@ export default function AllBrands({
                             <CaretDown
                               className="ml-auto"
                               size={20}
-                              style={{ color: "#ff8f1f" }}
+                              style={{ color: "FEE000" }}
                             />
                           </div>
                           {isCountriesOpen && (

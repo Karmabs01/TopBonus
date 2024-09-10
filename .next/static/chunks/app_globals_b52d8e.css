@@ -2777,6 +2777,10 @@ input[type="number"] {
   background: url("/newimageslight/new-banner-slider-1.png") center no-repeat;
 }
 
+.light .slick-slide:nth-child(3n+2) .background-slider {
+  background: url("/newimageslight/new-banner-slider-2.png") center no-repeat;
+}
+
 .light .btn-new:after {
   background: url("/newimageslight/btnhover.png") center no-repeat;
 }
@@ -2787,10 +2791,6 @@ input[type="number"] {
 
 .light .topbr-tw .slider-left .slick-dots li, .light .topbr-tw .slider-left .slick-dots li.slick-active {
   background: #fee000 !important;
-}
-
-.light .marquee b {
-  color: #fee000;
 }
 
 .light .thrdjin {
@@ -2956,6 +2956,74 @@ input[type="number"] {
   background: url("/newimageslight/footer.png") center no-repeat;
   height: 249px;
   background-size: contain;
+}
+
+.light .card-brand-filtered .review-pros li:before {
+  background: #fee000;
+}
+
+.light .btn-orange {
+  background: #fee000;
+  color: #402e52;
+}
+
+.light .lang-menu {
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0 4px 30px #d180ee33;
+}
+
+.light .banner-jack {
+  background: url("/newimageslight/bannerNight.png") center no-repeat;
+}
+
+.light .banner-event {
+  background: url("/newimageslight/banner-long.png") center no-repeat;
+}
+
+.light .submenu-all {
+  background: #fff;
+}
+
+.light .submenu-all a {
+  color: #402e52;
+}
+
+.light .submenu-all .menu-icon-background-color {
+  background: #6366f1;
+}
+
+.light .bg-my {
+  border-radius: 0 0 30px 30px;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  box-shadow: 0 4px 30px #d180ee33;
+}
+
+.light .text-orange {
+  color: #fff;
+}
+
+.light .lucky-btn, .light .btn-play, .light .btn-new p, .light .btn-choose a, .light .btn-crd a {
+  color: #402e52;
+}
+
+.light .inner-top-block {
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.light .custom-bonuses h2, .light .custom-bonuses p {
+  color: #402e52;
+}
+
+.light .btn *, .light .btn-crd * {
+  font-weight: 700 !important;
+}
+
+.light .btn:hover * {
+  color: #fff !important;
 }
 
 @media (width >= 320px) and (width <= 767px) {

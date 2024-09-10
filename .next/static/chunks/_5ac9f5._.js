@@ -475,7 +475,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Gift$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gift$3e$__["Gift"], {
                                                         style: {
-                                                            color: "#ff8f1f"
+                                                            color: "FEE000"
                                                         },
                                                         className: "mr-1 w40",
                                                         size: 40
@@ -503,7 +503,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Handshake$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Handshake$3e$__["Handshake"], {
                                                         style: {
-                                                            color: "#ff8f1f"
+                                                            color: "FEE000"
                                                         },
                                                         className: "mr-1 mb-1 w40",
                                                         size: 40
@@ -573,7 +573,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 className: "ml-auto",
                                                                 size: 20,
                                                                 style: {
-                                                                    color: "#ff8f1f"
+                                                                    color: "FEE000"
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
@@ -643,7 +643,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 className: "ml-auto",
                                                                 size: 20,
                                                                 style: {
-                                                                    color: "#ff8f1f"
+                                                                    color: "FEE000"
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
@@ -716,7 +716,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 className: "ml-auto",
                                                                 size: 20,
                                                                 style: {
-                                                                    color: "#ff8f1f"
+                                                                    color: "FEE000"
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
@@ -789,7 +789,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 className: "ml-auto",
                                                                 size: 20,
                                                                 style: {
-                                                                    color: "#ff8f1f"
+                                                                    color: "FEE000"
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_casinos/AllCasinos.jsx",
